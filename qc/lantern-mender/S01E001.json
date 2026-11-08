@@ -1,0 +1,473 @@
+{
+  "code": "S01E001",
+  "pass": true,
+  "checks": [
+    {
+      "name": "Loudness",
+      "pass": true,
+      "value": "-16.5 LUFS",
+      "want": "-16 ±1"
+    },
+    {
+      "name": "True peak",
+      "pass": true,
+      "value": "-1.4 dBTP",
+      "want": "≤ -1"
+    },
+    {
+      "name": "Clipping",
+      "pass": true,
+      "value": "0 samples at full scale",
+      "want": "0"
+    },
+    {
+      "name": "Dead air",
+      "pass": true,
+      "value": "none",
+      "want": "no silence > 2.5s"
+    },
+    {
+      "name": "Script lint",
+      "pass": true,
+      "value": "0 issue(s)",
+      "want": "0"
+    },
+    {
+      "name": "Word accuracy",
+      "pass": true,
+      "value": "99.4% (12 spots)",
+      "want": "≥ 97%"
+    },
+    {
+      "name": "Pace (overall)",
+      "pass": true,
+      "value": "164 wpm",
+      "want": "145-170 wpm"
+    },
+    {
+      "name": "Voice level match",
+      "pass": true,
+      "value": "0.8 dB spread",
+      "want": "≤ 3 dB"
+    }
+  ],
+  "signal": {
+    "lufs": -16.5,
+    "lra": 2.6,
+    "truePeak": -1.4,
+    "samplePeak": -1.4,
+    "clipped": 0,
+    "gaps": []
+  },
+  "voices": [
+    {
+      "who": "narrator",
+      "voice": "bf_emma",
+      "wpm": 202,
+      "levelDb": -16.7
+    },
+    {
+      "who": "ada-brannock",
+      "voice": "bf_isabella",
+      "wpm": 199,
+      "levelDb": -16.2
+    },
+    {
+      "who": "tobias-penhallow",
+      "voice": "bm_george",
+      "wpm": 181,
+      "levelDb": -16.3
+    },
+    {
+      "who": "chestnut-seller",
+      "voice": "bm_daniel",
+      "wpm": 224,
+      "levelDb": -15.9
+    },
+    {
+      "who": "odile-fane",
+      "voice": "bf_alice",
+      "wpm": 201,
+      "levelDb": -16.2
+    }
+  ],
+  "lint": {
+    "issues": [],
+    "unknownNames": [
+      [
+        "Lost",
+        1
+      ],
+      [
+        "Whoever",
+        1
+      ],
+      [
+        "Comes",
+        1
+      ],
+      [
+        "Next",
+        1
+      ]
+    ]
+  },
+  "asr": {
+    "wer": 0.0058,
+    "model": "small.en",
+    "names": {
+      "ada": {
+        "ada": 17,
+        "aida": 1
+      },
+      "brannock": {
+        "brannock": 1
+      },
+      "lantern": {
+        "lantern": 8
+      },
+      "mender": {
+        "mender": 5
+      },
+      "morrow": {
+        "morroquay": 1
+      },
+      "quay": {
+        "morroquay": 1,
+        "quay": 3
+      },
+      "pell": {
+        "pell": 2
+      },
+      "street": {
+        "street": 4
+      },
+      "nobody": {
+        "nobody": 2
+      },
+      "tobias": {
+        "tobias": 5
+      },
+      "penhallow": {
+        "penhalu": 1,
+        "penhallow": 1
+      },
+      "night": {
+        "night": 3
+      },
+      "great": {
+        "great": 1
+      },
+      "mending": {
+        "mending": 1
+      }
+    },
+    "issues": [
+      {
+        "kind": "extra",
+        "time": 0,
+        "seg": 0,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "",
+        "heard": "the",
+        "context": "[] black a hiss like a",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 25.58,
+        "seg": 7,
+        "expected": "hanging",
+        "heard": "hanging",
+        "p": 0.025
+      },
+      {
+        "kind": "extra",
+        "time": 30.62,
+        "seg": 8,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "",
+        "heard": "the",
+        "context": "glowed one pale gold word [] wick a fist hammered on",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 52.26,
+        "seg": 13,
+        "expected": "the",
+        "heard": "The",
+        "p": 0.006
+      },
+      {
+        "kind": "extra",
+        "time": 64.18,
+        "seg": 15,
+        "voice": "bm_george",
+        "who": "tobias-penhallow",
+        "expected": "",
+        "heard": "a",
+        "context": "then boards the fist again [] mender she found the door",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 107.5,
+        "seg": 24,
+        "voice": "bm_george",
+        "who": "tobias-penhallow",
+        "expected": "morrow quay",
+        "heard": "morroquay",
+        "context": "where is this what town [morrow quay] pell street half past too",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 113.9,
+        "seg": 26,
+        "voice": "bm_george",
+        "who": "tobias-penhallow",
+        "expected": "mend it",
+        "heard": "mended",
+        "context": "pushed the lantern at her [mend it] sorry she said and meant",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 134.64,
+        "seg": 30,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "",
+        "heard": "late",
+        "context": "small room of yellow light [] and between the rooms nothing",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 162.06,
+        "seg": 35,
+        "voice": "bf_isabella",
+        "who": "ada-brannock",
+        "expected": "",
+        "heard": "him",
+        "context": "face so she asked him [] the road out which way",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 169.56,
+        "seg": 37,
+        "voice": "bm_daniel",
+        "who": "chestnut-seller",
+        "expected": "road",
+        "heard": "rode",
+        "context": "a long moment the fog [road] any road there's only the",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 193.48,
+        "seg": 43,
+        "expected": "till",
+        "heard": "Till",
+        "p": 0.007
+      },
+      {
+        "kind": "unclear",
+        "time": 217.88,
+        "seg": 48,
+        "expected": "two",
+        "heard": "Two",
+        "p": 0.007
+      },
+      {
+        "kind": "spelling",
+        "time": 246.5,
+        "seg": 54,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "ada",
+        "heard": "aida",
+        "context": "idea why not the faintest [ada] stepped toward the voice the",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 262.82,
+        "seg": 56,
+        "voice": "bm_daniel",
+        "who": "chestnut-seller",
+        "expected": "ninth",
+        "heard": "9th",
+        "context": "from somewhere across the water [ninth] bell said the chestnut man",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 270.62,
+        "seg": 59,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "",
+        "heard": "as",
+        "context": "mender he'll still be waiting [] ada walked the other way",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 324.1,
+        "seg": 68,
+        "voice": "bm_george",
+        "who": "tobias-penhallow",
+        "expected": "penhallow",
+        "heard": "penhalu",
+        "context": "late who are you tobias [penhallow] clocks he tilted his head",
+        "name": true
+      },
+      {
+        "kind": "unclear",
+        "time": 397.52,
+        "seg": 84,
+        "expected": "you",
+        "heard": "you",
+        "p": 0.013
+      },
+      {
+        "kind": "unclear",
+        "time": 426.14,
+        "seg": 89,
+        "expected": "a",
+        "heard": "A",
+        "p": 0.008
+      },
+      {
+        "kind": "unclear",
+        "time": 426.92,
+        "seg": 89,
+        "expected": "fault",
+        "heard": "fault",
+        "p": 0.022
+      },
+      {
+        "kind": "extra",
+        "time": 479.14,
+        "seg": 98,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "",
+        "heard": "that",
+        "context": "night and no lamps that [] was the first thing she",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 530.5,
+        "seg": 102,
+        "expected": "went",
+        "heard": "went",
+        "p": 0.029
+      },
+      {
+        "kind": "unclear",
+        "time": 618.8,
+        "seg": 122,
+        "expected": "so",
+        "heard": "So",
+        "p": 0.003
+      },
+      {
+        "kind": "misheard",
+        "time": 655.96,
+        "seg": 136,
+        "voice": "bm_george",
+        "who": "tobias-penhallow",
+        "expected": "use it",
+        "heard": "you sit",
+        "context": "door gruff as a hinge [use it] you look like half past",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 689.22,
+        "seg": 140,
+        "expected": "she",
+        "heard": "she",
+        "p": 0.028
+      },
+      {
+        "kind": "spelling",
+        "time": 694.86,
+        "seg": 142,
+        "voice": "bf_isabella",
+        "who": "ada-brannock",
+        "expected": "fine",
+        "heard": "find",
+        "context": "dead of course still dead [fine] she muttered fine i'll do",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 770.22,
+        "seg": 155,
+        "expected": "late",
+        "heard": "late",
+        "p": 0.02
+      },
+      {
+        "kind": "unclear",
+        "time": 797.98,
+        "seg": 162,
+        "expected": "three",
+        "heard": "3.",
+        "p": 0.016
+      },
+      {
+        "kind": "extra",
+        "time": 841.26,
+        "seg": 170,
+        "voice": "bf_alice",
+        "who": "odile-fane",
+        "expected": "",
+        "heard": "it's",
+        "context": "window the rain had stopped [] morning oh you're open are",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 843.78,
+        "seg": 170,
+        "voice": "bf_alice",
+        "who": "odile-fane",
+        "expected": "open",
+        "heard": "opens",
+        "context": "are you open you look [open] quick footsteps on the boards",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 848.94,
+        "seg": 172,
+        "voice": "bf_alice",
+        "who": "odile-fane",
+        "expected": "street's",
+        "heard": "street",
+        "context": "of a wet umbrella whole [street's] saying there's a new mender",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 853.9,
+        "seg": 172,
+        "voice": "bf_alice",
+        "who": "odile-fane",
+        "expected": "wants",
+        "heard": "once",
+        "context": "lucky because i've got something [wants] mending haven't i and i'm",
+        "name": false
+      }
+    ]
+  }
+}

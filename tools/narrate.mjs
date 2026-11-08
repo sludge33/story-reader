@@ -19,7 +19,7 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync, mkdtempSync, rmSync } from "node:fs";
 import { resolve, join, dirname, relative, sep } from "node:path";
 import { tmpdir } from "node:os";
-import { execFileSync } from "node:child_process";
+import { execFileSync, spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -120,22 +120,28 @@ export function segments(paras, voiceOf, cfg) {
   return segs;
 }
 
-function loadEnv(root) {
+/**
+ * Two-pass EBU R128 loudness normalisation (ffmpeg loudnorm) to master = { lufs, truePeak, lra }.
+ * Pass 1 measures the render; the returned filter applies a linear gain with true-peak limiting.
+ */
+export function masterFilter(wav, master) {
+  if (!master) return null;
+  const target = `I=${master.lufs}:TP=${master.truePeak}:LRA=${master.lra ?? 11}`;
+  const r = spawnSync("ffmpeg", ["-hide_banner", "-nostats", "-i", wav, "-af", `loudnorm=${target}:print_format=json`, "-f", "null", "-"], { encoding: "utf8", maxBuffer: 64 << 20 });
+  const m = JSON.parse(r.stderr.match(/\{[^{}]*"input_i"[^{}]*\}/)[0]);
+  return `loudnorm=${target}:measured_I=${m.input_i}:measured_TP=${m.input_tp}:measured_LRA=${m.input_lra}:measured_thresh=${m.input_thresh}:offset=${m.target_offset}:linear=true,aresample=24000`;
+}
+
+export function loadEnv(root) {
   const p = join(root, ".env");
   if (existsSync(p)) process.loadEnvFile(p);
 }
 
-function main(argv) {
-  const flag = (f) => argv.includes(f);
-  const fromIdx = argv.indexOf("--from");
-  const args = argv.filter((a, i) => !a.startsWith("--") && (fromIdx < 0 || i !== fromIdx + 1));
-  const repo = resolve(here, "..");
-  const engine = resolve(repo, fromIdx >= 0 ? argv[fromIdx + 1] : "../story-engine");
-  const [seriesId, code] = args;
-  if (!seriesId || !code) { console.error("usage: node tools/narrate.mjs <seriesId> <code> [--from ../story-engine] [--dry-run] [--force]"); process.exit(2); }
-  if (!existsSync(join(engine, "series", "index.json"))) { console.error(`No story-engine found at ${engine}. Pass --from <path>.`); process.exit(2); }
-  loadEnv(repo);
-
+/**
+ * Load everything narration needs and build the segment plan. story-engine is only read.
+ * Returns { cfg, caps, bible, pkg, cast, quotes, segs, chars, voiceUsd, missing, lexicon, voiceOf, outDir }.
+ */
+export function buildPlan(repo, engine, seriesId, code, { force = false } = {}) {
   const cfg = readJson(join(repo, "config", "tts.json"));
   const caps = readJson(join(engine, "config", "caps.json"));
   const platforms = readJson(join(engine, "config", "platforms.json"));
@@ -149,13 +155,13 @@ function main(argv) {
   const outDir = join(repo, "audio", seriesId);
 
   if (platforms[bible.homePlatform]?.format?.includes("Pocket FM narrates")) {
-    console.error(`${seriesId} is a ${bible.homePlatform} series; Pocket FM narrates its own. Not narrating.`); process.exit(1);
+    throw new Error(`${seriesId} is a ${bible.homePlatform} series; Pocket FM narrates its own. Not narrating.`);
   }
   const approved = ["approved", "published"].includes(pkg.status) || (entry?.lastApproved && code <= entry.lastApproved);
-  if (!approved && !flag("--force")) { console.error(`${code} is not approved (status ${pkg.status}). Use --force to narrate anyway.`); process.exit(1); }
+  if (!approved && !force) throw new Error(`${code} is not approved (status ${pkg.status}). Use --force to narrate anyway.`);
 
   const ep = existsSync(join(castDir, `${code}.json`)) ? readJson(join(castDir, `${code}.json`)) : {};
-  const lexicon = casting.lexicon ?? {};
+  const lexicon = Object.fromEntries(Object.entries(casting.lexicon ?? {}).filter(([k]) => !k.startsWith("_")));
 
   const cast = bible.characters.map((c) => {
     const parts = c.name.split(/\s+/).filter((w) => /^[A-Z]/.test(w) && !["Provost", "Mr", "Mrs", "Miss"].includes(w));
@@ -168,7 +174,8 @@ function main(argv) {
   }
 
   const scriptPath = join(engine, pkg.scriptPath ?? join("series", seriesId, "episodes", code, "script.md"));
-  const paras = parseScript(readFileSync(scriptPath, "utf8"));
+  const script = readFileSync(scriptPath, "utf8");
+  const paras = parseScript(script);
   const quotes = attribute(paras, cast, ep.speakers ?? {});
 
   const missing = new Set();
@@ -181,10 +188,28 @@ function main(argv) {
   const segs = segments(paras, voiceOf, cfg);
   const chars = segs.reduce((n, s) => n + s.text.length, 0);
   const voiceUsd = Math.round((chars / 1e6) * cfg.usdPerMillionChars * 100) / 100;
+  return { cfg, caps, bible, pkg, cast, script, paras, quotes, segs, chars, voiceUsd, missing, lexicon, voiceOf, outDir };
+}
+
+function main(argv) {
+  const flag = (f) => argv.includes(f);
+  const fromIdx = argv.indexOf("--from");
+  const args = argv.filter((a, i) => !a.startsWith("--") && (fromIdx < 0 || i !== fromIdx + 1));
+  const repo = resolve(here, "..");
+  const engine = resolve(repo, fromIdx >= 0 ? argv[fromIdx + 1] : "../story-engine");
+  const [seriesId, code] = args;
+  if (!seriesId || !code) { console.error("usage: node tools/narrate.mjs <seriesId> <code> [--from ../story-engine] [--dry-run] [--force]"); process.exit(2); }
+  if (!existsSync(join(engine, "series", "index.json"))) { console.error(`No story-engine found at ${engine}. Pass --from <path>.`); process.exit(2); }
+  loadEnv(repo);
+
+  let plan;
+  try { plan = buildPlan(repo, engine, seriesId, code, { force: flag("--force") }); }
+  catch (e) { console.error(e.message); process.exit(1); }
+  const { cfg, caps, bible, pkg, quotes, segs, chars, voiceUsd, missing, lexicon, voiceOf, outDir } = plan;
 
   const job = {
     model: process.env.KOKORO_MODEL, voices: process.env.KOKORO_VOICES, lang: cfg.lang,
-    lexicon: Object.fromEntries(Object.entries(lexicon).filter(([k]) => !k.startsWith("_"))), segments: segs,
+    lexicon, levelMatch: cfg.levelMatch, segments: segs,
   };
   const python = process.env.TTS_PYTHON ?? cfg.python;
   const helper = join(here, "kokoro_tts.py");
@@ -219,7 +244,8 @@ function main(argv) {
     const mp3 = join(outDir, `${code}.mp3`);
     console.log(`${code}: ${segs.length} segments, ${chars} characters. Rendering...`);
     runPy("render", jobPath, wav);
-    execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", wav, "-ac", String(cfg.mp3.channels), "-codec:a", "libmp3lame", "-b:a", cfg.mp3.bitrate,
+    const af = masterFilter(wav, cfg.master);
+    execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", wav, ...(af ? ["-af", af] : []), "-ac", String(cfg.mp3.channels), "-codec:a", "libmp3lame", "-b:a", cfg.mp3.bitrate,
       "-metadata", `title=${pkg.platformCuts?.title ?? code}`, "-metadata", `album=${bible.title}`,
       "-metadata", "comment=Narrated with an AI voice (Kokoro TTS).", mp3], { stdio: "inherit" });
     const durationSec = Math.round(Number(execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", mp3], { encoding: "utf8" })));

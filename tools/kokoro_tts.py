@@ -6,6 +6,7 @@
 job.json:
   { "model": "...onnx", "voices": "...bin", "lang": "en-gb", "sampleRate": 24000,
     "lexicon": { "Odile": "/əʊdˈiːl/", "Harrow": "hair oh" },   # /IPA/ or a respelling to phonemize
+    "levelMatch": { "rmsDb": -20, "maxGainDb": 6 },               # optional: even out voices per segment
     "segments": [ { "voice": "bf_emma", "text": "...", "speed": 0.95, "pauseAfter": 0.35 }, ... ],
     "words": ["Odile", ...] }                                     # phonemes mode only
 
@@ -64,6 +65,16 @@ def phonemize(k, text, ipa, lang):
     return " ".join(p for p in pieces if p)
 
 
+def level(audio, target_db, max_gain_db):
+    """Scale a segment so its speech (quiet gaps ignored) sits at target_db RMS, within +/- max_gain_db."""
+    speech = audio[np.abs(audio) > 0.01]
+    if len(speech) < 100:
+        return audio
+    rms_db = 20 * np.log10(np.sqrt(np.mean(speech ** 2)) + 1e-9)
+    gain_db = float(np.clip(target_db - rms_db, -max_gain_db, max_gain_db))
+    return audio * (10 ** (gain_db / 20))
+
+
 def render(job, out_path):
     k = load(job)
     lang = job.get("lang", "en-gb")
@@ -75,13 +86,18 @@ def render(job, out_path):
             phon = phonemize(k, seg["text"], ipa, lang)
             audio, sr = k.create(phon, voice=voice_style(k, seg["voice"]), speed=seg.get("speed", 1.0),
                                  lang=lang, is_phonemes=True)
-            chunks.append(audio.astype(np.float32))
+            audio = audio.astype(np.float32)
+            lm = job.get("levelMatch")
+            if lm:
+                audio = level(audio, lm["rmsDb"], lm.get("maxGainDb", 6))
+            chunks.append(audio)
         pause = seg.get("pauseAfter", 0)
         if pause:
             chunks.append(np.zeros(int(sr * pause), dtype=np.float32))
         if i % 10 == 0 or i == n:
             print(f"  {i}/{n} segments", file=sys.stderr, flush=True)
-    sf.write(out_path, np.concatenate(chunks), sr)
+    # 32-bit float keeps peaks above full scale intact; narrate.mjs masters loudness and peaks with ffmpeg.
+    sf.write(out_path, np.concatenate(chunks), sr, subtype="FLOAT")
 
 
 def phonemes(job):

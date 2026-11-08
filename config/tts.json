@@ -7,7 +7,9 @@
   "python": "python",
   "narratorVoice": "bf_emma",
   "fallbackVoices": { "female": "bf_lily", "male": "bm_lewis" },
-  "speed": { "narration": 0.95, "dialogue": 1.0 },
-  "pauses": { "segment": 0.3, "paragraph": 0.6, "sceneBreak": 1.6 },
+  "speed": { "narration": 0.85, "dialogue": 0.9 },
+  "pauses": { "segment": 0.3, "paragraph": 0.7, "sceneBreak": 1.6 },
+  "levelMatch": { "rmsDb": -20, "maxGainDb": 6 },
+  "master": { "lufs": -16, "truePeak": -1.5, "lra": 11 },
   "mp3": { "bitrate": "96k", "channels": 1 }
 }
