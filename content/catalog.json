@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T15:44:20.797Z",
+  "generatedAt": "2026-11-08T16:27:44.161Z",
   "series": [
     {
       "id": "lantern-mender",
@@ -16,7 +16,16 @@
           "title": "Two Cups",
           "blurb": null,
           "wordCount": 2433,
-          "durationSec": 973,
+          "durationSec": 810,
+          "audio": "audio/lantern-mender/S01E001.mp3",
+          "publishedAt": null
+        },
+        {
+          "code": "S01E002",
+          "title": "Stuck On With Soot",
+          "blurb": null,
+          "wordCount": 2134,
+          "durationSec": 854,
           "audio": null,
           "publishedAt": null
         }
