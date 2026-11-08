@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-11-08T15:44:20.797Z",
+  "series": [
+    {
+      "id": "lantern-mender",
+      "title": "The Lantern Mender of Pell Street",
+      "logline": "A burned-out hospital electrician wakes in a lamplit market town where she is the only person who can repair 'memory lanterns', and each fix shows her the owner's last secret.",
+      "hook": "A new small mystery every arc, one slow-burn pair, and a Mending meter that unlocks deeper lanterns, leading toward whoever has been smashing the town's memories.",
+      "genre": "mystery",
+      "contentRating": "teen",
+      "season": 1,
+      "stage": "pilot",
+      "episodes": [
+        {
+          "code": "S01E001",
+          "title": "Two Cups",
+          "blurb": null,
+          "wordCount": 2433,
+          "durationSec": 973,
+          "audio": null,
+          "publishedAt": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Story Reader</title>
+  <meta name="description" content="Listen to serialized fiction from the Story Engine, written and narrated with AI.">
+  <meta name="theme-color" content="#1b1712" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f7f2ea" media="(prefers-color-scheme: light)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231b1712'/%3E%3Cpath d='M32 12c-6 8-10 14-10 21a10 10 0 0 0 20 0c0-7-4-13-10-21z' fill='%23e8a84a'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#/">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c-2.4 3.2-4 5.6-4 8.4a4 4 0 0 0 8 0C16 8.6 14.4 6.2 12 3z"/></svg>
+      Story Reader
+    </a>
+  </header>
+
+  <main id="view" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <p>Every story here is written, edited and narrated with AI, then reviewed for continuity, pacing and content before it is published.</p>
+  </footer>
+
+  <div id="player" class="player" hidden></div>
+
+  <script src="assets/app.js" type="module"></script>
+</body>
+</html>
