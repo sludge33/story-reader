@@ -8,8 +8,10 @@
 //     (Pocket FM) is never imported. Exclusive contracts forbid cross-posting.
 //   - An episode is imported once it is approved: package status "approved" or "published",
 //     or its code is at or before the series' lastApproved in series/index.json.
-//   - Audio is copied when the package has platformCuts.audioPath; otherwise the site
-//     narrates the text in the browser.
+//   - Audio: audio/<series>/<code>.mp3 made here by tools/narrate.mjs wins (length from its
+//     .json sidecar). Otherwise a story-engine platformCuts.audioPath is copied in. Otherwise
+//     the site narrates the text in the browser.
+//   - story-engine is read-only: this script never writes there.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -124,8 +126,14 @@ for (const s of index.series ?? []) {
     const title = pkg.platformCuts?.title ?? titles.get(code) ?? code;
 
     let audio = null;
+    let narrated = null;
     const src = pkg.platformCuts?.audioPath;
-    if (src) {
+    const local = `audio/${id}/${code}.mp3`;
+    if (exists(path.join(repo, local))) {
+      audio = local;
+      const meta = path.join(repo, "audio", id, `${code}.json`);
+      if (exists(meta)) narrated = readJson(meta);
+    } else if (src) {
       const abs = path.resolve(engine, src);
       if (exists(abs)) {
         const rel = `audio/${id}/${code}${path.extname(abs)}`;
@@ -137,7 +145,7 @@ for (const s of index.series ?? []) {
       } else warn(`${code}: audioPath ${src} not found, using browser narration`);
     }
 
-    const durationSec = pkg.platformCuts?.durationSec ?? Math.round((words / WORDS_PER_MINUTE) * 60);
+    const durationSec = narrated?.durationSec ?? pkg.platformCuts?.durationSec ?? Math.round((words / WORDS_PER_MINUTE) * 60);
     const episode = {
       code,
       title,

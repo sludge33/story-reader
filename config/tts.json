@@ -1,0 +1,13 @@
+{
+  "_note": "Narration engine for tools/narrate.mjs (decided Nov 8, 2026: Kokoro, local and free). Voices per series live in casting/<series>/cast.json; walk-ons and speaker fixes in casting/<series>/<code>.json. Model paths come from .env (KOKORO_MODEL, KOKORO_VOICES).",
+  "provider": "kokoro",
+  "license": "Kokoro-82M weights are Apache-2.0: commercial use allowed, no attribution required. Platforms still require AI-voice disclosure (config/platforms.json).",
+  "usdPerMillionChars": 0,
+  "lang": "en-gb",
+  "python": "python",
+  "narratorVoice": "bf_emma",
+  "fallbackVoices": { "female": "bf_lily", "male": "bm_lewis" },
+  "speed": { "narration": 0.95, "dialogue": 1.0 },
+  "pauses": { "segment": 0.3, "paragraph": 0.6, "sceneBreak": 1.6 },
+  "mp3": { "bitrate": "96k", "channels": 1 }
+}

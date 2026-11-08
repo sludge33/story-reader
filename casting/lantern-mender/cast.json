@@ -1,0 +1,18 @@
+{
+  "_note": "Voice casting for this series. voices: story-engine bible character id -> Kokoro voice (blends like \"bf_alice*0.6+bf_lily*0.4\" work). lexicon: names the engine mispronounces, /IPA/ or a plain respelling. Check with: node tools/narrate.mjs lantern-mender <code> --dry-run",
+  "voices": {
+    "c-ada-brannock": "bf_isabella",
+    "c-tobias-penhallow": "bm_george",
+    "c-odile-fane": "bf_alice"
+  },
+  "lexicon": {
+    "Emrys": "/ˈɛmɹɪs/",
+    "Tobias": "/təʊbˈaɪəs/",
+    "Penhallow": "/pɛnhˈaləʊ/",
+    "Odile": "/əʊdˈiːl/",
+    "Ines": "/ˈiːnɛs/",
+    "Rosalind": "/ɹˈɒzəlɪnd/",
+    "Harrow": "/hˈeəɹəʊ/",
+    "Amos": "/ˈeɪməs/"
+  }
+}
