@@ -36,7 +36,7 @@ Then open http://localhost:4173.
 
 ## GitHub Pages setup (once)
 
-Repo **Settings → Pages → Build and deployment**: Source "Deploy from a branch", branch `main`, folder `/ (root)`. The site appears at https://sludge33.github.io/story-reader/.
+Repo **Settings → Pages → Build and deployment**: Source "GitHub Actions". `.github/workflows/pages.yml` then deploys every push to `main` (or run it by hand from the Actions tab). The site is at https://sludge33.github.io/story-reader/.
 
 ## Layout
 
