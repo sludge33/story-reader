@@ -23,6 +23,7 @@ The importer rewrites `content/` from scratch each run. What it includes:
 | Skips any series whose home platform is `exclusive` in story-engine's `config/platforms.json` (Pocket FM) | Pocket FM contracts are exclusive and perpetual; those series can never appear here |
 | Takes an episode once it is approved (status `approved`/`published`, or at or before `lastApproved` in `series/index.json`) | Drafts and episodes in review stay private |
 | Uses `audio/<series>/<code>.mp3` when it exists (else copies a story-engine `platformCuts.audioPath`, if any) | Otherwise the site uses browser narration |
+| Adds `audioVersions` from `audio/<series>/<code>.versions.json` when it exists | The player shows a Version picker (first entry is the default; `endsAtBlock` marks a sample that stops early) |
 
 Use `--dry-run` to see what would be imported without writing anything. story-engine is read-only from this repo: nothing here writes to it.
 

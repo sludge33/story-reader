@@ -8,6 +8,28 @@
   "durationSec": 885,
   "audio": "audio/lantern-mender/S01E001.mp3",
   "publishedAt": null,
+  "audioVersions": [
+    {
+      "id": "default",
+      "label": "Full episode",
+      "src": "audio/lantern-mender/S01E001.mp3",
+      "durationSec": 885
+    },
+    {
+      "id": "gemini",
+      "label": "Gemini narrator (sample, first 7 min)",
+      "src": "audio/lantern-mender/S01E001.gemini.mp3",
+      "durationSec": 404,
+      "endsAtBlock": 44
+    },
+    {
+      "id": "gemini-cast",
+      "label": "Gemini full cast (sample, first 8 min)",
+      "src": "audio/lantern-mender/S01E001.gemini-cast.mp3",
+      "durationSec": 453,
+      "endsAtBlock": 44
+    }
+  ],
   "blocks": [
     {
       "type": "p",

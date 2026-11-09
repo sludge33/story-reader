@@ -102,7 +102,25 @@ function prepare(ep) {
     }
   }
   ep.totalChars = offset || 1;
+  // Audio versions: the "audio" field is the default; "audioVersions" can add others (e.g. a sample
+  // from another voice engine). A version with "endsAtBlock" only covers the text up to that block.
+  const list = ep.audioVersions?.length ? ep.audioVersions : ep.audio ? [{ src: ep.audio }] : [];
+  ep.versions = list.map((v, i) => {
+    const last = v.endsAtBlock != null ? ep.blocks[Math.min(v.endsAtBlock, ep.blocks.length - 1)] : null;
+    return {
+      ...v,
+      id: v.id ?? (i ? "v" + i : "default"),
+      label: v.label ?? "Narration",
+      durationSec: v.durationSec ?? ep.durationSec,
+      spanChars: last ? last.start + (last.text?.length ?? 40) : ep.totalChars,
+      sample: v.endsAtBlock != null,
+    };
+  });
+  // The default is the version that matches "audio" (else the first).
+  const def = ep.versions.findIndex((v) => v.src === ep.audio);
+  if (def > 0) ep.versions.unshift(...ep.versions.splice(def, 1));
 }
+const versionKey = (ep) => `ver:${ep.seriesId}/${ep.code}`;
 
 function findSeries(sid) {
   return catalog?.series.find((s) => s.id === sid) ?? null;
@@ -124,6 +142,7 @@ const player = {
   gen: 0,
   timer: null,
   audio: null,
+  version: null, // entry of ep.versions playing in audio mode
   wakeLock: null,
   rate: store.get("rate", 1),
   voiceURI: store.get("voice", null),
@@ -161,14 +180,16 @@ tts?.addEventListener?.("voiceschanged", () => renderVoiceSelect());
 function fraction() {
   const ep = player.ep;
   if (!ep) return 0;
-  if (player.mode === "audio") {
-    const a = player.audio;
-    return a && a.duration ? a.currentTime / a.duration : 0;
-  }
+  if (player.mode === "audio") return audioFraction() * (player.version.spanChars / ep.totalChars);
   const b = ep.blocks[player.block];
   if (!b) return 1;
   const within = b.units ? b.units.slice(0, player.sentence).join(" ").length : 0;
   return Math.min(1, (b.start + within) / ep.totalChars);
+}
+// Position in the current audio file (0-1), as opposed to fraction(), the share of the episode text.
+function audioFraction() {
+  const a = player.audio;
+  return a && a.duration ? a.currentTime / a.duration : 0;
 }
 function blockAtFraction(f) {
   const ep = player.ep;
@@ -188,6 +209,7 @@ function save(done = false) {
     sentence: done ? 0 : player.sentence,
     time: done ? 0 : player.audio?.currentTime ?? 0,
     frac: done ? 1 : fraction(),
+    ver: player.version?.id,
     done: done || !!getProgress(ep.seriesId, ep.code)?.done,
     at: Date.now(),
   });
@@ -197,30 +219,71 @@ async function loadIntoPlayer(ep) {
   if (player.ep === ep) return;
   stop();
   player.ep = ep;
-  player.mode = ep.audio ? "audio" : "tts";
+  player.mode = ep.versions.length ? "audio" : "tts";
   const saved = getProgress(ep.seriesId, ep.code);
   player.block = saved && !(saved.frac >= 1) ? Math.min(saved.block ?? 0, ep.blocks.length - 1) : 0;
   player.sentence = saved && !(saved.frac >= 1) ? saved.sentence ?? 0 : 0;
-  if (player.audio) {
-    player.audio.pause();
-    player.audio.removeAttribute("src");
-    player.audio = null;
-  }
+  player.version = null;
+  dropAudio();
   if (player.mode === "audio") {
-    const a = new Audio(ep.audio);
-    a.preload = "metadata";
-    a.playbackRate = player.rate;
-    a.addEventListener("timeupdate", onAudioTime);
-    a.addEventListener("ended", finish);
-    a.addEventListener("play", () => setPlaying(true));
-    a.addEventListener("pause", () => setPlaying(false));
-    a.addEventListener("loadedmetadata", () => {
-      if (saved?.time && !(saved.frac >= 1)) a.currentTime = saved.time;
-      updateBar();
-    }, { once: true });
-    player.audio = a;
+    const v = ep.versions.find((x) => x.id === store.get(versionKey(ep), null)) ?? ep.versions[0];
+    const resume = saved?.time && !(saved.frac >= 1) && (saved.ver ?? ep.versions[0].id) === v.id ? saved.time : 0;
+    attachAudio(v, resume);
   }
   renderBar();
+  highlight(false);
+}
+
+function dropAudio() {
+  if (!player.audio) return;
+  player.audio.pause();
+  player.audio.removeAttribute("src");
+  player.audio.load();
+  player.audio = null;
+}
+function attachAudio(v, startAt) {
+  const a = new Audio(v.src);
+  a.preload = "metadata";
+  a.playbackRate = player.rate;
+  a.addEventListener("timeupdate", () => a === player.audio && onAudioTime());
+  a.addEventListener("ended", () => a === player.audio && (v.sample ? endSample() : finish()));
+  a.addEventListener("play", () => a === player.audio && setPlaying(true));
+  a.addEventListener("pause", () => a === player.audio && setPlaying(false));
+  a.addEventListener("loadedmetadata", () => {
+    if (startAt) a.currentTime = Math.min(startAt, a.duration - 1);
+    updateBar();
+  }, { once: true });
+  player.version = v;
+  player.audio = a;
+}
+
+// Switch to another audio version at the same paragraph, if the new one covers it.
+function setVersion(id) {
+  const ep = player.ep;
+  const v = ep?.versions.find((x) => x.id === id);
+  if (!v || v === player.version) return;
+  const wasPlaying = player.playing;
+  const blockStart = ep.blocks[player.block]?.start ?? 0;
+  const atStart = player.audio?.currentTime < 1;
+  stop();
+  dropAudio();
+  store.set(versionKey(ep), v.id);
+  const at = !atStart && blockStart < v.spanChars ? (blockStart / v.spanChars) * v.durationSec : 0;
+  if (!at) player.block = 0;
+  attachAudio(v, at);
+  renderBar();
+  highlight(true, true);
+  save();
+  if (wasPlaying) play();
+}
+
+// A sample ends before the episode does: stop and rewind, without marking the episode played.
+function endSample() {
+  stop();
+  player.block = 0;
+  player.audio.currentTime = 0;
+  save();
+  updateBar();
   highlight(false);
 }
 
@@ -355,8 +418,9 @@ function seekBlock(i, sentence = 0) {
   player.block = i;
   player.sentence = sentence;
   if (player.mode === "audio") {
-    const a = player.audio;
-    if (a.duration) a.currentTime = (ep.blocks[i].start / ep.totalChars) * a.duration;
+    const a = player.audio, start = ep.blocks[i].start;
+    if (start >= player.version.spanChars) return; // past the end of a sample
+    if (a.duration) a.currentTime = (start / player.version.spanChars) * a.duration;
   } else if (player.playing) play();
   highlight(true, true);
   updateBar();
@@ -434,6 +498,7 @@ function renderBar() {
           <select data-el="rate">${speeds.map((s) => `<option value="${s}" ${s === player.rate ? "selected" : ""}>${s}×</option>`).join("")}</select>
         </label>
         ${player.mode === "tts" ? '<label class="voice">Voice <select data-el="voice"></select></label>' : ""}
+        ${ep.versions.length > 1 ? `<label class="voice">Version <select data-el="version">${ep.versions.map((v) => `<option value="${esc(v.id)}" ${v === player.version ? "selected" : ""}>${esc(v.label)}</option>`).join("")}</select></label>` : ""}
       </div>
     </div>`;
   bar.hidden = false;
@@ -441,6 +506,8 @@ function renderBar() {
   bar.querySelector("[data-act=prev]").onclick = () => step(-1);
   bar.querySelector("[data-act=next]").onclick = () => step(1);
   bar.querySelector("[data-el=rate]").onchange = (e) => setRate(+e.target.value);
+  const ver = bar.querySelector("[data-el=version]");
+  if (ver) ver.onchange = () => setVersion(ver.value);
   const scrub = bar.querySelector("[data-el=scrub]");
   scrub.oninput = () => {
     const f = scrub.value / 1000;
@@ -477,12 +544,12 @@ function updateBar() {
   if (!ep || bar.hidden) return;
   const f = fraction();
   const scrub = bar.querySelector("[data-el=scrub]");
-  if (scrub && document.activeElement !== scrub) scrub.value = Math.round(f * 1000);
+  if (scrub && document.activeElement !== scrub) scrub.value = Math.round((player.mode === "audio" ? audioFraction() : f) * 1000);
   const time = bar.querySelector("[data-el=time]");
   if (!time) return;
   if (player.mode === "audio") {
     const a = player.audio;
-    time.textContent = `${fmt(a.currentTime)} / ${fmt(a.duration || ep.durationSec)}`;
+    time.textContent = `${fmt(a.currentTime)} / ${fmt(a.duration || player.version.durationSec)}`;
   } else {
     const total = ep.durationSec / player.rate;
     time.textContent = `~${mins(total * (1 - f))} left`;

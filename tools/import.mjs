@@ -10,7 +10,9 @@
 //     or its code is at or before the series' lastApproved in series/index.json.
 //   - Audio: audio/<series>/<code>.mp3 made here by tools/narrate.mjs wins (length from its
 //     .json sidecar). Otherwise a story-engine platformCuts.audioPath is copied in. Otherwise
-//     the site narrates the text in the browser.
+//     the site narrates the text in the browser. An optional audio/<series>/<code>.versions.json
+//     ({ versions: [{ id, label, src, durationSec, endsAtBlock? }] }) adds a version picker;
+//     endsAtBlock marks a sample that stops at that block.
 //   - story-engine is read-only: this script never writes there.
 
 import fs from "node:fs";
@@ -156,9 +158,12 @@ for (const s of index.series ?? []) {
       publishedAt: pkg.publishedAt ?? null,
     };
     episodes.push(episode);
+    // Optional extra audio versions (e.g. another engine's sample): audio/<series>/<code>.versions.json.
+    const versionsPath = path.join(repo, "audio", id, `${code}.versions.json`);
+    const audioVersions = audio && exists(versionsPath) ? readJson(versionsPath).versions : null;
     written.push({
       file: path.join(contentDir, id, `${code}.json`),
-      data: { seriesId: id, seriesTitle: bible.title ?? s.title, ...episode, blocks },
+      data: { seriesId: id, seriesTitle: bible.title ?? s.title, ...episode, ...(audioVersions ? { audioVersions } : {}), blocks },
     });
     log(`  ${code} "${title}": ${words} words, ${audio ? "audio" : "browser narration"}`);
   }

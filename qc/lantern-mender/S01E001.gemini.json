@@ -1,0 +1,323 @@
+{
+  "code": "S01E001.gemini",
+  "sample": {
+    "segments": 108,
+    "of": 275,
+    "words": 960
+  },
+  "pass": false,
+  "checks": [
+    {
+      "name": "Loudness",
+      "pass": true,
+      "value": "-17 LUFS",
+      "want": "-16 ±1"
+    },
+    {
+      "name": "True peak",
+      "pass": true,
+      "value": "-1.5 dBTP",
+      "want": "≤ -1"
+    },
+    {
+      "name": "Clipping",
+      "pass": true,
+      "value": "0 samples at full scale",
+      "want": "0"
+    },
+    {
+      "name": "Dead air",
+      "pass": true,
+      "value": "none",
+      "want": "no silence > 3s"
+    },
+    {
+      "name": "Script lint",
+      "pass": true,
+      "value": "0 issue(s)",
+      "want": "0"
+    },
+    {
+      "name": "Word accuracy",
+      "pass": true,
+      "value": "98.8% (10 spots)",
+      "want": "≥ 97%"
+    },
+    {
+      "name": "Pace (overall)",
+      "pass": false,
+      "value": "143 wpm",
+      "want": "145-170 wpm"
+    },
+    {
+      "name": "Voice level match",
+      "pass": true,
+      "value": "0 dB spread",
+      "want": "≤ 3 dB"
+    }
+  ],
+  "signal": {
+    "lufs": -17,
+    "lra": 5.8,
+    "truePeak": -1.5,
+    "samplePeak": -1.6,
+    "clipped": 0,
+    "gaps": []
+  },
+  "voices": [
+    {
+      "who": "narrator",
+      "voice": "Fola",
+      "wpm": 183,
+      "levelDb": -17.8
+    }
+  ],
+  "lint": {
+    "issues": [],
+    "unknownNames": []
+  },
+  "asr": {
+    "wer": 0.0125,
+    "model": "small.en",
+    "names": {
+      "ada": {
+        "ada": 7
+      },
+      "brannock": {
+        "brannock": 1
+      },
+      "lantern": {
+        "lantern": 5
+      },
+      "mender": {
+        "manda": 1,
+        "(nothing)": 1,
+        "menda you'll": 1,
+        "amanda": 1
+      },
+      "morrow": {
+        "morroquay": 1
+      },
+      "quay": {
+        "morroquay": 1
+      },
+      "pell": {
+        "pell": 1
+      },
+      "street": {
+        "street": 2
+      },
+      "nobody": {
+        "nobody": 2
+      },
+      "tobias": {
+        "tobias": 1
+      },
+      "penhallow": {
+        "pennhallow": 1
+      }
+    },
+    "issues": [
+      {
+        "kind": "spelling",
+        "time": 38.02,
+        "seg": 9,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "word",
+        "heard": "wort",
+        "context": "meter glowed one pale gold [word] wick a fist hammered on",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 44.26,
+        "seg": 11,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "mender",
+        "heard": "manda",
+        "context": "hammered on the shop door [mender] open up before i forget",
+        "name": true
+      },
+      {
+        "kind": "missing",
+        "time": 66.28,
+        "seg": 21,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "a",
+        "heard": "",
+        "context": "last thing she remembered was [a] hospital going dark around her",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 87.76,
+        "seg": 26,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "panes",
+        "heard": "paints",
+        "context": "window rain sliding down the [panes] she drew the bolt on",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 92.58,
+        "seg": 28,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "oilskin grey",
+        "heard": "oil skin gray",
+        "context": "big man in a wet [oilskin grey] beard grey eyebrows both arms",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 94.9,
+        "seg": 28,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "grey",
+        "heard": "gray",
+        "context": "a wet oilskin grey beard [grey] eyebrows both arms wrapped around",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 105.7,
+        "seg": 31,
+        "expected": "about",
+        "heard": "About",
+        "p": 0.015
+      },
+      {
+        "kind": "spelling",
+        "time": 119.3,
+        "seg": 37,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "morrow quay",
+        "heard": "morroquay",
+        "context": "where is this what town [morrow quay] pell street half past too",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 188.6,
+        "seg": 55,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "road",
+        "heard": "rode",
+        "context": "a long moment the fog [road] any road there's only the",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 193.18,
+        "seg": 57,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "it's",
+        "heard": "it",
+        "context": "there's only the one and [it's] shut he nodded uphill past",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 215.68,
+        "seg": 61,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "till",
+        "heard": "until",
+        "context": "not flinching at the heat [till] tonight maybe you came out",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 234.36,
+        "seg": 66,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "stall",
+        "heard": "doll",
+        "context": "a story from the next [stall] lost in the fog a",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 266.54,
+        "seg": 73,
+        "expected": "no",
+        "heard": "no",
+        "p": 0.026
+      },
+      {
+        "kind": "misheard",
+        "time": 290.16,
+        "seg": 78,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "ninth",
+        "heard": "9th",
+        "context": "from somewhere across the water [ninth] bell said the chestnut man",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 296.14,
+        "seg": 79,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "mender he'll",
+        "heard": "menda you'll",
+        "context": "get back to your shop [mender he'll] still be waiting ada walked",
+        "name": true
+      },
+      {
+        "kind": "unclear",
+        "time": 343.9,
+        "seg": 89,
+        "expected": "the",
+        "heard": "The",
+        "p": 0.04
+      },
+      {
+        "kind": "spelling",
+        "time": 365.26,
+        "seg": 96,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "penhallow",
+        "heard": "pennhallow",
+        "context": "late who are you tobias [penhallow] clocks he tilted his head",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 375.66,
+        "seg": 99,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "done",
+        "heard": "dan",
+        "context": "and i'm one wheel from [done] and it's going he tapped",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 396.36,
+        "seg": 105,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "a mender",
+        "heard": "amanda",
+        "context": "wiring i don't know what [a mender] is don't need to know",
+        "name": true
+      }
+    ]
+  }
+}

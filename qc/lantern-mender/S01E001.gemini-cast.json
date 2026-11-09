@@ -1,0 +1,414 @@
+{
+  "code": "S01E001.gemini-cast",
+  "sample": {
+    "segments": 145,
+    "of": 343,
+    "words": 960
+  },
+  "pass": false,
+  "checks": [
+    {
+      "name": "Loudness",
+      "pass": true,
+      "value": "-16.9 LUFS",
+      "want": "-16 ±1"
+    },
+    {
+      "name": "True peak",
+      "pass": true,
+      "value": "-1.4 dBTP",
+      "want": "≤ -1"
+    },
+    {
+      "name": "Clipping",
+      "pass": true,
+      "value": "0 samples at full scale",
+      "want": "0"
+    },
+    {
+      "name": "Dead air",
+      "pass": true,
+      "value": "none",
+      "want": "no silence > 3s"
+    },
+    {
+      "name": "Script lint",
+      "pass": true,
+      "value": "0 issue(s)",
+      "want": "0"
+    },
+    {
+      "name": "Word accuracy",
+      "pass": true,
+      "value": "97.8% (14 spots)",
+      "want": "≥ 97%"
+    },
+    {
+      "name": "Pace (overall)",
+      "pass": false,
+      "value": "127 wpm",
+      "want": "145-170 wpm"
+    },
+    {
+      "name": "Voice level match",
+      "pass": true,
+      "value": "2.6 dB spread",
+      "want": "≤ 3 dB"
+    }
+  ],
+  "signal": {
+    "lufs": -16.9,
+    "lra": 5.7,
+    "truePeak": -1.4,
+    "samplePeak": -1.4,
+    "clipped": 0,
+    "gaps": []
+  },
+  "voices": [
+    {
+      "who": "narrator",
+      "voice": "Fola",
+      "wpm": 163,
+      "levelDb": -17.9
+    },
+    {
+      "who": "ada-brannock",
+      "voice": "Sami",
+      "wpm": 205,
+      "levelDb": -17.6
+    },
+    {
+      "who": "tobias-penhallow",
+      "voice": "Algenib",
+      "wpm": 185,
+      "levelDb": -16.5
+    },
+    {
+      "who": "chestnut-seller",
+      "voice": "Rami",
+      "wpm": 217,
+      "levelDb": -16.7
+    },
+    {
+      "who": "odile-fane",
+      "voice": "Cleo",
+      "wpm": 235,
+      "levelDb": -15.3
+    }
+  ],
+  "lint": {
+    "issues": [],
+    "unknownNames": []
+  },
+  "asr": {
+    "wer": 0.0219,
+    "model": "small.en",
+    "names": {
+      "ada": {
+        "ada": 6,
+        "aida": 1
+      },
+      "brannock": {
+        "brannock": 1
+      },
+      "lantern": {
+        "lantern": 5
+      },
+      "mender": {
+        "mender": 4
+      },
+      "morrow": {
+        "morrow": 1
+      },
+      "quay": {
+        "quay": 1
+      },
+      "pell": {
+        "pell": 1
+      },
+      "street": {
+        "street": 2
+      },
+      "nobody": {
+        "nobody": 2
+      },
+      "tobias": {
+        "tobias": 1
+      },
+      "penhallow": {
+        "penhalo": 1
+      }
+    },
+    "issues": [
+      {
+        "kind": "spelling",
+        "time": 40,
+        "seg": 13,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "meter",
+        "heard": "metre",
+        "context": "like a number on a [meter] glowed one pale gold word",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 54.16,
+        "seg": 18,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "ada",
+        "heard": "aida",
+        "context": "up before i forget her [ada] got to her knees the",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 66.66,
+        "seg": 21,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "she told",
+        "heard": "she'd hold",
+        "context": "it was gone head injury [she told] herself visual disturbance get up",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 106.14,
+        "seg": 34,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "step",
+        "heard": "steppe",
+        "context": "drew the bolt on the [step] stood a big man in",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 108.76,
+        "seg": 34,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "oilskin grey",
+        "heard": "oil skin gray",
+        "context": "big man in a wet [oilskin grey] beard grey eyebrows both arms",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 111.36,
+        "seg": 34,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "grey",
+        "heard": "gray",
+        "context": "a wet oilskin grey beard [grey] eyebrows both arms wrapped around",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 125.1,
+        "seg": 37,
+        "expected": "about",
+        "heard": "About",
+        "p": 0.033
+      },
+      {
+        "kind": "misheard",
+        "time": 128.86,
+        "seg": 39,
+        "voice": "bm_george",
+        "who": "tobias-penhallow",
+        "expected": "here",
+        "heard": "the air",
+        "context": "said light came on in [here] saw it from the tower",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 134.12,
+        "seg": 43,
+        "voice": "bf_isabella",
+        "who": "ada-brannock",
+        "expected": "i'm",
+        "heard": "and",
+        "context": "the new one mend it [i'm] not anybody's anything ada said",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 144.04,
+        "seg": 49,
+        "voice": "bm_george",
+        "who": "tobias-penhallow",
+        "expected": "half past",
+        "heard": "i've passed",
+        "context": "town morrow quay pell street [half past] too late that's where he",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 161.86,
+        "seg": 55,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "",
+        "heard": "it",
+        "context": "and the market was lit [] lamps on poles lamps hung",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 184,
+        "seg": 58,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "",
+        "heard": "man",
+        "context": "fat spitting in a pan [] and a hundred people talking",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 205.7,
+        "seg": 66,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "",
+        "heard": "her",
+        "context": "roasting chestnuts over a brazier [] and he had a kind",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 213.7,
+        "seg": 69,
+        "voice": "bf_isabella",
+        "who": "ada-brannock",
+        "expected": "i'll",
+        "heard": "a",
+        "context": "out which way bus train [i'll] walk if i have to",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 219.8,
+        "seg": 71,
+        "voice": "bm_daniel",
+        "who": "chestnut-seller",
+        "expected": "road any road",
+        "heard": "rode then he rode",
+        "context": "a long moment the fog [road any road] there's only the one and",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 224.48,
+        "seg": 73,
+        "voice": "bm_daniel",
+        "who": "chestnut-seller",
+        "expected": "shut",
+        "heard": "shat",
+        "context": "only the one and it's [shut] he nodded uphill past the",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 232.34,
+        "seg": 74,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "",
+        "heard": "fog",
+        "context": "tower stood black against the [] fog its face was lit",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 232.62,
+        "seg": 74,
+        "expected": "fog",
+        "heard": "fog.",
+        "p": 0
+      },
+      {
+        "kind": "spelling",
+        "time": 289.78,
+        "seg": 91,
+        "voice": "bf_alice",
+        "who": "odile-fane",
+        "expected": "two",
+        "heard": "to",
+        "context": "i set out two cups [two] poured both sat there talking",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 293.06,
+        "seg": 93,
+        "voice": "bf_alice",
+        "who": "odile-fane",
+        "expected": "going to",
+        "heard": "gonna",
+        "context": "the steam like it was [going to] answer me back again the",
+        "name": false
+      },
+      {
+        "kind": "missing",
+        "time": 297.56,
+        "seg": 96,
+        "voice": "bf_alice",
+        "who": "odile-fane",
+        "expected": "and",
+        "heard": "",
+        "context": "the chestnut man called again [and] you're going to say i'm",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 299.28,
+        "seg": 96,
+        "voice": "bf_alice",
+        "who": "odile-fane",
+        "expected": "going to",
+        "heard": "gonna",
+        "context": "man called again and you're [going to] say i'm going soft i",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 388.12,
+        "seg": 116,
+        "voice": "bf_emma",
+        "who": "narrator",
+        "expected": "",
+        "heard": "nose",
+        "context": "the end of his nose [] the lantern was inside his",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 402.26,
+        "seg": 121,
+        "voice": "bm_george",
+        "who": "tobias-penhallow",
+        "expected": "",
+        "heard": "tick",
+        "context": "rhythm tick tick tick tick [] told you he said half",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 409.5,
+        "seg": 125,
+        "voice": "bm_george",
+        "who": "tobias-penhallow",
+        "expected": "penhallow",
+        "heard": "penhalo",
+        "context": "late who are you tobias [penhallow] clocks he tilted his head",
+        "name": true
+      }
+    ]
+  }
+}
