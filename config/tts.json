@@ -8,8 +8,28 @@
   "narratorVoice": "bf_emma",
   "fallbackVoices": { "female": "bf_lily", "male": "bm_lewis" },
   "speed": { "narration": 0.85, "dialogue": 0.9 },
-  "pauses": { "segment": 0.3, "paragraph": 0.7, "sceneBreak": 1.6 },
+  "pauses": { "segment": 0.3, "sentence": 0.45, "paragraph": 0.9, "beat": 1.3, "beatMaxWords": 6, "sceneBreak": 2.4 },
   "levelMatch": { "rmsDb": -20, "maxGainDb": 6 },
   "master": { "lufs": -16, "truePeak": -1.5, "lra": 11 },
-  "mp3": { "bitrate": "96k", "channels": 1 }
+  "mp3": { "bitrate": "96k", "channels": 1 },
+  "gemini": {
+    "_note": "Full-cast backend (node tools/narrate.mjs <id> <code> --engine gemini). Voices per series: casting/<id>/cast.json gemini.voices; walk-ons: casting/<id>/<code>.json cast[].gemini. One speaker per request; pauses in seconds are the gaps added between requests. Rates from ai.google.dev pricing, checked 2026-11-09: $0.50/1M text in, $9/1M audio out through 2026-12-31 (doubles 2027-01-01), 25 audio tokens per second. rpm 0 = no pacing (429s are retried with backoff). Set paidTier true once the key has billing.",
+    "model": "gemini-3.8-flash-tts",
+    "narrator": {
+      "voice": "Fola",
+      "style": "Warm British female audiobook narrator with a soft southern English accent, tremulous, quavering timbre, intimate and quiet, measured unhurried pace, natural dramatic pauses between paragraphs, atmospheric literary storyteller"
+    },
+    "characterStyle": "Natural, unhurried British drama performance of a single line of dialogue in an audiobook",
+    "pauses": { "turn": 0.4, "paragraph": 0.7, "chunk": 0.6, "sceneBreak": 2.4 },
+    "maxChars": 1800,
+    "levelMatch": { "rmsDb": -20, "maxGainDb": 12 },
+    "rpm": 0,
+    "maxRetries": 8,
+    "paidTier": true,
+    "maxUsdWithoutAsking": 0.5,
+    "estWpm": 150,
+    "audioTokensPerSec": 25,
+    "usdPerMillion": { "input": 0.5, "audio": 9 },
+    "prebuiltVoices": ["Zephyr", "Puck", "Charon", "Kore", "Fenrir", "Leda", "Orus", "Aoede", "Callirrhoe", "Autonoe", "Enceladus", "Iapetus", "Umbriel", "Algieba", "Despina", "Erinome", "Algenib", "Rasalgethi", "Laomedeia", "Achernar", "Alnilam", "Schedar", "Gacrux", "Pulcherrima", "Achird", "Zubenelgenubi", "Vindemiatrix", "Sadachbia", "Sadaltager", "Sulafat"]
+  }
 }

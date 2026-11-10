@@ -14,5 +14,17 @@
     "Rosalind": "/ɹˈɒzəlɪnd/",
     "Harrow": "/hˈeəɹəʊ/",
     "Amos": "/ˈeɪməs/"
+  },
+  "respell": {
+    "_note": "Gemini only: words replaced in the text sent to Gemini (Gemini has no IPA input). Kokoro uses lexicon above.",
+    "Quay": "Key"
+  },
+  "gemini": {
+    "_note": "Gemini full-cast voices (tools/narrate.mjs --engine gemini), chosen by Ben 2026-11-09. The narrator voice is in config/tts.json gemini.narrator. style is the per-line delivery prompt.",
+    "voices": {
+      "c-ada-brannock": { "voice": "Sami", "style": "Young British woman, practical and dry, tired and wary, speaking at a natural unhurried pace" },
+      "c-tobias-penhallow": { "voice": "Algenib", "style": "Gruff older British man of few words, gravelly and clipped, a clockmaker, speaking at a measured pace" },
+      "c-odile-fane": { "voice": "Cleo", "style": "Quick, bright, chatty British market woman, warm and gossipy, but not rushed" }
+    }
   }
 }

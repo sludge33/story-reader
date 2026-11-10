@@ -3,6 +3,7 @@
   "cast": {
     "chestnut-seller": {
       "voice": "bm_daniel",
+      "gemini": { "voice": "Rami", "style": "Cheerful older British street vendor, roasting chestnuts in the fog, friendly and knowing" },
       "names": [
         "chestnut man",
         "chestnut seller"

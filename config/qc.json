@@ -2,7 +2,7 @@
   "_note": "Audio quality gates for tools/qc.mjs. Loudness follows podcast/streaming spoken-word practice (Apple: -16 LUFS, true peak at or below -1 dBTP). asr: Whisper listen-back of the finished MP3, aligned to the script.",
   "loudness": { "targetLufs": -16, "toleranceLu": 1, "maxTruePeakDbtp": -1 },
   "maxClippedSamples": 0,
-  "maxGapSec": 2.5,
+  "maxGapSec": 3,
   "pace": { "minWpm": 145, "maxWpm": 170, "_note": "overall words per minute including pauses; audiobooks run about 150-160" },
   "voiceLevelSpreadDb": 3,
   "asr": { "model": "small.en", "maxWer": 0.03 }
