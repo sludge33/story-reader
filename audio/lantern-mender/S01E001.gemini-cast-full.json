@@ -1,0 +1,87 @@
+{
+  "durationSec": 1011,
+  "voiceUsd": 0.236,
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "mode": "batched",
+  "batches": [
+    {
+      "voice": "Fola",
+      "lines": 16,
+      "chars": 2346,
+      "score": 0.989
+    },
+    {
+      "voice": "Sami",
+      "lines": 26,
+      "chars": 948,
+      "score": 0.989
+    },
+    {
+      "voice": "Algenib",
+      "lines": 26,
+      "chars": 1060,
+      "score": 0.965
+    },
+    {
+      "voice": "Rami",
+      "lines": 7,
+      "chars": 307,
+      "score": 0.927
+    },
+    {
+      "voice": "Cleo",
+      "lines": 6,
+      "chars": 572,
+      "score": 0.935
+    },
+    {
+      "voice": "Fola",
+      "lines": 16,
+      "chars": 2237,
+      "score": 0.995
+    },
+    {
+      "voice": "Fola",
+      "lines": 11,
+      "chars": 2371,
+      "score": 0.991
+    },
+    {
+      "voice": "Fola",
+      "lines": 10,
+      "chars": 2251,
+      "score": 0.989
+    },
+    {
+      "voice": "Fola",
+      "lines": 3,
+      "chars": 650,
+      "score": 0.992
+    }
+  ],
+  "weakLines": [
+    {
+      "voice": "Algenib",
+      "text": "Tobias Penhallow. Clocks.",
+      "matched": 1,
+      "words": 3
+    }
+  ],
+  "requests": 9,
+  "apiCalls": 9,
+  "cachedCalls": 0,
+  "textTokens": 3230,
+  "audioTokens": 26016,
+  "tokensFrom": "api usage",
+  "renderWallSec": 555,
+  "apiSec": 240,
+  "renderedAt": "2026-11-10",
+  "voices": {
+    "narrator": "Fola",
+    "c-ada-brannock": "Sami",
+    "c-tobias-penhallow": "Algenib",
+    "c-odile-fane": "Cleo",
+    "chestnut-seller": "Rami"
+  }
+}

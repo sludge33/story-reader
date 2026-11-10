@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "story-reader",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["tools/serve.mjs"],
+      "port": 4173
+    },
+    {
+      "name": "story-reader-range",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["C:/Users/bsattler/AppData/Local/Temp/claude/0ea262d729c9847f/9f87dd74-3b30-41b7-851d-b7e4e06c801f/scratchpad/serve-range.mjs", "4180"],
+      "port": 4180
+    }
+  ]
+}

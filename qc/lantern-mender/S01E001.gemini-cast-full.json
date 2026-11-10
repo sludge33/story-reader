@@ -1,0 +1,679 @@
+{
+  "code": "S01E001",
+  "pass": false,
+  "checks": [
+    {
+      "name": "Loudness",
+      "pass": true,
+      "value": "-16.9 LUFS",
+      "want": "-16 ±1"
+    },
+    {
+      "name": "True peak",
+      "pass": false,
+      "value": "-0.9 dBTP",
+      "want": "≤ -1"
+    },
+    {
+      "name": "Clipping",
+      "pass": true,
+      "value": "0 samples at full scale",
+      "want": "0"
+    },
+    {
+      "name": "Dead air",
+      "pass": true,
+      "value": "none",
+      "want": "no silence > 3s"
+    },
+    {
+      "name": "Script lint",
+      "pass": true,
+      "value": "0 issue(s)",
+      "want": "0"
+    },
+    {
+      "name": "Word accuracy",
+      "pass": true,
+      "value": "98.9% (23 spots)",
+      "want": "≥ 97%"
+    },
+    {
+      "name": "Pace (overall)",
+      "pass": false,
+      "value": "143 wpm",
+      "want": "145-170 wpm"
+    },
+    {
+      "name": "Voice level match",
+      "pass": true,
+      "value": "0.9 dB spread",
+      "want": "≤ 3 dB"
+    }
+  ],
+  "signal": {
+    "lufs": -16.9,
+    "lra": 4.8,
+    "truePeak": -0.9,
+    "samplePeak": -1.5,
+    "clipped": 0,
+    "gaps": []
+  },
+  "voices": [
+    {
+      "who": "narrator",
+      "voice": "Fola",
+      "wpm": 193,
+      "levelDb": -17.1
+    },
+    {
+      "who": "ada-brannock",
+      "voice": "Sami",
+      "wpm": 247,
+      "levelDb": -16.2
+    },
+    {
+      "who": "tobias-penhallow",
+      "voice": "Algenib",
+      "wpm": 205,
+      "levelDb": -16.9
+    },
+    {
+      "who": "chestnut-seller",
+      "voice": "Rami",
+      "wpm": 246,
+      "levelDb": -16.5
+    },
+    {
+      "who": "odile-fane",
+      "voice": "Cleo",
+      "wpm": 237,
+      "levelDb": -16.3
+    }
+  ],
+  "lint": {
+    "issues": [],
+    "unknownNames": [
+      [
+        "Lost",
+        1
+      ],
+      [
+        "Whoever",
+        1
+      ],
+      [
+        "Comes",
+        1
+      ],
+      [
+        "Next",
+        1
+      ]
+    ]
+  },
+  "asr": {
+    "wer": 0.0112,
+    "model": "small.en",
+    "names": {
+      "ada": {
+        "ada": 16,
+        "he'd have": 1,
+        "made a": 1
+      },
+      "brannock": {
+        "branwick": 1
+      },
+      "lantern": {
+        "lantern": 7,
+        "(nothing)": 1
+      },
+      "mender": {
+        "menda": 1,
+        "mender": 4
+      },
+      "morrow": {
+        "morrow": 1
+      },
+      "quay": {
+        "quay": 4
+      },
+      "pell": {
+        "pell": 2
+      },
+      "street": {
+        "street": 4
+      },
+      "nobody": {
+        "nobody": 2
+      },
+      "tobias": {
+        "tobias": 5
+      },
+      "penhallow": {
+        "penhallow": 1,
+        "penhollow": 1
+      },
+      "night": {
+        "night": 3
+      },
+      "great": {
+        "great": 1
+      },
+      "mending": {
+        "mending": 1
+      }
+    },
+    "issues": [
+      {
+        "kind": "spelling",
+        "time": 14.28,
+        "seg": 5,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "brannock",
+        "heard": "branwick",
+        "context": "does not tick one ada [brannock] whispered two three cold boards",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 45,
+        "seg": 16,
+        "voice": "Algenib",
+        "who": "tobias-penhallow",
+        "expected": "mender",
+        "heard": "menda",
+        "context": "hammered on the shop door [mender] open up before i forget",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 56.46,
+        "seg": 20,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "opened",
+        "heard": "open",
+        "context": "light she shut her eyes [opened] them again and it was",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 80.16,
+        "seg": 29,
+        "expected": "the",
+        "heard": "the",
+        "p": 0.002
+      },
+      {
+        "kind": "spelling",
+        "time": 100.1,
+        "seg": 34,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "oilskin grey",
+        "heard": "oil skin gray",
+        "context": "big man in a wet [oilskin grey] beard grey eyebrows both arms",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 101.96,
+        "seg": 34,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "grey",
+        "heard": "gray",
+        "context": "a wet oilskin grey beard [grey] eyebrows both arms wrapped around",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 132.92,
+        "seg": 49,
+        "voice": "Algenib",
+        "who": "tobias-penhallow",
+        "expected": "past",
+        "heard": "post",
+        "context": "morrow quay pell street half [past] too late that's where he",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 139.88,
+        "seg": 53,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "said",
+        "heard": "sat",
+        "context": "her mend it sorry she [said] and meant it and went",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 165.46,
+        "seg": 58,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "stone",
+        "heard": "stones",
+        "context": "she could hear water slapping [stone] somewhere below and oars and",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 191.72,
+        "seg": 66,
+        "expected": "so",
+        "heard": "so",
+        "p": 0.031
+      },
+      {
+        "kind": "misheard",
+        "time": 204.52,
+        "seg": 73,
+        "voice": "Rami",
+        "who": "chestnut-seller",
+        "expected": "there's",
+        "heard": "it's",
+        "context": "the fog road any road [there's] only the one and it's",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 223.3,
+        "seg": 79,
+        "voice": "Rami",
+        "who": "chestnut-seller",
+        "expected": "come in",
+        "heard": "coming",
+        "context": "nobody's gone out and nobody's [come in] he turned a chestnut with",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 229.68,
+        "seg": 81,
+        "voice": "Rami",
+        "who": "chestnut-seller",
+        "expected": "till",
+        "heard": "til",
+        "context": "not flinching at the heat [till] tonight maybe you came out",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 232.34,
+        "seg": 82,
+        "voice": "Rami",
+        "who": "chestnut-seller",
+        "expected": "mender's",
+        "heard": "mender",
+        "context": "you came out of the [mender's] shop i saw the light",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 248.48,
+        "seg": 86,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "",
+        "heard": "me",
+        "context": "they sounded like a story [] from the next stall lost",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 277.02,
+        "seg": 93,
+        "voice": "Cleo",
+        "who": "odile-fane",
+        "expected": "going to",
+        "heard": "gonna",
+        "context": "the steam like it was [going to] answer me back again the",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 282.92,
+        "seg": 96,
+        "voice": "Cleo",
+        "who": "odile-fane",
+        "expected": "going to",
+        "heard": "gonna",
+        "context": "man called again and you're [going to] say i'm going soft i",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 313.62,
+        "seg": 103,
+        "expected": "ninth",
+        "heard": "Ninth",
+        "p": 0.037
+      },
+      {
+        "kind": "misheard",
+        "time": 321.34,
+        "seg": 107,
+        "voice": "Rami",
+        "who": "chestnut-seller",
+        "expected": "he'll",
+        "heard": "you'll",
+        "context": "back to your shop mender [he'll] still be waiting ada walked",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 361.58,
+        "seg": 116,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "",
+        "heard": "close",
+        "context": "the end of his nose [] the lantern was inside his",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 391.58,
+        "seg": 130,
+        "voice": "Algenib",
+        "who": "tobias-penhallow",
+        "expected": "done",
+        "heard": "dan",
+        "context": "and i'm one wheel from [done] and it's going he tapped",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 396.44,
+        "seg": 132,
+        "expected": "the",
+        "heard": "The",
+        "p": 0.046
+      },
+      {
+        "kind": "misheard",
+        "time": 451.98,
+        "seg": 154,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "ada",
+        "heard": "he'd have",
+        "context": "no other word for it [ada] stood very still in the",
+        "name": true
+      },
+      {
+        "kind": "missing",
+        "time": 474.8,
+        "seg": 164,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "lantern",
+        "heard": "",
+        "context": "was told she set the [lantern] on the bench she held",
+        "name": true
+      },
+      {
+        "kind": "extra",
+        "time": 499.18,
+        "seg": 170,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "",
+        "heard": "wick",
+        "context": "all it was a break [] in a line and on",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 527.86,
+        "seg": 180,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "",
+        "heard": "still",
+        "context": "the readout began to fill [] she followed the crack the",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 571.14,
+        "seg": 190,
+        "expected": "catch",
+        "heard": "catch.",
+        "p": 0.009
+      },
+      {
+        "kind": "spelling",
+        "time": 586.78,
+        "seg": 195,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "tobias's",
+        "heard": "to bias",
+        "context": "street but the same hands [tobias's] hands overhead something cracked a",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 598.52,
+        "seg": 198,
+        "expected": "stood",
+        "heard": "stood",
+        "p": 0.047
+      },
+      {
+        "kind": "spelling",
+        "time": 616.12,
+        "seg": 202,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "tobias's",
+        "heard": "tobias",
+        "context": "one cheek eyes gone huge [tobias's] hands went out and struck",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 629.76,
+        "seg": 204,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "pulls",
+        "heard": "pools",
+        "context": "was breathing in great sobbing [pulls] tobias young whispering it into",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 649.56,
+        "seg": 213,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "",
+        "heard": "and",
+        "context": "was above her the lantern [] sat on it whole not",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 676.64,
+        "seg": 220,
+        "voice": "Algenib",
+        "who": "tobias-penhallow",
+        "expected": "fourth",
+        "heard": "fall",
+        "context": "four teeth pinion of eight [fourth] to the escape wheel sixty",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 698.96,
+        "seg": 233,
+        "expected": "the",
+        "heard": "The",
+        "p": 0.049
+      },
+      {
+        "kind": "extra",
+        "time": 727.34,
+        "seg": 248,
+        "voice": "Algenib",
+        "who": "tobias-penhallow",
+        "expected": "",
+        "heard": "face",
+        "context": "did i know her face [] every night i know her",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 746.58,
+        "seg": 256,
+        "expected": "mr",
+        "heard": "Mr.",
+        "p": 0.04
+      },
+      {
+        "kind": "spelling",
+        "time": 747.34,
+        "seg": 256,
+        "voice": "Sami",
+        "who": "ada-brannock",
+        "expected": "penhallow",
+        "heard": "penhollow",
+        "context": "that's all you're getting mr [penhallow] kettle's on the hob he",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 749.1,
+        "seg": 257,
+        "voice": "Algenib",
+        "who": "tobias-penhallow",
+        "expected": "hob",
+        "heard": "hope",
+        "context": "mr penhallow kettle's on the [hob] he said at the door",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 751.56,
+        "seg": 258,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "as",
+        "heard": "has",
+        "context": "said at the door gruff [as] a hinge use it you",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 769.04,
+        "seg": 263,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "ada",
+        "heard": "made a",
+        "context": "kettle was where he'd said [ada] made tea in a chipped",
+        "name": true
+      },
+      {
+        "kind": "unclear",
+        "time": 782.7,
+        "seg": 266,
+        "expected": "a",
+        "heard": "A",
+        "p": 0.022
+      },
+      {
+        "kind": "extra",
+        "time": 804.16,
+        "seg": 274,
+        "voice": "Sami",
+        "who": "ada-brannock",
+        "expected": "",
+        "heard": "as",
+        "context": "i'll do it from memory [] soon as i find a",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 810.7,
+        "seg": 276,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "",
+        "heard": "life",
+        "context": "thing to keep it safe [] the first four digits came",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 930.86,
+        "seg": 321,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "two",
+        "heard": "ii",
+        "context": "rail ada looked from rule [two] to the brown paper beside",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 951.22,
+        "seg": 324,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "woke her",
+        "heard": "woken",
+        "context": "on the page a bell [woke her] not the deep one from",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 954.5,
+        "seg": 325,
+        "expected": "water",
+        "heard": "water.",
+        "p": 0.004
+      },
+      {
+        "kind": "spelling",
+        "time": 960.48,
+        "seg": 327,
+        "voice": "Fola",
+        "who": "narrator",
+        "expected": "shop bell grey",
+        "heard": "shock pel gray",
+        "context": "right over her head the [shop bell grey] light in the window the",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 973.8,
+        "seg": 335,
+        "voice": "Cleo",
+        "who": "odile-fane",
+        "expected": "street's",
+        "heard": "street",
+        "context": "of a wet umbrella whole [street's] saying there's a new mender",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 977.78,
+        "seg": 335,
+        "voice": "Cleo",
+        "who": "odile-fane",
+        "expected": "wants",
+        "heard": "once",
+        "context": "lucky because i've got something [wants] mending haven't i and i'm",
+        "name": false
+      }
+    ]
+  }
+}
