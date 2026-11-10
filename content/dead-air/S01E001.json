@@ -1,0 +1,467 @@
+{
+  "seriesId": "dead-air",
+  "seriesTitle": "Dead Air",
+  "code": "S01E001",
+  "title": "Episode 1",
+  "blurb": null,
+  "wordCount": 2611,
+  "durationSec": 1044,
+  "audio": null,
+  "publishedAt": null,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "The hum reaches my feet before it reaches my ear."
+    },
+    {
+      "type": "p",
+      "text": "Low and slow, a grumble in the stone like a cart crossing a bridge two streets off. Then I see the front of it: a faint line of light, three paces wide, crawling across the Drum toward me at the speed of a man walking across a room."
+    },
+    {
+      "type": "p",
+      "text": "That's all you ever see of a note. The front. The rest of it you feel when it arrives."
+    },
+    {
+      "type": "p",
+      "text": "This one weighs five. The last Damper who drew one of these at five ring will never play again."
+    },
+    {
+      "type": "p",
+      "text": "I'm not a Damper. This morning I was a mason with a debt."
+    },
+    {
+      "type": "p",
+      "text": "I have about four seconds to decide."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "This morning, the Guild bailiff nailed a notice to my door."
+    },
+    {
+      "type": "p",
+      "text": "He did it well, I'll give him that. Four nails, one at each corner, square to the frame. I watched through the gap in the shutter and thought, if a man's going to take your workshop, he may as well respect a true edge."
+    },
+    {
+      "type": "p",
+      "text": "Then I opened the door and read it. Thirty-eight crowns to the Masons' Guild by Midwinter Quarter Day, or the workshop, the tools and the trade go to the Guild."
+    },
+    {
+      "type": "p",
+      "text": "\"Your master's debt,\" the bailiff said. \"Sorry for it.\""
+    },
+    {
+      "type": "p",
+      "text": "\"So am I,\" I said. \"Do I give you the nails back after, or are those the Guild's as well?\""
+    },
+    {
+      "type": "p",
+      "text": "He didn't laugh. Bailiffs don't."
+    },
+    {
+      "type": "p",
+      "text": "I shut the door and took the tin down from the shelf over the banker, which is the big bench you dress stone on. I opened it. Two crowns. I shut it and opened it again, the way you tap a block twice when you don't like the first answer. Still two."
+    },
+    {
+      "type": "p",
+      "text": "A crown is a month's wage for a journeyman. My master died in the spring. Since then I've been nineteen, unqualified, and the only person in Caddrow who knows where his good chisels are. His tools. His workshop. His name on a debt."
+    },
+    {
+      "type": "p",
+      "text": "I was still holding the tin when Sef Brask knocked."
+    },
+    {
+      "type": "p",
+      "text": "Everyone in the Kilnyard knows Sef. He was a pot-boy at the Lime Barrow until somebody let him be Scribe for the local Quell side, and now he's a pot-boy with a notebook. He came in talking. He always comes in talking."
+    },
+    {
+      "type": "p",
+      "text": "\"Three things,\" Sef said. \"One, you've heard about Hob Rennie. Two, we've a home match tonight against the Coalhouse Clappers, Round One of the Midwinter Run, and the Warden won't start a side of four. Three, no, four things. Three, you stand on stone all day, you tap walls, I've seen you do it, and a Damper's half a mason anyway. Four. A crown a home gate, cash in hand, and a share of any purse.\""
+    },
+    {
+      "type": "p",
+      "text": "He was on my left. \"Other side,\" I said."
+    },
+    {
+      "type": "p",
+      "text": "He stepped round without asking why. People usually ask."
+    },
+    {
+      "type": "p",
+      "text": "\"What happened to Hob?\" I said."
+    },
+    {
+      "type": "p",
+      "text": "Sef's mouth stopped for once. \"Friendly, last week. He was holding five ring already. Their Caller threw a five. I called him off it.\" He looked at the tin. \"He drew it anyway. Ten ring in his body at once. Rung Out on the spot, retired from Chapter play for life. He can walk. He's fine.\" He thought about it. \"He's not fine.\""
+    },
+    {
+      "type": "p",
+      "text": "\"A crown a home gate,\" I said."
+    },
+    {
+      "type": "p",
+      "text": "\"And a share of any purse.\""
+    },
+    {
+      "type": "p",
+      "text": "\"I'll do it for the money.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Nothing else?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Nothing else,\" I said, and put the tin back on the shelf, square."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "The Kilnyard Drum is under the old lime kiln, down a stair that smells of wet ash. I'd lived two streets away all my life and never been down it."
+    },
+    {
+      "type": "p",
+      "text": "It's round, thirty paces across, walled in slowstone, which is grey and fine-grained and cold enough to ache. Nineteen flagstones are set in the floor at odd spacings. Those are the stands. Twelve brass plates hang round the wall, six to a side, and the big one in the middle of ours is the Last Plate. That's what the other side throws at. If a note hits it within a semitone of its pitch, it rings, and three counts of ring is a Peal: one point. A hard note almost dead on its pitch rings for six, and that's a Sustained Peal, which is three."
+    },
+    {
+      "type": "p",
+      "text": "Before we started, both sides beat the walls with paddles until the air went grey and soft with dust. Bloom, Sef called it. In bloom, sound forgets how to hurry."
+    },
+    {
+      "type": "p",
+      "text": "The Warden stood in the middle in a grey Chapter coat, a brass weight swinging on a cord from his fist: one swing, one count. A listening rod hung from his belt. Behind him on a hook were four lanterns, one per Damper, all dark."
+    },
+    {
+      "type": "p",
+      "text": "\"Pace of five,\" he said. Five paces of air a count."
+    },
+    {
+      "type": "p",
+      "text": "Sef named me to him. \"Halloway, Damper.\" The Warden wrote it down and looked at my boots, which are a mason's boots, worn so thin I can feel a dropped nail through them, and said nothing."
+    },
+    {
+      "type": "p",
+      "text": "The side came at me in a rush."
+    },
+    {
+      "type": "p",
+      "text": "Dov Carrick, our Caller, explained the names of his throws while I laced up. \"That's the Lamplighter. That's the Ferret. If I do a high one that bends at the end, that's the Widowmaker, and you're welcome.\""
+    },
+    {
+      "type": "p",
+      "text": "\"I haven't seen it yet.\""
+    },
+    {
+      "type": "p",
+      "text": "\"You're welcome in advance,\" Dov said."
+    },
+    {
+      "type": "p",
+      "text": "Mrs. Oduya, our Tuner, was older than my master had been and buttoned to the throat. She walked the plate rail touching a little brass peg beside each plate. \"The peg shows the plate's pitch, Wren Halloway. Anyone may read it. I move a plate a semitone at a Breath, and their Caller must chase it. A plate is a stockpot, not a kettle. It is slow to come up and slow to let go.\""
+    },
+    {
+      "type": "p",
+      "text": "Marten Sallow, our other Damper, was broad and grey at the temples. He put one big hand on my shoulder and said, \"Aye, well.\" I waited for the rest. That was the rest."
+    },
+    {
+      "type": "p",
+      "text": "And Sef, of course, scribbling in his notebook without once looking down at it."
+    },
+    {
+      "type": "p",
+      "text": "\"Formation,\" Sef said. \"Nobody stands Last tonight. A Last Plate's there to Hand-Still, and I'm not having anybody Hand-Still anything with a Damper who started this morning, no offence.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Some taken.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Two things. One. Callers throw notes, Dampers draw them. Palms out, breath in, the note goes into you as ring. Ring's held. It doesn't fade; you hum it out into your stand between throws. Six and you're lit, ten and you're Rung Out like Hob. Two. Every note you draw goes in the Chapter's Toll Book as Marks, forever, and forty Marks finishes you whatever your ring. So tonight you don't draw unless I call it. You stand in the way. A note that goes through you without being drawn loses a weight. Body in the beam. That's all.\""
+    },
+    {
+      "type": "p",
+      "text": "\"And if I'm in the way of a big one?\""
+    },
+    {
+      "type": "p",
+      "text": "Sef nodded across the floor at the Clappers' Caller, who had shoulders like a coal sack and a neck like the rest of the coal. \"Gorm Pellow. Gorm the Bellows. One trick worth the name: the shatter. Weight five, every time, and he saves it. If he Raises it at you, step off before the Raise ends and let Marten worry.\""
+    },
+    {
+      "type": "p",
+      "text": "Marten said, \"Aye, well.\""
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "The first hard note found me on the fourth throw."
+    },
+    {
+      "type": "p",
+      "text": "I'd stepped onto a stand in its line, the way Sef said. The Clappers' second Caller raised his hand, held it one count, and voiced, and the front came crawling over the floor, faint light in grey air. It took three counts to reach me. Then it hit."
+    },
+    {
+      "type": "p",
+      "text": "It was like being leaned on by a horse. It went through my chest and took me off the stand sideways, and I landed on my hip on the bare floor between stands with the whole gallery laughing above me."
+    },
+    {
+      "type": "p",
+      "text": "\"Back on, Halloway,\" said the Warden, not unkindly. \"No foul. You may stand. You may not draw till the next throw.\""
+    },
+    {
+      "type": "p",
+      "text": "I got back on. My hip told me about it for an hour. The note, a weight lighter for going through me, rattled off our Last Plate a semitone and a half wide of Oduya's peg and scored nothing."
+    },
+    {
+      "type": "p",
+      "text": "So that was the job. Be in the way. Get knocked down. Get up."
+    },
+    {
+      "type": "p",
+      "text": "Dov Pealed on the Ferret and we were one up. They pulled level. Gorm threw high and hard all Half, and Oduya walked her pegs out from under him, and two of his rattled. Dov threw the Widowmaker. It was, I had to admit, welcome. Two-one."
+    },
+    {
+      "type": "p",
+      "text": "Marten stood in beams all night and never once drew. Nobody said anything about it. I didn't know enough to think it was odd."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "It happened on the ninth throw."
+    },
+    {
+      "type": "p",
+      "text": "Gorm raised his hand. His lead-in, the little hum a Caller makes during the Raise to settle his pitch, would carry five paces of air in that count and no farther. I was twenty paces off. I shouldn't have known a thing about it until he voiced."
+    },
+    {
+      "type": "p",
+      "text": "But it came up through my boot soles. A pitch. Faint and fast, the way a block tells you about a flaw before you've finished tapping it. A buzz in the bones of my feet that wasn't any sound in the air at all."
+    },
+    {
+      "type": "p",
+      "text": "And I knew it. It was the pitch Oduya's peg said our Last Plate was sitting on, near as made no difference."
+    },
+    {
+      "type": "p",
+      "text": "I didn't decide. My feet did it. One step across to the next stand, square into Gorm's line, before the Raise ended."
+    },
+    {
+      "type": "p",
+      "text": "He voiced. Weight four. Hard. A hard note that close to the plate's pitch would ring six counts. Three points."
+    },
+    {
+      "type": "p",
+      "text": "It came through my shoulder like a slammed door. I held the stand. It lost a weight inside me and hit the plate a three, not hard enough to sustain, and rang its three counts and stopped. One Peal. Two all."
+    },
+    {
+      "type": "p",
+      "text": "\"Why'd you move?\" Sef shouted from the line, on my left."
+    },
+    {
+      "type": "p",
+      "text": "\"Other side.\""
+    },
+    {
+      "type": "p",
+      "text": "He came round. \"Why'd you move?\""
+    },
+    {
+      "type": "p",
+      "text": "\"It was on the plate.\""
+    },
+    {
+      "type": "p",
+      "text": "\"How would you know what it was on? It hadn't even—\""
+    },
+    {
+      "type": "p",
+      "text": "The Warden's weight swung. Next Raise. Sef looked at me the way you'd look at a block that rang wrong."
+    },
+    {
+      "type": "p",
+      "text": "I looked away from him, up at the stair."
+    },
+    {
+      "type": "p",
+      "text": "There was an old man on it, at the turn, where the gallery doesn't reach. His boots were off, paired neatly on the step beside him. He had one palm pressed flat on the wall."
+    },
+    {
+      "type": "p",
+      "text": "He wasn't watching the throws. He was watching my feet."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Two all at the Half. The Warden called the Long Ground, and every Damper on both sides stood planted and hummed into the stone. I had nothing to hum out. I hummed anyway, because Marten did, low, something like a lullaby, and I watched the stair. The old man didn't move."
+    },
+    {
+      "type": "p",
+      "text": "\"Pace of five,\" the Warden said for the second Half."
+    },
+    {
+      "type": "p",
+      "text": "\"Halloway, Damper,\" said Sef."
+    },
+    {
+      "type": "p",
+      "text": "Dov Pealed twice more. Gorm got one back. Four-three to us, one throw left in the match, and it was theirs."
+    },
+    {
+      "type": "p",
+      "text": "On the last Breath Mrs. Oduya walked our Last Plate's peg down a semitone, to its rest. The pitch it rests at has a name, she told me later. The Calling Tone."
+    },
+    {
+      "type": "p",
+      "text": "\"He has thrown high for an hour,\" she said, very quietly. \"A man that tired cannot drop to rest at weight.\""
+    },
+    {
+      "type": "p",
+      "text": "Gorm Pellow smiled at her across the Drum. Then he lifted his hand."
+    },
+    {
+      "type": "p",
+      "text": "The lead-in came up through my soles. Low. Lower than anything he'd thrown all night. And I knew it the way you know your own front step: it was the plate's rest pitch exactly. Dead on."
+    },
+    {
+      "type": "p",
+      "text": "He'd been saving it."
+    },
+    {
+      "type": "p",
+      "text": "If it hit at weight five, dead on the pitch, it would sustain. Six counts. Three points. We'd lose six-four."
+    },
+    {
+      "type": "p",
+      "text": "Nobody else knew. They couldn't. His hum was still hanging in front of his face, five paces of it. Marten was across the floor. Sef was shouting something at my deaf side."
+    },
+    {
+      "type": "p",
+      "text": "I stepped into the beam before the Raise ended."
+    },
+    {
+      "type": "p",
+      "text": "Gorm voiced the shatter."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Which is where you came in."
+    },
+    {
+      "type": "p",
+      "text": "The front crawls toward me, faint and bright in the grey. Four seconds. I can't step off now. Leave your stand during a throw and it's a foul, and a foul is a Peal to them anyway."
+    },
+    {
+      "type": "p",
+      "text": "If I don't draw, it goes through me, loses a weight, and hits the plate a four. Four is still hard. Still sustains. Still three points."
+    },
+    {
+      "type": "p",
+      "text": "Hob was holding five when he drew a five. Five and five is ten."
+    },
+    {
+      "type": "p",
+      "text": "I'm holding nothing. Nothing and five is five."
+    },
+    {
+      "type": "p",
+      "text": "A block doesn't care how frightened you are of it. It weighs what it weighs."
+    },
+    {
+      "type": "p",
+      "text": "Up on the stair, the old man flinches. He flinches before the note gets to me, a whole count before, as if he felt it coming the way I did."
+    },
+    {
+      "type": "p",
+      "text": "Palms out. Breath in."
+    },
+    {
+      "type": "p",
+      "text": "It goes into me."
+    },
+    {
+      "type": "p",
+      "text": "I thought it would be like the blocking, a shove. It isn't. It's like catching the end of a lintel when the rope slips. All of it comes into my palms and up my arms and settles in my bones, and stays. My good ear rings. My hands go to rag. The light in front of me goes out like a pinched wick."
+    },
+    {
+      "type": "p",
+      "text": "Behind me, our Last Plate says nothing at all."
+    },
+    {
+      "type": "p",
+      "text": "The Warden walks over, sets the foot of his rod on my stand and listens with his eyes shut. My lantern stays dark. Five isn't six."
+    },
+    {
+      "type": "p",
+      "text": "\"Two, Halloway,\" he calls to the galleries. Two Marks in the Book. My first. Forever."
+    },
+    {
+      "type": "p",
+      "text": "Then his weight stops swinging, and the match is over, and we've won, four-three, and the noise comes down off the gallery like a roof falling in."
+    },
+    {
+      "type": "p",
+      "text": "I hear about half of it. The rest I feel through the stand."
+    },
+    {
+      "type": "p",
+      "text": "Dov is shouting that he'll name that one, he'll think of something. Mrs. Oduya says \"Wren Halloway,\" very low, which I gather is worse than shouting. Marten's hand comes down on my shoulder. \"Aye, well,\" he says, and this time it sounds like a whole speech."
+    },
+    {
+      "type": "p",
+      "text": "Sef stands in front of me, on the side I can hear."
+    },
+    {
+      "type": "p",
+      "text": "\"I didn't call that,\" he says."
+    },
+    {
+      "type": "p",
+      "text": "\"You'd have lost.\""
+    },
+    {
+      "type": "p",
+      "text": "He opens his mouth. Shuts it. \"Interesting,\" he says, and nothing else."
+    },
+    {
+      "type": "p",
+      "text": "Then he presses something into my palm and folds my fingers over it. A crown. The gate. I can see it there. I can't feel it at all. Three crowns. Thirty-five to go."
+    },
+    {
+      "type": "p",
+      "text": "I look up at the stair. The old man's gone. So are his boots."
+    },
+    {
+      "type": "p",
+      "text": "And then, standing on that stand with five ring humming in my bones, I feel something else."
+    },
+    {
+      "type": "p",
+      "text": "It's under the ring. Under the stand. Under the kiln. A second voice, low and steady, coming up through my heels into my ribs. Not my ring. My ring is one long note, and this isn't. This rises and stops. Rises and stops. Like someone choosing their words."
+    },
+    {
+      "type": "p",
+      "text": "I look round. Dov is still shouting. Oduya is fixing a peg. The Warden is winding the cord round his tell-weight. Nobody's head turns. Nobody's feet so much as shift."
+    },
+    {
+      "type": "p",
+      "text": "Then it stops, and the silence after it has a shape I know from every conversation I've ever had with my good ear turned the wrong way."
+    },
+    {
+      "type": "p",
+      "text": "Something under the Kilnyard floor has just answered me. And now it's waiting for me to say something back."
+    }
+  ]
+}

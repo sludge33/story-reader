@@ -1,0 +1,553 @@
+{
+  "seriesId": "lantern-mender",
+  "seriesTitle": "The Lantern Mender of Pell Street",
+  "code": "S01E010",
+  "title": "The Last Hand",
+  "blurb": "A name in an old log that nobody knows, a lamp house shut for ten years, and a last mend that costs Ada one more thing.",
+  "wordCount": 2451,
+  "durationSec": 980,
+  "audio": null,
+  "publishedAt": null,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "The wick hissed. Ada's new lantern burned on the shop windowsill, and under its light lay the lamplighters' log, open to the last page before the tear."
+    },
+    {
+      "type": "p",
+      "text": "The night before Flood Night. She ran her finger down the roster."
+    },
+    {
+      "type": "p",
+      "text": "Lower quay. Ninth bell. Two names, in a neat, square hand."
+    },
+    {
+      "type": "p",
+      "text": "The first was signed at the foot of the page: A. Dunmore, warden. She had never heard it in her life."
+    },
+    {
+      "type": "p",
+      "text": "The second was on the watch line."
+    },
+    {
+      "type": "p",
+      "text": "H. Lamb, apprentice."
+    },
+    {
+      "type": "p",
+      "text": "That name had brought her breakfast every morning since her first one here."
+    },
+    {
+      "type": "p",
+      "text": "She read it again, the way you test a dead line twice, because the first reading is always the one you wanted."
+    },
+    {
+      "type": "p",
+      "text": "H. Lamb, apprentice."
+    },
+    {
+      "type": "p",
+      "text": "In the next column, headed Lit, someone had initialled each lamp as it went up. H.L., H.L., H.L., all the way down. Upright and round, pressed so hard the nib had dented the page."
+    },
+    {
+      "type": "p",
+      "text": "Something in her knew that hand. She didn't let it finish."
+    },
+    {
+      "type": "p",
+      "text": "She turned back a page. Lower quay, ninth bell: H. Lamb, apprentice. Back again. The same. Every night that week."
+    },
+    {
+      "type": "p",
+      "text": "Then forward, past the ragged stub. The rosters went on after the flood, months of them, and every page was signed in the same square hand. A. Dunmore, warden. Whoever he was, he hadn't drowned."
+    },
+    {
+      "type": "p",
+      "text": "The shop bell rang. Emrys came in with the Register under his arm, unannounced, like weather."
+    },
+    {
+      "type": "p",
+      "text": "\"I came to tell you,\" he said, \"that nobody has answered the Provost's summons. Not one lamplighter. Not one pole. I thought you would want to—\" He saw the log. \"What is that?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Barnaby hid it under the bench. It didn't go down with the flood.\""
+    },
+    {
+      "type": "p",
+      "text": "He took his spectacles off and bent over the page. His finger stopped where hers had."
+    },
+    {
+      "type": "p",
+      "text": "\"Dunmore,\" he said. \"I don't know it.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Neither do I. And that's wrong, isn't it? A warden. The man who ran every lamp in town. Somebody should know his name like they know the Provost's.\""
+    },
+    {
+      "type": "p",
+      "text": "Emrys took the folded tally out of his coat and laid it flat beside the log. \"Twelve blank lines. Eleven drowned.\" He turned the log forward past the tear, then back. \"And this man was signing rosters after the flood. He didn't drown.\" He was quiet a moment. \"He's the twelfth.\""
+    },
+    {
+      "type": "p",
+      "text": "\"The night Ines came back,\" Ada said, \"somebody broke the lantern of the one man who'd know whose watch it was.\""
+    },
+    {
+      "type": "p",
+      "text": "Emrys looked at the watch line for a long time."
+    },
+    {
+      "type": "p",
+      "text": "\"It says she had the lower quay the night before,\" he said. \"And the night before that. It does not say who had it on Flood Night. That page is gone.\" He put his spectacles back on. \"For the record, a record is not enough.\""
+    },
+    {
+      "type": "p",
+      "text": "\"No,\" said Ada. \"It isn't.\" She was surprised by how badly she wanted that to be true. \"So we find what is.\""
+    },
+    {
+      "type": "p",
+      "text": "She tapped the ledger on the shelf, where the old margin note sat alone at the foot of a page. The last shard keeps the last hand."
+    },
+    {
+      "type": "p",
+      "text": "\"Ines. Tobias. Pike. Nan Rook. Four lanterns, and every one came back short the same piece. The last one. The rest went in a grate or in the canal. Not that one. Nobody throws away four of the same thing by accident. You keep them.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Where?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Somewhere nobody goes.\""
+    },
+    {
+      "type": "p",
+      "text": "Emrys said nothing. He knew the place. He had kept away from it himself for years."
+    },
+    {
+      "type": "p",
+      "text": "*"
+    },
+    {
+      "type": "p",
+      "text": "They collected Odile on the way, because Odile, told she couldn't come, would have come anyway and arrived second."
+    },
+    {
+      "type": "p",
+      "text": "Tanner's Steps went down to the lower quay in a long wet stagger, and the canal got louder with every step: water slapping stone, slapping again. Behind them, high on the hill, the clock tower stood with its hands stopped."
+    },
+    {
+      "type": "p",
+      "text": "The quay was long and empty. Twenty-three iron posts, their glass heads dark."
+    },
+    {
+      "type": "p",
+      "text": "Emrys walked on the wall side. Ada noticed."
+    },
+    {
+      "type": "p",
+      "text": "\"Two paces from the edge,\" he said. \"I'm improving.\""
+    },
+    {
+      "type": "p",
+      "text": "At the head of the quay, beside the first post, stood a brick hut no bigger than a coal shed, with a slate roof and a door painted green once, a long time ago. The lamp house."
+    },
+    {
+      "type": "p",
+      "text": "Emrys produced a key on a loop of string. \"From the hall. The Provost says she is pursuing it now. I took her at her word and signed for it.\" He fitted it to the lock. \"For the record, the key book says nobody has signed this out in ten years.\""
+    },
+    {
+      "type": "p",
+      "text": "The lock turned like butter. The door swung in without a sound."
+    },
+    {
+      "type": "p",
+      "text": "Ada put her hand flat on the hinge. Slick."
+    },
+    {
+      "type": "p",
+      "text": "\"That's oiled,\" she said. \"Ten years shut, and it doesn't squeak.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Mine squeak,\" said Odile, round a pin, \"and I oil them every—well. I mean to.\""
+    },
+    {
+      "type": "p",
+      "text": "Inside it was cold and smelled of paraffin. Ladders on hooks. An oil drum. A shelf of spare lamp heads along the back wall. Over everything, dust, grey and soft as felt."
+    },
+    {
+      "type": "p",
+      "text": "Ada stood in the doorway and did what she always did with a fault she couldn't see. Halve it."
+    },
+    {
+      "type": "p",
+      "text": "\"Floor first.\""
+    },
+    {
+      "type": "p",
+      "text": "She held the lantern low. The dust lay even across the room, except for one scuffed path: door to back wall, and nowhere else."
+    },
+    {
+      "type": "p",
+      "text": "\"Shelf.\""
+    },
+    {
+      "type": "p",
+      "text": "Twelve lamp heads, furred grey to the brim. The thirteenth, at the end, was clean round its handle, where a hand would lift it."
+    },
+    {
+      "type": "p",
+      "text": "Ada lifted it. Something shifted inside the glass."
+    },
+    {
+      "type": "p",
+      "text": "She drew out a roll of grey cloth, tied with tape."
+    },
+    {
+      "type": "p",
+      "text": "\"That's a wick roll,\" said Odile at once. \"Lamplighters keep their spares in them. I've sewn a dozen.\" She took the pin out of her mouth. \"Not this one. Look at these pockets. Somebody's sewn extras in, all along, by hand, and they can't sew for toffee.\""
+    },
+    {
+      "type": "p",
+      "text": "Ada untied it on the oil drum and let it unroll."
+    },
+    {
+      "type": "p",
+      "text": "Pockets. Each one held a twist of paper, and each twist was written on in pencil. Ada counted them. Thirteen."
+    },
+    {
+      "type": "p",
+      "text": "She opened the first. A single shard of lantern glass, curved, faintly warm through the paper."
+    },
+    {
+      "type": "p",
+      "text": "On the twist: I. F., and a date."
+    },
+    {
+      "type": "p",
+      "text": "Odile read the date and, for once, stopped talking."
+    },
+    {
+      "type": "p",
+      "text": "\"That's the week before you came,\" she said at last."
+    },
+    {
+      "type": "p",
+      "text": "Emrys went down the row without touching. \"W. P. N. R.\" His voice dropped. \"A. D. The night we watched the twelfth line go.\" Then, further along: \"T. P. This week.\""
+    },
+    {
+      "type": "p",
+      "text": "\"And eight more,\" Ada said."
+    },
+    {
+      "type": "p",
+      "text": "Eight sets of initials no one in the hut could put a face to. Emrys took out his tally and copied them, one by one, in pencil. His hand wasn't quite steady."
+    },
+    {
+      "type": "p",
+      "text": "\"Ten years,\" he said. \"Kept. Somebody couldn't bear to keep them and couldn't bear to throw them away.\""
+    },
+    {
+      "type": "p",
+      "text": "Ada looked at the writing on the twists. Upright. Round. Pressed so hard the pencil had dented through the paper."
+    },
+    {
+      "type": "p",
+      "text": "She had seen that hand twice. Once in the shop ledger, under the old mender's last job: Fane, I. Lantern brought in for cleaning. Collected by. And once this morning, in the Lit column of the log."
+    },
+    {
+      "type": "p",
+      "text": "She said none of it yet. She wanted to be wrong long enough to check."
+    },
+    {
+      "type": "p",
+      "text": "Odile was holding the twist marked I. F. in both hands, careful as an egg."
+    },
+    {
+      "type": "p",
+      "text": "\"Can you put her back?\" she said. \"All of her?\""
+    },
+    {
+      "type": "p",
+      "text": "*"
+    },
+    {
+      "type": "p",
+      "text": "Ninth bell came across the water, deep and slow, while the rain came down on Cutter's Row."
+    },
+    {
+      "type": "p",
+      "text": "Odile's front room smelled of the stove and wet wool. Four cups on the table, as always when they visited. On the dummy in the corner, the green dress, finished at last. Ines's lantern sat on the tablecloth under the lamp, its ragged gap turned toward Ada, its small flame low and steady."
+    },
+    {
+      "type": "p",
+      "text": "Emrys had the Register open at the end of the table. Ada had signed for the wick roll in its margin before they left the quay: her third signature in its margin. The shop ledger and the log sat by her elbow, dried off from the walk."
+    },
+    {
+      "type": "p",
+      "text": "\"You have my leave,\" said Odile. \"Hers too, if I'm allowed to give it.\" She sat back with her hands in her lap, pincushion and all."
+    },
+    {
+      "type": "p",
+      "text": "Ada laid the shard on the cloth beside the lantern and looked."
+    },
+    {
+      "type": "p",
+      "text": "The readout came up over the glass, the colour of a struck match. FLAME. And under it, smaller, the word she knew too well. INCOMPLETE."
+    },
+    {
+      "type": "p",
+      "text": "The line of light ran round the gap the way it always had. Then it ran off the edge, as it always had."
+    },
+    {
+      "type": "p",
+      "text": "But this time it didn't point at nothing. It crossed the tablecloth and stopped dead at the shard."
+    },
+    {
+      "type": "p",
+      "text": "\"Test before you touch,\" Ada said, to nobody."
+    },
+    {
+      "type": "p",
+      "text": "She picked up the shard and set it to the gap."
+    },
+    {
+      "type": "p",
+      "text": "The bar was already full to its notch, waiting. Past the notch, a sliver of dark."
+    },
+    {
+      "type": "p",
+      "text": "She began to count."
+    },
+    {
+      "type": "p",
+      "text": "At four the glass clicked under her fingers. At nine it was warm as a cup of tea. At fourteen the sliver began to fill, and the room went away."
+    },
+    {
+      "type": "p",
+      "text": "Rain on a window. This window, ten years younger. A woman with Odile's face knelt by the green dress, a folded slip of paper in one hand and a pin in her mouth."
+    },
+    {
+      "type": "p",
+      "text": "She pinned the slip into the hem, crooked. She always pinned crooked."
+    },
+    {
+      "type": "p",
+      "text": "\"There,\" Ines said, slower and lower than her sister. \"And if it comes to it, nobody blames her. She's only a girl.\" The laugh came at the end, and this time it came off."
+    },
+    {
+      "type": "p",
+      "text": "She stood, looked out at the dark, and went out into the rain without her coat."
+    },
+    {
+      "type": "p",
+      "text": "Then the room changed. Dark. A hearth shelf, and a lantern on it. A black glove reached out of the dark: thick leather, cracked across the knuckles, the fingertips worn shiny."
+    },
+    {
+      "type": "p",
+      "text": "The glove came off. Not torn. Pulled finger by finger, the way you take off a glove you mean to put back on."
+    },
+    {
+      "type": "p",
+      "text": "The palm underneath was broad, freckled up the wrist, and crossed with silver. Line over line, old ones and newer ones, laid down like frost on a pane."
+    },
+    {
+      "type": "p",
+      "text": "The bare hand closed round the lit glass. Hot glass. It did not flinch."
+    },
+    {
+      "type": "p",
+      "text": "A sound like ice going on a pond."
+    },
+    {
+      "type": "p",
+      "text": "Ada was at the table again, at twenty-two, with her hands shaking."
+    },
+    {
+      "type": "p",
+      "text": "The gap was gone. The lantern was whole. Its flame stood up full and gold, the brightest thing in the room."
+    },
+    {
+      "type": "p",
+      "text": "\"Oh,\" said Odile. \"There she is.\" And she laughed, and the laugh came at the end, the way her sister's had."
+    },
+    {
+      "type": "p",
+      "text": "Emrys didn't ask. He had stopped asking."
+    },
+    {
+      "type": "p",
+      "text": "Odile did. \"Did you see who?\""
+    },
+    {
+      "type": "p",
+      "text": "Ada looked at her own palms. Clean. \"I can't, Odile. It's in her lantern. It's not mine to say.\""
+    },
+    {
+      "type": "p",
+      "text": "Odile nodded slowly, and put a pin back in her mouth so she wouldn't have to say anything either."
+    },
+    {
+      "type": "p",
+      "text": "Then Ada felt for the cost, the way you feel along a cable for the warm spot."
+    },
+    {
+      "type": "p",
+      "text": "She knew she'd had birthdays. Candles. A kitchen full of people singing badly. She reached for the date the way you reach for a light switch in your own hall in the dark, and found bare plaster."
+    },
+    {
+      "type": "p",
+      "text": "Not the month. Not the day. Nothing."
+    },
+    {
+      "type": "p",
+      "text": "She took the list out of the ledger, where she'd folded it, and wrote under the seventh line."
+    },
+    {
+      "type": "p",
+      "text": "8. My birthday. Which day."
+    },
+    {
+      "type": "p",
+      "text": "Emrys read it upside down. Odile read it right way up, because she'd leaned over to."
+    },
+    {
+      "type": "p",
+      "text": "\"Then have ours,\" said Odile. \"Ines won't mind. She never minded sharing my sugar.\""
+    },
+    {
+      "type": "p",
+      "text": "*"
+    },
+    {
+      "type": "p",
+      "text": "The rain stopped a little before first bell. Nobody had gone to bed."
+    },
+    {
+      "type": "p",
+      "text": "Ada laid three things side by side on the tablecloth. The shop ledger, open at Fane, I. The log, open at the Lit column. The twist of paper marked I. F."
+    },
+    {
+      "type": "p",
+      "text": "Upright. Round. Pressed hard. The same hand three times."
+    },
+    {
+      "type": "p",
+      "text": "Emrys turned over one of Odile's paper patterns and uncapped his pen. He did not write in the Register. Not yet."
+    },
+    {
+      "type": "p",
+      "text": "\"One,\" he said. \"Gloves. Never off. Not even to eat.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Two,\" said Ada. \"Lower quay, ninth bell. H. Lamb, apprentice, every night that week. And the Flood Night page torn out.\""
+    },
+    {
+      "type": "p",
+      "text": "She took the thread of leather from between the log's pages and laid it on the pattern. Under the lamp it wasn't fine at all. It was thick, and cracked, and it smelled faintly of lamp oil."
+    },
+    {
+      "type": "p",
+      "text": "\"Three. That isn't a Provost's glove. That's a working glove.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Four,\" said Emrys. \"A lamp house the hall hasn't unlocked in ten years, with hinges somebody keeps oiled.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Five.\" Ada touched the ledger, the log, the twist. \"The hand.\""
+    },
+    {
+      "type": "p",
+      "text": "Odile said it very quietly. \"Six. Don't blame the girl.\""
+    },
+    {
+      "type": "p",
+      "text": "Nobody wrote anything for a while. The stove ticked."
+    },
+    {
+      "type": "p",
+      "text": "Ada had had the sum since the oil store under the bridge. Fifteen, and ten years. She had left it standing unfinished, like a job you walk away from at knocking-off time and tell yourself you'll come back to. She finished it now."
+    },
+    {
+      "type": "p",
+      "text": "\"She brings you buns,\" said Odile."
+    },
+    {
+      "type": "p",
+      "text": "\"She lit your lantern,\" said Emrys."
+    },
+    {
+      "type": "p",
+      "text": "Odile was the one who said the name. \"Hester.\""
+    },
+    {
+      "type": "p",
+      "text": "Emrys put his pen down. \"It is still not proof. It is not the—\" He stopped himself. \"Not the palms.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Then that's where you test,\" Ada said."
+    },
+    {
+      "type": "p",
+      "text": "She had said that once before, about somebody else, and been glad to be wrong."
+    },
+    {
+      "type": "p",
+      "text": "*"
+    },
+    {
+      "type": "p",
+      "text": "She walked home alone. They both offered. She said no, because if she was going to be wrong, she wanted to be wrong where nobody could see her face."
+    },
+    {
+      "type": "p",
+      "text": "First bell was ringing as she came over the bridge, and the lamps of Pell Street were still burning. Every one of them, hissing in the grey. Nobody had come to put them out."
+    },
+    {
+      "type": "p",
+      "text": "No buns on the step."
+    },
+    {
+      "type": "p",
+      "text": "Inside, her lantern sat on the windowsill, small and clear. She set the log and the wick roll on the bench and stood with her back to the door."
+    },
+    {
+      "type": "p",
+      "text": "The shop bell rang."
+    },
+    {
+      "type": "p",
+      "text": "She knew the step. She'd heard it every morning."
+    },
+    {
+      "type": "p",
+      "text": "Ada turned round."
+    },
+    {
+      "type": "p",
+      "text": "Hester stood in the doorway. No ladder. No pole. No twist of paper with butter in it."
+    },
+    {
+      "type": "p",
+      "text": "No gloves."
+    },
+    {
+      "type": "p",
+      "text": "She held her hands out, palms up, the way you show a child you've nothing in them. They were broad and freckled to the wrist, and they were silver, line over line, like frost on a pane."
+    },
+    {
+      "type": "p",
+      "text": "On the windowsill, Ada's lantern began to flicker. She felt it under her breastbone, a door that wouldn't stay shut. One. Two. Three."
+    },
+    {
+      "type": "p",
+      "text": "\"I lit that with the last good day I had, love,\" Hester said. \"Don't make me take it back.\""
+    }
+  ]
+}

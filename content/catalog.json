@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T16:27:44.161Z",
+  "generatedAt": "2026-11-09T23:01:43.199Z",
   "series": [
     {
       "id": "lantern-mender",
@@ -13,8 +13,8 @@
       "episodes": [
         {
           "code": "S01E001",
-          "title": "Two Cups",
-          "blurb": null,
+          "title": "Half Past Too Late",
+          "blurb": "Ada Brannock wakes on a stranger's workshop floor in a town with a stopped clock, a shut road and a man who needs a lantern mended before he forgets her.",
           "wordCount": 2433,
           "durationSec": 885,
           "audio": "audio/lantern-mender/S01E001.mp3",
@@ -22,10 +22,181 @@
         },
         {
           "code": "S01E002",
-          "title": "Stuck On With Soot",
-          "blurb": null,
+          "title": "Nothing Happened",
+          "blurb": "The woman from the canal is alive, dim-lantern complaints and all, and has no idea why she buys for two. Ada has a date, a friend, and a very long list of things the town will not say.",
           "wordCount": 2134,
           "durationSec": 854,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E003",
+          "title": "For the Record",
+          "blurb": "Ada has sixteen warm pieces of a lantern nobody remembers owning, a Registrar who answers everything \"for the record\", and a ledger with one line left blank.",
+          "wordCount": 2151,
+          "durationSec": 860,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E004",
+          "title": "A Gap in the Glass",
+          "blurb": "Ada has half a name and sixteen shards on the bench. At ninth bell, with Emrys keeping the record, she mends. Some things come back with a gap in them.",
+          "wordCount": 2195,
+          "durationSec": 878,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E005",
+          "title": "Below the Wick",
+          "blurb": "Ada is bound by a charter and handed the Provost's own dimming lantern. Some mends cost more than a memory.",
+          "wordCount": 2097,
+          "durationSec": 839,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E006",
+          "title": "A Wheel Short of Done",
+          "blurb": "Ada cannot say what she saw in the Provost's lantern, so she sends Emrys to the records. Then the clock tower, and a lantern far above her tier.",
+          "wordCount": 2009,
+          "durationSec": 804,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E007",
+          "title": "Pretty Glass",
+          "blurb": "Ada finds Tobias at the top of the clock tower, unsure of his own name, and a ferryman opens a tin of pretty glass.",
+          "wordCount": 2262,
+          "durationSec": 905,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E008",
+          "title": "Dark Lamps",
+          "blurb": "Emrys crosses the water to ask who lit the lamps on Flood Night. A drowned bargeman's lantern answers part of it.",
+          "wordCount": 2157,
+          "durationSec": 863,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E009",
+          "title": "Somebody Will Want It",
+          "blurb": "Ada takes a hem note to the Provost and the square hears the rest. Some truths clear the air; the next one is under the floor.",
+          "wordCount": 2259,
+          "durationSec": 904,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E010",
+          "title": "The Last Hand",
+          "blurb": "A name in an old log that nobody knows, a lamp house shut for ten years, and a last mend that costs Ada one more thing.",
+          "wordCount": 2451,
+          "durationSec": 980,
+          "audio": null,
+          "publishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "branch-cartographer",
+      "title": "Branch Cartographer",
+      "logline": "Pell Ardent maps neighbouring worlds that differ from ours by one decision, and every crossing swaps one small fact of her life with her counterpart. She is climbing the Survey ranks and discovering that someone has been pruning branches.",
+      "hook": "Each survey pins a new branch and a clever use of the swap rule. Ranks open farther branches, and the season payoff is who prunes the branches and what happens to the worlds they cut.",
+      "genre": "progression",
+      "contentRating": "teen",
+      "season": 1,
+      "stage": "pilot",
+      "episodes": [
+        {
+          "code": "S01E001",
+          "title": "The First Bill Is Paid in Full",
+          "blurb": null,
+          "wordCount": 3744,
+          "durationSec": 1498,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E002",
+          "title": "Rent",
+          "blurb": null,
+          "wordCount": 3105,
+          "durationSec": 1242,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E003",
+          "title": "Customs",
+          "blurb": null,
+          "wordCount": 3249,
+          "durationSec": 1300,
+          "audio": null,
+          "publishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "dead-air",
+      "title": "Dead Air",
+      "logline": "A half-deaf stonemason's apprentice feels sound through her feet, and in Quell, the cellar-league sport where sound is a physical wave, the only job she can win is Damper: standing in the way of every note.",
+      "hook": "Climb from the Cellar Ring to the Cathedral Cup by out-reading physics, not out-hitting anyone, while uncovering what the Drum buried under the city was built to ring.",
+      "genre": "progression",
+      "contentRating": "teen",
+      "season": 1,
+      "stage": "pilot",
+      "episodes": [
+        {
+          "code": "S01E001",
+          "title": "Episode 1",
+          "blurb": null,
+          "wordCount": 2611,
+          "durationSec": 1044,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E002",
+          "title": "Episode 2",
+          "blurb": null,
+          "wordCount": 1993,
+          "durationSec": 797,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E003",
+          "title": "Episode 3",
+          "blurb": null,
+          "wordCount": 2243,
+          "durationSec": 897,
+          "audio": null,
+          "publishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "seven-neighbours",
+      "title": "Seven Neighbours",
+      "logline": "Sorrel Quint, a pigeon-loft hand, becomes Lead Wing of a marsh-circuit side in Murmur, where the ball is a flock of forty starlings and the Wing steers it by reading seven birds. Her club is one defeat from the drop.",
+      "hook": "Climb from the Marsh Circuit to the Sky Division by learning how a flock thinks, while finding out why the count is always one bird too many.",
+      "genre": "progression",
+      "contentRating": "teen",
+      "season": 1,
+      "stage": "pilot",
+      "episodes": [
+        {
+          "code": "S01E001",
+          "title": "Episode 1",
+          "blurb": null,
+          "wordCount": 3144,
+          "durationSec": 1258,
           "audio": null,
           "publishedAt": null
         }

@@ -125,7 +125,9 @@ for (const s of index.series ?? []) {
     }
     const blocks = parseScript(fs.readFileSync(scriptPath, "utf8"));
     const words = pkg.wordCount ?? blocks.reduce((n, b) => n + (b.text?.split(/\s+/).length ?? 0), 0);
-    const title = pkg.platformCuts?.title ?? titles.get(code) ?? code;
+    // Platform cuts may carry a YouTube-style "Series Title, Ep 3: " prefix; the site already shows the series.
+    const cutTitle = pkg.platformCuts?.title?.replace(/^.*?,\s*Ep(?:isode)?\.?\s*\d+\s*:\s*/i, "") || null;
+    const title = cutTitle ?? titles.get(code) ?? `Episode ${Number(code.slice(4))}`;
 
     let audio = null;
     let narrated = null;
