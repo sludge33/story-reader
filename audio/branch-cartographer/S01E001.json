@@ -1,0 +1,119 @@
+{
+  "durationSec": 1443,
+  "voiceUsd": 0.334,
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "mode": "batched",
+  "batches": [
+    {
+      "voice": "Iapetus",
+      "lines": 10,
+      "chars": 2281,
+      "score": 0.964
+    },
+    {
+      "voice": "Sadaltager",
+      "lines": 7,
+      "chars": 221,
+      "score": 0.925
+    },
+    {
+      "voice": "Kore",
+      "lines": 25,
+      "chars": 577,
+      "score": 0.98
+    },
+    {
+      "voice": "Iapetus",
+      "lines": 7,
+      "chars": 2156,
+      "score": 0.958
+    },
+    {
+      "voice": "Zubenelgenubi",
+      "lines": 5,
+      "chars": 107,
+      "score": 0.812
+    },
+    {
+      "voice": "Laomedeia",
+      "lines": 14,
+      "chars": 280,
+      "score": 0.857
+    },
+    {
+      "voice": "Iapetus",
+      "lines": 5,
+      "chars": 1370,
+      "score": 0.989
+    },
+    {
+      "voice": "Puck",
+      "lines": 3,
+      "chars": 101,
+      "score": 0.947
+    },
+    {
+      "voice": "Iapetus",
+      "lines": 2,
+      "chars": 1958,
+      "score": 0.963
+    },
+    {
+      "voice": "Iapetus",
+      "lines": 3,
+      "chars": 2306,
+      "score": 0.977
+    },
+    {
+      "voice": "Iapetus",
+      "lines": 7,
+      "chars": 2205,
+      "score": 0.988
+    },
+    {
+      "voice": "Iapetus",
+      "lines": 5,
+      "chars": 1630,
+      "score": 0.99
+    },
+    {
+      "voice": "Iapetus",
+      "lines": 7,
+      "chars": 2051,
+      "score": 0.958
+    },
+    {
+      "voice": "Iapetus",
+      "lines": 5,
+      "chars": 2391,
+      "score": 0.972
+    },
+    {
+      "voice": "Vindemiatrix",
+      "lines": 1,
+      "chars": 74,
+      "score": 1
+    }
+  ],
+  "weakLines": [],
+  "requests": 15,
+  "apiCalls": 15,
+  "cachedCalls": 0,
+  "textTokens": 4942,
+  "audioTokens": 36824,
+  "tokensFrom": "api usage",
+  "renderWallSec": 785,
+  "apiSec": 356,
+  "renderedAt": "2026-11-10",
+  "voices": {
+    "narrator": "Iapetus",
+    "c-linnet-ardent": "Iapetus",
+    "c-cressida-vesey": "Kore",
+    "c-hen-brisk": "Laomedeia",
+    "c-gideon-pask": "Sadaltager",
+    "bole-clerk": "Zubenelgenubi",
+    "weirside-clerk": "Puck",
+    "hesper-ardent": "Vindemiatrix"
+  }
+}

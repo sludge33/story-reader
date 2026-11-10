@@ -1,0 +1,445 @@
+{
+  "seriesId": "wrong-side-of-the-sun",
+  "seriesTitle": "Wrong Side of the Sun",
+  "code": "S01E001",
+  "title": "Postmarked Next Year",
+  "blurb": null,
+  "wordCount": 2355,
+  "durationSec": 875,
+  "audio": "audio/wrong-side-of-the-sun/S01E001.mp3",
+  "publishedAt": null,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Peregrine Blott was wiping down the manifest board, because it was his watch and the board was his, when Waybill spoke from the ceiling."
+    },
+    {
+      "type": "p",
+      "text": "\"Mass discrepancy, Captain. The ship is one thousand nine hundred and six grams heavy. Source: the keel locker. Contents: one Post cask.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine stopped wiping."
+    },
+    {
+      "type": "p",
+      "text": "\"Postmark,\" Waybill went on. \"Postscript, ship's reckoning. By the Sixty-first edition, about nineteen months from today. Sender: this ship. Addressee: this ship.\" It paused, which it never needed to do. \"Void, Captain. By Precedence. Also impossible.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine folded the cloth in half, and in half again."
+    },
+    {
+      "type": "p",
+      "text": "\"Still on time,\" he said."
+    },
+    {
+      "type": "p",
+      "text": "Postscript was a small courier cutter with a large hold and a crew who were fonder of one another than any of them would admit, and she was most of the way along the long haul in from Quarto to the farm world of Hearth. In her hold she carried a marriage acceptance for a beekeeper on Hearth, a sack of strike ballots bound onward for the miners of Saltpan, and, as of a minute ago, something she should not."
+    },
+    {
+      "type": "p",
+      "text": "Jory Ashdown brought it up from the keel space held out in front of him, like a pie that might still be hot. He set it on the galley table and stood back. It was Post issue, shoebox size, grey, with the Post's blue seal across the lid and a stamp on its flank in plain black ink."
+    },
+    {
+      "type": "p",
+      "text": "\"Locker was shut,\" Jory said, after one of his pauses. \"Sealed since Quarto. I closed her myself, with Margaret.\" He patted the spanner on his belt. \"Nobody's been down there since but the two of us, and Margaret doesn't talk.\" He was already laughing. \"Much.\""
+    },
+    {
+      "type": "p",
+      "text": "Soph Vell leaned over the cask with her hands clasped behind her back, as if it might bite. \"Then how did it get in?\""
+    },
+    {
+      "type": "p",
+      "text": "\"I'd like it out,\" said Jory. \"Out of the locker, off the ship. Somebody else's problem.\""
+    },
+    {
+      "type": "p",
+      "text": "\"It's addressed to us.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Then somebody else can be us.\""
+    },
+    {
+      "type": "p",
+      "text": "\"For the record, Engineer,\" said Waybill, \"it may not be discarded. It is a Post item. Nor may it be opened. A void item goes back through a Post Office, which stamps it RETURNED and sends it to its sender. Only then may the sender open it. Opening it before that is a crime for whoever does it, the sender included. A fine. And for a licensed courier, an endorsement.\""
+    },
+    {
+      "type": "p",
+      "text": "Soph straightened. \"The sender's us.\""
+    },
+    {
+      "type": "p",
+      "text": "\"The sender is this ship,\" Waybill agreed. \"A ship receives its returned items at its next filing office. Our next filing office is Hearth. Docking in sixteen hours: Hearth Main, or the Furrow End counter on the far side if Main's berths are full.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine bent and read the stamp for himself. His ship's name, in the ring. A date on Folio's calendar, which meant whoever sealed it had last filed at Folio."
+    },
+    {
+      "type": "p",
+      "text": "\"Folio,\" said Soph. \"We aren't going anywhere near Folio.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Folio is not on any manifest I hold,\" said Waybill."
+    },
+    {
+      "type": "p",
+      "text": "Peregrine set the cloth down, square with the edge of the board. He had a haul to finish, a beekeeper waiting on an answer, and a record without a late or void delivery anywhere on it. The cask sat on the galley table and threatened every part of that, in a small grey way."
+    },
+    {
+      "type": "p",
+      "text": "\"Who sealed it?\" he said."
+    },
+    {
+      "type": "p",
+      "text": "\"The postmark does not say, Captain,\" said Waybill. \"Postmarks never do.\""
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Sophronia Vell believed in evidence the way sailors believe in weather: it was there whether you liked it or not, and only a fool went out without looking."
+    },
+    {
+      "type": "p",
+      "text": "\"Somebody has had us,\" she said. \"I want to know who, and how, and I can't find out either with the lid on.\""
+    },
+    {
+      "type": "p",
+      "text": "\"You can't find out much with the captain's licence off, either,\" said Jory. He had the Bishop out and was turning it over in his hands, which was what he did instead of pacing. \"Easy, Bishop. Nobody's using you.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Sixteen hours,\" said Waybill. \"One counter. One stamp. Then the sender may open it lawfully, I may log it lawfully, and everyone may have their lunch.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Technically,\" Soph began, \"that's the sensible—\" and heard the word come out of her and shut her mouth on it. Technically was a bad sign. She knew it was a bad sign. The whole ship knew it was a bad sign."
+    },
+    {
+      "type": "p",
+      "text": "Jory spoke slowly, the way he did when he had thought a thing through twice. \"And then a postmaster asks how a cask from next year turned up in a locker nobody opened. And writes it down. And somebody at Gnomon reads what she wrote.\" He laid the Bishop on the table. \"I'd rather it went out the lock.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Logged,\" said Waybill, in a tone that logged its disapproval as well."
+    },
+    {
+      "type": "p",
+      "text": "That was when Soph noticed the captain."
+    },
+    {
+      "type": "p",
+      "text": "Peregrine had gone polite. \"Thank you, Jory. That's a fair point. Soph, would you mind passing me the cradle? Thank you. Thank you.\" He set the cask in its cradle and re-seated the clamp along its side. The clamp had been seated already. Soph had watched Jory seat it. Peregrine re-seated it anyway, carefully, pressing it home with his thumb, as if a great deal depended on that clamp."
+    },
+    {
+      "type": "p",
+      "text": "Everyone aboard Postscript knew the rule, though nobody had ever said it aloud: the politer the captain got, the worse things were. Soph did not know what was worse. She only knew he had not stopped saying thank you since the cask came up, and on this ship that was a storm warning."
+    },
+    {
+      "type": "p",
+      "text": "\"If it goes to a counter,\" Peregrine said, \"whatever's in it goes with it. I'd like to know what that is first.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Captain,\" said Jory."
+    },
+    {
+      "type": "p",
+      "text": "\"It's my ship's seal.\" He put his thumbs under the lid. \"So it's my crime.\""
+    },
+    {
+      "type": "p",
+      "text": "The Post's blue seal did what Post seals do when they are broken. It bloomed: a slow bruise of purple spreading out from the crack, the colour every courier is taught to dread, and it would stay that colour for as long as the cask existed. Anyone who ever looked at it would know."
+    },
+    {
+      "type": "p",
+      "text": "\"Logged,\" said Waybill, very quietly for Waybill. \"Seal broken by the master, mid-haul.\""
+    },
+    {
+      "type": "p",
+      "text": "Inside, nested in grey packing, lay a record card, small and flat. There was nothing else in the cask that any of them could see."
+    },
+    {
+      "type": "p",
+      "text": "Soph looked at Jory, and Jory looked at Soph, and neither said what both were thinking: that everyone aboard now knew a thing that could cost the captain his licence, and that not one of them would ever say it to anybody."
+    },
+    {
+      "type": "p",
+      "text": "\"Well,\" said Soph. \"That's us, then.\""
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Soph had expected a letter. A letter she could have argued with."
+    },
+    {
+      "type": "p",
+      "text": "\"This is my record format,\" said Waybill, once the card was seated in its reader. \"And my signature. It is keyed to this keel. This recording was made by me.\""
+    },
+    {
+      "type": "p",
+      "text": "\"You've never seen it before,\" said Soph."
+    },
+    {
+      "type": "p",
+      "text": "\"I have not seen it yet,\" said Waybill, which was worse."
+    },
+    {
+      "type": "p",
+      "text": "\"Play it,\" said the captain."
+    },
+    {
+      "type": "p",
+      "text": "There was a hiss of cabin air, the particular hum of Postscript's galley fans, and then Jory's voice, close and tired. \"I want it off my ship.\""
+    },
+    {
+      "type": "p",
+      "text": "Jory, the real one, at the table, put his hand flat on the Bishop."
+    },
+    {
+      "type": "p",
+      "text": "Then Soph's own voice, which she had never liked hearing played back. \"Technically, it's evidence. Technically, it's ours.\""
+    },
+    {
+      "type": "p",
+      "text": "Then Waybill. \"Opening it is a fine and an endorsement, Captain.\""
+    },
+    {
+      "type": "p",
+      "text": "Then the captain. \"I know what it costs.\""
+    },
+    {
+      "type": "p",
+      "text": "Jory again, softer. \"Then don't. Please.\""
+    },
+    {
+      "type": "p",
+      "text": "And Soph again, offering something she would never in her life have offered. \"Or let me. I haven't got a licence to lose.\""
+    },
+    {
+      "type": "p",
+      "text": "The captain. \"Nobody opens it. Not yet.\""
+    },
+    {
+      "type": "p",
+      "text": "Then a fifth voice, further off, as though through a door that was not quite shut: a few words with all the edges worn off, nothing Soph could catch."
+    },
+    {
+      "type": "p",
+      "text": "The captain. \"It stays aboard. My call.\""
+    },
+    {
+      "type": "p",
+      "text": "And the fifth voice again, still muffled, but this time every word came through. \"Noted, and not agreed.\""
+    },
+    {
+      "type": "p",
+      "text": "Then nothing but the fans."
+    },
+    {
+      "type": "p",
+      "text": "Soph found she had stood up. She sat down again, hard, because if she was going to be frightened she was going to be frightened sitting down and doing sums."
+    },
+    {
+      "type": "p",
+      "text": "\"Right,\" she said. \"Right. Somebody planted it at Quarto.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Refuted,\" said Waybill. \"The locker's seal was unbroken from Quarto, and the ship's mass did not change until two days twenty hours into the haul.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Somebody forged your signature.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Refuted. My signature check passes. If it can be forged, I cannot tell, and neither can anyone I have records of.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Actors, then. People who sound like us.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Refuted. The voiceprints match the crew manifest. All four.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Jory did it.\""
+    },
+    {
+      "type": "p",
+      "text": "\"If I'd done it,\" said Jory, \"there'd have been a better punchline.\" He laughed, and then he stopped."
+    },
+    {
+      "type": "p",
+      "text": "\"Refuted,\" said Waybill. \"The engineer's jokes are all logged. None of them is this good.\""
+    },
+    {
+      "type": "p",
+      "text": "Soph opened her mouth and found nothing in it. \"Then who,\" she said at last, \"is that?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Not on the crew manifest,\" said Waybill. \"Not on any manifest I hold.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Again,\" said the captain. \"Just the last line.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Noted, and not agreed,\" said the muffled voice, as though from behind a door."
+    },
+    {
+      "type": "p",
+      "text": "The captain did not look at the reader while it played. He looked at the galley hatch, as if he expected someone to be standing in it. Soph wrote the line down in the margin of a conversion table, because writing things down was what she did with things she could not stand."
+    },
+    {
+      "type": "p",
+      "text": "Soph had wanted it to be a joke. A cruel joke, an expensive one; she didn't care. A joke had a joker, and a joker could be found and shouted at. She looked at the cask in its cradle, with its bruised purple seal, and understood that she was not going to get one."
+    },
+    {
+      "type": "p",
+      "text": "The captain ran his palm across the galley table where there was nothing to wipe. \"We've a beekeeper waiting,\" he said. \"Still on time.\""
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Peregrine Blott brought Postscript out of the Drift a few hours short of Hearth, and the radio, deaf since Quarto, filled all at once with other people's news."
+    },
+    {
+      "type": "p",
+      "text": "Soph was at the navigation table with the conversion tables spread round her like a fortress. She did not look up."
+    },
+    {
+      "type": "p",
+      "text": "\"Captain. The acceptance. I re-ran it.\" She did not say technically. He marked that. \"Wenna Strake posted it at Quarto's counter on her last possible day. Osgood Pell's proposal says she must accept before the close of the ninth of Haymonth, Hearth reckoning. Under the Sixty-first, her postmark converts to the third hour of the tenth.\""
+    },
+    {
+      "type": "p",
+      "text": "\"So it's late,\" said Jory, from the hatch."
+    },
+    {
+      "type": "p",
+      "text": "\"It's not late. It's out of time. Different thing.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Feels like the same thing to the beekeeper.\""
+    },
+    {
+      "type": "p",
+      "text": "\"The delivery will be valid,\" said Waybill. \"Precedence is satisfied. The acceptance, however, will be void as an acceptance. Precedence does not care about marriages.\""
+    },
+    {
+      "type": "p",
+      "text": "\"She sealed it under the Sixtieth,\" said Soph. \"Quarto's drawer didn't take the Sixty-first until after. Under the Sixtieth it's the twentieth hour of the ninth. Inside, with hours to spare.\" She slapped the table. \"And Hearth Main's had Sixty-one in its drawer for months. Show me a table that says otherwise.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Then there isn't one,\" said Jory."
+    },
+    {
+      "type": "p",
+      "text": "\"Except.\" Soph went still. \"Furrow End. The far-side counter. Their copy came the long way round. I heard it at Quarto; their courier was running close to his deadline.\""
+    },
+    {
+      "type": "p",
+      "text": "\"How close?\" said Peregrine."
+    },
+    {
+      "type": "p",
+      "text": "\"Checking Furrow End's drawer notice, Captain, now that we can hear it.\" A pause. \"Revision Sixty-one was posted in Furrow End's drawer six local days ago. It takes effect at the start of tomorrow, local. Until then, the Sixtieth governs there.\""
+    },
+    {
+      "type": "p",
+      "text": "Jory let out a breath. \"So we hand it over at Furrow End before their midnight.\""
+    },
+    {
+      "type": "p",
+      "text": "\"The manifest names Hearth, Captain,\" said Waybill. \"Hearth Main is the customary office.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Furrow End is Hearth,\" said Peregrine. \"Take her round, Jory.\""
+    },
+    {
+      "type": "p",
+      "text": "He took the far-side berth. Jory muttered at the clamps all the way in, because the far-side clamps were older than the near-side ones and she did not like them, and Peregrine did not hurry him. The clamps closed. Grace began."
+    },
+    {
+      "type": "p",
+      "text": "Furrow End's counter smelled of hay and printer's ink. The clerk read the acceptance's postmark, turned to the drawer edition pinned behind her, and ran a finger down its Quarto column."
+    },
+    {
+      "type": "p",
+      "text": "\"Under our drawer that converts to the ninth,\" she said. \"Inside the term. Valid.\" The punch came down with a sound like a door shutting on the right side. \"Someone's getting married.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Valid, punched, on time,\" said Waybill, in Peregrine's earpiece, as if it had personally arranged the whole thing."
+    },
+    {
+      "type": "p",
+      "text": "Peregrine thanked the clerk and went back to his ship."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Peregrine had the rest of his grace and no great need of it. The beekeeper had his answer. The miners' ballots sat in the hold for Saltpan, untouched."
+    },
+    {
+      "type": "p",
+      "text": "Soph read the dock board aloud as they walked, the way she read everything, arguing with it. \"Light bulletin from Gnomon. The Almanac Board has issued Revision Sixty-two.\" She snorted. \"Already. They can't leave a calendar alone.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Another one,\" said Jory."
+    },
+    {
+      "type": "p",
+      "text": "\"Another one. Probably moves somebody's afternoon. They'll want couriers to carry it.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine filed at the dock office. The clerk stamped his papers, and Postscript's reckoning became Hearth's date and hour, clean and current. On the dock office's record his licence showed what it had always shown: every delivery valid, every one on time."
+    },
+    {
+      "type": "p",
+      "text": "The cask stayed aboard, in its cradle, in his cabin, under a cloth. Its seal was still purple. It would always be purple."
+    },
+    {
+      "type": "p",
+      "text": "He went to the manifest board. It was clean. He wiped it anyway, then put the cloth down."
+    },
+    {
+      "type": "p",
+      "text": "\"Waybill.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Captain.\""
+    },
+    {
+      "type": "p",
+      "text": "\"When was it made? The recording.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Its header carries the same reckoning as the cask's postmark, Captain.\" Waybill paused, which it never needed to do. \"The recording was made aboard this ship, nineteen months after we left Quarto, by the Almanac. The crew manifest has never carried a fifth name.\""
+    }
+  ]
+}

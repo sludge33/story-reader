@@ -1,0 +1,114 @@
+{
+  "durationSec": 941,
+  "voiceUsd": 0.178,
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "mode": "batched",
+  "batches": [
+    {
+      "voice": "voice_fn4qzgyk5v5d",
+      "lines": 11,
+      "chars": 2246,
+      "score": 0.973
+    },
+    {
+      "voice": "Charon",
+      "lines": 2,
+      "chars": 36,
+      "score": 1
+    },
+    {
+      "voice": "Fenrir",
+      "lines": 18,
+      "chars": 1739,
+      "score": 0.935
+    },
+    {
+      "voice": "voice_fn4qzgyk5v5d",
+      "lines": 11,
+      "chars": 2037,
+      "score": 0.942
+    },
+    {
+      "voice": "Rasalgethi",
+      "lines": 5,
+      "chars": 129,
+      "score": 0.75
+    },
+    {
+      "voice": "Puck",
+      "lines": 2,
+      "chars": 157,
+      "score": 0.926
+    },
+    {
+      "voice": "Gacrux",
+      "lines": 4,
+      "chars": 317,
+      "score": 1
+    },
+    {
+      "voice": "Achird",
+      "lines": 3,
+      "chars": 36,
+      "score": 1
+    },
+    {
+      "voice": "voice_fn4qzgyk5v5d",
+      "lines": 6,
+      "chars": 2277,
+      "score": 0.911
+    },
+    {
+      "voice": "voice_fn4qzgyk5v5d",
+      "lines": 6,
+      "chars": 1630,
+      "score": 0.936
+    },
+    {
+      "voice": "voice_fn4qzgyk5v5d",
+      "lines": 5,
+      "chars": 1818,
+      "score": 0.953
+    },
+    {
+      "voice": "voice_fn4qzgyk5v5d",
+      "lines": 1,
+      "chars": 1021,
+      "score": 0.969
+    }
+  ],
+  "weakLines": [
+    {
+      "voice": "Rasalgethi",
+      "text": "Pace of five,",
+      "matched": 1,
+      "words": 3
+    },
+    {
+      "voice": "Rasalgethi",
+      "text": "Pace of five,",
+      "matched": 1,
+      "words": 3
+    }
+  ],
+  "requests": 12,
+  "apiCalls": 6,
+  "cachedCalls": 6,
+  "textTokens": 2816,
+  "audioTokens": 19655,
+  "tokensFrom": "api usage",
+  "renderWallSec": 463,
+  "apiSec": 189,
+  "renderedAt": "2026-11-10",
+  "voices": {
+    "narrator": "voice_fn4qzgyk5v5d",
+    "c-wren": "voice_fn4qzgyk5v5d",
+    "c-sef": "Fenrir",
+    "c-oduya": "Gacrux",
+    "c-dov": "Puck",
+    "c-marten": "Achird",
+    "warden": "Rasalgethi",
+    "bailiff": "Charon"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "_note": "Series logline overrides for the site, used by tools/import.mjs in place of story-engine's concept-card logline. Use when the card predates bible changes (lead renamed, pronouns). Remove an entry once story-engine's card is fixed. Written 2026-11-10 from the bibles.",
+  "wrong-side-of-the-sun": "Captain Peregrine Blott and the crew of the courier ship Postscript run freight between worlds that never agreed on what year it is, because light-lag makes every colony's calendar a different truth. A parcel arrives dated from the future.",
+  "dead-air": "A half-deaf stonemason's apprentice feels sound through their feet, and in Quell, the cellar-league sport where sound is a physical wave, the only job they can win is Damper: standing in the way of every note.",
+  "branch-cartographer": "Fintan Ardent maps neighbouring worlds that differ from ours by one decision, and every crossing swaps one small fact of his life with his counterpart's. He is climbing the Survey ranks and discovering that someone has been pruning branches."
+}

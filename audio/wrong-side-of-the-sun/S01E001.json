@@ -1,0 +1,107 @@
+{
+  "durationSec": 875,
+  "voiceUsd": 0.205,
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "mode": "batched",
+  "batches": [
+    {
+      "voice": "Aoede",
+      "lines": 26,
+      "chars": 2303,
+      "score": 0.961
+    },
+    {
+      "voice": "Schedar",
+      "lines": 37,
+      "chars": 2394,
+      "score": 0.939
+    },
+    {
+      "voice": "Orus",
+      "lines": 20,
+      "chars": 535,
+      "score": 0.929
+    },
+    {
+      "voice": "Umbriel",
+      "lines": 21,
+      "chars": 824,
+      "score": 0.98
+    },
+    {
+      "voice": "Autonoe",
+      "lines": 32,
+      "chars": 1533,
+      "score": 0.885
+    },
+    {
+      "voice": "Aoede",
+      "lines": 22,
+      "chars": 2259,
+      "score": 0.951
+    },
+    {
+      "voice": "Enceladus",
+      "lines": 2,
+      "chars": 48,
+      "score": 1
+    },
+    {
+      "voice": "Aoede",
+      "lines": 29,
+      "chars": 2223,
+      "score": 0.953
+    },
+    {
+      "voice": "Despina",
+      "lines": 3,
+      "chars": 99,
+      "score": 1
+    },
+    {
+      "voice": "Aoede",
+      "lines": 5,
+      "chars": 790,
+      "score": 0.936
+    },
+    {
+      "voice": "Schedar",
+      "lines": 1,
+      "chars": 146,
+      "score": 1
+    }
+  ],
+  "weakLines": [
+    {
+      "voice": "Orus",
+      "text": "We've a beekeeper waiting,",
+      "matched": 2,
+      "words": 4
+    },
+    {
+      "voice": "Orus",
+      "text": "Take her round, Jory.",
+      "matched": 2,
+      "words": 4
+    }
+  ],
+  "requests": 11,
+  "apiCalls": 11,
+  "cachedCalls": 0,
+  "textTokens": 3346,
+  "audioTokens": 22580,
+  "tokensFrom": "api usage",
+  "renderWallSec": 609,
+  "apiSec": 237,
+  "renderedAt": "2026-11-10",
+  "voices": {
+    "narrator": "Aoede",
+    "c-peregrine-blott": "Orus",
+    "c-jory-ashdown": "Umbriel",
+    "c-sophronia-vell": "Autonoe",
+    "c-waybill": "Schedar",
+    "fifth-voice": "Enceladus",
+    "furrow-clerk": "Despina"
+  }
+}

@@ -45,6 +45,9 @@ if (!exists(path.join(engine, "series", "index.json"))) {
 const index = readJson(path.join(engine, "series", "index.json"));
 const platforms = readJson(path.join(engine, "config", "platforms.json"));
 
+// Logline overrides kept in this repo (config/loglines.json) win over a stale concept card.
+const loglinesPath = path.join(repo, "config", "loglines.json");
+const loglines = fs.existsSync(loglinesPath) ? JSON.parse(fs.readFileSync(loglinesPath, "utf8")) : {};
 // Concept cards hold the logline; index them by id once.
 const concepts = new Map();
 const ideasDir = path.join(engine, "ideas");
@@ -177,7 +180,7 @@ for (const s of index.series ?? []) {
   catalog.series.push({
     id,
     title: bible.title ?? s.title,
-    logline: concept.logline ?? null,
+    logline: loglines[id] ?? concept.logline ?? null,
     hook: concept.hookPromise ?? null,
     genre: concept.genre ?? null,
     contentRating: bible.contentRating ?? null,

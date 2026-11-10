@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T23:01:43.199Z",
+  "generatedAt": "2026-11-10T20:21:38.446Z",
   "series": [
     {
       "id": "lantern-mender",
@@ -106,7 +106,7 @@
     {
       "id": "branch-cartographer",
       "title": "Branch Cartographer",
-      "logline": "Pell Ardent maps neighbouring worlds that differ from ours by one decision, and every crossing swaps one small fact of her life with her counterpart. She is climbing the Survey ranks and discovering that someone has been pruning branches.",
+      "logline": "Fintan Ardent maps neighbouring worlds that differ from ours by one decision, and every crossing swaps one small fact of his life with his counterpart's. He is climbing the Survey ranks and discovering that someone has been pruning branches.",
       "hook": "Each survey pins a new branch and a clever use of the swap rule. Ranks open farther branches, and the season payoff is who prunes the branches and what happens to the worlds they cut.",
       "genre": "progression",
       "contentRating": "teen",
@@ -117,9 +117,9 @@
           "code": "S01E001",
           "title": "The First Bill Is Paid in Full",
           "blurb": null,
-          "wordCount": 3744,
-          "durationSec": 1498,
-          "audio": null,
+          "wordCount": 3747,
+          "durationSec": 1443,
+          "audio": "audio/branch-cartographer/S01E001.mp3",
           "publishedAt": null
         },
         {
@@ -139,13 +139,43 @@
           "durationSec": 1300,
           "audio": null,
           "publishedAt": null
+        },
+        {
+          "code": "S01E004",
+          "title": "Two Dead People at a Door",
+          "blurb": null,
+          "wordCount": 3111,
+          "durationSec": 1244,
+          "audio": null,
+          "publishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "wrong-side-of-the-sun",
+      "title": "Wrong Side of the Sun",
+      "logline": "Captain Peregrine Blott and the crew of the courier ship Postscript run freight between worlds that never agreed on what year it is, because light-lag makes every colony's calendar a different truth. A parcel arrives dated from the future.",
+      "hook": "Each delivery is a puzzle of causality that the crew solves by exploiting relativistic mail rules. The season arc peels back a lie: someone is editing the colonies' shared history through the post.",
+      "genre": "sci-fi",
+      "contentRating": "teen",
+      "season": 1,
+      "stage": "pilot",
+      "episodes": [
+        {
+          "code": "S01E001",
+          "title": "Postmarked Next Year",
+          "blurb": null,
+          "wordCount": 2355,
+          "durationSec": 875,
+          "audio": "audio/wrong-side-of-the-sun/S01E001.mp3",
+          "publishedAt": null
         }
       ]
     },
     {
       "id": "dead-air",
       "title": "Dead Air",
-      "logline": "A half-deaf stonemason's apprentice feels sound through her feet, and in Quell, the cellar-league sport where sound is a physical wave, the only job she can win is Damper: standing in the way of every note.",
+      "logline": "A half-deaf stonemason's apprentice feels sound through their feet, and in Quell, the cellar-league sport where sound is a physical wave, the only job they can win is Damper: standing in the way of every note.",
       "hook": "Climb from the Cellar Ring to the Cathedral Cup by out-reading physics, not out-hitting anyone, while uncovering what the Drum buried under the city was built to ring.",
       "genre": "progression",
       "contentRating": "teen",
@@ -157,8 +187,8 @@
           "title": "Episode 1",
           "blurb": null,
           "wordCount": 2611,
-          "durationSec": 1044,
-          "audio": null,
+          "durationSec": 941,
+          "audio": "audio/dead-air/S01E001.mp3",
           "publishedAt": null
         },
         {
@@ -196,8 +226,8 @@
           "title": "Episode 1",
           "blurb": null,
           "wordCount": 3144,
-          "durationSec": 1258,
-          "audio": null,
+          "durationSec": 1171,
+          "audio": "audio/seven-neighbours/S01E001.mp3",
           "publishedAt": null
         }
       ]

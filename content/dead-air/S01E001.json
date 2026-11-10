@@ -5,8 +5,8 @@
   "title": "Episode 1",
   "blurb": null,
   "wordCount": 2611,
-  "durationSec": 1044,
-  "audio": null,
+  "durationSec": 941,
+  "audio": "audio/dead-air/S01E001.mp3",
   "publishedAt": null,
   "blocks": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "type": "p",
-      "text": "Low and slow, a grumble in the stone like a cart crossing a bridge two streets off. Then I see the front of it: a faint line of light, three paces wide, crawling across the Drum toward me at the speed of a man walking across a room."
+      "text": "Low and slow, a grumble in the stone like a cart crossing a bridge two streets off. Then I see the front of it: a faint line of light, three paces wide, crawling across the Drum towards me at the speed of a man walking across a room."
     },
     {
       "type": "p",
@@ -361,7 +361,7 @@
     },
     {
       "type": "p",
-      "text": "The front crawls toward me, faint and bright in the grey. Four seconds. I can't step off now. Leave your stand during a throw and it's a foul, and a foul is a Peal to them anyway."
+      "text": "The front crawls towards me, faint and bright in the grey. Four seconds. I can't step off now. Leave your stand during a throw and it's a foul, and a foul is a Peal to them anyway."
     },
     {
       "type": "p",
