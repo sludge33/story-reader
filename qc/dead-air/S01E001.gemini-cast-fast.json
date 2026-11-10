@@ -1,0 +1,1592 @@
+{
+  "code": "S01E001",
+  "pass": false,
+  "checks": [
+    {
+      "name": "Loudness",
+      "pass": true,
+      "value": "-16.5 LUFS",
+      "want": "-16 ±1"
+    },
+    {
+      "name": "True peak",
+      "pass": true,
+      "value": "-1.3 dBTP",
+      "want": "≤ -1"
+    },
+    {
+      "name": "Clipping",
+      "pass": true,
+      "value": "0 samples at full scale",
+      "want": "0"
+    },
+    {
+      "name": "Dead air",
+      "pass": true,
+      "value": "none",
+      "want": "no silence > 3s"
+    },
+    {
+      "name": "Script lint",
+      "pass": false,
+      "value": "3 issue(s)",
+      "want": "0"
+    },
+    {
+      "name": "Word accuracy",
+      "pass": false,
+      "value": "96.1% (67 spots)",
+      "want": "≥ 97%"
+    },
+    {
+      "name": "Pace (overall)",
+      "pass": false,
+      "value": "177 wpm",
+      "want": "145-170 wpm"
+    },
+    {
+      "name": "Voice level match",
+      "pass": true,
+      "value": "3 dB spread",
+      "want": "≤ 3 dB"
+    }
+  ],
+  "signal": {
+    "lufs": -16.5,
+    "lra": 3.8,
+    "truePeak": -1.3,
+    "samplePeak": -1.3,
+    "clipped": 0,
+    "gaps": []
+  },
+  "voices": [
+    {
+      "who": "wren",
+      "voice": "voice_fn4qzgyk5v5d",
+      "wpm": 244,
+      "levelDb": -16.1
+    },
+    {
+      "who": "bailiff",
+      "voice": "Charon",
+      "wpm": null,
+      "levelDb": null
+    },
+    {
+      "who": "sef",
+      "voice": "Fenrir",
+      "wpm": 302,
+      "levelDb": -16.4
+    },
+    {
+      "who": "warden",
+      "voice": "Rasalgethi",
+      "wpm": 264,
+      "levelDb": -14.4
+    },
+    {
+      "who": "dov",
+      "voice": "Puck",
+      "wpm": 161,
+      "levelDb": -17.4
+    },
+    {
+      "who": "oduya",
+      "voice": "Gacrux",
+      "wpm": 185,
+      "levelDb": -16.3
+    },
+    {
+      "who": "marten",
+      "voice": "Achird",
+      "wpm": null,
+      "levelDb": null
+    }
+  ],
+  "lint": {
+    "issues": [
+      {
+        "seg": 105,
+        "why": "abbreviation",
+        "text": "Mrs."
+      },
+      {
+        "seg": 228,
+        "why": "abbreviation",
+        "text": "On the last Breath Mrs."
+      },
+      {
+        "seg": 294,
+        "why": "abbreviation",
+        "text": "Mrs."
+      }
+    ],
+    "unknownNames": [
+      [
+        "Sef",
+        5
+      ],
+      [
+        "Guild",
+        3
+      ],
+      [
+        "Hob",
+        3
+      ],
+      [
+        "Marks",
+        3
+      ],
+      [
+        "Half",
+        3
+      ],
+      [
+        "Ferret",
+        2
+      ],
+      [
+        "Widowmaker",
+        2
+      ],
+      [
+        "Hand",
+        2
+      ],
+      [
+        "Book",
+        2
+      ],
+      [
+        "Clappers'",
+        2
+      ],
+      [
+        "Pellow",
+        2
+      ],
+      [
+        "Pealed",
+        2
+      ],
+      [
+        "Masons'",
+        1
+      ],
+      [
+        "Quarter",
+        1
+      ],
+      [
+        "Day",
+        1
+      ],
+      [
+        "Lime",
+        1
+      ],
+      [
+        "Barrow",
+        1
+      ],
+      [
+        "Rennie",
+        1
+      ],
+      [
+        "Coalhouse",
+        1
+      ],
+      [
+        "Clappers",
+        1
+      ],
+      [
+        "One",
+        1
+      ],
+      [
+        "Lamplighter",
+        1
+      ],
+      [
+        "Bellows",
+        1
+      ],
+      [
+        "Raises",
+        1
+      ],
+      [
+        "Gorm",
+        1
+      ],
+      [
+        "Long",
+        1
+      ],
+      [
+        "Ground",
+        1
+      ],
+      [
+        "Mrs",
+        1
+      ]
+    ]
+  },
+  "asr": {
+    "wer": 0.0391,
+    "model": "small.en",
+    "names": {
+      "low": {
+        "low": 5
+      },
+      "stone": {
+        "stone": 4
+      },
+      "drum": {
+        "drum": 3
+      },
+      "five": {
+        "35": 1,
+        "five": 19
+      },
+      "last": {
+        "last": 10
+      },
+      "damper": {
+        "damper": 5,
+        "dampa dampa": 1,
+        "dampa": 1,
+        "hello eh dampa": 1
+      },
+      "ring": {
+        "ring": 11
+      },
+      "midwinter": {
+        "mid winter": 1,
+        "midwinter": 1
+      },
+      "caddrow": {
+        "kajwas": 1
+      },
+      "brask": {
+        "brask": 1
+      },
+      "kilnyard": {
+        "kill yard": 1,
+        "kiln yard": 1,
+        "kilnyard": 1
+      },
+      "scribe": {
+        "scribed": 1
+      },
+      "quell": {
+        "quell's": 1
+      },
+      "run": {
+        "run": 1
+      },
+      "warden": {
+        "warden": 8
+      },
+      "stand": {
+        "stand": 13
+      },
+      "caller": {
+        "caller": 4,
+        "clapper's collar": 1,
+        "hummer called the mates": 1
+      },
+      "rung": {
+        "rung": 2
+      },
+      "out": {
+        "out": 8
+      },
+      "chapter": {
+        "chap to": 1,
+        "chapter": 1
+      },
+      "slowstone": {
+        "slow stone": 1
+      },
+      "cold": {
+        "cold": 1
+      },
+      "plate": {
+        "plate": 11
+      },
+      "pitch": {
+        "pitch": 10
+      },
+      "peal": {
+        "peel": 2,
+        "stained peel": 1,
+        "fouls appeal": 1
+      },
+      "dead": {
+        "dead": 3
+      },
+      "sustained": {
+        "stained peel": 1
+      },
+      "air": {
+        "air": 5
+      },
+      "bloom": {
+        "bloom": 2
+      },
+      "count": {
+        "count": 4,
+        "account seth": 1
+      },
+      "halloway": {
+        "halloway": 3,
+        "hello eh dampa": 1,
+        "(nothing)": 1,
+        "ren holloway": 1
+      },
+      "dov": {
+        "dov": 4,
+        "that": 1,
+        "seth dove peeled": 1,
+        "duf": 1
+      },
+      "carrick": {
+        "carrick": 1
+      },
+      "oduya": {
+        "oduya": 1,
+        "odoya": 1,
+        "o julia": 1,
+        "oduia": 1,
+        "aduya": 1
+      },
+      "tuner": {
+        "tuner": 1
+      },
+      "wren": {
+        "ran": 1,
+        "ren holloway": 1
+      },
+      "breath": {
+        "breath": 4
+      },
+      "marten": {
+        "marten": 5,
+        "cos martin": 1
+      },
+      "sallow": {
+        "sallow": 1
+      },
+      "lit": {
+        "lit": 1
+      },
+      "toll": {
+        "toll": 1
+      },
+      "call": {
+        "call": 2
+      },
+      "raise": {
+        "raise": 4,
+        "rays": 1
+      },
+      "calling": {
+        "calling": 1
+      },
+      "tone": {
+        "tone": 1
+      }
+    },
+    "issues": [
+      {
+        "kind": "spelling",
+        "time": 7.12,
+        "seg": 1,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "cart",
+        "heard": "car",
+        "context": "in the stone like a [cart] crossing a bridge two streets",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 54.72,
+        "seg": 16,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "thirty eight",
+        "heard": "38",
+        "context": "the door and read it [thirty eight] crowns to the masons guild",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 61.64,
+        "seg": 17,
+        "voice": "Charon",
+        "who": "bailiff",
+        "expected": "",
+        "heard": "sorry",
+        "context": "trade go to the guild [] your master's debt the bailiff",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 70.84,
+        "seg": 22,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "or are those",
+        "heard": "aurora throws",
+        "context": "you the nails back after [or are those] the guild's as well he",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 72.96,
+        "seg": 23,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "he",
+        "heard": "it",
+        "context": "those the guild's as well [he] didn't laugh bailiffs don't i",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 98.64,
+        "seg": 32,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "caddrow",
+        "heard": "kajwas",
+        "context": "and the only person in [caddrow] who knows where his good",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 106.62,
+        "seg": 36,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "sef",
+        "heard": "seth",
+        "context": "still holding the tin when [sef] brask knocked everyone in the",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 109.24,
+        "seg": 37,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "kilnyard",
+        "heard": "kill yard",
+        "context": "brask knocked everyone in the [kilnyard] knows sef he was a",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 109.88,
+        "seg": 37,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "sef",
+        "heard": "seth",
+        "context": "everyone in the kilnyard knows [sef] he was a pot boy",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 113.18,
+        "seg": 38,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "scribe",
+        "heard": "scribed",
+        "context": "until somebody let him be [scribe] for the local quell side",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 114.04,
+        "seg": 38,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "quell",
+        "heard": "quell's",
+        "context": "be scribe for the local [quell] side and now he's a",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 115.48,
+        "seg": 38,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "pot",
+        "heard": "pop",
+        "context": "side and now he's a [pot] boy with a notebook he",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 121.8,
+        "seg": 42,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "sef",
+        "heard": "seth",
+        "context": "comes in talking three things [sef] said one you've heard about",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 124.12,
+        "seg": 43,
+        "voice": "Fenrir",
+        "who": "sef",
+        "expected": "rennie",
+        "heard": "renee",
+        "context": "one you've heard about hob [rennie] two we've a home match",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 136.9,
+        "seg": 46,
+        "voice": "Fenrir",
+        "who": "sef",
+        "expected": "mason anyway",
+        "heard": "mace in any way",
+        "context": "and a damper's half a [mason anyway] four a crown a home",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 143.76,
+        "seg": 50,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "other",
+        "heard": "all the",
+        "context": "he was on my left [other] side i said he stepped",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 150.76,
+        "seg": 54,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "hob",
+        "heard": "wap",
+        "context": "usually ask what happened to [hob] i said sef's mouth stopped",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 166.26,
+        "seg": 64,
+        "voice": "Fenrir",
+        "who": "sef",
+        "expected": "chapter",
+        "heard": "chap to",
+        "context": "on the spot retired from [chapter] play for life he can",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 172.6,
+        "seg": 69,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "a",
+        "heard": "at",
+        "context": "he's not fine a crown [a] home gate i said and",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 182.02,
+        "seg": 75,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "tin",
+        "heard": "tim",
+        "context": "i said and put the [tin] back on the shelf square",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 192.42,
+        "seg": 77,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "lived",
+        "heard": "live",
+        "context": "smells of wet ash i'd [lived] two streets away all my",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 196.3,
+        "seg": 78,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "thirty",
+        "heard": "30",
+        "context": "been down it it's round [thirty] paces across walled in slowstone",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 209.46,
+        "seg": 81,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "round",
+        "heard": "around",
+        "context": "stands twelve brass plates hang [round] the wall six to a",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 220.8,
+        "seg": 83,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "peal",
+        "heard": "peel",
+        "context": "counts of ring is a [peal] one point a hard note",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 226.35,
+        "seg": 84,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "sustained peal",
+        "heard": "stained peel",
+        "context": "for six and that's a [sustained peal] which is three before we",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 234.93,
+        "seg": 86,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "sef",
+        "heard": "seth",
+        "context": "and soft with dust bloom [sef] called it in bloom sound",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 249.83,
+        "seg": 90,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "per damper",
+        "heard": "dampa dampa",
+        "context": "hook were four lanterns one [per damper] all dark pace of five",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 252.05,
+        "seg": 91,
+        "voice": "Rasalgethi",
+        "who": "warden",
+        "expected": "pace of",
+        "heard": "pacer",
+        "context": "one per damper all dark [pace of] five he said five paces",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 255.33,
+        "seg": 93,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "a count sef",
+        "heard": "account seth",
+        "context": "said five paces of air [a count sef] named me to him halloway",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 256.81,
+        "seg": 94,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "me",
+        "heard": "him",
+        "context": "air a count sef named [me] to him halloway damper the",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 258.55,
+        "seg": 95,
+        "voice": "Fenrir",
+        "who": "sef",
+        "expected": "damper",
+        "heard": "dampa",
+        "context": "named me to him halloway [damper] the warden wrote it down",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 265.23,
+        "seg": 96,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "dropped nail",
+        "heard": "drop nailed",
+        "context": "thin i can feel a [dropped nail] through them and said nothing",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 284.39,
+        "seg": 103,
+        "voice": "Puck",
+        "who": "dov",
+        "expected": "you're",
+        "heard": "does it are you",
+        "context": "i haven't seen it yet [you're] welcome in advance dov said",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 286.81,
+        "seg": 104,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "dov said",
+        "heard": "that",
+        "context": "yet you're welcome in advance [dov said] mrs oduya our tuner was",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 298.49,
+        "seg": 108,
+        "voice": "Gacrux",
+        "who": "oduya",
+        "expected": "wren",
+        "heard": "ran",
+        "context": "peg shows the plate's pitch [wren] halloway anyone may read it",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 321.07,
+        "seg": 116,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "waited",
+        "heard": "wait",
+        "context": "and said aye well i [waited] for the rest that was",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 323.89,
+        "seg": 118,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "sef",
+        "heard": "seth",
+        "context": "that was the rest and [sef] of course scribbling in his",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 325.59,
+        "seg": 118,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "notebook",
+        "heard": "note but",
+        "context": "of course scribbling in his [notebook] without once looking down at",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 329.19,
+        "seg": 120,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "sef",
+        "heard": "seth",
+        "context": "looking down at it formation [sef] said nobody stands last tonight",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 331.11,
+        "seg": 122,
+        "voice": "Fenrir",
+        "who": "sef",
+        "expected": "a",
+        "heard": "i'm",
+        "context": "said nobody stands last tonight [a] last plate's there to hand",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 337.03,
+        "seg": 123,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "taken",
+        "heard": "taking",
+        "context": "this morning no offence some [taken] two things one callers throw",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 340.03,
+        "seg": 126,
+        "voice": "Fenrir",
+        "who": "sef",
+        "expected": "callers",
+        "heard": "call his",
+        "context": "some taken two things one [callers] throw notes dampers draw them",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 349.23,
+        "seg": 130,
+        "voice": "Fenrir",
+        "who": "sef",
+        "expected": "and you're",
+        "heard": "in your",
+        "context": "your stand between throws six [and you're] lit ten and you're rung",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 349.99,
+        "seg": 130,
+        "voice": "Fenrir",
+        "who": "sef",
+        "expected": "and you're",
+        "heard": "in your",
+        "context": "six and you're lit ten [and you're] rung out like hob two",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 356.11,
+        "seg": 132,
+        "voice": "Fenrir",
+        "who": "sef",
+        "expected": "forty",
+        "heard": "40",
+        "context": "book as marks forever and [forty] marks finishes you whatever your",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 368.25,
+        "seg": 139,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "sef",
+        "heard": "pseff",
+        "context": "way of a big one [sef] nodded across the floor at",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 369.61,
+        "seg": 139,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "clappers caller",
+        "heard": "clapper's collar",
+        "context": "across the floor at the [clappers caller] who had shoulders like a",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 374.65,
+        "seg": 140,
+        "voice": "Fenrir",
+        "who": "sef",
+        "expected": "pellow",
+        "heard": "pillow",
+        "context": "rest of the coal gorm [pellow] gorm the bellows one trick",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 378.73,
+        "seg": 143,
+        "voice": "Fenrir",
+        "who": "sef",
+        "expected": "weight",
+        "heard": "wait",
+        "context": "worth the name the shatter [weight] five every time and he",
+        "name": false
+      },
+      {
+        "kind": "missing",
+        "time": 385.19,
+        "seg": 146,
+        "voice": "Achird",
+        "who": "marten",
+        "expected": "aye well",
+        "heard": "",
+        "context": "let marten worry marten said [aye well] the first hard note found",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 388.97,
+        "seg": 147,
+        "expected": "the",
+        "heard": "The",
+        "p": 0.019
+      },
+      {
+        "kind": "unclear",
+        "time": 420.07,
+        "seg": 154,
+        "expected": "back",
+        "heard": "Back",
+        "p": 0.026
+      },
+      {
+        "kind": "misheard",
+        "time": 437.45,
+        "seg": 161,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "oduya's",
+        "heard": "odoyus",
+        "context": "and a half wide of [oduya's] peg and scored nothing so",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 444.91,
+        "seg": 166,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "pealed",
+        "heard": "peeled",
+        "context": "knocked down get up dov [pealed] on the ferret and we",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 448.71,
+        "seg": 168,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "gorm threw",
+        "heard": "gone through",
+        "context": "one up they pulled level [gorm threw] high and hard all half",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 450.87,
+        "seg": 168,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "oduya",
+        "heard": "odoya",
+        "context": "and hard all half and [oduya] walked her pegs out from",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 451.41,
+        "seg": 168,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "her pegs",
+        "heard": "up eggs",
+        "context": "all half and oduya walked [her pegs] out from under him and",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 469.65,
+        "seg": 175,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "ninth throw",
+        "heard": "9th row",
+        "context": "odd it happened on the [ninth throw] gorm raised his hand his",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 472.61,
+        "seg": 177,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "lead in",
+        "heard": "leading",
+        "context": "gorm raised his hand his [lead in] the little hum a caller",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 473.77,
+        "seg": 177,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "hum a caller makes",
+        "heard": "hummer called the mates",
+        "context": "his lead in the little [hum a caller makes] during the raise to settle",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 477.49,
+        "seg": 177,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "of",
+        "heard": "over",
+        "context": "pitch would carry five paces [of] air in that count and",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 484.87,
+        "seg": 180,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "it",
+        "heard": "he",
+        "context": "it until he voiced but [it] came up through my boot",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 485.67,
+        "seg": 180,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "boot soles",
+        "heard": "boots holes",
+        "context": "it came up through my [boot soles] a pitch faint and fast",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 491.35,
+        "seg": 182,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "you've finished",
+        "heard": "you finish",
+        "context": "you about a flaw before [you've finished] tapping it a buzz in",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 493.03,
+        "seg": 183,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "a buzz in",
+        "heard": "i was buzzing",
+        "context": "before you've finished tapping it [a buzz in] the bones of my feet",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 498.83,
+        "seg": 185,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "oduya's",
+        "heard": "o doyers",
+        "context": "it it was the pitch [oduya's] peg said our last plate",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 501.67,
+        "seg": 185,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "made",
+        "heard": "main",
+        "context": "was sitting on near as [made] no difference i didn't decide",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 512.29,
+        "seg": 190,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "weight four",
+        "heard": "wait for",
+        "context": "the raise ended he voiced [weight four] hard a hard note that",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 514.53,
+        "seg": 192,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "a",
+        "heard": "the",
+        "context": "he voiced weight four hard [a] hard note that close to",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 515.77,
+        "seg": 192,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "plate's",
+        "heard": "play's",
+        "context": "note that close to the [plate's] pitch would ring six counts",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 526.63,
+        "seg": 196,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "a",
+        "heard": "of",
+        "context": "me and hit the plate [a] three not hard enough to",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 532.87,
+        "seg": 197,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "peal",
+        "heard": "peel",
+        "context": "three counts and stopped one [peal] two all why'd you move",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 536.67,
+        "seg": 200,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "sef",
+        "heard": "seth",
+        "context": "two all why'd you move [sef] shouted from the line on",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 540.43,
+        "seg": 202,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "he",
+        "heard": "it",
+        "context": "on my left other side [he] came round why'd you move",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 552.73,
+        "seg": 209,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "sef",
+        "heard": "seth",
+        "context": "warden's weight swung next raise [sef] looked at me the way",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 553.49,
+        "seg": 209,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "you'd",
+        "heard": "he'd",
+        "context": "looked at me the way [you'd] look at a block that",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 586.51,
+        "seg": 219,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "because marten",
+        "heard": "cos martin",
+        "context": "hum out i hummed anyway [because marten] did low something like a",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 591.23,
+        "seg": 219,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "stair",
+        "heard": "stare",
+        "context": "lullaby and i watched the [stair] the old man didn't move",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 594.41,
+        "seg": 221,
+        "voice": "Rasalgethi",
+        "who": "warden",
+        "expected": "pace of",
+        "heard": "pacer",
+        "context": "the old man didn't move [pace of] five the warden said for",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 598.11,
+        "seg": 223,
+        "voice": "Fenrir",
+        "who": "sef",
+        "expected": "halloway damper",
+        "heard": "hello eh dampa",
+        "context": "said for the second half [halloway damper] said sef dov pealed twice",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 599.81,
+        "seg": 224,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "sef dov pealed",
+        "heard": "seth dove peeled",
+        "context": "second half halloway damper said [sef dov pealed] twice more gorm got one",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 609.91,
+        "seg": 229,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "oduya",
+        "heard": "o julia",
+        "context": "on the last breath mrs [oduya] walked our last plate's peg",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 610.63,
+        "seg": 229,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "our",
+        "heard": "her",
+        "context": "last breath mrs oduya walked [our] last plate's peg down a",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 611.11,
+        "seg": 229,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "plate's",
+        "heard": "plate",
+        "context": "mrs oduya walked our last [plate's] peg down a semitone to",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 615.85,
+        "seg": 230,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "has",
+        "heard": "as",
+        "context": "the pitch it rests at [has] a name she told me",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 619.97,
+        "seg": 232,
+        "expected": "he",
+        "heard": "He",
+        "p": 0.022
+      },
+      {
+        "kind": "spelling",
+        "time": 628.37,
+        "seg": 235,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "gorm",
+        "heard": "gorn",
+        "context": "drop to rest at weight [gorm] pellow smiled at her across",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 633.65,
+        "seg": 237,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "the lead in",
+        "heard": "bleeding",
+        "context": "then he lifted his hand [the lead in] came up through my soles",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 662.63,
+        "seg": 251,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "sef",
+        "heard": "seth",
+        "context": "marten was across the floor [sef] was shouting something at my",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 666.73,
+        "seg": 252,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "raise",
+        "heard": "rays",
+        "context": "into the beam before the [raise] ended gorm voiced the shatter",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 668.23,
+        "seg": 253,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "gorm",
+        "heard": "gorn",
+        "context": "beam before the raise ended [gorm] voiced the shatter which is",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 683.53,
+        "seg": 258,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "foul is a peal",
+        "heard": "fouls appeal",
+        "context": "it's a foul and a [foul is a peal] to them anyway if i",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 689.79,
+        "seg": 259,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "a",
+        "heard": "of",
+        "context": "weight and hits the plate [a] four four is still hard",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 709.35,
+        "seg": 269,
+        "expected": "up",
+        "heard": "Up",
+        "p": 0.016
+      },
+      {
+        "kind": "unclear",
+        "time": 733.55,
+        "seg": 277,
+        "expected": "bones",
+        "heard": "bones",
+        "p": 0.005
+      },
+      {
+        "kind": "missing",
+        "time": 754.77,
+        "seg": 285,
+        "voice": "Rasalgethi",
+        "who": "warden",
+        "expected": "two halloway",
+        "heard": "",
+        "context": "stays dark five isn't six [two halloway] he calls to the galleries",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 781.79,
+        "seg": 295,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "oduya",
+        "heard": "oduia",
+        "context": "he'll think of something mrs [oduya] says wren halloway very low",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 782.49,
+        "seg": 296,
+        "voice": "Gacrux",
+        "who": "oduya",
+        "expected": "wren halloway",
+        "heard": "ren holloway",
+        "context": "of something mrs oduya says [wren halloway] very low which i gather",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 785.03,
+        "seg": 297,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "which i gather is",
+        "heard": "but together he's",
+        "context": "says wren halloway very low [which i gather is] worse than shouting marten's hand",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 787.95,
+        "seg": 298,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "marten's",
+        "heard": "martin's",
+        "context": "gather is worse than shouting [marten's] hand comes down on my",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 789.65,
+        "seg": 299,
+        "voice": "Achird",
+        "who": "marten",
+        "expected": "aye",
+        "heard": "hi",
+        "context": "comes down on my shoulder [aye] well he says and this",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 794.87,
+        "seg": 301,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "sef",
+        "heard": "seth",
+        "context": "sounds like a whole speech [sef] stands in front of me",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 819.59,
+        "seg": 315,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "thirty five",
+        "heard": "35",
+        "context": "it at all three crowns [thirty five] to go i look up",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 836.73,
+        "seg": 322,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "kiln",
+        "heard": "kill",
+        "context": "under the stand under the [kiln] a second voice low and",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 842.19,
+        "seg": 323,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "heels",
+        "heard": "ears",
+        "context": "steady coming up through my [heels] into my ribs not my",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 856.41,
+        "seg": 330,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "dov",
+        "heard": "duf",
+        "context": "their words i look round [dov] is still shouting oduya is",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 858.03,
+        "seg": 331,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "oduya",
+        "heard": "aduya",
+        "context": "round dov is still shouting [oduya] is fixing a peg the",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 861.65,
+        "seg": 332,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "tell",
+        "heard": "tail",
+        "context": "winding the cord round his [tell] weight nobody's head turns nobody's",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 869.95,
+        "seg": 335,
+        "voice": "voice_fn4qzgyk5v5d",
+        "who": "wren",
+        "expected": "has",
+        "heard": "as",
+        "context": "and the silence after it [has] a shape i know from",
+        "name": false
+      }
+    ]
+  }
+}

@@ -12,7 +12,8 @@
 // requests whose text, voice or style changed.
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
-import { join } from "node:path";
+import { join, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
 import { createHash } from "node:crypto";
 import { spawnSync } from "node:child_process";
 
@@ -70,7 +71,7 @@ export function estimateUsd(reqs, G) {
 const usd = (textTokens, audioTokens, G) => Math.round(((textTokens * G.usdPerMillion.input + audioTokens * G.usdPerMillion.audio) / 1e6) * 1000) / 1000;
 
 /** Library voice names -> ids via GET /voices, cached in .cache/gemini/voices.json. Prebuilt names pass through. */
-async function voiceIds(names, key, cacheDir, G) {
+export async function voiceIds(names, key, cacheDir, G) {
   const path = join(cacheDir, "voices.json");
   const known = existsSync(path) ? JSON.parse(readFileSync(path, "utf8")) : {};
   const want = names.filter((n) => !(n in known) && !G.prebuiltVoices.includes(n) && !/^voice(key)?_/.test(n));
@@ -102,7 +103,7 @@ function retryWait(res, body, attempt) {
   return Math.min(Number.isFinite(s) && s > 0 ? s + 1 : 5 * 2 ** attempt, 300);
 }
 
-async function synth(req, voiceId, key, G, log) {
+export async function synth(req, voiceId, key, G, log) {
   const content = { type: "text", text: req.text };
   if (req.style) content.annotations = [{ type: "speech_metadata", style: req.style }];
   const body = {
@@ -155,12 +156,107 @@ function wavHeader(bytes) {
 }
 
 /**
+ * Batched mode (gemini.mode "batched"): group the per-turn requests by voice, in story order, into
+ * batches of up to G.batchMaxChars. Each batch is one API call with the lines separated by blank
+ * lines; tools/split_lines.py cuts the answer back into lines with Whisper word timings. One call
+ * per voice keeps each voice consistent and needs ~10 calls an episode instead of ~120.
+ */
+export function planBatches(reqs, G) {
+  const batches = [];
+  const open = new Map();
+  reqs.forEach((r, i) => {
+    let b = open.get(r.voice);
+    if (b && b.chars + r.text.length > G.batchMaxChars) b = null;
+    if (!b) { b = { voice: r.voice, style: r.style, units: [], chars: 0 }; batches.push(b); open.set(r.voice, b); }
+    b.units.push(i);
+    b.chars += r.text.length + 2;
+  });
+  return batches;
+}
+
+const flat = (t) => t.replace(/\s+/g, " ").trim();
+
+/** One batched call (cached), then split into lines. Returns [{ i, wavPath, matched, words }]. */
+async function renderBatch(b, reqs, { G, key, cacheDir, idOf, log, stats, python, pace }) {
+  const lines = b.units.map((i) => flat(reqs[i].text));
+  const style = [b.style, G.batchStyle].filter(Boolean).join(". ");
+  const hash = createHash("sha256").update(JSON.stringify({ m: G.model, v: b.voice, s: style, t: lines })).digest("hex").slice(0, 24);
+  const wavPath = join(cacheDir, `b-${hash}.wav`), metaPath = join(cacheDir, `b-${hash}.json`), cutsPath = join(cacheDir, `b-${hash}.cuts.json`);
+  if (existsSync(wavPath) && existsSync(metaPath)) stats.cached++;
+  else {
+    await pace();
+    log(`  ${b.voice.padEnd(9)} ${lines.length} lines, ${b.chars} chars: ${lines[0].slice(0, 50)}`);
+    const t0 = Date.now();
+    const { wav, usage } = await synth({ text: lines.join("\n\n"), style }, idOf(b.voice), key, G, log);
+    const ms = Date.now() - t0;
+    writeFileSync(wavPath, wav);
+    const sec = Number(spawnSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", wavPath], { encoding: "utf8" }).stdout);
+    writeFileSync(metaPath, JSON.stringify({ voice: b.voice, voiceId: idOf(b.voice), lines: lines.length, chars: b.chars, sec, ms, usage, at: new Date().toISOString() }, null, 2) + "\n");
+    stats.requests++;
+    stats.apiMs += ms;
+    countTokens(stats, usage, sec, lines.join("\n\n").length + style.length, G);
+  }
+  stats.audioSec += JSON.parse(readFileSync(metaPath, "utf8")).sec;
+  if (!existsSync(cutsPath)) {
+    const linesPath = join(cacheDir, `b-${hash}.lines.json`);
+    writeFileSync(linesPath, JSON.stringify(lines));
+    const helper = join(dirname(fileURLToPath(import.meta.url)), "split_lines.py");
+    const r = spawnSync(python, [helper, wavPath, linesPath, cutsPath], { encoding: "utf8", env: { ...process.env, PYTHONIOENCODING: "utf-8" } });
+    if (r.status !== 0) throw new Error(`split_lines failed for ${b.voice}: ${r.stderr.slice(-800)}`);
+  }
+  const { cuts, score } = JSON.parse(readFileSync(cutsPath, "utf8"));
+  if (cuts.length !== lines.length) throw new Error(`split_lines gave ${cuts.length} pieces for ${lines.length} lines (${b.voice})`);
+  stats.batches.push({ voice: b.voice, lines: lines.length, chars: b.chars, score });
+  return cuts.map((c, k) => {
+    const piece = join(cacheDir, `b-${hash}.${k}.wav`);
+    if (!existsSync(piece)) {
+      const r = spawnSync("ffmpeg", ["-hide_banner", "-loglevel", "error", "-y", "-i", wavPath, "-ss", String(c.start), "-to", String(c.end), "-c", "copy", piece]);
+      if (r.status !== 0) throw new Error(`ffmpeg cut failed: ${r.stderr}`);
+    }
+    if (c.words >= 3 && c.matched / c.words < 0.6) stats.weakLines.push({ voice: b.voice, text: lines[k], matched: c.matched, words: c.words });
+    return { i: b.units[k], wavPath: piece };
+  });
+}
+
+function countTokens(stats, usage, sec, chars, G) {
+  // Tokens: from the response when it reports them, else 25 audio tokens/s and ~4 chars per text token.
+  const u = usage ?? {};
+  const out = u.output_tokens ?? u.total_output_tokens ?? u.candidatesTokenCount ?? u.output_audio_tokens;
+  const inp = u.input_tokens ?? u.total_input_tokens ?? u.promptTokenCount;
+  if (out != null) stats.usageReported = true;
+  stats.audioTokens += out ?? Math.round(sec * G.audioTokensPerSec);
+  stats.textTokens += inp ?? Math.round(chars / 4);
+}
+
+/**
  * Render requests to one WAV at outWav. Returns stats for the sidecar and the report.
  * Requests run one at a time, spaced to G.rpm; cached clips cost nothing.
+ * G.mode "batched": one call per voice batch (planBatches), else one call per request.
  */
-export async function renderGemini(reqs, { G, key, cacheDir, outWav, log = console.error, limit }) {
+export async function renderGemini(reqs, { G, key, cacheDir, outWav, log = console.error, limit, python = "python" }) {
   mkdirSync(cacheDir, { recursive: true });
   const idOf = await voiceIds([...new Set(reqs.map((r) => r.voice))], key, cacheDir, G);
+  if (G.mode === "batched") {
+    const started = Date.now();
+    const stats = { mode: "batched", requests: 0, cached: 0, textTokens: 0, audioTokens: 0, audioSec: 0, usageReported: false, apiMs: 0, batches: [], weakLines: [] };
+    let lastCall = 0;
+    const pace = async () => { const w = G.rpm ? lastCall + 60000 / G.rpm - Date.now() : 0; if (w > 0) await sleep(w); lastCall = Date.now(); };
+    const batches = planBatches(reqs, G);
+    const todo = limit ? batches.slice(0, limit) : batches;
+    const pieces = new Map();
+    for (const b of todo) for (const p of await renderBatch(b, reqs, { G, key, cacheDir, idOf, log, stats, python, pace })) pieces.set(p.i, p.wavPath);
+    const parts = [];
+    reqs.forEach((req, i) => {
+      if (!pieces.has(i)) return;
+      parts.push(cleanClip(pieces.get(i), G.levelMatch).pcm);
+      if (req.gapAfter) parts.push(Buffer.alloc(Math.round(req.gapAfter * RATE) * 2));
+    });
+    const data = Buffer.concat(parts);
+    writeFileSync(outWav, Buffer.concat([wavHeader(data.length), data]));
+    stats.wallSec = Math.round((Date.now() - started) / 1000);
+    stats.usd = usd(stats.textTokens, stats.audioTokens, G);
+    return stats;
+  }
   const started = Date.now();
   const stats = { requests: 0, cached: 0, textTokens: 0, audioTokens: 0, audioSec: 0, usageReported: false, apiMs: 0 };
   const parts = [];

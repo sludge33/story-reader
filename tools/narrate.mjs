@@ -167,9 +167,12 @@ export function loadEnv(root) {
 export function buildPlan(repo, engine, seriesId, code, { force = false, singleVoice, provider } = {}) {
   const baseCfg = readJson(join(repo, "config", "tts.json"));
   const prov = provider ?? baseCfg.provider;
-  const G = prov === "gemini" ? baseCfg.gemini : null;
-  if (prov === "gemini" && !G) throw new Error("config/tts.json has no gemini block");
-  // Gemini: the narrator and cast voices come from the gemini blocks; the rest of the plan is shared.
+  const castDir = join(repo, "casting", seriesId);
+  const casting = existsSync(join(castDir, "cast.json")) ? readJson(join(castDir, "cast.json")) : {};
+  if (prov === "gemini" && !baseCfg.gemini) throw new Error("config/tts.json has no gemini block");
+  // Gemini: the narrator comes from cast.json gemini.narrator ({ voice, style }) when the series sets one,
+  // else from config/tts.json gemini.narrator. Cast voices come from the gemini blocks; the rest of the plan is shared.
+  const G = prov === "gemini" ? { ...baseCfg.gemini, narrator: casting.gemini?.narrator ?? baseCfg.gemini.narrator } : null;
   const cfg = G ? { ...baseCfg, provider: "gemini", narratorVoice: G.narrator.voice } : baseCfg;
   const caps = readJson(join(engine, "config", "caps.json"));
   const platforms = readJson(join(engine, "config", "platforms.json"));
@@ -178,8 +181,6 @@ export function buildPlan(repo, engine, seriesId, code, { force = false, singleV
   const pkg = readJson(join(epDir, "package.json"));
   const bible = readJson(join(seriesDir, "bible.json"));
   const entry = readJson(join(engine, "series", "index.json")).series.find((s) => s.seriesId === seriesId);
-  const castDir = join(repo, "casting", seriesId);
-  const casting = existsSync(join(castDir, "cast.json")) ? readJson(join(castDir, "cast.json")) : {};
   const outDir = join(repo, "audio", seriesId);
 
   if (platforms[bible.homePlatform]?.format?.includes("Pocket FM narrates")) {
@@ -213,8 +214,9 @@ export function buildPlan(repo, engine, seriesId, code, { force = false, singleV
       const g = casting.gemini?.voices?.[id] ?? ep.cast?.[id]?.gemini;
       return typeof g === "string" ? { voice: g } : g;
     };
-    for (const c of cast) c.voice = gOf(c.id)?.voice;
-    const styles = new Map([[G.narrator.voice, G.narrator.style], ...cast.filter((c) => c.voice).map((c) => [c.voice, gOf(c.id)?.style ?? G.characterStyle])]);
+    // gemini.voices "<id>": "narrator" = that character is the first-person narrator: their lines use the narrator voice and style.
+    for (const c of cast) c.voice = gOf(c.id)?.voice === "narrator" ? G.narrator.voice : gOf(c.id)?.voice;
+    const styles = new Map([...cast.filter((c) => c.voice && c.voice !== G.narrator.voice).map((c) => [c.voice, gOf(c.id)?.style ?? G.characterStyle]), [G.narrator.voice, G.narrator.style]]);
     styleOf = (voice) => styles.get(voice);
   }
 
@@ -222,6 +224,7 @@ export function buildPlan(repo, engine, seriesId, code, { force = false, singleV
   const voiceOf = (id) => {
     const c = cast.find((x) => x.id === id);
     if (c?.voice) return c.voice;
+    if (id === "narrator" && G) return cfg.narratorVoice;
     missing.add(id);
     return id === "narrator" || G ? cfg.narratorVoice : cfg.fallbackVoices.female;
   };
@@ -321,15 +324,16 @@ export function encodeMp3(wav, mp3, cfg, tags) {
 
 async function narrateGemini(plan, { repo, seriesId, code, variant, dryRun, yesPaid, limit }) {
   const { cfg, caps, bible, pkg, quotes, segs, missing, voiceOf, outDir, G } = plan;
-  const { planRequests, estimateUsd, renderGemini } = await import("./gemini_tts.mjs");
+  const { planRequests, planBatches, estimateUsd, renderGemini } = await import("./gemini_tts.mjs");
   const reqs = planRequests(segs, cfg, G, plan.styleOf, plan.respellMap);
   const est = estimateUsd(reqs, G);
   if (dryRun) {
     for (const q of quotes) console.log(`#${String(q.n).padStart(3)} ${q.speaker.padEnd(22)} ${voiceOf(q.speaker).padEnd(10)} (${q.why}) ${q.text.slice(0, 70)}`);
     console.log("\nrequests (voice, chars, gap after):");
     reqs.forEach((r, k) => console.log(`  ${String(k + 1).padStart(3)} ${r.voice.padEnd(9)} ${String(r.text.length).padStart(5)} ${r.gapAfter.toFixed(1)}s  ${r.text.slice(0, 60).replace(/\s+/g, " ")}`));
+    if (G.mode === "batched") console.log(`\nbatched calls: ${planBatches(reqs, G).map((b) => `${b.voice} ${b.units.length} lines/${b.chars} chars`).join("; ")}`);
     console.log(`\nrespell: ${JSON.stringify(plan.respellMap)}`);
-    console.log(`${quotes.length} quotes, ${reqs.length} requests (1 speaker each), ${reqs.reduce((n, r) => n + r.text.length, 0)} characters; est. ${est.textTokens} text + ${est.audioTokens} audio tokens = $${est.usd} at paid rates (${G.model})`);
+    console.log(`${quotes.length} quotes, ${G.mode === "batched" ? `${planBatches(reqs, G).length} batched calls for ${reqs.length} turns` : `${reqs.length} requests (1 speaker each)`}, ${reqs.reduce((n, r) => n + r.text.length, 0)} characters; est. ${est.textTokens} text + ${est.audioTokens} audio tokens = $${est.usd} at paid rates (${G.model})`);
     if (missing.size) console.log(`no Gemini voice for: ${[...missing].join(", ")} (set casting/${seriesId}/cast.json gemini.voices or casting/${seriesId}/${code}.json cast[].gemini)`);
     return;
   }
@@ -351,13 +355,14 @@ async function narrateGemini(plan, { repo, seriesId, code, variant, dryRun, yesP
     console.error(`${code}: ${reqs.length} requests to ${G.model}${limit ? ` (first ${limit} only)` : ""}...`);
     const t0 = Date.now();
     let stats;
-    try { stats = await renderGemini(reqs, { G, key, cacheDir: join(repo, ".cache", "gemini", seriesId), outWav: wav, limit }); }
+    try { stats = await renderGemini(reqs, { G, key, cacheDir: join(repo, ".cache", "gemini", seriesId), outWav: wav, limit, python: process.env.TTS_PYTHON ?? cfg.python }); }
     catch (e) { console.error(`${e.message}\nClips made so far are cached; rerun the same command to continue.`); process.exit(1); }
     const durationSec = encodeMp3(wav, mp3, cfg, { title: pkg.platformCuts?.title ?? code, album: bible.title, comment: "Narrated with AI voices (Gemini TTS)." });
     const voices = Object.fromEntries([["narrator", cfg.narratorVoice], ...plan.cast.filter((c) => c.voice && segs.some((s) => s.voice === c.voice)).map((c) => [c.id, c.voice])]);
     const side = {
       durationSec, voiceUsd: stats.usd, engine: "gemini", model: G.model, ...(limit ? { partial: `${Math.min(limit, reqs.length)}/${reqs.length} requests` } : {}),
-      requests: reqs.length, apiCalls: stats.requests, cachedCalls: stats.cached, textTokens: stats.textTokens, audioTokens: stats.audioTokens,
+      mode: G.mode ?? "perTurn", ...(stats.batches ? { batches: stats.batches, weakLines: stats.weakLines } : {}),
+      requests: stats.batches ? stats.batches.length : reqs.length, apiCalls: stats.requests, cachedCalls: stats.cached, textTokens: stats.textTokens, audioTokens: stats.audioTokens,
       tokensFrom: stats.usageReported ? "api usage" : "estimate (25 audio tokens/s, 4 chars per text token)",
       renderWallSec: Math.round((Date.now() - t0) / 1000), apiSec: Math.round(stats.apiMs / 1000), renderedAt: new Date().toISOString().slice(0, 10), voices,
     };

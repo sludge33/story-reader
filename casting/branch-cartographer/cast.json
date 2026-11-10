@@ -1,0 +1,18 @@
+{
+  "_note": "Voice casting for Branch Cartographer (1st person: Fintan/Edric Ardent, bible id c-linnet-ardent). His own lines stay on the narrator voice (gemini.voices c-linnet-ardent = \"narrator\"). gemini.narrator overrides config/tts.json gemini.narrator. respell: Gemini only. Approved by Ben 2026-11-10.",
+  "respell": {
+    "Vesey": "Veezy"
+  },
+  "gemini": {
+    "narrator": {
+      "voice": "Iapetus",
+      "style": "Young British trainee surveyor telling his own story; precise and deadpan; reads each Footnote as a quick, slightly lower aside; grief under the surface; natural pace"
+    },
+    "voices": {
+      "c-linnet-ardent": "narrator",
+      "c-cressida-vesey": { "voice": "Kore", "style": "British woman of sixty, a senior surveyor; clipped, dry, unhurried; kind in actions, never in words" },
+      "c-hen-brisk": { "voice": "Laomedeia", "style": "Fast, cheerful British woman, a door pilot; counts down like a drill" },
+      "c-gideon-pask": { "voice": "Sadaltager", "style": "Warm, chatty British quartermaster of seventy-four, fond of the trainees" }
+    }
+  }
+}

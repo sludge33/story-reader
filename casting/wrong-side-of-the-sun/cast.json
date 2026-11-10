@@ -1,0 +1,15 @@
+{
+  "_note": "Voice casting for Wrong Side of the Sun (3rd-person ensemble). gemini.narrator overrides config/tts.json gemini.narrator for this series. gemini.voices: bible character id -> { voice, style }. Approved by Ben 2026-11-10. Check with: node tools/narrate.mjs wrong-side-of-the-sun <code> --engine gemini --dry-run",
+  "gemini": {
+    "narrator": {
+      "voice": "Aoede",
+      "style": "Warm, quick British audiobook narrator, fond of the whole crew; plain and brisk, gently amused, natural pace with clear pauses between paragraphs"
+    },
+    "voices": {
+      "c-peregrine-blott": { "voice": "Orus", "style": "Dry, understated British man, a courier captain; says less than he means; gets more politely formal the worse things are; measured pace" },
+      "c-jory-ashdown": { "voice": "Umbriel", "style": "Soft, slow British man, a ship's engineer; pauses before answering; laughs at his own jokes" },
+      "c-sophronia-vell": { "voice": "Autonoe", "style": "Fast, exact young British woman, a navigator; contradicts first, checks second; tight and clipped when anxious" },
+      "c-waybill": { "voice": "Schedar", "style": "Formal, precise, faintly prissy ship's logkeeper; speaks in manifest language; literal and unintentionally funny; human, not robotic" }
+    }
+  }
+}

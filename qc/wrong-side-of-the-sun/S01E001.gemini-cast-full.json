@@ -1,0 +1,1397 @@
+{
+  "code": "S01E001",
+  "pass": false,
+  "checks": [
+    {
+      "name": "Loudness",
+      "pass": true,
+      "value": "-16.7 LUFS",
+      "want": "-16 ±1"
+    },
+    {
+      "name": "True peak",
+      "pass": true,
+      "value": "-1.3 dBTP",
+      "want": "≤ -1"
+    },
+    {
+      "name": "Clipping",
+      "pass": true,
+      "value": "0 samples at full scale",
+      "want": "0"
+    },
+    {
+      "name": "Dead air",
+      "pass": true,
+      "value": "none",
+      "want": "no silence > 3s"
+    },
+    {
+      "name": "Script lint",
+      "pass": true,
+      "value": "0 issue(s)",
+      "want": "0"
+    },
+    {
+      "name": "Word accuracy",
+      "pass": false,
+      "value": "96.9% (52 spots)",
+      "want": "≥ 97%"
+    },
+    {
+      "name": "Pace (overall)",
+      "pass": true,
+      "value": "162 wpm",
+      "want": "145-170 wpm"
+    },
+    {
+      "name": "Voice level match",
+      "pass": true,
+      "value": "3 dB spread",
+      "want": "≤ 3 dB"
+    }
+  ],
+  "signal": {
+    "lufs": -16.7,
+    "lra": 3.8,
+    "truePeak": -1.3,
+    "samplePeak": -1.4,
+    "clipped": 0,
+    "gaps": []
+  },
+  "voices": [
+    {
+      "who": "narrator",
+      "voice": "Aoede",
+      "wpm": 235,
+      "levelDb": -16.6
+    },
+    {
+      "who": "waybill",
+      "voice": "Schedar",
+      "wpm": 192,
+      "levelDb": -16.7
+    },
+    {
+      "who": "peregrine-blott",
+      "voice": "Orus",
+      "wpm": 370,
+      "levelDb": -18.9
+    },
+    {
+      "who": "jory-ashdown",
+      "voice": "Umbriel",
+      "wpm": 224,
+      "levelDb": -17.3
+    },
+    {
+      "who": "sophronia-vell",
+      "voice": "Autonoe",
+      "wpm": 243,
+      "levelDb": -16.6
+    },
+    {
+      "who": "fifth-voice",
+      "voice": "Enceladus",
+      "wpm": null,
+      "levelDb": -18.4
+    },
+    {
+      "who": "furrow-clerk",
+      "voice": "Despina",
+      "wpm": 119,
+      "levelDb": -15.9
+    }
+  ],
+  "lint": {
+    "issues": [],
+    "unknownNames": [
+      [
+        "Quarto",
+        9
+      ],
+      [
+        "Soph",
+        9
+      ],
+      [
+        "Hearth",
+        8
+      ],
+      [
+        "End",
+        7
+      ],
+      [
+        "Sixty",
+        6
+      ],
+      [
+        "Main",
+        4
+      ],
+      [
+        "Furrow",
+        4
+      ],
+      [
+        "Bishop",
+        3
+      ],
+      [
+        "Sixtieth",
+        3
+      ],
+      [
+        "Saltpan",
+        2
+      ],
+      [
+        "Margaret",
+        2
+      ],
+      [
+        "Office",
+        1
+      ],
+      [
+        "Strake",
+        1
+      ],
+      [
+        "Pell",
+        1
+      ],
+      [
+        "Haymonth",
+        1
+      ],
+      [
+        "Board",
+        1
+      ],
+      [
+        "Revision",
+        1
+      ]
+    ]
+  },
+  "asr": {
+    "wer": 0.031,
+    "model": "small.en",
+    "names": {
+      "peregrine": {
+        "peregrin blot": 1,
+        "peregrin": 8,
+        "peregrine": 4,
+        "hauled deadway bill peregrin": 1,
+        "peregrin reseated": 1
+      },
+      "blott": {
+        "peregrin blot": 1,
+        "blott": 1
+      },
+      "waybill": {
+        "waybill": 14,
+        "way bill": 3,
+        "we will agree": 1,
+        "hauled deadway bill peregrin": 1,
+        "wabel": 1,
+        "weibil": 1
+      },
+      "post": {
+        "post": 4,
+        "postseals": 1
+      },
+      "postmark": {
+        "postmark": 4,
+        "acreptance's post mark": 1
+      },
+      "postscript": {
+        "postscript": 4
+      },
+      "reckoning": {
+        "reckoning": 4
+      },
+      "precedence": {
+        "precedence": 3
+      },
+      "long": {
+        "long": 3
+      },
+      "jory": {
+        "jory": 20
+      },
+      "ashdown": {
+        "ashdown": 1
+      },
+      "vell": {
+        "softveld": 1,
+        "salfronia vel": 1
+      },
+      "returned": {
+        "returned": 2
+      },
+      "open": {
+        "open": 2
+      },
+      "folio": {
+        "folio": 4
+      },
+      "sophronia": {
+        "salfronia vel": 1
+      },
+      "gnomon": {
+        "noemann": 1,
+        "nomon": 1
+      },
+      "rule": {
+        "rule": 1
+      },
+      "drift": {
+        "drift": 1
+      },
+      "spread": {
+        "spread": 1
+      },
+      "almanac": {
+        "almanac": 2
+      }
+    },
+    "issues": [
+      {
+        "kind": "spelling",
+        "time": 0,
+        "seg": 0,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "peregrine blott",
+        "heard": "peregrin blot",
+        "context": "[peregrine blott] was wiping down the manifest",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 11.64,
+        "seg": 2,
+        "voice": "Schedar",
+        "who": "waybill",
+        "expected": "thousand nine hundred and six",
+        "heard": "906",
+        "context": "captain the ship is one [thousand nine hundred and six] grams heavy source the keel",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 19.62,
+        "seg": 5,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "peregrine",
+        "heard": "peregrin",
+        "context": "locker contents one post cask [peregrine] stopped wiping postmark waybill went",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 26.96,
+        "seg": 9,
+        "voice": "Schedar",
+        "who": "waybill",
+        "expected": "sixty first",
+        "heard": "61st",
+        "context": "postscript ship's reckoning by the [sixty first] edition about nineteen months from",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 32.78,
+        "seg": 11,
+        "voice": "Schedar",
+        "who": "waybill",
+        "expected": "addressee",
+        "heard": "adresi",
+        "context": "from today sender this ship [addressee] this ship it paused which",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 42.98,
+        "seg": 16,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "peregrine",
+        "heard": "peregrin",
+        "context": "captain by precedence also impossible [peregrine] folded the cloth in half",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 52.84,
+        "seg": 19,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "fonder",
+        "heard": "funder",
+        "context": "and a crew who were [fonder] of one another than any",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 81.3,
+        "seg": 23,
+        "expected": "post",
+        "heard": "post",
+        "p": 0.014
+      },
+      {
+        "kind": "misheard",
+        "time": 82.78,
+        "seg": 23,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "size",
+        "heard": "eyes",
+        "context": "it was post issue shoebox [size] grey with the post's blue",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 99.24,
+        "seg": 28,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "patted",
+        "heard": "panted",
+        "context": "her myself with margaret he [patted] the spanner on his belt",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 110.34,
+        "seg": 32,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "soph vell",
+        "heard": "softveld",
+        "context": "he was already laughing much [soph vell] leaned over the cask with",
+        "name": true
+      },
+      {
+        "kind": "unclear",
+        "time": 115.32,
+        "seg": 33,
+        "expected": "then",
+        "heard": "Then",
+        "p": 0.032
+      },
+      {
+        "kind": "spelling",
+        "time": 125.06,
+        "seg": 38,
+        "voice": "Autonoe",
+        "who": "sophronia-vell",
+        "expected": "addressed",
+        "heard": "a dress",
+        "context": "ship somebody else's problem it's [addressed] to us then somebody else",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 127.14,
+        "seg": 39,
+        "voice": "Umbriel",
+        "who": "jory-ashdown",
+        "expected": "then",
+        "heard": "and",
+        "context": "problem it's addressed to us [then] somebody else can be us",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 128.46,
+        "seg": 40,
+        "expected": "for",
+        "heard": "for",
+        "p": 0.008
+      },
+      {
+        "kind": "misheard",
+        "time": 154.52,
+        "seg": 50,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "soph",
+        "heard": "soft",
+        "context": "a licensed courier an endorsement [soph] straightened the sender's us the",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 160.4,
+        "seg": 53,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "waybill agreed",
+        "heard": "we will agree",
+        "context": "the sender is this ship [waybill agreed] a ship receives its returned",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 169.96,
+        "seg": 56,
+        "voice": "Schedar",
+        "who": "waybill",
+        "expected": "main",
+        "heard": "maine",
+        "context": "docking in sixteen hours hearth [main] or the furrow end counter",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 173.14,
+        "seg": 56,
+        "voice": "Schedar",
+        "who": "waybill",
+        "expected": "main's berths",
+        "heard": "maine's births",
+        "context": "on the far side if [main's berths] are full peregrine bent and",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 185.12,
+        "seg": 61,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "said soph",
+        "heard": "oh sets off",
+        "context": "last filed at folio folio [said soph] we aren't going anywhere near",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 192.2,
+        "seg": 63,
+        "voice": "Schedar",
+        "who": "waybill",
+        "expected": "hold said waybill peregrine",
+        "heard": "hauled deadway bill peregrin",
+        "context": "not on any manifest i [hold said waybill peregrine] set the cloth down square",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 207.8,
+        "seg": 67,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "grey",
+        "heard": "gray",
+        "context": "of that in a small [grey] way who sealed it he",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 214.08,
+        "seg": 71,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "waybill",
+        "heard": "wabel",
+        "context": "does not say captain said [waybill] postmarks never do sophronia vell",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 218.44,
+        "seg": 73,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "sophronia vell",
+        "heard": "salfronia vel",
+        "context": "said waybill postmarks never do [sophronia vell] believed in evidence the way",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 221.26,
+        "seg": 73,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "in weather",
+        "heard": "and whether",
+        "context": "evidence the way sailors believe [in weather] it was there whether you",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 236.2,
+        "seg": 77,
+        "voice": "Umbriel",
+        "who": "jory-ashdown",
+        "expected": "licence",
+        "heard": "license",
+        "context": "out much with the captain's [licence] off either said jory he",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 260.16,
+        "seg": 88,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "soph",
+        "heard": "soff",
+        "context": "may have their lunch technically [soph] began that's the sensible and",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 268.46,
+        "seg": 91,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "",
+        "heard": "it",
+        "context": "her mouth on it technically [] was a bad sign she",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 287.4,
+        "seg": 97,
+        "voice": "Umbriel",
+        "who": "jory-ashdown",
+        "expected": "gnomon",
+        "heard": "noemann",
+        "context": "it down and somebody at [gnomon] reads what she wrote he",
+        "name": true
+      },
+      {
+        "kind": "unclear",
+        "time": 294.4,
+        "seg": 101,
+        "expected": "said",
+        "heard": "Said",
+        "p": 0.013
+      },
+      {
+        "kind": "misheard",
+        "time": 298.98,
+        "seg": 102,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "soph",
+        "heard": "soaf",
+        "context": "as well that was when [soph] noticed the captain peregrine had",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 300.96,
+        "seg": 103,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "peregrine",
+        "heard": "peregrin",
+        "context": "when soph noticed the captain [peregrine] had gone polite thank you",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 305.06,
+        "seg": 106,
+        "voice": "Orus",
+        "who": "peregrine-blott",
+        "expected": "soph",
+        "heard": "soaf",
+        "context": "jory that's a fair point [soph] would you mind passing me",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 314.18,
+        "seg": 111,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "soph",
+        "heard": "soaf",
+        "context": "clamp had been seated already [soph] had watched jory seat it",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 316.24,
+        "seg": 112,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "peregrine re seated",
+        "heard": "peregrin reseated",
+        "context": "had watched jory seat it [peregrine re seated] it anyway carefully pressing it",
+        "name": true
+      },
+      {
+        "kind": "extra",
+        "time": 323.66,
+        "seg": 113,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "",
+        "heard": "one",
+        "context": "depended on that clamp everyone [] aboard postscript knew the rule",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 330.4,
+        "seg": 114,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "soph",
+        "heard": "soaf",
+        "context": "got the worse things were [soph] did not know what was",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 334.7,
+        "seg": 115,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "cask",
+        "heard": "cast",
+        "context": "saying thank you since the [cask] came up and on this",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 338.92,
+        "seg": 116,
+        "expected": "if",
+        "heard": "If",
+        "p": 0.016
+      },
+      {
+        "kind": "spelling",
+        "time": 342.04,
+        "seg": 118,
+        "voice": "Orus",
+        "who": "peregrine-blott",
+        "expected": "whatever's in",
+        "heard": "whatever zen",
+        "context": "to a counter peregrine said [whatever's in] it goes with it i'd",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 351.44,
+        "seg": 124,
+        "expected": "so",
+        "heard": "So",
+        "p": 0.025
+      },
+      {
+        "kind": "spelling",
+        "time": 361.76,
+        "seg": 126,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "colour",
+        "heard": "color",
+        "context": "out from the crack the [colour] every courier is taught to",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 364.86,
+        "seg": 126,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "colour",
+        "heard": "color",
+        "context": "and it would stay that [colour] for as long as the",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 370.46,
+        "seg": 129,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "",
+        "heard": "psst",
+        "context": "at it would know logged [] said waybill very quietly for",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 378.44,
+        "seg": 131,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "grey",
+        "heard": "gray",
+        "context": "mid haul inside nested in [grey] packing lay a record card",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 384.96,
+        "seg": 133,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "soph",
+        "heard": "soaf",
+        "context": "any of them could see [soph] looked at jory and jory",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 386.82,
+        "seg": 133,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "soph",
+        "heard": "soaf",
+        "context": "jory and jory looked at [soph] and neither said what both",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 392.04,
+        "seg": 133,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "licence",
+        "heard": "license",
+        "context": "could cost the captain his [licence] and that not one of",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 397.1,
+        "seg": 134,
+        "expected": "well",
+        "heard": "Well?",
+        "p": 0.009
+      },
+      {
+        "kind": "misheard",
+        "time": 399.16,
+        "seg": 135,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "soph",
+        "heard": "soaf",
+        "context": "it to anybody well said [soph] that's us then soph had",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 402.72,
+        "seg": 137,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "soph",
+        "heard": "soaf",
+        "context": "said soph that's us then [soph] had expected a letter a",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 419.96,
+        "seg": 145,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "soph",
+        "heard": "soaf",
+        "context": "never seen it before said [soph] i have not seen it",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 465.9,
+        "seg": 165,
+        "voice": "Autonoe",
+        "who": "sophronia-vell",
+        "expected": "licence",
+        "heard": "license",
+        "context": "me i haven't got a [licence] to lose the captain nobody",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 477.96,
+        "seg": 169,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "soph",
+        "heard": "soft",
+        "context": "the edges worn off nothing [soph] could catch the captain it",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 489.1,
+        "seg": 173,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "",
+        "heard": "every",
+        "context": "muffled but this time every [] word came through noted and",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 496.86,
+        "seg": 176,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "soph",
+        "heard": "soft",
+        "context": "then nothing but the fans [soph] found she had stood up",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 512.82,
+        "seg": 184,
+        "voice": "Schedar",
+        "who": "waybill",
+        "expected": "locker's",
+        "heard": "locker",
+        "context": "quarto refuted said waybill the [locker's] seal was unbroken from quarto",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 515.82,
+        "seg": 184,
+        "voice": "Schedar",
+        "who": "waybill",
+        "expected": "mass",
+        "heard": "mast",
+        "context": "from quarto and the ship's [mass] did not change until two",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 519.08,
+        "seg": 184,
+        "voice": "Schedar",
+        "who": "waybill",
+        "expected": "haul",
+        "heard": "hall",
+        "context": "days twenty hours into the [haul] somebody forged your signature refuted",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 542.38,
+        "seg": 197,
+        "voice": "Umbriel",
+        "who": "jory-ashdown",
+        "expected": "there'd",
+        "heard": "that'd",
+        "context": "i'd done it said jory [there'd] have been a better punchline",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 553.58,
+        "seg": 203,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "soph",
+        "heard": "soft",
+        "context": "of them is this good [soph] opened her mouth and found",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 575.56,
+        "seg": 213,
+        "voice": "Enceladus",
+        "who": "fifth-voice",
+        "expected": "and",
+        "heard": "then",
+        "context": "just the last line noted [and] not agreed said the muffled",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 601.3,
+        "seg": 221,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "",
+        "heard": "it",
+        "context": "be found and shouted at [] she looked at the cask",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 611.76,
+        "seg": 223,
+        "voice": "Orus",
+        "who": "peregrine-blott",
+        "expected": "we've",
+        "heard": "we have",
+        "context": "there was nothing to wipe [we've] a beekeeper waiting he said",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 622.72,
+        "seg": 226,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "quarto",
+        "heard": "cordo",
+        "context": "and the radio deaf since [quarto] filled all at once with",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 631.12,
+        "seg": 229,
+        "expected": "captain",
+        "heard": "captain",
+        "p": 0.049
+      },
+      {
+        "kind": "misheard",
+        "time": 637.24,
+        "seg": 234,
+        "voice": "Autonoe",
+        "who": "sophronia-vell",
+        "expected": "wenna strake",
+        "heard": "when a strait",
+        "context": "say technically he marked that [wenna strake] posted it at quarto's counter",
+        "name": false
+      },
+      {
+        "kind": "missing",
+        "time": 638.06,
+        "seg": 234,
+        "voice": "Autonoe",
+        "who": "sophronia-vell",
+        "expected": "it",
+        "heard": "",
+        "context": "marked that wenna strake posted [it] at quarto's counter on her",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 638.54,
+        "seg": 234,
+        "voice": "Autonoe",
+        "who": "sophronia-vell",
+        "expected": "quarto's",
+        "heard": "a quarter's",
+        "context": "wenna strake posted it at [quarto's] counter on her last possible",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 641.5,
+        "seg": 235,
+        "voice": "Autonoe",
+        "who": "sophronia-vell",
+        "expected": "pell's",
+        "heard": "pels",
+        "context": "her last possible day osgood [pell's] proposal says she must accept",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 644.08,
+        "seg": 235,
+        "voice": "Autonoe",
+        "who": "sophronia-vell",
+        "expected": "ninth",
+        "heard": "9th",
+        "context": "before the close of the [ninth] of haymonth hearth reckoning under",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 644.48,
+        "seg": 235,
+        "voice": "Autonoe",
+        "who": "sophronia-vell",
+        "expected": "haymonth",
+        "heard": "haymouth",
+        "context": "close of the ninth of [haymonth] hearth reckoning under the sixty",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 646.84,
+        "seg": 236,
+        "voice": "Autonoe",
+        "who": "sophronia-vell",
+        "expected": "sixty first",
+        "heard": "61st",
+        "context": "haymonth hearth reckoning under the [sixty first] her postmark converts to the",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 649.98,
+        "seg": 236,
+        "voice": "Autonoe",
+        "who": "sophronia-vell",
+        "expected": "tenth",
+        "heard": "10th",
+        "context": "the third hour of the [tenth] so it's late said jory",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 674.98,
+        "seg": 249,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "soph quarto's",
+        "heard": "soff porto's",
+        "context": "it under the sixtieth said [soph quarto's] drawer didn't take the sixty",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 680.94,
+        "seg": 252,
+        "voice": "Autonoe",
+        "who": "sophronia-vell",
+        "expected": "",
+        "heard": "length",
+        "context": "twentieth hour of the ninth [] inside with hours to spare",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 684.86,
+        "seg": 254,
+        "voice": "Autonoe",
+        "who": "sophronia-vell",
+        "expected": "hearth main's",
+        "heard": "hothmanes",
+        "context": "she slapped the table and [hearth main's] had sixty one in its",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 685.8,
+        "seg": 254,
+        "voice": "Autonoe",
+        "who": "sophronia-vell",
+        "expected": "sixty one",
+        "heard": "61",
+        "context": "table and hearth main's had [sixty one] in its drawer for months",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 690.04,
+        "seg": 256,
+        "expected": "then",
+        "heard": "Then",
+        "p": 0.033
+      },
+      {
+        "kind": "misheard",
+        "time": 694.06,
+        "seg": 259,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "soph",
+        "heard": "soft",
+        "context": "isn't one said jory except [soph] went still furrow end the",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 700.6,
+        "seg": 263,
+        "voice": "Autonoe",
+        "who": "sophronia-vell",
+        "expected": "quarto",
+        "heard": "quodo",
+        "context": "round i heard it at [quarto] their courier was running close",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 704.66,
+        "seg": 265,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "peregrine",
+        "heard": "peregrin",
+        "context": "his deadline how close said [peregrine] checking furrow end's drawer notice",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 706.72,
+        "seg": 266,
+        "voice": "Schedar",
+        "who": "waybill",
+        "expected": "furrow end's drawer",
+        "heard": "furrowend's draw",
+        "context": "how close said peregrine checking [furrow end's drawer] notice captain now that we",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 711.9,
+        "seg": 268,
+        "expected": "revision",
+        "heard": "Revision",
+        "p": 0.001
+      },
+      {
+        "kind": "misheard",
+        "time": 711.9,
+        "seg": 268,
+        "voice": "Schedar",
+        "who": "waybill",
+        "expected": "sixty one",
+        "heard": "61",
+        "context": "hear it a pause revision [sixty one] was posted in furrow end's",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 714.5,
+        "seg": 268,
+        "voice": "Schedar",
+        "who": "waybill",
+        "expected": "drawer",
+        "heard": "draw",
+        "context": "was posted in furrow end's [drawer] six local days ago it",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 721,
+        "seg": 270,
+        "voice": "Schedar",
+        "who": "waybill",
+        "expected": "sixtieth",
+        "heard": "60th",
+        "context": "tomorrow local until then the [sixtieth] governs there jory let out",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 729.7,
+        "seg": 273,
+        "voice": "Schedar",
+        "who": "waybill",
+        "expected": "hearth",
+        "heard": "harth",
+        "context": "their midnight the manifest names [hearth] captain said waybill hearth main",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 732.76,
+        "seg": 275,
+        "voice": "Schedar",
+        "who": "waybill",
+        "expected": "hearth",
+        "heard": "harth",
+        "context": "names hearth captain said waybill [hearth] main is the customary office",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 736.02,
+        "seg": 276,
+        "voice": "Orus",
+        "who": "peregrine-blott",
+        "expected": "hearth",
+        "heard": "harth",
+        "context": "customary office furrow end is [hearth] said peregrine take her round",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 747.64,
+        "seg": 280,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "peregrine",
+        "heard": "peregrin",
+        "context": "did not like them and [peregrine] did not hurry him the",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 752.5,
+        "seg": 283,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "furrow end's counter",
+        "heard": "furl n's counters",
+        "context": "the clamps closed grace began [furrow end's counter] smelled of hay and printer's",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 755.84,
+        "seg": 284,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "acceptance's postmark",
+        "heard": "acreptance's post mark",
+        "context": "ink the clerk read the [acceptance's postmark] turned to the drawer edition",
+        "name": true
+      },
+      {
+        "kind": "extra",
+        "time": 778.34,
+        "seg": 292,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "",
+        "heard": "there you go",
+        "context": "married valid punched on time [] said waybill in peregrine's earpiece",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 779.46,
+        "seg": 292,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "waybill",
+        "heard": "weibil",
+        "context": "valid punched on time said [waybill] in peregrine's earpiece as if",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 780.32,
+        "seg": 292,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "peregrine's",
+        "heard": "peregrin's",
+        "context": "on time said waybill in [peregrine's] earpiece as if it had",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 784.74,
+        "seg": 293,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "peregrine",
+        "heard": "peregrin",
+        "context": "personally arranged the whole thing [peregrine] thanked the clerk and went",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 789.48,
+        "seg": 294,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "peregrine",
+        "heard": "peregrin",
+        "context": "went back to his ship [peregrine] had the rest of his",
+        "name": true
+      },
+      {
+        "kind": "unclear",
+        "time": 794.18,
+        "seg": 296,
+        "expected": "the",
+        "heard": "the",
+        "p": 0.036
+      },
+      {
+        "kind": "misheard",
+        "time": 804.16,
+        "seg": 298,
+        "voice": "Autonoe",
+        "who": "sophronia-vell",
+        "expected": "light",
+        "heard": "late",
+        "context": "read everything arguing with it [light] bulletin from gnomon the almanac",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 804.86,
+        "seg": 298,
+        "voice": "Autonoe",
+        "who": "sophronia-vell",
+        "expected": "gnomon",
+        "heard": "nomon",
+        "context": "with it light bulletin from [gnomon] the almanac board has issued",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 807.04,
+        "seg": 299,
+        "voice": "Autonoe",
+        "who": "sophronia-vell",
+        "expected": "sixty two",
+        "heard": "six",
+        "context": "almanac board has issued revision [sixty two] she snorted already they can't",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 809.16,
+        "seg": 301,
+        "voice": "Autonoe",
+        "who": "sophronia-vell",
+        "expected": "",
+        "heard": "d2",
+        "context": "revision sixty two she snorted [] already they can't leave a",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 818.78,
+        "seg": 306,
+        "voice": "Autonoe",
+        "who": "sophronia-vell",
+        "expected": "moves",
+        "heard": "move",
+        "context": "said jory another one probably [moves] somebody's afternoon they'll want couriers",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 822.62,
+        "seg": 308,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "peregrine",
+        "heard": "peregrin",
+        "context": "want couriers to carry it [peregrine] filed at the dock office",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 833.08,
+        "seg": 310,
+        "voice": "Aoede",
+        "who": "narrator",
+        "expected": "licence",
+        "heard": "license",
+        "context": "the dock office's record his [licence] showed what it had always",
+        "name": false
+      }
+    ]
+  }
+}

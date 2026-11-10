@@ -1,0 +1,37 @@
+{
+  "_note": "Audio producer notes for S01E001. speakers: quote # (from narrate --dry-run) -> speaker. \"narrator\" = Sorrel's own lines. 6 and 9-12 are the counter Dorcas Ely; 13 is Hamish.",
+  "cast": {
+    "amos-thurlow": {
+      "gemini": { "voice": "Alnilam", "style": "Gruff older Fenland loft-man of few words" },
+      "names": []
+    },
+    "dorcas-ely": {
+      "gemini": { "voice": "Erinome", "style": "Small, quiet, controlled woman, a match official; level and careful, giving nothing away" },
+      "names": []
+    },
+    "wilfred-cobbing": {
+      "gemini": { "voice": "Sadaltager", "style": "Weathered older Fenland village chairman, wry and resigned" },
+      "names": []
+    },
+    "hamish-toller": {
+      "gemini": { "voice": "Umbriel", "style": "Exhausted young Fenland man, quiet and flat after a hard loss" },
+      "names": []
+    }
+  },
+  "speakers": {
+    "1": "amos-thurlow",
+    "2": "wilfred-cobbing", "3": "wilfred-cobbing",
+    "4": "c-rhys-dorne",
+    "5": "narrator",
+    "6": "dorcas-ely",
+    "7": "narrator", "8": "narrator",
+    "9": "dorcas-ely", "10": "dorcas-ely", "11": "dorcas-ely", "12": "dorcas-ely",
+    "13": "hamish-toller",
+    "14": "c-joan-pettifer",
+    "15": "c-rhys-dorne",
+    "16": "c-lucas-mbeki",
+    "17": "c-joan-pettifer",
+    "18": "c-lucas-mbeki", "19": "c-lucas-mbeki",
+    "20": "amos-thurlow", "21": "amos-thurlow"
+  }
+}

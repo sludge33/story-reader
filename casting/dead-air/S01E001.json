@@ -1,0 +1,53 @@
+{
+  "_note": "Audio producer notes for S01E001. speakers: quote # (from narrate --dry-run) -> speaker. \"narrator\" = Wren's own lines (first person). Sef is not matched by name (the bible name is Sefton).",
+  "cast": {
+    "warden": {
+      "gemini": { "voice": "Rasalgethi", "style": "Level, procedural match referee, an older northern English man; calm and official, not unkind" },
+      "names": []
+    },
+    "bailiff": {
+      "gemini": { "voice": "Charon", "style": "Flat, apologetic northern English guild bailiff, doing an unpleasant job politely" },
+      "names": []
+    }
+  },
+  "speakers": {
+    "1": "bailiff", "2": "bailiff",
+    "3": "narrator", "4": "narrator",
+    "5": "c-sef", "6": "c-sef",
+    "7": "narrator", "8": "narrator",
+    "9": "c-sef", "10": "c-sef", "11": "c-sef",
+    "12": "narrator",
+    "13": "c-sef",
+    "14": "narrator",
+    "15": "c-sef",
+    "16": "narrator",
+    "17": "warden",
+    "18": "c-sef",
+    "19": "c-dov",
+    "20": "narrator",
+    "21": "c-dov",
+    "22": "c-oduya",
+    "23": "c-marten",
+    "24": "c-sef", "25": "c-sef",
+    "26": "narrator",
+    "27": "c-sef",
+    "28": "narrator",
+    "29": "c-sef",
+    "30": "c-marten",
+    "31": "warden", "32": "warden",
+    "33": "c-sef",
+    "34": "narrator",
+    "35": "c-sef",
+    "36": "narrator",
+    "37": "c-sef",
+    "38": "warden",
+    "39": "c-sef",
+    "40": "c-oduya", "41": "c-oduya",
+    "42": "warden",
+    "43": "c-oduya",
+    "44": "c-marten",
+    "45": "c-sef",
+    "46": "narrator",
+    "47": "c-sef"
+  }
+}

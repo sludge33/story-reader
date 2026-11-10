@@ -1,0 +1,17 @@
+{
+  "_note": "Gemini Voice Design voices for Wren, created 2026-11-10 (store=true, 1-year TTL). Samples: audio/dead-air/S01E001.wren-<tag>.wav",
+  "voices": [
+    {
+      "tag": "c2",
+      "id": "voice_4v94mun5z7pt",
+      "name": "Wren C2 (broad Lancashire, lower)",
+      "input": "19-year-old androgynous northern English voice, neither clearly male nor female, low-middle pitch, dry and physical, short sentences, deadpan humour under pressure. Broad, strong Lancashire accent, flat northern vowels; slightly lower and flatter than a typical young woman, a touch of gravel, wry, a young working mason telling their own story close to the microphone"
+    },
+    {
+      "tag": "c3",
+      "id": "voice_tgykzze6kznc",
+      "name": "Wren C3 (broad Lancashire, lowest)",
+      "input": "19-year-old androgynous northern English voice, neither clearly male nor female, low-middle pitch, dry and physical, short sentences, deadpan humour under pressure. Broad Lancashire mill-town accent, very northern; low and even pitch, gender hard to place, dry and unhurried, wry, a young working mason telling their own story close to the microphone"
+    }
+  ]
+}

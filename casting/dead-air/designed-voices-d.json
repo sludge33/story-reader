@@ -1,0 +1,41 @@
+{
+  "_note": "Wren round D, 2026-11-10: variants on C. d1-d5 are Voice Design voices (store=true, 1-year TTL); cs1 is voice C rendered with a flatter style string. Samples: audio/dead-air/S01E001.wren-<tag>.wav",
+  "voices": [
+    {
+      "tag": "d1",
+      "id": "voice_0pxfvaw49pnf",
+      "name": "Wren D1 (C re-roll)",
+      "input": "19-year-old androgynous northern English voice, neither clearly male nor female, low-middle pitch, dry and physical, short sentences, deadpan humour under pressure. Lancashire accent, slightly lighter and quicker, wry, a young working mason telling their own story close to the microphone"
+    },
+    {
+      "tag": "d2",
+      "id": "voice_iv2bkkkq2n6q",
+      "name": "Wren D2 (C re-roll)",
+      "input": "19-year-old androgynous northern English voice, neither clearly male nor female, low-middle pitch, dry and physical, short sentences, deadpan humour under pressure. Lancashire accent, slightly lighter and quicker, wry, a young working mason telling their own story close to the microphone"
+    },
+    {
+      "tag": "d3",
+      "id": "voice_rrkhw487lzqh",
+      "name": "Wren D3 (C, flatter intonation)",
+      "input": "19-year-old androgynous northern English voice, neither clearly male nor female, low-middle pitch, dry and physical, short sentences, deadpan humour under pressure. Lancashire accent, slightly lighter and quicker, wry, a young working mason telling their own story close to the microphone; level, flat intonation that stays in a narrow range, never sing-song or bright"
+    },
+    {
+      "tag": "d4",
+      "id": "voice_fn4qzgyk5v5d",
+      "name": "Wren D4 (C, clearer Lancashire)",
+      "input": "19-year-old androgynous northern English voice, neither clearly male nor female, low-middle pitch, dry and physical, short sentences, deadpan humour under pressure. Clear Lancashire accent with flat northern vowels, slightly lighter and quicker, wry, a young working mason telling their own story close to the microphone"
+    },
+    {
+      "tag": "d5",
+      "id": "voice_zgkixaakimfy",
+      "name": "Wren D5 (C, could be either)",
+      "input": "19-year-old androgynous northern English voice, neither clearly male nor female, low-middle pitch, dry and physical, short sentences, deadpan humour under pressure. Lancashire accent, slightly lighter and quicker, wry, a young working mason telling their own story close to the microphone; the kind of voice listeners argue about: could be a young woman with a low voice or a young man with a light one"
+    },
+    {
+      "tag": "cs1",
+      "id": "voice_7ma2za9e16on",
+      "name": "Wren C voice, flatter delivery style (no new voice)",
+      "style": "19-year-old working-class northern English mason, androgynous voice, neither clearly male nor female; short, dry, physical sentences; deadpan under pressure; first-person storyteller at a natural pace; level, flat northern intonation in a narrow pitch range, never sing-song; clear Lancashire vowels"
+    }
+  ]
+}

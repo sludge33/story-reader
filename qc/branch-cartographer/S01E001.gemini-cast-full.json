@@ -1,0 +1,1586 @@
+{
+  "code": "S01E001",
+  "pass": false,
+  "checks": [
+    {
+      "name": "Loudness",
+      "pass": true,
+      "value": "-16.7 LUFS",
+      "want": "-16 ±1"
+    },
+    {
+      "name": "True peak",
+      "pass": true,
+      "value": "-1 dBTP",
+      "want": "≤ -1"
+    },
+    {
+      "name": "Clipping",
+      "pass": true,
+      "value": "0 samples at full scale",
+      "want": "0"
+    },
+    {
+      "name": "Dead air",
+      "pass": true,
+      "value": "none",
+      "want": "no silence > 3s"
+    },
+    {
+      "name": "Script lint",
+      "pass": false,
+      "value": "22 issue(s)",
+      "want": "0"
+    },
+    {
+      "name": "Word accuracy",
+      "pass": true,
+      "value": "98.2% (47 spots)",
+      "want": "≥ 97%"
+    },
+    {
+      "name": "Pace (overall)",
+      "pass": true,
+      "value": "156 wpm",
+      "want": "145-170 wpm"
+    },
+    {
+      "name": "Voice level match",
+      "pass": false,
+      "value": "4.3 dB spread",
+      "want": "≤ 3 dB"
+    }
+  ],
+  "signal": {
+    "lufs": -16.7,
+    "lra": 4.9,
+    "truePeak": -1,
+    "samplePeak": -1.4,
+    "clipped": 0,
+    "gaps": []
+  },
+  "voices": [
+    {
+      "who": "linnet-ardent",
+      "voice": "Iapetus",
+      "wpm": 227,
+      "levelDb": -16.5
+    },
+    {
+      "who": "gideon-pask",
+      "voice": "Sadaltager",
+      "wpm": 209,
+      "levelDb": -16.5
+    },
+    {
+      "who": "cressida-vesey",
+      "voice": "Kore",
+      "wpm": 212,
+      "levelDb": -16.1
+    },
+    {
+      "who": "bole-clerk",
+      "voice": "Zubenelgenubi",
+      "wpm": null,
+      "levelDb": -14
+    },
+    {
+      "who": "hen-brisk",
+      "voice": "Laomedeia",
+      "wpm": null,
+      "levelDb": null
+    },
+    {
+      "who": "weirside-clerk",
+      "voice": "Puck",
+      "wpm": 180,
+      "levelDb": -18.3
+    },
+    {
+      "who": "hesper-ardent",
+      "voice": "Vindemiatrix",
+      "wpm": 206,
+      "levelDb": -16.2
+    }
+  ],
+  "lint": {
+    "issues": [
+      {
+        "seg": 6,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "I uncapped mine and wrote line one of my first Form 9, because the form says to start with the obvious."
+      },
+      {
+        "seg": 9,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "Survey Form 9 is one page."
+      },
+      {
+        "seg": 22,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "Gideon leaned over the counter to read it upside down, which is against Standing Order 3."
+      },
+      {
+        "seg": 23,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "4 and which he has done to every trainee for forty years."
+      },
+      {
+        "seg": 45,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "Distance: 1."
+      },
+      {
+        "seg": 54,
+        "why": "abbreviation",
+        "text": "No."
+      },
+      {
+        "seg": 60,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "Standing Order 4."
+      },
+      {
+        "seg": 61,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "2,"
+      },
+      {
+        "seg": 149,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "I read it twice and put it in my Form 9 folder, behind the bill, which is against Standing Order 3."
+      },
+      {
+        "seg": 150,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "7, which covers what may be kept with a bill."
+      },
+      {
+        "seg": 171,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "1."
+      },
+      {
+        "seg": 173,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "2."
+      },
+      {
+        "seg": 175,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "3."
+      },
+      {
+        "seg": 179,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "4."
+      },
+      {
+        "seg": 264,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "1."
+      },
+      {
+        "seg": 266,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "2."
+      },
+      {
+        "seg": 269,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "3."
+      },
+      {
+        "seg": 271,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "4."
+      },
+      {
+        "seg": 274,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "5."
+      },
+      {
+        "seg": 477,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "Standing Order 9."
+      },
+      {
+        "seg": 478,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "1."
+      },
+      {
+        "seg": 511,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "Then I went up to my room and sat on the bed, because I had been told to sit down, and I opened the Form 9 folder and to"
+      }
+    ],
+    "unknownNames": [
+      [
+        "Row",
+        5
+      ],
+      [
+        "Form",
+        4
+      ],
+      [
+        "Survey",
+        4
+      ],
+      [
+        "Order",
+        4
+      ],
+      [
+        "Handbook",
+        4
+      ],
+      [
+        "Weir",
+        3
+      ],
+      [
+        "Ward",
+        3
+      ],
+      [
+        "Sluice",
+        3
+      ],
+      [
+        "Standing",
+        2
+      ],
+      [
+        "Trainee",
+        2
+      ],
+      [
+        "Quay",
+        1
+      ],
+      [
+        "Street",
+        1
+      ],
+      [
+        "Fishmarket",
+        1
+      ],
+      [
+        "Cartographer",
+        1
+      ],
+      [
+        "A",
+        1
+      ],
+      [
+        "Tobin",
+        1
+      ],
+      [
+        "Lane",
+        1
+      ]
+    ]
+  },
+  "asr": {
+    "wer": 0.0176,
+    "model": "small.en",
+    "names": {
+      "the": {
+        "the": 261
+      },
+      "ninefold": {
+        "ninefold": 5,
+        "nine fold": 2
+      },
+      "hall": {
+        "hole had dawned": 1,
+        "hall": 6,
+        "hold at": 1
+      },
+      "gideon": {
+        "gideon": 4
+      },
+      "pask": {
+        "pask": 1
+      },
+      "bole": {
+        "bowl": 8,
+        "b l": 1,
+        "ball": 1
+      },
+      "brisk": {
+        "brisk": 20,
+        "risk": 1
+      },
+      "fintan": {
+        "finton": 4,
+        "fintan": 2
+      },
+      "cressida": {
+        "cressida": 16,
+        "gressido": 1
+      },
+      "vesey": {
+        "vesey": 1,
+        "be easy": 1
+      },
+      "ardent": {
+        "ardent": 18
+      },
+      "weirside": {
+        "weirside": 3,
+        "we're side": 1,
+        "weir side": 3,
+        "weir's side": 1,
+        "wearside": 7,
+        "weird side": 1,
+        "wireside": 1,
+        "wear side": 2,
+        "rear side halls": 1,
+        "we aside": 1
+      },
+      "exchange": {
+        "exchange": 2
+      },
+      "desk": {
+        "desk": 9
+      },
+      "tessary": {
+        "tessery we're": 1,
+        "tessary": 2,
+        "tessery": 3,
+        "root tesserie wear": 1,
+        "weirsides tessery": 1,
+        "tessery where": 1
+      },
+      "least": {
+        "least": 3
+      },
+      "edric": {
+        "edric": 2,
+        "edrick": 4
+      },
+      "agreement": {
+        "agreement": 1
+      }
+    },
+    "issues": [
+      {
+        "kind": "misheard",
+        "time": 1.46,
+        "seg": 0,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "hall at dawn",
+        "heard": "hole had dawned",
+        "context": "kit room of the ninefold [hall at dawn] gideon pask was humming a",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 6.18,
+        "seg": 1,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "bole",
+        "heard": "bowl",
+        "context": "a tune nobody in the [bole] knows from when i was",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 28.34,
+        "seg": 7,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "fintan",
+        "heard": "finton",
+        "context": "obvious my given name is [fintan] footnote it was the last",
+        "name": true
+      },
+      {
+        "kind": "extra",
+        "time": 55.04,
+        "seg": 15,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "",
+        "heard": "four",
+        "context": "eleven i wrote five more [] i can read survey shorthand",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 68.24,
+        "seg": 18,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "licence",
+        "heard": "license",
+        "context": "seven i want the chainman's [licence] i cannot swim footnote i",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 82.88,
+        "seg": 22,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "",
+        "heard": "with",
+        "context": "which is against standing order [] three four and which he",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 83.2,
+        "seg": 23,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "",
+        "heard": "point",
+        "context": "is against standing order three [] four and which he has",
+        "name": false
+      },
+      {
+        "kind": "missing",
+        "time": 96.02,
+        "seg": 29,
+        "voice": "Sadaltager",
+        "who": "gideon-pask",
+        "expected": "ha",
+        "heard": "",
+        "context": "ask anyone in the cohort [ha] he tapped the bottle in",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 102.32,
+        "seg": 31,
+        "voice": "Sadaltager",
+        "who": "gideon-pask",
+        "expected": "pinned ink",
+        "heard": "pending",
+        "context": "my hand three bottles of [pinned ink] and a prayer that's the",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 113.72,
+        "seg": 35,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "grey",
+        "heard": "gray",
+        "context": "six exactly she is sixty [grey] and has never in my",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 134.34,
+        "seg": 45,
+        "expected": "distance",
+        "heard": "distance",
+        "p": 0.018
+      },
+      {
+        "kind": "spelling",
+        "time": 139.5,
+        "seg": 46,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "weirside",
+        "heard": "we're side",
+        "context": "wall third from the left [weirside] hall the same route read",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 144.72,
+        "seg": 47,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "twenty one",
+        "heard": "21",
+        "context": "the exchange desk daily for [twenty one] years hinge tessary weir the",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 146.76,
+        "seg": 48,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "tessary weir",
+        "heard": "tessery we're",
+        "context": "for twenty one years hinge [tessary weir] the weir night hinge maker",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 148.14,
+        "seg": 48,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "weir",
+        "heard": "we're",
+        "context": "years hinge tessary weir the [weir] night hinge maker blank the",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 153.38,
+        "seg": 50,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "twenty one",
+        "heard": "21",
+        "context": "this route every day for [twenty one] years i said and nobody",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 158.2,
+        "seg": 53,
+        "expected": "card",
+        "heard": "card.",
+        "p": 0
+      },
+      {
+        "kind": "spelling",
+        "time": 165.18,
+        "seg": 58,
+        "voice": "Kore",
+        "who": "cressida-vesey",
+        "expected": "brisk",
+        "heard": "risk",
+        "context": "her fingers three of us [brisk] opens you accompany standing order",
+        "name": true
+      },
+      {
+        "kind": "unclear",
+        "time": 186.14,
+        "seg": 68,
+        "expected": "no",
+        "heard": "No",
+        "p": 0.012
+      },
+      {
+        "kind": "spelling",
+        "time": 229.04,
+        "seg": 83,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "custom assigns",
+        "heard": "customer signs",
+        "context": "noted i said footnote survey [custom assigns] trainees to near branches by",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 231.2,
+        "seg": 83,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "rota",
+        "heard": "rotor",
+        "context": "trainees to near branches by [rota] i checked the rota afterwards",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 232.8,
+        "seg": 84,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "rota",
+        "heard": "rotor",
+        "context": "by rota i checked the [rota] afterwards my name was on",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 239.04,
+        "seg": 86,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "where",
+        "heard": "when",
+        "context": "i filed that under coincidence [where] it stayed for some time",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 248.96,
+        "seg": 89,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "tessary",
+        "heard": "tessery",
+        "context": "older than anything else in [tessary] that still has a roof",
+        "name": true
+      },
+      {
+        "kind": "unclear",
+        "time": 272.78,
+        "seg": 95,
+        "expected": "all",
+        "heard": "All",
+        "p": 0.029
+      },
+      {
+        "kind": "extra",
+        "time": 274.32,
+        "seg": 96,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "",
+        "heard": "it's getting on",
+        "context": "spend his opening all yours [] he said letters wait till",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 276.46,
+        "seg": 97,
+        "voice": "Zubenelgenubi",
+        "who": "bole-clerk",
+        "expected": "letters",
+        "heard": "let us",
+        "context": "opening all yours he said [letters] wait till tomorrow then footnote",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 284.66,
+        "seg": 99,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "bole's",
+        "heard": "bowl's",
+        "context": "side if brisk read the [bole's] side for us nobody in",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 286.28,
+        "seg": 99,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "bole",
+        "heard": "bowl",
+        "context": "for us nobody in the [bole] could open to weirside again",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 287.08,
+        "seg": 99,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "weirside",
+        "heard": "weir's side",
+        "context": "the bole could open to [weirside] again until dawn the clerk",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 294.36,
+        "seg": 102,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "ballast",
+        "heard": "ballads",
+        "context": "and brisk had made their [ballast] at home that morning i",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 303.18,
+        "seg": 106,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "sill",
+        "heard": "cell",
+        "context": "on the line of the [sill] rolled her shoulders and patted",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 307.98,
+        "seg": 107,
+        "voice": "Laomedeia",
+        "who": "hen-brisk",
+        "expected": "",
+        "heard": "money well",
+        "context": "stone like a horse's neck [] morning old girl she said",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 315.22,
+        "seg": 109,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "route tessary weir",
+        "heard": "root tesserie wear",
+        "context": "and clear she read the [route tessary weir] the weir night the door",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 316.82,
+        "seg": 111,
+        "voice": "Laomedeia",
+        "who": "hen-brisk",
+        "expected": "weir",
+        "heard": "wear",
+        "context": "the route tessary weir the [weir] night the door did not",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 320.86,
+        "seg": 114,
+        "expected": "the",
+        "heard": "The",
+        "p": 0.026
+      },
+      {
+        "kind": "misheard",
+        "time": 373.2,
+        "seg": 131,
+        "voice": "Puck",
+        "who": "weirside-clerk",
+        "expected": "bole",
+        "heard": "b l",
+        "context": "door dies for that pair [bole] crew said the weirside clerk",
+        "name": true
+      },
+      {
+        "kind": "unclear",
+        "time": 377.82,
+        "seg": 133,
+        "expected": "we",
+        "heard": "we",
+        "p": 0.019
+      },
+      {
+        "kind": "misheard",
+        "time": 389.96,
+        "seg": 137,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "bole",
+        "heard": "ball",
+        "context": "blotter addressed for trainee ardent [bole] survey the handwriting was mine",
+        "name": true
+      },
+      {
+        "kind": "missing",
+        "time": 415.36,
+        "seg": 148,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "he",
+        "heard": "",
+        "context": "than a name no signature [he] didn't need one i read",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 426.18,
+        "seg": 150,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "a",
+        "heard": "the",
+        "context": "what may be kept with [a] bill i didn't care when",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 455.54,
+        "seg": 162,
+        "expected": "was",
+        "heard": "Was",
+        "p": 0.024
+      },
+      {
+        "kind": "unclear",
+        "time": 459.12,
+        "seg": 165,
+        "expected": "no",
+        "heard": "No",
+        "p": 0.035
+      },
+      {
+        "kind": "misheard",
+        "time": 459.6,
+        "seg": 165,
+        "voice": "Laomedeia",
+        "who": "hen-brisk",
+        "expected": "chief",
+        "heard": "teeth",
+        "context": "the card said cressida no [chief] then we have a registry",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 476.84,
+        "seg": 172,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "rota",
+        "heard": "rotor",
+        "context": "how did he know the [rota] two why write and not",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 492.64,
+        "seg": 184,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "weirside's tessary",
+        "heard": "weirsides tessery",
+        "context": "was not at my best [weirside's tessary] is our tessary for most",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 494.18,
+        "seg": 184,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "tessary",
+        "heard": "tessery",
+        "context": "best weirside's tessary is our [tessary] for most of a mile",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 500.48,
+        "seg": 187,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "quay",
+        "heard": "key",
+        "context": "same bridge the bakers on [quay] street are the same bakers",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 508.36,
+        "seg": 189,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "bole",
+        "heard": "bowl",
+        "context": "not the same in the [bole] the tessary weir has a",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 509.06,
+        "seg": 189,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "tessary",
+        "heard": "tessery",
+        "context": "same in the bole the [tessary] weir has a stone memorial",
+        "name": true
+      },
+      {
+        "kind": "extra",
+        "time": 544.46,
+        "seg": 201,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "",
+        "heard": "we were early",
+        "context": "closes at four she said [] the weirside registry is in",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 547.68,
+        "seg": 201,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "weirside",
+        "heard": "wearside",
+        "context": "at four she said the [weirside] registry is in the old",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 552.48,
+        "seg": 203,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "clerk's",
+        "heard": "clark's",
+        "context": "the fishmarket same building same [clerk's] counter worn into a dip",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 559.7,
+        "seg": 204,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "bole",
+        "heard": "bowl",
+        "context": "the registrar who had seen [bole] crews before brought us the",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 584.12,
+        "seg": 209,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "twenty two",
+        "heard": "22",
+        "context": "them disagree death register spring [twenty two] years ago i ran the",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 588.46,
+        "seg": 211,
+        "expected": "two",
+        "heard": "Two",
+        "p": 0.003
+      },
+      {
+        "kind": "spelling",
+        "time": 602.4,
+        "seg": 217,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "bole",
+        "heard": "bowl",
+        "context": "four men drowned at the [bole] weir that night i said",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 656.96,
+        "seg": 237,
+        "voice": "Kore",
+        "who": "cressida-vesey",
+        "expected": "weir",
+        "heard": "we are",
+        "context": "from brisk is a speech [weir] watch log said cressida to",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 668.14,
+        "seg": 241,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "",
+        "heard": "bowl",
+        "context": "had kept it in pencil [] in a hand like barbed",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 693.82,
+        "seg": 252,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "bole",
+        "heard": "bowl",
+        "context": "in both branches in the [bole] my mother watched him put",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 698.58,
+        "seg": 253,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "weirside",
+        "heard": "weird side",
+        "context": "ask him to stay in [weirside] she asked and he stayed",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 703.56,
+        "seg": 254,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "bole",
+        "heard": "bowl",
+        "context": "other men who in the [bole] went down with him i",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 765.48,
+        "seg": 281,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "weir ward",
+        "heard": "we award",
+        "context": "wanted to know ardent edric [weir ward] same day as mine same",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 770.38,
+        "seg": 285,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "",
+        "heard": "and",
+        "context": "same hour father tobin ardent [] mother hesper ardent not fintan",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 773,
+        "seg": 286,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "fintan",
+        "heard": "finton",
+        "context": "ardent mother hesper ardent not [fintan] in weirside i was never",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 774.32,
+        "seg": 287,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "weirside",
+        "heard": "wireside",
+        "context": "hesper ardent not fintan in [weirside] i was never fintan i",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 775.36,
+        "seg": 287,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "fintan",
+        "heard": "finton",
+        "context": "in weirside i was never [fintan] i stood up i'd like",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 779,
+        "seg": 289,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "sluice",
+        "heard": "sloose",
+        "context": "i'd like to go to [sluice] row i said for the",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 808.38,
+        "seg": 304,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "licence",
+        "heard": "license",
+        "context": "of cord my dagger my [licence] that i didn't have yet",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 826.32,
+        "seg": 310,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "",
+        "heard": "him",
+        "context": "costs more than a name [] the weirside me was not",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 827.94,
+        "seg": 310,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "weirside",
+        "heard": "wear side",
+        "context": "more than a name the [weirside] me was not talking about",
+        "name": true
+      },
+      {
+        "kind": "extra",
+        "time": 837.6,
+        "seg": 313,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "",
+        "heard": "a",
+        "context": "there you can walk down [] sluice row and knock and",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 849.82,
+        "seg": 315,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "edric",
+        "heard": "edrick",
+        "context": "and his son not being [edric] and edric somewhere on the",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 851.68,
+        "seg": 316,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "edric",
+        "heard": "edrick",
+        "context": "son not being edric and [edric] somewhere on the stair having",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 896.04,
+        "seg": 330,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "aloud",
+        "heard": "allowed",
+        "context": "card against the books again [aloud] she sat across the table",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 901.32,
+        "seg": 332,
+        "expected": "on",
+        "heard": "On",
+        "p": 0.008
+      },
+      {
+        "kind": "spelling",
+        "time": 917.56,
+        "seg": 339,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "weirside",
+        "heard": "wearside",
+        "context": "gestured at the window at [weirside] at the bench where the",
+        "name": true
+      },
+      {
+        "kind": "unclear",
+        "time": 949.98,
+        "seg": 350,
+        "expected": "my",
+        "heard": "My",
+        "p": 0.026
+      },
+      {
+        "kind": "misheard",
+        "time": 957.94,
+        "seg": 354,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "a",
+        "heard": "the",
+        "context": "something i waited with her [a] cart went past outside the",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 958.72,
+        "seg": 354,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "past",
+        "heard": "passed",
+        "context": "with her a cart went [past] outside the registrar shut a",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 961.02,
+        "seg": 355,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "shut",
+        "heard": "shot",
+        "context": "went past outside the registrar [shut] a drawer field four cressida",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 961.38,
+        "seg": 355,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "drawer",
+        "heard": "draw",
+        "context": "outside the registrar shut a [drawer] field four cressida said you've",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 990.3,
+        "seg": 366,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "tact",
+        "heard": "tacked",
+        "context": "that on the record as [tact] rather than cowardice it may",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 998.36,
+        "seg": 369,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "weirside's",
+        "heard": "wearside's",
+        "context": "dusk we went back to [weirside's] hall the clerk with ink",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 1037.48,
+        "seg": 379,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "weirside hall's",
+        "heard": "rear side halls",
+        "context": "third doorway from the left [weirside hall's] door to the ninefold and",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 1046.3,
+        "seg": 383,
+        "voice": "Laomedeia",
+        "who": "hen-brisk",
+        "expected": "tessary weir",
+        "heard": "tessery where",
+        "context": "and then flat and clear [tessary weir] the weir night the dark",
+        "name": true
+      },
+      {
+        "kind": "extra",
+        "time": 1091.98,
+        "seg": 399,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "",
+        "heard": "gone",
+        "context": "know a step is gone [] and you cannot tell which",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 1108.02,
+        "seg": 405,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "weirside",
+        "heard": "wearside",
+        "context": "each one kind spent in [weirside] nothing that mattered to anyone",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 1141.42,
+        "seg": 411,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "weirside",
+        "heard": "we aside",
+        "context": "enough to split the world [weirside] would have reached for it",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 1146.38,
+        "seg": 413,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "licence",
+        "heard": "license",
+        "context": "a trainee who wanted a [licence] nothing to take two glare",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 1152.4,
+        "seg": 417,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "weirside",
+        "heard": "wearside",
+        "context": "glare something i carried that [weirside] could not hold because something",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 1157.72,
+        "seg": 418,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "weirside",
+        "heard": "wearside",
+        "context": "depends on doesn't exist there [weirside] is one hinge from home",
+        "name": true
+      },
+      {
+        "kind": "missing",
+        "time": 1169.16,
+        "seg": 424,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "full",
+        "heard": "",
+        "context": "none first bill paid in [full] four orphans facts that nothing",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 1173.54,
+        "seg": 427,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "weirside",
+        "heard": "wearside",
+        "context": "orphans facts that nothing in [weirside] supports oldest goes first the",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 1178.48,
+        "seg": 429,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "weirside",
+        "heard": "wearside",
+        "context": "i had that nothing in [weirside] agreed with was my given",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 1181.38,
+        "seg": 430,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "weirside's",
+        "heard": "wearside's",
+        "context": "with was my given name [weirside's] register says edric so it",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 1182.6,
+        "seg": 430,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "edric",
+        "heard": "edrick",
+        "context": "given name weirside's register says [edric] so it took fintan and",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 1184.26,
+        "seg": 431,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "fintan",
+        "heard": "finton",
+        "context": "says edric so it took [fintan] and gave me edric footnote",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 1185.52,
+        "seg": 431,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "edric",
+        "heard": "edrick",
+        "context": "took fintan and gave me [edric] footnote to that footnote he",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 1208.96,
+        "seg": 438,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "bole",
+        "heard": "bowl",
+        "context": "be thanked back in the [bole] our night clerk was writing",
+        "name": true
+      },
+      {
+        "kind": "extra",
+        "time": 1212.5,
+        "seg": 439,
+        "voice": "Zubenelgenubi",
+        "who": "bole-clerk",
+        "expected": "",
+        "heard": "ah",
+        "context": "writing in the door log [] back then he said three",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 1218.26,
+        "seg": 442,
+        "voice": "Zubenelgenubi",
+        "who": "bole-clerk",
+        "expected": "vesey",
+        "heard": "be easy",
+        "context": "said three out three in [vesey] brisk he looked at me",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 1221.7,
+        "seg": 443,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "and",
+        "heard": "then",
+        "context": "brisk he looked at me [and] his pen hovered for half",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 1227.6,
+        "seg": 446,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "cressida",
+        "heard": "gressido",
+        "context": "then he wrote ardent ardent [cressida] agreed she took the weirside",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 1229.4,
+        "seg": 447,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "weirside",
+        "heard": "wear side",
+        "context": "cressida agreed she took the [weirside] card from my folder and",
+        "name": true
+      },
+      {
+        "kind": "extra",
+        "time": 1251.9,
+        "seg": 458,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "",
+        "heard": "it",
+        "context": "clean sir said brisk ardent [] paid in full i said",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 1276.86,
+        "seg": 468,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "hall to",
+        "heard": "hold at",
+        "context": "whole length of the ninefold [hall to] the front steps past four",
+        "name": true
+      },
+      {
+        "kind": "extra",
+        "time": 1282.04,
+        "seg": 468,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "",
+        "heard": "at",
+        "context": "one in the building notices [] least of all you at",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 1282.24,
+        "seg": 468,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "of all",
+        "heard": "to warn",
+        "context": "in the building notices least [of all] you at the steps cressida",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 1297.92,
+        "seg": 477,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "order",
+        "heard": "ordered",
+        "context": "is it it is standing [order] nine one she knows it",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 1317.12,
+        "seg": 484,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "clause",
+        "heard": "claws",
+        "context": "thought she had forgotten the [clause] our house is on weir",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 1410.94,
+        "seg": 517,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "licence",
+        "heard": "license",
+        "context": "read true shorthand bowline dagger [licence] swimming the first line read",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 1437.8,
+        "seg": 526,
+        "voice": "Iapetus",
+        "who": "linnet-ardent",
+        "expected": "",
+        "heard": "out",
+        "context": "fintan i said it aloud [] once to the dark and",
+        "name": false
+      }
+    ]
+  }
+}

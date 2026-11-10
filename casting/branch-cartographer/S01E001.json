@@ -1,0 +1,69 @@
+{
+  "_note": "Audio producer notes for S01E001. speakers: quote # (from narrate --dry-run) -> speaker. \"narrator\" = Fintan's own lines (34 is the quoted \"he\" in his list). bole-clerk covers the Bole day clerk (20-21) and night clerk (61-63). 76 is Hesper, the last line.",
+  "cast": {
+    "bole-clerk": {
+      "gemini": { "voice": "Zubenelgenubi", "style": "Bored, dry British desk clerk, a man with a newspaper" },
+      "names": []
+    },
+    "weirside-clerk": {
+      "gemini": { "voice": "Puck", "style": "Young, eager British desk clerk, a man keen to help" },
+      "names": []
+    },
+    "hesper-ardent": {
+      "gemini": { "voice": "Vindemiatrix", "style": "Gentle, tired British mother at the kitchen table in the evening; ordinary warmth" },
+      "names": []
+    }
+  },
+  "speakers": {
+    "1": "c-gideon-pask", "2": "c-gideon-pask",
+    "3": "narrator",
+    "4": "c-gideon-pask", "5": "c-gideon-pask",
+    "6": "c-cressida-vesey",
+    "7": "narrator", "8": "narrator",
+    "9": "c-cressida-vesey",
+    "10": "narrator",
+    "11": "c-cressida-vesey", "12": "c-cressida-vesey",
+    "13": "narrator", "14": "narrator",
+    "15": "c-cressida-vesey",
+    "16": "narrator", "17": "narrator",
+    "18": "c-cressida-vesey",
+    "19": "narrator",
+    "20": "bole-clerk", "21": "bole-clerk",
+    "22": "c-hen-brisk", "23": "c-hen-brisk", "24": "c-hen-brisk", "25": "c-hen-brisk", "26": "c-hen-brisk",
+    "27": "weirside-clerk", "28": "weirside-clerk", "29": "weirside-clerk",
+    "30": "c-hen-brisk",
+    "31": "c-cressida-vesey",
+    "32": "c-hen-brisk",
+    "33": "c-cressida-vesey",
+    "34": "narrator",
+    "35": "c-cressida-vesey",
+    "36": "narrator", "37": "narrator",
+    "38": "c-cressida-vesey", "39": "c-cressida-vesey", "40": "c-cressida-vesey",
+    "41": "narrator", "42": "narrator",
+    "43": "c-cressida-vesey",
+    "44": "narrator",
+    "45": "c-cressida-vesey",
+    "46": "narrator",
+    "47": "c-cressida-vesey",
+    "48": "narrator",
+    "49": "c-cressida-vesey",
+    "50": "narrator",
+    "51": "c-cressida-vesey",
+    "52": "narrator",
+    "53": "c-cressida-vesey", "54": "c-cressida-vesey", "55": "c-cressida-vesey",
+    "56": "c-hen-brisk", "57": "c-hen-brisk", "58": "c-hen-brisk", "59": "c-hen-brisk", "60": "c-hen-brisk",
+    "61": "bole-clerk", "62": "bole-clerk", "63": "bole-clerk",
+    "64": "c-cressida-vesey", "65": "c-cressida-vesey",
+    "66": "c-hen-brisk",
+    "67": "c-gideon-pask",
+    "68": "c-hen-brisk",
+    "69": "c-gideon-pask",
+    "70": "narrator",
+    "71": "c-gideon-pask",
+    "72": "c-cressida-vesey", "73": "c-cressida-vesey",
+    "74": "narrator",
+    "75": "c-cressida-vesey",
+    "76": "hesper-ardent",
+    "77": "narrator"
+  }
+}

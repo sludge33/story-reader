@@ -1,0 +1,28 @@
+{
+  "_note": "Voice casting for Dead Air (1st person: Wren Halloway, non-binary, they/them). Wren's own lines stay on the narrator voice (gemini.voices c-wren = \"narrator\"). gemini.narrator overrides config/tts.json gemini.narrator. Narrator is Voice Design voice D4 (voice_fn4qzgyk5v5d, see designed-voices-d.json), picked by Ben 2026-11-10. Approved by Ben 2026-11-10.",
+  "gemini": {
+    "narrator": {
+      "voice": "voice_fn4qzgyk5v5d",
+      "style": "19-year-old working-class northern English mason, androgynous voice, neither clearly male nor female; short, dry, physical sentences; deadpan under pressure; first-person storyteller; unhurried, measured pace, slower than conversation, with clear pauses between sentences and longer pauses between paragraphs"
+    },
+    "voices": {
+      "c-wren": "narrator",
+      "c-sef": {
+        "voice": "Fenrir",
+        "style": "Fast-talking young northern English man, a team scribe; counts numbered lists out loud and corrects himself mid-list"
+      },
+      "c-dov": {
+        "voice": "Puck",
+        "style": "Theatrical, showy young northern English man; bravado covering nerves"
+      },
+      "c-oduya": {
+        "voice": "Gacrux",
+        "style": "Formal, precise, fond older woman; lowers her voice instead of raising it; measured pace"
+      },
+      "c-marten": {
+        "voice": "Achird",
+        "style": "Slow, warm northern English man of very few words"
+      }
+    }
+  }
+}

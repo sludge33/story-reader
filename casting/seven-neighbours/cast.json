@@ -1,0 +1,15 @@
+{
+  "_note": "Voice casting for Seven Neighbours (1st person: Sorrel Tansley). Sorrel's own lines stay on the narrator voice (gemini.voices c-sorrel-tansley = \"narrator\"). gemini.narrator overrides config/tts.json gemini.narrator. Approved by Ben 2026-11-10.",
+  "gemini": {
+    "narrator": {
+      "voice": "Achernar",
+      "style": "Quiet, lyrical young Fenland woman telling her own story; earnest and unironic; long rhythmic sentences for sky and birds, plain for people; natural unhurried pace"
+    },
+    "voices": {
+      "c-sorrel-tansley": "narrator",
+      "c-joan-pettifer": { "voice": "Pulcherrima", "style": "Fierce, fast young Fenland woman; asks questions she has already answered herself" },
+      "c-rhys-dorne": { "voice": "Sadachbia", "style": "Vain, quick, funny young Fenland man; a showman even when it falls flat" },
+      "c-lucas-mbeki": { "voice": "Enceladus", "style": "Nervous, polite, over-precise young apprentice clockmaker; stammers only on words starting with W; gentle and careful" }
+    }
+  }
+}

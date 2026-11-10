@@ -1,0 +1,1507 @@
+{
+  "code": "S01E001",
+  "pass": false,
+  "checks": [
+    {
+      "name": "Loudness",
+      "pass": true,
+      "value": "-16.7 LUFS",
+      "want": "-16 ±1"
+    },
+    {
+      "name": "True peak",
+      "pass": false,
+      "value": "-0.6 dBTP",
+      "want": "≤ -1"
+    },
+    {
+      "name": "Clipping",
+      "pass": true,
+      "value": "0 samples at full scale",
+      "want": "0"
+    },
+    {
+      "name": "Dead air",
+      "pass": true,
+      "value": "none",
+      "want": "no silence > 3s"
+    },
+    {
+      "name": "Script lint",
+      "pass": true,
+      "value": "0 issue(s)",
+      "want": "0"
+    },
+    {
+      "name": "Word accuracy",
+      "pass": false,
+      "value": "97.0% (59 spots)",
+      "want": "≥ 97%"
+    },
+    {
+      "name": "Pace (overall)",
+      "pass": true,
+      "value": "164 wpm",
+      "want": "145-170 wpm"
+    },
+    {
+      "name": "Voice level match",
+      "pass": false,
+      "value": "4.3 dB spread",
+      "want": "≤ 3 dB"
+    }
+  ],
+  "signal": {
+    "lufs": -16.7,
+    "lra": 4.4,
+    "truePeak": -0.6,
+    "samplePeak": -1.5,
+    "clipped": 0,
+    "gaps": []
+  },
+  "voices": [
+    {
+      "who": "sorrel-tansley",
+      "voice": "Achernar",
+      "wpm": 210,
+      "levelDb": -16.7
+    },
+    {
+      "who": "amos-thurlow",
+      "voice": "Alnilam",
+      "wpm": null,
+      "levelDb": -17
+    },
+    {
+      "who": "wilfred-cobbing",
+      "voice": "Sadaltager",
+      "wpm": null,
+      "levelDb": null
+    },
+    {
+      "who": "rhys-dorne",
+      "voice": "Sadachbia",
+      "wpm": 208,
+      "levelDb": -16.8
+    },
+    {
+      "who": "dorcas-ely",
+      "voice": "Erinome",
+      "wpm": 224,
+      "levelDb": -16.6
+    },
+    {
+      "who": "hamish-toller",
+      "voice": "Umbriel",
+      "wpm": null,
+      "levelDb": -19.6
+    },
+    {
+      "who": "joan-pettifer",
+      "voice": "Pulcherrima",
+      "wpm": 246,
+      "levelDb": -15.3
+    },
+    {
+      "who": "lucas-mbeki",
+      "voice": "Enceladus",
+      "wpm": 142,
+      "levelDb": -15.3
+    }
+  ],
+  "lint": {
+    "issues": [],
+    "unknownNames": [
+      [
+        "Hamish",
+        20
+      ],
+      [
+        "Sedgeway",
+        6
+      ],
+      [
+        "Brindwater",
+        6
+      ],
+      [
+        "Wing",
+        6
+      ],
+      [
+        "Wenlode",
+        5
+      ],
+      [
+        "Ely",
+        4
+      ],
+      [
+        "Mere",
+        3
+      ],
+      [
+        "Cobbing",
+        3
+      ],
+      [
+        "Dyke",
+        3
+      ],
+      [
+        "Kit",
+        3
+      ],
+      [
+        "January",
+        2
+      ],
+      [
+        "Arms",
+        2
+      ],
+      [
+        "Amos",
+        2
+      ],
+      [
+        "Toller",
+        2
+      ],
+      [
+        "Mercy",
+        2
+      ],
+      [
+        "Cciii",
+        2
+      ],
+      [
+        "Dorcas",
+        2
+      ],
+      [
+        "Roosts",
+        2
+      ],
+      [
+        "Carr",
+        2
+      ],
+      [
+        "Tarrow",
+        2
+      ],
+      [
+        "Season",
+        2
+      ],
+      [
+        "Mallow",
+        1
+      ],
+      [
+        "Thurlow",
+        1
+      ],
+      [
+        "Saturday",
+        1
+      ],
+      [
+        "Wilfred",
+        1
+      ],
+      [
+        "Cutters'",
+        1
+      ],
+      [
+        "Mr",
+        1
+      ],
+      [
+        "Bunyard",
+        1
+      ],
+      [
+        "Ledbetter",
+        1
+      ],
+      [
+        "Wings",
+        1
+      ],
+      [
+        "Settle",
+        1
+      ],
+      [
+        "Reed",
+        1
+      ],
+      [
+        "Fen",
+        1
+      ],
+      [
+        "Pashley",
+        1
+      ]
+    ]
+  },
+  "asr": {
+    "wer": 0.0304,
+    "model": "small.en",
+    "names": {
+      "forty": {
+        "40": 5,
+        "41": 3,
+        "forty": 12,
+        "39 40 41": 2,
+        "41st": 1,
+        "(nothing)": 1,
+        "40 40": 2,
+        "o clock 40": 1
+      },
+      "the": {
+        "the": 244,
+        "this": 2,
+        "a": 1,
+        "away": 1
+      },
+      "counted": {
+        "counted": 14
+      },
+      "circuit": {
+        "circuit": 3
+      },
+      "loft": {
+        "loft": 16,
+        "loftmen": 1
+      },
+      "hobsmere": {
+        "hobbsmere reed bed": 2,
+        "hobbsmere": 3,
+        "hobsmere": 3,
+        "brenwater hobbsmere": 1,
+        "hobbesmere": 1,
+        "hobbsmere mare": 1
+      },
+      "reedbed": {
+        "hobbsmere reed bed": 2,
+        "reed bed": 1
+      },
+      "cutters": {
+        "cutters": 1,
+        "reedcutter's": 1,
+        "cutter's": 1
+      },
+      "one": {
+        "41": 3,
+        "one": 26,
+        "39 40 41": 1
+      },
+      "loose": {
+        "loose": 1
+      },
+      "roost": {
+        "roost": 9,
+        "roose": 1
+      },
+      "long": {
+        "long": 9
+      },
+      "marsh": {
+        "marsh": 1
+      },
+      "ringing": {
+        "ringing": 1
+      },
+      "lucas": {
+        "lucas": 12
+      },
+      "mbeki": {
+        "mbeki": 1
+      },
+      "rhys": {
+        "rhys": 6,
+        "reese": 1
+      },
+      "dorne": {
+        "dorne": 2
+      },
+      "joan": {
+        "joan": 7,
+        "jones": 2
+      },
+      "pettifer": {
+        "pettifer": 2
+      },
+      "counter": {
+        "counter": 4
+      },
+      "ceiling": {
+        "ceiling": 6
+      },
+      "going": {
+        "going": 6
+      },
+      "shade": {
+        "shade": 5
+      },
+      "breath": {
+        "breath": 4
+      },
+      "seven": {
+        "seven": 4
+      },
+      "herding": {
+        "herding": 1
+      },
+      "point": {
+        "point": 3
+      },
+      "call": {
+        "call": 2
+      },
+      "tether": {
+        "tether": 2
+      },
+      "flight": {
+        "flight": 1
+      }
+    },
+    "issues": [
+      {
+        "kind": "spelling",
+        "time": 1.76,
+        "seg": 0,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "sedgeway",
+        "heard": "sedgway",
+        "context": "forty starlings went into the [sedgeway] crate at noon i checked",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 15.32,
+        "seg": 2,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "hobsmere reedbed",
+        "heard": "hobbsmere reed bed",
+        "context": "at ten past four over [hobsmere reedbed] with hobsmere cutters at the",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 16.4,
+        "seg": 2,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "hobsmere",
+        "heard": "hobbsmere",
+        "context": "four over hobsmere reedbed with [hobsmere] cutters at the bottom of",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 24.38,
+        "seg": 2,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "forty one",
+        "heard": "41",
+        "context": "the same flock and counted [forty one] i counted again forty one",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 27.74,
+        "seg": 4,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "forty one",
+        "heard": "41",
+        "context": "forty one i counted again [forty one] i am not good at",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 42.14,
+        "seg": 8,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "sedgeway",
+        "heard": "sedgway",
+        "context": "o'clock it carried two crates [sedgeway] and mallow strapped side by",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 42.66,
+        "seg": 8,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "mallow",
+        "heard": "malo",
+        "context": "carried two crates sedgeway and [mallow] strapped side by side under",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 59.72,
+        "seg": 12,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "sedgeway",
+        "heard": "segway",
+        "context": "with my knee against the [sedgeway] door because sedgeway birds settle",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 60.88,
+        "seg": 12,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "sedgeway",
+        "heard": "segway",
+        "context": "against the sedgeway door because [sedgeway] birds settle quicker when they",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 85.32,
+        "seg": 19,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "hobsmere",
+        "heard": "hobbsmere",
+        "context": "ill but did not fancy [hobsmere] in january i went i",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 114,
+        "seg": 24,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "mere",
+        "heard": "mia",
+        "context": "end of a causeway hobsmere [mere] lies along one long side",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 119.6,
+        "seg": 24,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "wenlode",
+        "heard": "when load",
+        "context": "a slate roof and the [wenlode] road goes the long way",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 123.84,
+        "seg": 25,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "dyke",
+        "heard": "dike",
+        "context": "grey heron lifted off the [dyke] as we came down the",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 127.26,
+        "seg": 26,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "moorhens",
+        "heard": "more hens",
+        "context": "down the causeway then two [moorhens] then wilfred cobbing the cutters",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 148.14,
+        "seg": 32,
+        "voice": "Sadaltager",
+        "who": "wilfred-cobbing",
+        "expected": "",
+        "heard": "amos said said mr cobbing",
+        "context": "said no said mr cobbing [] nor does brindwater hobsmere had",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 151.44,
+        "seg": 32,
+        "voice": "Sadaltager",
+        "who": "wilfred-cobbing",
+        "expected": "brindwater hobsmere",
+        "heard": "brenwater hobbsmere",
+        "context": "said mr cobbing nor does [brindwater hobsmere] had ten points from twelve",
+        "name": true
+      },
+      {
+        "kind": "missing",
+        "time": 158.64,
+        "seg": 34,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "including",
+        "heard": "",
+        "context": "the marsh circuit knew it [including] the reeds the light was",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 159.16,
+        "seg": 34,
+        "expected": "the",
+        "heard": "the",
+        "p": 0.036
+      },
+      {
+        "kind": "spelling",
+        "time": 177.72,
+        "seg": 36,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "withy",
+        "heard": "witty",
+        "context": "lucas mbeki could take the [withy] from it lucas took it",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 190,
+        "seg": 40,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "the",
+        "heard": "this",
+        "context": "laugh joan was looking at [the] sky the way a drainage",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 201.46,
+        "seg": 42,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "sedgeway",
+        "heard": "sedgway",
+        "context": "centre and held it up [sedgeway] i unstrapped the crate i",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 202.76,
+        "seg": 43,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "unstrapped",
+        "heard": "unstrap",
+        "context": "held it up sedgeway i [unstrapped] the crate i counted them",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 209.3,
+        "seg": 44,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "the",
+        "heard": "a",
+        "context": "pour of them up into [the] grey each one a dark",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 243.76,
+        "seg": 55,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "the",
+        "heard": "this",
+        "context": "spare hand so i saw [the] six hobsmere shades go up",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 244.3,
+        "seg": 55,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "hobsmere",
+        "heard": "hobbesmere",
+        "context": "so i saw the six [hobsmere] shades go up together six",
+        "name": true
+      },
+      {
+        "kind": "extra",
+        "time": 264.42,
+        "seg": 58,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "",
+        "heard": "look",
+        "context": "crowd cannot believe its luck [] over kit bunyard on the",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 288.68,
+        "seg": 63,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "",
+        "heard": "her",
+        "context": "her own a breath later [] she was a tall woman",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 295.24,
+        "seg": 64,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "herded",
+        "heard": "heard it",
+        "context": "she did not hurry hamish [herded] that is what most wings",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 314.14,
+        "seg": 66,
+        "expected": "edge",
+        "heard": "edge,",
+        "p": 0.028
+      },
+      {
+        "kind": "spelling",
+        "time": 335.78,
+        "seg": 71,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "centre",
+        "heard": "center",
+        "context": "flock came low over the [centre] reed line close enough that",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 349.66,
+        "seg": 74,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "thirty nine forty forty one",
+        "heard": "39 40 41",
+        "context": "habit a loft hand counts [thirty nine forty forty one] i lowered the glass i",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 362.8,
+        "seg": 78,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "forty one",
+        "heard": "41",
+        "context": "flock that won't keep still [forty one] i knew where every shade",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 409.52,
+        "seg": 90,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "where",
+        "heard": "wear",
+        "context": "leg a player's ring but [where] a ring this season says",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 411.12,
+        "seg": 90,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "cciii",
+        "heard": "c i i i",
+        "context": "a ring this season says [cciii] this one had a single",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 418,
+        "seg": 92,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "",
+        "heard": "i",
+        "context": "single upright stroke one numeral [] i the number after it",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 430.48,
+        "seg": 97,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "aloud",
+        "heard": "out loud",
+        "context": "i said i said it [aloud] i didn't mean to it",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 448.26,
+        "seg": 101,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "match",
+        "heard": "matte",
+        "context": "on the collar and a [match] sheet clipped to a board",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 459.16,
+        "seg": 106,
+        "voice": "Erinome",
+        "who": "dorcas-ely",
+        "expected": "",
+        "heard": "shh",
+        "context": "her board her pencil moved [] forty miss she said there",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 497.74,
+        "seg": 120,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "sedgeway is a",
+        "heard": "sedgways of",
+        "context": "there were none at first [sedgeway is a] sensible flock it went where",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 504.88,
+        "seg": 121,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "brindwater's",
+        "heard": "brinewater's",
+        "context": "it towards hobsmere's roost because [brindwater's] wing kept taking hamish's edge",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 521.16,
+        "seg": 123,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "brindwater's",
+        "heard": "brinewater's",
+        "context": "found the new height and [brindwater's] were already waiting there for",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 530.54,
+        "seg": 126,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "forty first",
+        "heard": "41st",
+        "context": "kept the glass on the [forty first] bird it kept to the",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 561.88,
+        "seg": 133,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "brindwater",
+        "heard": "brine water",
+        "context": "timed it on a watch [brindwater] did not have to drop",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 567.36,
+        "seg": 134,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "hobsmere's",
+        "heard": "hobbsmere's",
+        "context": "flock another ten yards towards [hobsmere's] end hamish raised again at",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 582.52,
+        "seg": 138,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "ely",
+        "heard": "eli",
+        "context": "had stopped casting shadows dorcas [ely] called the counted flock in",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 590.34,
+        "seg": 140,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "",
+        "heard": "forty eight",
+        "context": "the bank to hear forty [] every ringed bird still with",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 661.54,
+        "seg": 158,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "",
+        "heard": "here",
+        "context": "in the fen in winter [] one moment there is a",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 678.82,
+        "seg": 163,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "sedgeway",
+        "heard": "sejway",
+        "context": "roosts with lanterns twenty four [sedgeway] birds in hobsmere's roost nine",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 707.46,
+        "seg": 170,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "wrist",
+        "heard": "roost",
+        "context": "rings one counter to each [wrist] a pair of shears and",
+        "name": false
+      },
+      {
+        "kind": "missing",
+        "time": 713.82,
+        "seg": 172,
+        "voice": "Erinome",
+        "who": "dorcas-ely",
+        "expected": "forty eight",
+        "heard": "",
+        "context": "hamish's call off her sheet [forty eight] call minutes mr toller thirty",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 715.72,
+        "seg": 172,
+        "voice": "Erinome",
+        "who": "dorcas-ely",
+        "expected": "toller",
+        "heard": "taller",
+        "context": "forty eight call minutes mr [toller] thirty eight drift i know",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 733.6,
+        "seg": 178,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "joan",
+        "heard": "jones",
+        "context": "again from the first minute [joan] stood at the reed line",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 734.58,
+        "seg": 178,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "reed",
+        "heard": "read",
+        "context": "minute joan stood at the [reed] line with the rest of",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 743.94,
+        "seg": 183,
+        "voice": "Pulcherrima",
+        "who": "joan-pettifer",
+        "expected": "tarrow",
+        "heard": "tara",
+        "context": "are we bottom ten points [tarrow] dyke on fifteen pashley carr",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 745.32,
+        "seg": 183,
+        "voice": "Pulcherrima",
+        "who": "joan-pettifer",
+        "expected": "pashley carr",
+        "heard": "pashli ka",
+        "context": "points tarrow dyke on fifteen [pashley carr] on thirteen five matches to",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 755.32,
+        "seg": 187,
+        "voice": "Pulcherrima",
+        "who": "joan-pettifer",
+        "expected": "tarrow",
+        "heard": "tara",
+        "context": "win everything left and have [tarrow] and pashley carr fall over",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 755.84,
+        "seg": 187,
+        "voice": "Pulcherrima",
+        "who": "joan-pettifer",
+        "expected": "pashley carr",
+        "heard": "pashli ka",
+        "context": "left and have tarrow and [pashley carr] fall over in the same",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 763.84,
+        "seg": 191,
+        "voice": "Sadachbia",
+        "who": "rhys-dorne",
+        "expected": "tarrow joanie",
+        "heard": "taro joni",
+        "context": "i'll have a word with [tarrow joanie] tell them to mind the",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 765.28,
+        "seg": 192,
+        "voice": "Sadachbia",
+        "who": "rhys-dorne",
+        "expected": "mind",
+        "heard": "mine",
+        "context": "tarrow joanie tell them to [mind] the stairs nobody laughed at",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 769.68,
+        "seg": 194,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "hamish's",
+        "heard": "a wing's",
+        "context": "nobody laughed at that either [hamish's] drift had already turned him",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 778.88,
+        "seg": 195,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "mere",
+        "heard": "mare",
+        "context": "clubhouse but out across the [mere] a wing's drift doesn't point",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 787.5,
+        "seg": 197,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "sedgeway",
+        "heard": "segway",
+        "context": "are going home and the [sedgeway] flock was going home to",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 789.3,
+        "seg": 197,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "wenlode",
+        "heard": "wennlow",
+        "context": "flock was going home to [wenlode] the road to wenlode goes",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 791.18,
+        "seg": 198,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "wenlode",
+        "heard": "wennlow",
+        "context": "to wenlode the road to [wenlode] goes round hobsmere mere a",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 792.2,
+        "seg": 198,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "hobsmere mere",
+        "heard": "hobbsmere mare",
+        "context": "road to wenlode goes round [hobsmere mere] a straight line goes across",
+        "name": true
+      },
+      {
+        "kind": "missing",
+        "time": 809.9,
+        "seg": 205,
+        "voice": "Enceladus",
+        "who": "lucas-mbeki",
+        "expected": "w",
+        "heard": "",
+        "context": "its place hamish it's lucas [w] walk with me left foot",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 847.82,
+        "seg": 214,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "lit",
+        "heard": "slit",
+        "context": "crate into the van amos [lit] his pipe the crowd went",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 855.76,
+        "seg": 216,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "rhys",
+        "heard": "reese",
+        "context": "them the whole way and [rhys] and kit stayed with joan",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 891,
+        "seg": 225,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "wenlode road",
+        "heard": "wennlow rode",
+        "context": "and the lights of the [wenlode road] a long way round it",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 897.64,
+        "seg": 227,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "hobsmere",
+        "heard": "hobbsmere",
+        "context": "hand opened hamish walked into [hobsmere] mere he did not hurry",
+        "name": true
+      },
+      {
+        "kind": "unclear",
+        "time": 899.98,
+        "seg": 229,
+        "expected": "that",
+        "heard": "That",
+        "p": 0.023
+      },
+      {
+        "kind": "misheard",
+        "time": 903.24,
+        "seg": 230,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "the way",
+        "heard": "away",
+        "context": "worst of it he walked [the way] you'd walk up a garden",
+        "name": true
+      },
+      {
+        "kind": "extra",
+        "time": 952.42,
+        "seg": 244,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "",
+        "heard": "five",
+        "context": "was coughing he was alive [] restraint holds the body it",
+        "name": false
+      },
+      {
+        "kind": "missing",
+        "time": 972.5,
+        "seg": 253,
+        "voice": "Enceladus",
+        "who": "lucas-mbeki",
+        "expected": "w",
+        "heard": "",
+        "context": "sorry he said i'm sorry [w] we're starting again minute one",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 975.22,
+        "seg": 255,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "thirty eight",
+        "heard": "38",
+        "context": "we're starting again minute one [thirty eight] more minutes on the bank",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 986.04,
+        "seg": 258,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "joan",
+        "heard": "jones",
+        "context": "cobbing came out with blankets [joan] stood at the edge of",
+        "name": true
+      },
+      {
+        "kind": "extra",
+        "time": 1007.74,
+        "seg": 264,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "",
+        "heard": "walk",
+        "context": "different about tonight no hawk [] no wind nothing on the",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 1024.32,
+        "seg": 268,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "thirty eight",
+        "heard": "38",
+        "context": "had walked hamish down all [thirty eight] minutes on his knees in",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 1053.58,
+        "seg": 278,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "mere",
+        "heard": "mirror",
+        "context": "the long side of the [mere] at the circuit loft i",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 1056.36,
+        "seg": 279,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "sedgeway",
+        "heard": "sedgway",
+        "context": "the circuit loft i uncrated [sedgeway] into its own loft by",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 1060.72,
+        "seg": 280,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "grey",
+        "heard": "gray",
+        "context": "and counted them in a [grey] wagtail was asleep on the",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 1070.88,
+        "seg": 282,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "forty forty",
+        "heard": "40 40",
+        "context": "one cross cold ruffled home [forty forty] out of the crate at",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 1073.3,
+        "seg": 283,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "o'clock forty",
+        "heard": "o clock 40",
+        "context": "of the crate at four [o'clock forty] counted at roost light forty",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 1076.62,
+        "seg": 285,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "forty",
+        "heard": "40",
+        "context": "forty counted at roost light [forty] back in the loft at",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 1092.78,
+        "seg": 291,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "forty",
+        "heard": "40",
+        "context": "it under the lamp released [forty] counted at roost light forty",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 1094.7,
+        "seg": 292,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "roost",
+        "heard": "roose",
+        "context": "lamp released forty counted at [roost] light forty settle brindwater partial",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 1095.6,
+        "seg": 292,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "forty",
+        "heard": "40",
+        "context": "forty counted at roost light [forty] settle brindwater partial twenty four",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 1097.48,
+        "seg": 293,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "brindwater",
+        "heard": "brynwater",
+        "context": "at roost light forty settle [brindwater] partial twenty four of forty",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 1099.16,
+        "seg": 293,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "twenty four",
+        "heard": "24",
+        "context": "light forty settle brindwater partial [twenty four] of forty signed in a",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 1099.94,
+        "seg": 293,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "forty",
+        "heard": "40",
+        "context": "brindwater partial twenty four of [forty] signed in a small neat",
+        "name": true
+      },
+      {
+        "kind": "missing",
+        "time": 1115.54,
+        "seg": 301,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "worn thin",
+        "heard": "",
+        "context": "a second a copper band [worn thin] a single upright stroke where",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 1115.98,
+        "seg": 302,
+        "expected": "a",
+        "heard": "A",
+        "p": 0.011
+      },
+      {
+        "kind": "misheard",
+        "time": 1123.36,
+        "seg": 304,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "league",
+        "heard": "lead",
+        "context": "should be season i the [league] counts one season a year",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 1125.54,
+        "seg": 304,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "cciii",
+        "heard": "ccii",
+        "context": "year and this is season [cciii] that ring had been closed",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 1128.74,
+        "seg": 305,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "two hundred and two",
+        "heard": "202",
+        "context": "that ring had been closed [two hundred and two] years ago nobody alive had",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 1140.12,
+        "seg": 309,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "hobsmere reedbed",
+        "heard": "hobbsmere reed bed",
+        "context": "it had been flying over [hobsmere reedbed] at ten past four this",
+        "name": true
+      },
+      {
+        "kind": "unclear",
+        "time": 1141.22,
+        "seg": 309,
+        "expected": "ten",
+        "heard": "Ten",
+        "p": 0.049
+      },
+      {
+        "kind": "spelling",
+        "time": 1141.46,
+        "seg": 309,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "past",
+        "heard": "pass",
+        "context": "over hobsmere reedbed at ten [past] four this afternoon at the",
+        "name": false
+      },
+      {
+        "kind": "missing",
+        "time": 1144.82,
+        "seg": 309,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "flock's height with starlings steering by",
+        "heard": "",
+        "context": "four this afternoon at the [flock's height with starlings steering by] it on either side and",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 1147.66,
+        "seg": 309,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "said",
+        "heard": "set",
+        "context": "either side and i had [said] the number out loud i",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 1150.52,
+        "seg": 310,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "dorcas",
+        "heard": "dork is",
+        "context": "out loud i thought about [dorcas] ely she had not looked",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 1159.32,
+        "seg": 313,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "you have",
+        "heard": "you've",
+        "context": "you flinch at a sound [you have] been waiting for and her",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 1165.82,
+        "seg": 315,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "two hundred",
+        "heard": "200",
+        "context": "she had seen a bird [two hundred] years old over hobsmere and",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 1170.04,
+        "seg": 315,
+        "voice": "Achernar",
+        "who": "sorrel-tansley",
+        "expected": "forty",
+        "heard": "40",
+        "context": "hobsmere and she had written [forty]",
+        "name": true
+      }
+    ]
+  }
+}
