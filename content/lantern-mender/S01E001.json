@@ -5,21 +5,21 @@
   "title": "Half Past Too Late",
   "blurb": "Ada Brannock wakes on a stranger's workshop floor in a town with a stopped clock, a shut road and a man who needs a lantern mended before he forgets her.",
   "wordCount": 2433,
-  "durationSec": 885,
+  "durationSec": 1011,
   "audio": "audio/lantern-mender/S01E001.mp3",
   "publishedAt": null,
   "audioVersions": [
     {
       "id": "default",
-      "label": "Kokoro narration",
+      "label": "Gemini full cast",
       "src": "audio/lantern-mender/S01E001.mp3",
-      "durationSec": 885
+      "durationSec": 1011
     },
     {
-      "id": "gemini-cast-full",
-      "label": "Gemini full cast",
-      "src": "audio/lantern-mender/S01E001.gemini-cast-full.mp3",
-      "durationSec": 1011
+      "id": "kokoro",
+      "label": "Kokoro narration",
+      "src": "audio/lantern-mender/S01E001.kokoro.mp3",
+      "durationSec": 885
     },
     {
       "id": "gemini",

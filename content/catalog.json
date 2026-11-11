@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T00:55:49.029Z",
+  "generatedAt": "2026-11-11T01:06:26.819Z",
   "series": [
     {
       "id": "lantern-mender",
@@ -16,7 +16,7 @@
           "title": "Half Past Too Late",
           "blurb": "Ada Brannock wakes on a stranger's workshop floor in a town with a stopped clock, a shut road and a man who needs a lantern mended before he forgets her.",
           "wordCount": 2433,
-          "durationSec": 885,
+          "durationSec": 1011,
           "audio": "audio/lantern-mender/S01E001.mp3",
           "publishedAt": null
         },
