@@ -1,0 +1,468 @@
+{
+  "seriesId": "wrong-side-of-the-sun",
+  "seriesTitle": "Wrong Side of the Sun",
+  "code": "S01E003",
+  "title": "The Later Hand",
+  "blurb": null,
+  "wordCount": 2438,
+  "durationSec": 975,
+  "audio": null,
+  "publishedAt": null,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Peregrine Blott held a Post cask open in both hands while their passenger read her codicil aloud to the cabin, in a voice that was not going to last the haul."
+    },
+    {
+      "type": "p",
+      "text": "\"I revoke the will I lodged at Quarto,\" read Lettice Calloway, \"and I mean every word of this one more.\""
+    },
+    {
+      "type": "p",
+      "text": "He stood at her elbow, the lid tipped back, grey packing ready. The paper shook a little in her fingers. Across the galley Soph had stopped pretending to read her tables, and Jory had stopped pretending to polish Margaret."
+    },
+    {
+      "type": "p",
+      "text": "\"Seal it now?\" said Peregrine."
+    },
+    {
+      "type": "p",
+      "text": "\"Not yet, Captain,\" said Waybill, from the speaker over the hatch. \"Still under drive for another four hours.\""
+    },
+    {
+      "type": "p",
+      "text": "Lettice laughed, which cost her something. \"Your ship's on my side.\""
+    },
+    {
+      "type": "p",
+      "text": "\"She usually is,\" said Peregrine, and held the cask steady."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Before any of that, at Quarto, Soph Vell watched the captain hand Revision 62 across Cyprian Ko's counter and decided, not for the first time, that this was the best post office on the Fringe. It smelled of soil. The postmaster kept beans on the windowsill and a garden out the back, and his drawer was so tidy it made her tables look like a grudge."
+    },
+    {
+      "type": "p",
+      "text": "Ko broke the Post Order's seal with his thumbnail, read the deadline, and smiled at it as if it had told him a joke."
+    },
+    {
+      "type": "p",
+      "text": "\"Well inside, Cadet. And you're the first of the two couriers, which makes it mine to post.\" He slid the edition into the drawer and wrote the hour on the slip. \"Seven days, and Quarto converts by the sixty-second.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Six hours later for Quarto,\" said Soph. \"Twelve minutes for Saltpan. Eleven days for Octavo, and no reason printed anywhere.\""
+    },
+    {
+      "type": "p",
+      "text": "She did not look at the foot of the sheet. She knew what it said."
+    },
+    {
+      "type": "p",
+      "text": "\"Mm. Eleven days.\" Ko squared the slip against the drawer's edge. \"As if Octavo hasn't had enough since the Octavo cask.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Since the what?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Before your time, Navigator. A charter came in from the far side of the Sun, and Octavo stopped belonging to Octavo. The exiles call it the Octavo cask. The Fringe likes a name for its griefs.\" He shut the drawer with one finger. \"Every letter knows where it's going. It's the courier who forgets.\""
+    },
+    {
+      "type": "p",
+      "text": "The captain went polite."
+    },
+    {
+      "type": "p",
+      "text": "Soph had flown with Peregrine long enough to read his weather, and this was the kind that came in low. He thanked the postmaster, very properly. He crossed to the receiving cradle beside the drawer and re-seated its brass cask clamp, which had been seated perfectly well. Then he asked Jory, across the whole office, how the drive was."
+    },
+    {
+      "type": "p",
+      "text": "Jory blinked. \"Same as at breakfast, Captain.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Good. Thank you.\""
+    },
+    {
+      "type": "p",
+      "text": "Soph opened her mouth, and shut it again, and let it go. She had let a good many things go about the captain, and none of them had ever shifted in a hard burn."
+    },
+    {
+      "type": "p",
+      "text": "Jory, meanwhile, kept checking the street door for the Inspector. No Inspector. Not today."
+    },
+    {
+      "type": "p",
+      "text": "Peregrine came back to the counter with an image in his hand: the keel-ring under Jory's lamp after Saltpan, and the hairline that should not have been there."
+    },
+    {
+      "type": "p",
+      "text": "\"Inspector Aubrey says that's a ravel stub,\" he said."
+    },
+    {
+      "type": "p",
+      "text": "Ko took the image and held it for a long time, for a man who claimed to know mostly about beans. Soph watched his face do nothing at all, carefully."
+    },
+    {
+      "type": "p",
+      "text": "\"May I keep a copy, Cadet?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Is it one?\""
+    },
+    {
+      "type": "p",
+      "text": "The postmaster set the image face down on the counter and smoothed it with his palm. \"A postmaster at the edge of things is shown a great many pictures,\" he said, and that was all he said."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Peregrine found Ko in the garden that evening, on his knees in the bean rows, and was handed a watering can before he had said a word."
+    },
+    {
+      "type": "p",
+      "text": "\"You want a line home,\" said Ko."
+    },
+    {
+      "type": "p",
+      "text": "\"This haul. Yes.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Then moor one. You've three spools for the run.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Two, after.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Two, after.\" Ko pressed a bean into the soil with his thumb. \"Have you ever slipped one?\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine watered the row. \"Slipped?\""
+    },
+    {
+      "type": "p",
+      "text": "\"A mooring. An old couriers' trick. It's in the Code, and nobody teaches it, because it's dear. You moor two spools to the Datum Post as one line. Two spools, one cask. And you choose your Turn. Not one day: any whole number of days from two to thirty. The cask lands that much later. Never earlier.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Can you change it after?\""
+    },
+    {
+      "type": "p",
+      "text": "\"No. You choose at the pillar, and the pillar holds you to it.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Why would anyone want a cask later?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Because some letters must arrive on one particular day, Cadet. A birthday. A lease falling due. A sentence ending.\" Ko sat back on his heels. \"Early is a kind of late, too.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine thought about that while he watered the end of the row, where the beans had already climbed their canes and were feeling about for something higher."
+    },
+    {
+      "type": "p",
+      "text": "He set the can down in the path, exactly where it had been."
+    },
+    {
+      "type": "p",
+      "text": "\"And here is one nobody should teach you,\" said Ko. \"Moor a line at home. Fly to the next office. Put an Open Post item over their counter in your grace. It's valid; they punch it, register it, and hand the punched original back to the bearer as proof. You cask it, and send it home down your line.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine saw it a moment before Ko said it. \"It lands at home a day after the hull clock says.\""
+    },
+    {
+      "type": "p",
+      "text": "\"And your hull clock runs slow. So it reaches home weeks before that punch was ever struck, by home's calendar. Home's register has never heard of it. No register can hold a punch from its own future. Home takes it as a first delivery.\""
+    },
+    {
+      "type": "p",
+      "text": "\"And Finality judges each one once. At handover, on what that office knows then.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Two valid deliveries of one item. Both final.\" Ko brushed soil off his knuckles. \"Once per item per haul. A third would need another line, to an office that had seen neither punch.\""
+    },
+    {
+      "type": "p",
+      "text": "\"And the punch from the future?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Ah. The office that receives it must report a punch dated in its own future. Your record takes an irregular delivery. A mark, not an endorsement. But a mark.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine's record had no marks on it. He did not need telling what one would cost."
+    },
+    {
+      "type": "p",
+      "text": "\"Why teach me?\" he said."
+    },
+    {
+      "type": "p",
+      "text": "Ko was quiet for a long time. A moth found the lamp by the shed door and argued with it."
+    },
+    {
+      "type": "p",
+      "text": "\"Never do this, Cadet,\" he said at last. \"It is perfectly legal.\""
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Peregrine moored spool one at Quarto's Datum Post on the morning they left, with the ship already filed, because he wanted a line home this haul and the feeling would not argue itself away."
+    },
+    {
+      "type": "p",
+      "text": "The pillar was cold under his glove. The thread went out of the spool and into nothing, the way it always did, and he felt it settle. Through the office window Ko lifted his teacup an inch, and went back to his drawer. Peregrine read the spool's tag against the Spinnery seal, and the seal against the tag, and only then took his hand off the pillar."
+    },
+    {
+      "type": "p",
+      "text": "\"Spool one,\" said Waybill, through his handset. \"Moored, Quarto Datum Post, the second hour of the morning, Quarto reckoning. Live.\""
+    },
+    {
+      "type": "p",
+      "text": "Jory, at the gangway, made a face. \"That's a third of our luck on a feeling, Captain.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Yes,\" said Peregrine."
+    },
+    {
+      "type": "p",
+      "text": "Their passenger came aboard behind him on a stick, in a coat buttoned to the throat, carrying a document case as if it were the heaviest thing she owned. Waybill read her onto the manifest: \"Calloway, Lettice. Passenger, Quarto to Foolscap. Logged.\""
+    },
+    {
+      "type": "p",
+      "text": "\"We're running her slow,\" Soph told her, already halfway up the ladder to the nav deck. \"Three hull days to Foolscap. Mass at Quarto is priced like a grudge.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Three days of nobody looking at me in a bed,\" said Lettice. \"I'll take them, Navigator.\""
+    },
+    {
+      "type": "p",
+      "text": "On the second day under drive she asked Peregrine to sit with her at the galley table. He poured her water first and set it where she could reach it without leaning. Then he sat."
+    },
+    {
+      "type": "p",
+      "text": "\"I have a will lodged at the Quarto Probate Registry,\" she said. \"It leaves my house to my late husband's brother. He'll sell it before the frost's off the door. My daughter's at Foolscap. Marit. I cut her out of it, years ago, over something I can't now remember the shape of.\" She put both hands flat on the table. \"I'm going to see her. I don't want to knock on her door with that will still lodged.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Then change it at Foolscap,\" said Peregrine."
+    },
+    {
+      "type": "p",
+      "text": "\"If I change it after I see her face, it's a bargain. I want it to be a gift.\" She smiled, very slightly. \"And there's the arithmetic. Quarto closes an estate ten days after the death is posted. Light will tell Quarto I'm dead long before any courier carries paper home from Foolscap. Foolscap's bag for Quarto goes when somebody happens to be going.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Waybill. What's on our manifest after Foolscap?\""
+    },
+    {
+      "type": "p",
+      "text": "\"The run continues inward, Captain. No Quarto leg is booked.\""
+    },
+    {
+      "type": "p",
+      "text": "\"And my doctor gives me days,\" said Lettice. \"By my own clock, she says. I gather that's the one that counts.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine thought about the line paying out behind them, unseen, all the way back to a cold pillar in Ko's yard."
+    },
+    {
+      "type": "p",
+      "text": "\"We have a line home,\" he said, and called the others down."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Soph Vell had the answer before Jory had finished sitting down, which was how she liked it."
+    },
+    {
+      "type": "p",
+      "text": "\"Easy. She writes it, we dock at Foolscap, she seals it at the counter in grace, and we send it down the line. It lands in Ko's drawer, he walks it to the Registry. Done.\""
+    },
+    {
+      "type": "p",
+      "text": "Jory started laughing before he had even got to the problem. \"The line won't like that.\""
+    },
+    {
+      "type": "p",
+      "text": "\"The line doesn't have opinions.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Sealed at Foolscap, it takes Foolscap's date. That's weeks on from where Quarto was when we left, by your own tables.\" He turned the Bishop over in his big hands, slowly. \"And down the line it lands a day after our hull clock says. Which is a handful of days after we left. So it turns up in Ko's drawer carrying a date Quarto hasn't got to yet.\""
+    },
+    {
+      "type": "p",
+      "text": "Soph stopped. She checked it against the table in her head, then against the one in her book, because checking was the whole of her religion."
+    },
+    {
+      "type": "p",
+      "text": "\"Wrong side of the sun,\" she said."
+    },
+    {
+      "type": "p",
+      "text": "\"Void,\" said Jory gently. \"Her last good ink, void.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Fine. He's right. Nobody write that down.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Logged,\" said Waybill."
+    },
+    {
+      "type": "p",
+      "text": "\"I said nobody.\""
+    },
+    {
+      "type": "p",
+      "text": "\"I am not a body, Navigator.\" Waybill went on in its manifest voice, which was its voice. \"An item sealed aboard a ship under drive takes ship's reckoning, if the sender is crew, or a passenger who rode the haul on the manifest. Mrs Calloway is on the manifest, Quarto to Foolscap. Sealed under drive, it carries Quarto's date at our filing, plus our hull time. It lands at Quarto one day after that. Anything sealed after docking takes the dock office's date.\""
+    },
+    {
+      "type": "p",
+      "text": "\"So she seals it before we leave the Drift,\" said Soph. \"Not at Foolscap. Here.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Yes, Navigator.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Will a codicil beat the will?\" said Peregrine."
+    },
+    {
+      "type": "p",
+      "text": "\"Same author, same matter, the later postmark governs. A later will revokes an earlier one; everybody knows that.\" Soph was already on her feet. \"And probate only counts what's delivered before it closes. This'll be delivered before it opens. Ko'll have it lodged while she's still—\""
+    },
+    {
+      "type": "p",
+      "text": "She stopped."
+    },
+    {
+      "type": "p",
+      "text": "\"Alive,\" said Lettice. \"You can say it, Navigator. I'm not the one it upsets.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Has Postscript ever done this? A passenger sealing under drive, a cask on the line? Show me the log.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Under this master, no such sealing is recorded,\" said Waybill. \"Records before this master are in a locked partition. Previous owner. Not mine to open.\""
+    },
+    {
+      "type": "p",
+      "text": "Soph stared at the speaker. \"You've got a locked partition?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Nobody asked, Navigator.\""
+    },
+    {
+      "type": "p",
+      "text": "She looked at the captain. Peregrine was the one who asked the question nobody wanted asked; it was practically his job. He did not ask this one. He was looking at Lettice's hands, and then he got up and fetched a clean cask from the locker."
+    },
+    {
+      "type": "p",
+      "text": "It took Lettice the best part of a day to write it, a line at a time, resting between. When she had read it aloud to all of them, with her voice going at the edges, she pressed the seal herself. There were still hours of drive on the clock."
+    },
+    {
+      "type": "p",
+      "text": "\"Sealed under drive by a passenger on the manifest,\" said Waybill. \"Postmark: Postscript, ship's reckoning, Quarto calendar. Logged.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine packed it in grey, closed the cask, and set it in the tether cradle. Then it was not there."
+    },
+    {
+      "type": "p",
+      "text": "\"Cask sent,\" said Waybill. \"Spool one, spent. Addressee: Quarto Probate Registry.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Two left for the run,\" said Jory."
+    },
+    {
+      "type": "p",
+      "text": "\"Still on time,\" said Peregrine."
+    },
+    {
+      "type": "p",
+      "text": "\"He'd say that falling into the Sun,\" said Jory, and Soph laughed, and so, after a moment, did Lettice."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Soph Vell watched Lettice Calloway go down Foolscap's gangway on her own two feet, refusing every arm offered, towards a woman at the bottom who had her chin and was trying very hard not to cry."
+    },
+    {
+      "type": "p",
+      "text": "They had filed, and they were waiting on a cargo, and so they were still at Foolscap when the letter from Quarto found them by light."
+    },
+    {
+      "type": "p",
+      "text": "\"A light letter, Captain,\" said Waybill. \"From the postmaster at Quarto. It is news. It binds nothing.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Read it to me,\" said Peregrine, and then, \"No. I'll read it.\""
+    },
+    {
+      "type": "p",
+      "text": "He read it aloud at the galley table, in Ko's slow, amused cadence without meaning to."
+    },
+    {
+      "type": "p",
+      "text": "\"'Cadet. Your cask landed in my drawer four days after you left, by my clock, and I witnessed it. I walked it to the Probate Registry myself and saw it lodged. It is valid, and it is final, and it will be waiting for her whenever it is wanted. A strange thing to hold, a woman's last word while she is still out there saying others.'\""
+    },
+    {
+      "type": "p",
+      "text": "\"Four days,\" said Soph. \"Near enough three hull days on the line, and the Turn. His drawer agrees with my table.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine had stopped reading. Soph saw his thumb move along the bottom of the page, to where the letter went on."
+    },
+    {
+      "type": "p",
+      "text": "\"'As to your picture,'\" he read."
+    },
+    {
+      "type": "p",
+      "text": "Then he went very polite, and read the rest exactly as it was written."
+    },
+    {
+      "type": "p",
+      "text": "\"'That is a ravel. And whoever moored it was trained by someone I trained.'\""
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "_note": "Audio versions for the site's Version picker (copied into content/ by tools/import.mjs). The first entry is the default narration. Both are Gemini 3.8 Flash TTS batched full-cast renders from 2026-11-10; the faster one runs 177 wpm overall vs 166. QC: qc/dead-air/S01E001.gemini-cast-*.md.",
+  "versions": [
+    { "id": "default", "label": "Full cast", "src": "audio/dead-air/S01E001.mp3", "durationSec": 941 },
+    { "id": "gemini-cast-fast", "label": "Full cast (faster)", "src": "audio/dead-air/S01E001.gemini-cast-fast.mp3", "durationSec": 883 }
+  ]
+}

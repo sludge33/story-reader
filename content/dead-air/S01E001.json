@@ -2,12 +2,26 @@
   "seriesId": "dead-air",
   "seriesTitle": "Dead Air",
   "code": "S01E001",
-  "title": "Episode 1",
+  "title": "A Mason with a Debt",
   "blurb": null,
   "wordCount": 2611,
   "durationSec": 941,
   "audio": "audio/dead-air/S01E001.mp3",
   "publishedAt": null,
+  "audioVersions": [
+    {
+      "id": "default",
+      "label": "Full cast",
+      "src": "audio/dead-air/S01E001.mp3",
+      "durationSec": 941
+    },
+    {
+      "id": "gemini-cast-fast",
+      "label": "Full cast (faster)",
+      "src": "audio/dead-air/S01E001.gemini-cast-fast.mp3",
+      "durationSec": 883
+    }
+  ],
   "blocks": [
     {
       "type": "p",

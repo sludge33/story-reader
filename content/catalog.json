@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T20:21:38.446Z",
+  "generatedAt": "2026-11-11T00:55:49.029Z",
   "series": [
     {
       "id": "lantern-mender",
@@ -148,6 +148,42 @@
           "durationSec": 1244,
           "audio": null,
           "publishedAt": null
+        },
+        {
+          "code": "S01E005",
+          "title": "Next Door to a Dead Pin",
+          "blurb": null,
+          "wordCount": 2959,
+          "durationSec": 1184,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E006",
+          "title": "Wax",
+          "blurb": null,
+          "wordCount": 3141,
+          "durationSec": 1256,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E007",
+          "title": "Grey Eyes",
+          "blurb": null,
+          "wordCount": 2760,
+          "durationSec": 1104,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E008",
+          "title": "Treat Crossing",
+          "blurb": null,
+          "wordCount": 3128,
+          "durationSec": 1251,
+          "audio": null,
+          "publishedAt": null
         }
       ]
     },
@@ -169,6 +205,42 @@
           "durationSec": 875,
           "audio": "audio/wrong-side-of-the-sun/S01E001.mp3",
           "publishedAt": null
+        },
+        {
+          "code": "S01E002",
+          "title": "Day Six",
+          "blurb": null,
+          "wordCount": 2547,
+          "durationSec": 1019,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E003",
+          "title": "The Later Hand",
+          "blurb": null,
+          "wordCount": 2438,
+          "durationSec": 975,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E004",
+          "title": "Flat Note",
+          "blurb": null,
+          "wordCount": 2606,
+          "durationSec": 1042,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E005",
+          "title": "Not Agreed",
+          "blurb": null,
+          "wordCount": 2492,
+          "durationSec": 997,
+          "audio": null,
+          "publishedAt": null
         }
       ]
     },
@@ -184,7 +256,7 @@
       "episodes": [
         {
           "code": "S01E001",
-          "title": "Episode 1",
+          "title": "A Mason with a Debt",
           "blurb": null,
           "wordCount": 2611,
           "durationSec": 941,
@@ -193,7 +265,7 @@
         },
         {
           "code": "S01E002",
-          "title": "Episode 2",
+          "title": "Hands That Won't Close",
           "blurb": null,
           "wordCount": 1993,
           "durationSec": 797,
@@ -202,7 +274,7 @@
         },
         {
           "code": "S01E003",
-          "title": "Episode 3",
+          "title": "Boots Off",
           "blurb": null,
           "wordCount": 2243,
           "durationSec": 897,
@@ -223,7 +295,7 @@
       "episodes": [
         {
           "code": "S01E001",
-          "title": "Episode 1",
+          "title": "Forty-One Over the Reedbed",
           "blurb": null,
           "wordCount": 3144,
           "durationSec": 1171,

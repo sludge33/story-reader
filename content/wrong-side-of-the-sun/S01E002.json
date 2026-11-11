@@ -1,0 +1,504 @@
+{
+  "seriesId": "wrong-side-of-the-sun",
+  "seriesTitle": "Wrong Side of the Sun",
+  "code": "S01E002",
+  "title": "Day Six",
+  "blurb": null,
+  "wordCount": 2547,
+  "durationSec": 1019,
+  "audio": null,
+  "publishedAt": null,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Jory Ashdown had the Bishop in one hand and a clamp bolt in the other when the Saltpan bulletin came through, two days stale by light."
+    },
+    {
+      "type": "p",
+      "text": "\"Saltpan Post, morning bulletin,\" said the dock radio, in the voice of a clerk who had read it twice already. \"Polling in the miners' strike closed some weeks since. The tally of posted ballots closes eight days from this notice. Almanac Revision Sixty-two was posted in Saltpan's drawer this morning, and takes effect in seven days.\" A rustle of paper. \"Notices. The Postal Inspectorate's Ravel Desk has requested a spool audit of the courier cutter Postscript, on arrival.\""
+    },
+    {
+      "type": "p",
+      "text": "Jory stopped turning the Bishop."
+    },
+    {
+      "type": "p",
+      "text": "Up on the gantry, Soph leaned over the rail. \"Technically,\" she said, \"that's us.\""
+    },
+    {
+      "type": "p",
+      "text": "Jory let that sit. He was a man who let words sit, to see what they did when left alone. He gave the sulking Furrow End clamp a last quarter turn. \"Easy, Bishop. Nobody's auditing you.\" Then, at last: \"Ravel Desk. That's the one everybody laughs at.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Not this morning,\" said Soph."
+    },
+    {
+      "type": "p",
+      "text": "Peregrine came down the ramp with the manifest board under his arm. He had heard; Jory could tell by the way he didn't mention it."
+    },
+    {
+      "type": "p",
+      "text": "\"The ballots,\" Peregrine said."
+    },
+    {
+      "type": "p",
+      "text": "\"Ballots are fine,\" said Jory. \"Tally closes in eight days. Saltpan's a two-day hop. She'll do that with her eyes shut.\""
+    },
+    {
+      "type": "p",
+      "text": "\"The tally isn't the trouble.\" Soph came down the gantry steps two at a time, with her fat blue table book already open. \"The trouble is when they were posted.\""
+    },
+    {
+      "type": "p",
+      "text": "\"They were posted at Quarto.\""
+    },
+    {
+      "type": "p",
+      "text": "\"On the last day the ballot was open. The last afternoon, Jory. A posted vote counts from its postmark. Two closes: the postmark has to fall before the poll closed, and the ballot has to be in before the tally closes. So Saltpan's clerk takes a Quarto postmark and turns it into a Saltpan date with whatever's in her drawer. Under Sixty-one, the latest ballot in that sack lands four hours inside the poll close.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Four hours is four hours.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Four hours is nothing. Revisions move things by hours. That's what they're for.\" She jabbed her pencil at the radio, which had gone on, unheard, to the strike committee's advice for members on Quarto. \"And the committee says Sixty-two moves Quarto six hours later.\""
+    },
+    {
+      "type": "p",
+      "text": "Jory turned the Bishop over in his palm. \"Six hours later,\" he said slowly, \"on a four-hour margin.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Two hours after the poll closed. Every Quarto vote in that sack, void as a vote.\""
+    },
+    {
+      "type": "p",
+      "text": "\"So it's a bearing with a bit of play in it,\" said Jory, \"and somebody's coming along with a shim that's too thick.\" He chuckled before he had quite finished. \"Wants fitting before they get there.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Show me the table that says it's a bearing.\""
+    },
+    {
+      "type": "p",
+      "text": "Waybill spoke from the ramp speaker. \"For the log. Is the ballot a bearing?\""
+    },
+    {
+      "type": "p",
+      "text": "\"No,\" said Soph."
+    },
+    {
+      "type": "p",
+      "text": "\"Yes,\" said Jory."
+    },
+    {
+      "type": "p",
+      "text": "\"Logged as disputed.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine had been listening the way he did, with his eyes on the board. \"When does Sixty-two wake up in that drawer?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Seven days from Saltpan's morning.\" Soph ran a finger down a column she did not need. \"The bulletin's two days old. The hop's two days. So we dock on day four, and it wakes at the start of day seven.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Which gives us three days to walk a sack across a dock,\" said Jory. \"Plenty.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Unless somebody holds us at the dock.\" Soph looked at the radio. \"Somebody with a spool audit, say.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Then we go now,\" said Peregrine. \"Still on time.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Still on time,\" Waybill agreed. \"Clamps first.\""
+    },
+    {
+      "type": "p",
+      "text": "Jory looked at the sulking clamp, and at the Bishop, and said, \"You hear that? Clamps first,\" and bent to it."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Inspector Constance Aubrey had waited on Saltpan's dock for most of a day, and she had spent it usefully, reading the courier's record again."
+    },
+    {
+      "type": "p",
+      "text": "It was perfect. Every delivery valid; every one on time. Years of far-side hauls, round the back of the Sun where honest couriers lost weeks to bad gams and cold drives and plain bad luck, and Captain Peregrine Blott had never once been late. Aubrey did not believe in perfect. Perfect, in her experience, had help."
+    },
+    {
+      "type": "p",
+      "text": "Postscript came in late in Saltpan's evening: a scuffed cutter with a patched stern and a cargo mind that announced her arrival to the dock office before the clamps had closed. Aubrey went up the gangway with her sergeant one step behind and the audit order in her hand."
+    },
+    {
+      "type": "p",
+      "text": "The captain met her at the top. He was younger than his record, and quieter."
+    },
+    {
+      "type": "p",
+      "text": "\"Captain Blott. Inspector Aubrey, Ravel Desk.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Inspector.\" He inclined his head. \"The spool locker is this way.\""
+    },
+    {
+      "type": "p",
+      "text": "\"In a moment. Nothing leaves this ship until the audit is complete, Captain. Cargo included. Crew included.\""
+    },
+    {
+      "type": "p",
+      "text": "\"There's a sack of ballots aboard for Saltpan's counter,\" he said. \"On a deadline.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Then they will keep.\""
+    },
+    {
+      "type": "p",
+      "text": "Her sergeant cleared his throat, which he did when he had the standing orders open. \"Inspector. The request names the spools and the master. Crew who hold no spools may go ashore.\""
+    },
+    {
+      "type": "p",
+      "text": "\"I hold no spools,\" said the navigator, from the hatch, and was already moving. \"I'll be at the counter, Captain. Watching a drawer.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Sergeant,\" said Aubrey, \"I would prefer the whole crew aboard.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Standing orders, Inspector.\" He showed her the page. It said what he said it said."
+    },
+    {
+      "type": "p",
+      "text": "Aubrey looked at the page, and then at the navigator's back going down the gangway, and then at her sergeant."
+    },
+    {
+      "type": "p",
+      "text": "\"Noted, and not agreed.\""
+    },
+    {
+      "type": "p",
+      "text": "The captain looked up."
+    },
+    {
+      "type": "p",
+      "text": "It was sharp and small, the way a man looks up at a tune he half knows, coming from another room. Then he was looking at the spool locker again, and saying something very courteous about its hinge, which he oiled himself while she watched, though nobody had asked him to."
+    },
+    {
+      "type": "p",
+      "text": "\"Logged,\" said the cargo mind. \"The Inspector's objection.\""
+    },
+    {
+      "type": "p",
+      "text": "Aubrey filed the look away with the record. She was good at filing."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Aubrey began the audit at first light, Saltpan's light, and did it properly."
+    },
+    {
+      "type": "p",
+      "text": "The engineer was down in the drive space with his back to her. Since first light she had heard him talk to his tools in a low, fond voice: \"Easy, Margaret,\" to a spanner, as though it were a horse. When she asked for his papers he passed his certificate up through the hatch without turning round."
+    },
+    {
+      "type": "p",
+      "text": "It was in order. It was, if anything, rather more in order than most. She read it twice."
+    },
+    {
+      "type": "p",
+      "text": "Below her, the engineer had stopped talking. He went on working, steadily, and the spanner did not get its name again."
+    },
+    {
+      "type": "p",
+      "text": "Aubrey handed the certificate back down. \"Thank you, Engineer.\" She moved on, and noted it."
+    },
+    {
+      "type": "p",
+      "text": "\"Cargo mind,\" she said, at the manifest board. \"Mass record since this run's spools were issued.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Inspector,\" said Waybill. \"Mass discrepancy, on the haul from Quarto to Hearth. One thousand nine hundred and six grams, gained mid-haul. Logged as one Post cask, arrived in the keel locker. The locker seal was unbroken.\""
+    },
+    {
+      "type": "p",
+      "text": "Behind her the captain said, \"I'll fetch it for you, Inspector,\" in the politest voice she had heard all week."
+    },
+    {
+      "type": "p",
+      "text": "\"The locker first, Captain.\""
+    },
+    {
+      "type": "p",
+      "text": "The keel locker was a sealed box of a space beside the keel-ring, the heavy hull fitting at the ship's spine. Aubrey knelt, unhooked her lamp, and turned it to the narrow beam."
+    },
+    {
+      "type": "p",
+      "text": "She had seen one of these once before, in a training plate at Gnomon, and the instructor had said she would never see another."
+    },
+    {
+      "type": "p",
+      "text": "A hairline. Finer than a hair. It came off the keel-ring and went nowhere at all, and under any other light it would not have been there. A dead stub: the anchor end of a ravel that had already done whatever it was moored to do."
+    },
+    {
+      "type": "p",
+      "text": "She looked at it for a long moment, and did not let her face do anything."
+    },
+    {
+      "type": "p",
+      "text": "The cask was in the captain's cabin, in its cradle, under a cloth. He lifted the cloth himself and folded it."
+    },
+    {
+      "type": "p",
+      "text": "Post issue, grey, shoebox size. The stamp on its flank read Postscript, ship's reckoning, on Folio's calendar, a date more than a year from today. And the blue Post seal across the lid had bloomed purple, the colour a seal turns when it has been broken. There was no RETURNED stamp anywhere on it."
+    },
+    {
+      "type": "p",
+      "text": "\"Who opened it, Captain?\""
+    },
+    {
+      "type": "p",
+      "text": "\"She's my ship, Inspector. Whatever's opened aboard her, I answer for.\""
+    },
+    {
+      "type": "p",
+      "text": "It was not an answer. It was also, she thought, exactly one."
+    },
+    {
+      "type": "p",
+      "text": "She did not lift the lid. She could not, without a court's warrant, and she was a little surprised by how much she wanted to. \"Sergeant. Evidence seal.\""
+    },
+    {
+      "type": "p",
+      "text": "The sergeant wound the Inspectorate's red tape round it and pressed the seal home."
+    },
+    {
+      "type": "p",
+      "text": "\"Cargo mind,\" Aubrey said. \"I know what I may not ask you.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Yes, Inspector. The ship's record may be compelled by a court, on warrant. Not by an audit.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Then I shan't ask. The spools.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Spool allotment for this run, three,\" said Waybill. \"Spent, none. Grounded, none. Present, three. Tags match the Spinnery issue.\""
+    },
+    {
+      "type": "p",
+      "text": "They did. Aubrey checked every tag herself."
+    },
+    {
+      "type": "p",
+      "text": "She sat on the captain's bunk for a moment, which was irregular, and thought about how neatly the spools had reconciled, and how little that now proved."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "By the morning of day six Jory had stopped naming things."
+    },
+    {
+      "type": "p",
+      "text": "He noticed it the way you notice a fan has gone off: by the quiet. He was greasing a clamp collar with his thumb, with the Duchess, his grease gun, right there in the kit. He picked her up, said her name under his breath, and felt a little better."
+    },
+    {
+      "type": "p",
+      "text": "Up in the hold, the captain was being polite to the Inspector."
+    },
+    {
+      "type": "p",
+      "text": "Jory knew that politeness. It was a drive running too quiet: nothing you could point to, and everything wrong. Since breakfast the captain had thanked everybody for everything, and wiped a manifest board that was already clean."
+    },
+    {
+      "type": "p",
+      "text": "\"Your spools reconcile, Inspector,\" Peregrine said."
+    },
+    {
+      "type": "p",
+      "text": "\"They do.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Then what you're holding now is the ship.\""
+    },
+    {
+      "type": "p",
+      "text": "\"And everything in her, Captain.\""
+    },
+    {
+      "type": "p",
+      "text": "\"The ballots aren't the ship. They're Post, in transit, addressed to the counter at the end of this dock.\" A small pause. \"Saltpan's drawer changes at midnight. If they're still aboard then, every Quarto vote in that sack lands after the poll close, and goes void. I should hate for it to be written up as the Inspectorate's doing. It wouldn't be fair to you.\""
+    },
+    {
+      "type": "p",
+      "text": "Jory winced. That was the politest thing he had ever heard the captain say, and the most frightened."
+    },
+    {
+      "type": "p",
+      "text": "The Inspector looked at Peregrine for a while. \"You may count them in front of my sergeant,\" she said. \"You may carry them yourself. The sergeant walks with you.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Thank you, Inspector. That's very kind.\""
+    },
+    {
+      "type": "p",
+      "text": "Jory reached for the sack's drawstring. Peregrine got there first, retied it himself, slung it over his own shoulder, and went."
+    },
+    {
+      "type": "p",
+      "text": "Jory went too. Somebody had to."
+    },
+    {
+      "type": "p",
+      "text": "Soph was at the counter, perched on the bench under the drawer, as if she had been holding the day for them. \"Day six,\" she said. \"Still Sixty-one in there. Wakes at midnight.\""
+    },
+    {
+      "type": "p",
+      "text": "The postmaster tipped the sack out. The envelopes were miners' red, every one with Quarto's counter postmark, and she read the latest of them against the drawer edition pinned behind her, running a finger down its Quarto column."
+    },
+    {
+      "type": "p",
+      "text": "\"Inside the poll close,\" she said. \"By four hours. And in well before the tally.\" The punch came down, and down again, and kept coming. \"Valid. They count.\""
+    },
+    {
+      "type": "p",
+      "text": "Then she reached under the counter for a flat sealed packet and set it beside the punch. \"Seeing as you're heading back out to Quarto.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Post Order received,\" said Waybill. \"Almanac Revision Sixty-two, sealed, consigned to Quarto office. Postscript is one of two couriers named. Deadline logged.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine signed for it. \"Still on time,\" he said, to nobody in particular."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "The sergeant came for the captain in the afternoon, and Jory and Soph sat on the gangway with the postmaster's public copy of Sixty-two, which Soph read out loud, line by line, the way other people read out insults."
+    },
+    {
+      "type": "p",
+      "text": "Jory had Margaret across his knees and a rag in his hand. You could listen to anything over rag work."
+    },
+    {
+      "type": "p",
+      "text": "\"Quarto. Six hours later.\" Soph sniffed. \"The strike committee was right, and I resent it.\" She turned the sheet. \"Saltpan, twelve minutes. Twelve! Who asked for twelve minutes? Nobody here was late for anything. Fine. Wrong, but fine.\""
+    },
+    {
+      "type": "p",
+      "text": "\"You've not checked it.\""
+    },
+    {
+      "type": "p",
+      "text": "\"I'll check it to prove it.\" She ran her finger on, and stopped. \"Octavo.\""
+    },
+    {
+      "type": "p",
+      "text": "Jory waited."
+    },
+    {
+      "type": "p",
+      "text": "\"Eleven days.\" She read it again. \"Eleven days. Not hours. Days. That's not a revision, that's a correction. Nobody makes a correction without a reason printed under it.\" She held the sheet up to the light, as if a reason might be hiding on the back. \"There isn't one.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Octavo,\" said Jory slowly. \"That's Folio's now, isn't it?\""
+    },
+    {
+      "type": "p",
+      "text": "\"That's my point. Who moves a place that's been Folio's for years by eleven days?\" She went down to the foot of the sheet. \"Approved for the Board. L. Prynne, Deputy.\""
+    },
+    {
+      "type": "p",
+      "text": "She went quiet. Not long. Long enough."
+    },
+    {
+      "type": "p",
+      "text": "\"Technically,\" said Soph, \"a deputy can sign a correction.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Mm,\" said Jory."
+    },
+    {
+      "type": "p",
+      "text": "\"Technically it ought to say why. Technically there's a form.\" She folded the sheet in half. \"Technically—\""
+    },
+    {
+      "type": "p",
+      "text": "She stopped there, and put the sheet in her table book, and shut the book on it."
+    },
+    {
+      "type": "p",
+      "text": "Jory rubbed at Margaret with the rag and did not ask. Not asking was the gentlest tool he had, and he had a lot of tools."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Aubrey had borrowed a room in the dock office, a narrow one with a window onto the salt flats and a water jug nobody had filled since the last inspector. The cask sat on the table between them under its red tape."
+    },
+    {
+      "type": "p",
+      "text": "The captain filled the jug before he sat down. Then he filled her glass."
+    },
+    {
+      "type": "p",
+      "text": "\"Captain. A void item may be opened only once a Post Office has stamped it RETURNED, and only by its sender. That cask has no such stamp, and its seal is broken. That is a fine, and an endorsement on your licence. I could enter it today.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Yes, Inspector.\""
+    },
+    {
+      "type": "p",
+      "text": "\"I'm not going to.\" She watched him not react, which he did well. \"I am granting you probation, for the rest of this run. The opening stays on file, unentered. If I find you in any further offence before the run is done, it is entered with the new one. If I don't, it lapses.\""
+    },
+    {
+      "type": "p",
+      "text": "He set the jug square on the table, exactly in the ring it had left. \"And the condition.\""
+    },
+    {
+      "type": "p",
+      "text": "\"One. I ride along whenever I choose. No notice.\""
+    },
+    {
+      "type": "p",
+      "text": "He was, she thought, the politest man she had ever frightened. \"Why?\" he said."
+    },
+    {
+      "type": "p",
+      "text": "Aubrey looked at the purple seal. A stub was a ravel that had already finished its work. In all her years on the Desk she had never seen one that had not, and she meant to; she meant to be standing right beside it when it was tied. She looked back at him."
+    },
+    {
+      "type": "p",
+      "text": "\"Because someone has moored a ravel to your ship, Captain. Or you did.\""
+    }
+  ]
+}

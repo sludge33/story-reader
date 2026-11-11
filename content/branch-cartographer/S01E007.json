@@ -1,0 +1,551 @@
+{
+  "seriesId": "branch-cartographer",
+  "seriesTitle": "Branch Cartographer",
+  "code": "S01E007",
+  "title": "Grey Eyes",
+  "blurb": null,
+  "wordCount": 2760,
+  "durationSec": 1104,
+  "audio": null,
+  "publishedAt": null,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "On the morning of day forty-nine, at the long table in the Hall refectory, Cressida Vesey held her teacup perfectly still."
+    },
+    {
+      "type": "p",
+      "text": "Halfway to her mouth. Not a tremor in it. The way you hold a level while the bubble settles."
+    },
+    {
+      "type": "p",
+      "text": "\"My mother had grey eyes,\" she said."
+    },
+    {
+      "type": "p",
+      "text": "For forty-six years she couldn't have told you that. On day nought I asked her about her mother, and she gave me the folio numbers of the Weirside file instead."
+    },
+    {
+      "type": "p",
+      "text": "Footnote: she said it the way you report a fire."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Brisk put her spoon down. At the urn, Gideon stopped humming in the middle of a bar."
+    },
+    {
+      "type": "p",
+      "text": "\"Grey,\" said Brisk. \"Good grey or rain grey?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Grey.\" Cressida drank her tea. \"I woke with it. Her face. Her hands on a bread board, flour to the wrist. That's all of it.\""
+    },
+    {
+      "type": "p",
+      "text": "\"That's not nothing, chuck,\" said Gideon, who has called a Cartographer of sixty 'chuck' for thirty years and never been corrected."
+    },
+    {
+      "type": "p",
+      "text": "\"It's one memory,\" said Cressida. \"I'll file a windfall note at the desk and get on.\""
+    },
+    {
+      "type": "p",
+      "text": "She set the cup down square to the edge of its saucer."
+    },
+    {
+      "type": "p",
+      "text": "Everyone who was at Greyfell knows what windfall is. A stray fact that fits nothing, dropped by a world that is falling. A word nobody uses. A scar with no wound."
+    },
+    {
+      "type": "p",
+      "text": "\"It isn't a stray, though,\" I said. \"It fits. It's yours.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Eat your porridge, Ardent.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Nobody gets a fact back for nothing. If it came back, it came from somewhere, and the somewhere is—\""
+    },
+    {
+      "type": "p",
+      "text": "\"Ardent.\""
+    },
+    {
+      "type": "p",
+      "text": "I ate my porridge. I made a list on my knee under the table instead."
+    },
+    {
+      "type": "p",
+      "text": "1. Windfall comes from a falling branch. 2. Facts fall toward agreement. A fact once swapped out of someone tends to fall back to them. 3. Therefore a branch holding something of Cressida's is falling. 4. The dead-pin board files every dead pin as natural decay."
+    },
+    {
+      "type": "p",
+      "text": "Footnote: I underlined four. Then I underlined it again, which is not regulation."
+    },
+    {
+      "type": "p",
+      "text": "\"You'll understand when you're my age,\" Gideon told Brisk, about something else entirely."
+    },
+    {
+      "type": "p",
+      "text": "\"I'm fifty-two,\" said Brisk."
+    },
+    {
+      "type": "p",
+      "text": "\"You were thirty-three last week.\""
+    },
+    {
+      "type": "p",
+      "text": "\"It's been a long week, Gideon.\""
+    },
+    {
+      "type": "p",
+      "text": "Miss Tolliver came to the refectory door before I'd finished. She is the day clerk at the Exchange Desk, and she does not come to the refectory."
+    },
+    {
+      "type": "p",
+      "text": "\"Cartographer. Mr Gammage is at the desk, asking for you.\" She looked at me. \"And for Mr Ardent. He says it was Mr Ardent's protractor.\""
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Mr Gammage had his hat in his hands and his cardigan buttoned correctly, for once, which is how I knew he had been awake all night deciding."
+    },
+    {
+      "type": "p",
+      "text": "The threshold room was empty at that hour. The dawn opening was long spent, and the east-wall door, third from the left, stood cold in its frame. Mrs Prowse's findings letter had been on the Hall's table for a week. The Hall had read it and said, \"Hm.\""
+    },
+    {
+      "type": "p",
+      "text": "\"It was me,\" said Mr Gammage. \"The packets. I expect you know.\""
+    },
+    {
+      "type": "p",
+      "text": "\"I expect we do,\" said Cressida. \"Why?\""
+    },
+    {
+      "type": "p",
+      "text": "He told it plainly, the way night clerks tell things, to the desk rather than to us."
+    },
+    {
+      "type": "p",
+      "text": "His daughter, Ellen, sailed for the southern ports eighteen years ago, after words with him over a young man. She writes to her mother at New Year. She does not write to him. In Weirside she never sailed. She married a different young man, a lock-keeper, and has three children, and lives two streets from her father."
+    },
+    {
+      "type": "p",
+      "text": "\"My Ruth found out six years ago,\" he said. \"Through this very desk. She's written to that girl every month since. Private post, in the Weirside packet, all proper. And the girl writes back. To Ruth.\""
+    },
+    {
+      "type": "p",
+      "text": "\"And you?\" said Cressida."
+    },
+    {
+      "type": "p",
+      "text": "\"I said it was foolishness. Not our girl. I said I didn't want to hear a word of it, and Ruth took me at my word.\" He turned his hat once round by the brim. \"She's a woman of her word, my Ruth.\""
+    },
+    {
+      "type": "p",
+      "text": "\"So you opened the packets.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Only Ruth's letter. Never the Hall's business. She answers what the girl tells her, you see. 'So glad the tooth came through.' 'Happy birthday to Sam from his other gran.' I could piece it together.\" He looked at the cold door. \"Sam's four.\""
+    },
+    {
+      "type": "p",
+      "text": "\"And Weirside's letters coming back?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Green wax. We've none.\" He almost smiled. \"I'm not clever, Cartographer. I'm only at the desk all night.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Why only these last weeks?\" I said."
+    },
+    {
+      "type": "p",
+      "text": "\"The new wax.\" He said it as if I would know. \"Night desk got its own stick. Before that, I'd have had to ask Miss Tolliver for hers, and she'd have asked me what for.\""
+    },
+    {
+      "type": "p",
+      "text": "At the door, Miss Tolliver put a hand flat to her collar."
+    },
+    {
+      "type": "p",
+      "text": "Footnote: I measured nine seals with a protractor to catch a man reading about his grandson's teeth. One week ago I walked to a green door I had been told not to visit, to look at a life where somebody was still in it. I didn't say so. I don't think I could have said it in front of him and kept my voice level."
+    },
+    {
+      "type": "p",
+      "text": "The Hall took Mr Gammage off the night desk before noon. Nobody took him off anything else. He sorts the dead-letter shelf in the back room now, by daylight, where people can see him. Cressida wrote to Mrs Prowse herself, four lines, and signed them. I read them upside down before she sealed it. Standing Order 3.4 covers bills, not letters."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "\"Cartographer. The windfall.\""
+    },
+    {
+      "type": "p",
+      "text": "She had already filed it. She turned the desk note round so I could read it right way up, which I took as a rebuke."
+    },
+    {
+      "type": "p",
+      "text": "Vesey, C. One memory: mother's face. Received overnight, day forty-nine. Source unknown."
+    },
+    {
+      "type": "p",
+      "text": "\"Source unknown isn't a source,\" I said. \"May I find it?\""
+    },
+    {
+      "type": "p",
+      "text": "\"And what would finding it give you?\""
+    },
+    {
+      "type": "p",
+      "text": "\"A branch. A date. A red pin on the board that says natural decay, next to a memory that says it fell.\""
+    },
+    {
+      "type": "p",
+      "text": "\"And then?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Then it's two cases. Brackwater, and yours.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Mine is not a case, Ardent.\""
+    },
+    {
+      "type": "p",
+      "text": "She went back to her desk. I stood in the doorway of her office, which is not entering, and counted to forty. At forty she took a key from her watch chain and unlocked the bottom drawer."
+    },
+    {
+      "type": "p",
+      "text": "There were five field books in it, tied with tape gone brown. She put them on the corner of the desk nearest me without looking at them."
+    },
+    {
+      "type": "p",
+      "text": "\"Routes and dates,\" she said. \"No bills. There were no bills.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Thank you.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Return them in order.\""
+    },
+    {
+      "type": "p",
+      "text": "Brisk was on the stairs, sitting on the third step with her boots crossed, which is where she waits when she wants to look as if she isn't waiting."
+    },
+    {
+      "type": "p",
+      "text": "\"She gave you the books,\" she said."
+    },
+    {
+      "type": "p",
+      "text": "\"How do you know?\""
+    },
+    {
+      "type": "p",
+      "text": "\"You're holding them like eggs.\" She got up. \"You're going to trace it.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Yes.\""
+    },
+    {
+      "type": "p",
+      "text": "\"She'll let you. She lets you do half the things she says no to. Haven't you noticed?\" Brisk looked up the stairwell toward Cressida's door. \"Some things you leave where they fell, Ardent. That's all I'll say.\""
+    },
+    {
+      "type": "p",
+      "text": "Footnote: Brisk has an eleven-year-old bill line in her drawer that she has never read. Her bridge memory, the one Ferrytown took on day sixteen, has been settleable at the customs-house door since day forty-six, and she hasn't asked anyone to write a letter. \"Bill's a bill,\" she says. I don't think that's the whole of it."
+    },
+    {
+      "type": "p",
+      "text": "\"Noted,\" I said."
+    },
+    {
+      "type": "p",
+      "text": "\"Thirty-eight,\" said Brisk, going down. \"Since you're counting.\""
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Forty crossings, from age fourteen to twenty-nine. Each line in her small square hand: a date, a route read aloud at a Ninefold door, a branch name, a distance, and the leader's licence she went under. Nothing else. No line saying what each crossing cost her. Form 9 didn't exist yet. The bill custom came the year after ballast."
+    },
+    {
+      "type": "p",
+      "text": "Then, thirty-one years ago, ballast. Every crossing after that, to the end of the fifth book, has a small 'B' in the margin, and from then on she lost nothing."
+    },
+    {
+      "type": "p",
+      "text": "Footnote: forty facts, fifteen years, and not one of them written down. You can't settle a swap nobody named. She has known that longer than I've been alive."
+    },
+    {
+      "type": "p",
+      "text": "On day fifty I took the books to the Exchange Desk, to the end nearest the window, where Verity Sallis was pencilling her tables and pretending she hadn't seen me since the corridor."
+    },
+    {
+      "type": "p",
+      "text": "\"No,\" she said."
+    },
+    {
+      "type": "p",
+      "text": "\"I haven't asked yet.\""
+    },
+    {
+      "type": "p",
+      "text": "\"You're asking me to help my nearest competitor for the Walk. Ninety-one percent no.\""
+    },
+    {
+      "type": "p",
+      "text": "\"It's a forty-line problem with a known answer at one end,\" I said. \"You'd enjoy it.\""
+    },
+    {
+      "type": "p",
+      "text": "She looked at the books. She looked at the tape. She put her pencil down."
+    },
+    {
+      "type": "p",
+      "text": "\"Nine percent is not nothing,\" said Verity."
+    },
+    {
+      "type": "p",
+      "text": "We worked through the morning. I read each crossing aloud; she ran it through her grid. Least Agreement takes the fact the branch agrees with least: hinge facts first, then glare, then ballast, then orphans, then strays. Cressida had no ballast then, and her books list nothing carried that would glare. So every exit took an orphan, a fact the branch didn't support, and within a class the oldest goes first."
+    },
+    {
+      "type": "p",
+      "text": "\"So the first crossing took the oldest thing she had that its branch didn't share,\" said Verity. \"The second took the oldest thing left. And so on, down the years.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Childhood first.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Untrained crossers always lose childhood first. It's the first page of my tables. Nobody reads the first page.\""
+    },
+    {
+      "type": "p",
+      "text": "Footnote: I had read the first page. I didn't mention it. She'd have found a percentage for it."
+    },
+    {
+      "type": "p",
+      "text": "The order isn't perfectly clean. A near branch might share a memory a far branch doesn't, and then the swap skips to the next oldest. Verity's tables allow for that, and they are right about four times in five. By noon we had forty lines, each with a predicted fact by age band, from the earliest memory to something from about the age of nine."
+    },
+    {
+      "type": "p",
+      "text": "\"Line one,\" said Verity, tapping it. \"First crossing. Nothing taken yet. The oldest memory there is. That's the best line on the page. Eighty-eight percent.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Earliest memory,\" I said. \"For most people, a parent's face.\""
+    },
+    {
+      "type": "p",
+      "text": "\"For most people.\" She picked the pencil back up and pressed on it. \"Where's the windfall come from, then?\""
+    },
+    {
+      "type": "p",
+      "text": "\"A falling branch. It fell toward agreement. Back to her.\""
+    },
+    {
+      "type": "p",
+      "text": "Verity was quiet for longer than she is usually quiet."
+    },
+    {
+      "type": "p",
+      "text": "\"Windfall doesn't only bring back what's yours,\" she said."
+    },
+    {
+      "type": "p",
+      "text": "\"Meaning?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Meaning it's a whole world coming down, Ardent. It doesn't sort. Some of it lands on whoever's nearest in agreement, whether they lost anything there or not.\" The lead of her pencil snapped. She looked at it as if it had done it on its own. \"Your line one. Read it again.\""
+    },
+    {
+      "type": "p",
+      "text": "Footnote: I have never before seen Verity Sallis break a pencil."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "I count the red pins every morning, so I had already seen the new one. It had gone up overnight, between day forty-nine and day fifty. The board runs behind; red pins wait on the Far Map clerk."
+    },
+    {
+      "type": "p",
+      "text": "Wrencote. Distance twenty-seven. Doors cold since dawn on day forty-six. Cause, in the clerk's round hand: natural decay."
+    },
+    {
+      "type": "p",
+      "text": "Line one of Cressida's first field book, in a fourteen-year-old's version of her square hand: spring, forty-six years ago, Ninefold, a twenty-seven-hinge route read by her leader. Wrencote. She went as a trainee, carrying the chain for a Cartographer's crew. Standing Order 6.3: a trainee may accompany any crew within the leader's licence."
+    },
+    {
+      "type": "p",
+      "text": "Footnote: four days from fall to her breakfast. Somewhere in Wrencote, for forty-six years, a woman my mentor's age has been remembering a face with grey eyes and flour to the wrists. Since day forty-six she has been losing things. That one went first, because it agreed with Wrencote least."
+    },
+    {
+      "type": "p",
+      "text": "I matched the other thirty-nine lines against the board, one by one. There were other red pins on it with names I had just read in her books. I did not count them."
+    },
+    {
+      "type": "p",
+      "text": "Footnote: I am a man who counts things. I did not count them."
+    },
+    {
+      "type": "p",
+      "text": "Verity had followed me to the board. She said nothing. She stood back while I opened the Far Map cabinet. She never touches a doorframe, and she doesn't touch cabinets much either."
+    },
+    {
+      "type": "p",
+      "text": "Dead pins keep their cards. The Wrencote card was in its drawer in the Bole's Far Map with a red tab on it: route, twenty-seven hinges, Bole notation; the hinge, Rooke's mill, sold; the hinge-maker, Tamsin Rooke, mill-owner; pinned by the Bole's Survey fifty-three years ago. I copied the hinge line onto my case bill, because a bill should be complete. Then I put the card back exactly where it had been."
+    },
+    {
+      "type": "p",
+      "text": "I wrote the case bill in pencil. None of it was mine to lose."
+    },
+    {
+      "type": "p",
+      "text": "CASE BILL. Vesey, C., Cartographer. Forty crossings before the form. Least Agreement order, oldest unshared fact first."
+    },
+    {
+      "type": "p",
+      "text": "Line one. Age fourteen. Wrencote, distance twenty-seven. Hinge: Rooke's mill, sold; hinge-maker Tamsin Rooke. Predicted: earliest memory. Returned as windfall, day forty-nine."
+    },
+    {
+      "type": "p",
+      "text": "Line two. Age fourteen. Distance six. Predicted: earliest memory but one. Unnamed."
+    },
+    {
+      "type": "p",
+      "text": "Lines three to thirty-nine. Ages fifteen to twenty-eight. Unnamed."
+    },
+    {
+      "type": "p",
+      "text": "Line forty. Age twenty-nine. Distance eleven. Predicted: a fact from about age nine. Unnamed."
+    },
+    {
+      "type": "p",
+      "text": "Then ballast. Nothing lost since."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "On day fifty-one I laid the books and the bill on Cressida's desk, in order."
+    },
+    {
+      "type": "p",
+      "text": "She read the bill once. She did not read it twice, which with her means she had read it already, somewhere else, in some other form."
+    },
+    {
+      "type": "p",
+      "text": "\"Wrencote,\" she said. \"Yes.\""
+    },
+    {
+      "type": "p",
+      "text": "Footnote: she reads the dead-pin board every morning before anyone else can. The Wrencote pin went up the night before I found it. I don't know when she knew. I didn't ask, and I've stopped counting the things I didn't ask her this week."
+    },
+    {
+      "type": "p",
+      "text": "\"It can't be settled,\" I said. \"Wrencote's doors are dead. But it didn't need settling. It came home.\""
+    },
+    {
+      "type": "p",
+      "text": "\"It came home because Wrencote is falling.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Yes, but—\""
+    },
+    {
+      "type": "p",
+      "text": "\"There are people in it, Ardent. One of them is me. She had my mother's face for forty-six years, and now she hasn't, and next month she'll have less.\" Cressida squared the bill against the edge of the desk. \"I'm not glad of it. Don't ask me to be.\""
+    },
+    {
+      "type": "p",
+      "text": "I didn't. I sat with it, which she permitted."
+    },
+    {
+      "type": "p",
+      "text": "Footnote: on the way up the stairs that morning I had done a sum I didn't want to have done. Somewhere my counterpart holds my name. If the branch holding it ever fell, the name would tend to fall home toward agreement. To me. I struck it through, the way I struck option three on day twenty-three. I did not tell Cressida. I am telling you because it's on my bill, and a bill should be complete."
+    },
+    {
+      "type": "p",
+      "text": "Then I asked the other thing. I was frightened of it, so I had a list."
+    },
+    {
+      "type": "p",
+      "text": "\"Cartographer. The books raise a question, and I'd like to ask it by the evidence.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Ask it.\""
+    },
+    {
+      "type": "p",
+      "text": "1. Forty crossings over fifteen years. Each one cost a fact. 2. Not one entry in fifteen years shows a trial. No knot, no marked pebble, no coined word. No crossing where something went anyway. 3. After line forty, eleven weeks with no crossings at all. 4. Then ballast, complete. The Ballast Book's first printing has thirty-one kinds. Page one, line one: there are thirty-one kinds and there are no others. Nobody in thirty-one years has found a thirty-second."
+    },
+    {
+      "type": "p",
+      "text": "\"Discoveries come with failures,\" I said. \"This one came with a table of contents. How did you know there were thirty-one? Where did ballast come from?\""
+    },
+    {
+      "type": "p",
+      "text": "Cressida looked at me for a long moment. \"And the books say?\""
+    },
+    {
+      "type": "p",
+      "text": "\"The books say nothing. For eleven weeks. That's what they say.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Then you have no evidence.\""
+    },
+    {
+      "type": "p",
+      "text": "\"I have a gap.\""
+    },
+    {
+      "type": "p",
+      "text": "She picked up her pen and began a requisition for chain links. She did not look up again. I waited by my count for two minutes, and she wrote three lines in that time, which for her is slow."
+    },
+    {
+      "type": "p",
+      "text": "Footnote: she always answers a question with a question about the evidence. She had run out of questions. I had never seen that before either."
+    },
+    {
+      "type": "p",
+      "text": "I tied the books in their brown tape, in order, and stood. At the door I stopped in the frame, which is not entering and not leaving, and I would like to say I did that on purpose."
+    },
+    {
+      "type": "p",
+      "text": "She put the pen down."
+    },
+    {
+      "type": "p",
+      "text": "\"I didn't discover ballast,\" said Cressida. \"A traveller from the far end taught it to me. I never asked his name.\""
+    }
+  ]
+}

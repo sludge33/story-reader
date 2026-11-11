@@ -1,7 +1,8 @@
 {
-  "_note": "Audio versions for the site's Version picker (copied into content/ by tools/import.mjs). The first entry is the default narration. endsAtBlock: the sample stops at that content block (block 44 ends at word 960, \"...Please.\"). Gemini samples: Gemini 3.8 Flash TTS free tier, rendered 2026-11-08/09; full cast = Fola narrator, Sami (Ada), Algenib (Tobias), Rami (chestnut man), Cleo (Odile). QC: qc/lantern-mender/S01E001.gemini*.md.",
+  "_note": "Audio versions for the site's Version picker (copied into content/ by tools/import.mjs). The site's default is the entry matching S01E001.mp3 (Kokoro), listed first. endsAtBlock: the sample stops at that content block (block 44 ends at word 960, \"...Please.\"). Gemini renders: Gemini 3.8 Flash TTS; full cast = Fola narrator, Sami (Ada), Algenib (Tobias), Rami (chestnut man), Cleo (Odile). The full-episode full cast is the batched render of 2026-11-10; the two samples are from 2026-11-08/09. QC: qc/lantern-mender/S01E001.gemini*.md.",
   "versions": [
-    { "id": "default", "label": "Full episode", "src": "audio/lantern-mender/S01E001.mp3", "durationSec": 885 },
+    { "id": "default", "label": "Kokoro narration", "src": "audio/lantern-mender/S01E001.mp3", "durationSec": 885 },
+    { "id": "gemini-cast-full", "label": "Gemini full cast", "src": "audio/lantern-mender/S01E001.gemini-cast-full.mp3", "durationSec": 1011 },
     { "id": "gemini", "label": "Gemini narrator (sample, first 7 min)", "src": "audio/lantern-mender/S01E001.gemini.mp3", "durationSec": 404, "endsAtBlock": 44 },
     { "id": "gemini-cast", "label": "Gemini full cast (sample, first 8 min)", "src": "audio/lantern-mender/S01E001.gemini-cast.mp3", "durationSec": 453, "endsAtBlock": 44 }
   ]

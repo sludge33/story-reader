@@ -11,9 +11,15 @@
   "audioVersions": [
     {
       "id": "default",
-      "label": "Full episode",
+      "label": "Kokoro narration",
       "src": "audio/lantern-mender/S01E001.mp3",
       "durationSec": 885
+    },
+    {
+      "id": "gemini-cast-full",
+      "label": "Gemini full cast",
+      "src": "audio/lantern-mender/S01E001.gemini-cast-full.mp3",
+      "durationSec": 1011
     },
     {
       "id": "gemini",

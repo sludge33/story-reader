@@ -1,0 +1,608 @@
+{
+  "seriesId": "branch-cartographer",
+  "seriesTitle": "Branch Cartographer",
+  "code": "S01E006",
+  "title": "Wax",
+  "blurb": null,
+  "wordCount": 3141,
+  "durationSec": 1256,
+  "audio": null,
+  "publishedAt": null,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "The Weirside packet lay on the Exchange Desk in the last hour before dawn, and its seal was set three degrees off true."
+    },
+    {
+      "type": "p",
+      "text": "I measured it twice. Three degrees anticlockwise: the Survey's nine-arch device leaning like a fence post after a gale. At the evening bell I had watched Miss Tolliver seal this packet with the square block, and I had measured it then. Nought degrees."
+    },
+    {
+      "type": "p",
+      "text": "Footnote: I own a protractor. I'm not ashamed."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "It was day forty-two, by my count, which starts at Weirside. I had measured every Weirside seal for a month."
+    },
+    {
+      "type": "p",
+      "text": "It began on day twelve. Weirside's desk clerk, a Mrs Prowse, added a line to her return packet: yours of yesterday arrived re-pressed, kindly look into it. The Hall looked into it in the sense that someone read the line aloud and someone else said, \"Weirside.\" After that she wrote the same line every few days, with dates. Nobody answered her, so I started measuring."
+    },
+    {
+      "type": "p",
+      "text": "Every evening the day clerk seals the Weirside packet with the block, which sets the device square to the fold. Every evening I measured it at nought. Every few days Mrs Prowse wrote back that it had arrived re-pressed. That left a window running from the evening bell in the Bole to the dawn opening, and two branches to put the blame in."
+    },
+    {
+      "type": "p",
+      "text": "Footnote: one of those packets carried my letter of day thirty, asking my counterpart to meet me at the door and settle my name. I had a personal interest in the window."
+    },
+    {
+      "type": "p",
+      "text": "This morning I came in before dawn, because trainees don't sit the night desk and I had run out of other ideas."
+    },
+    {
+      "type": "p",
+      "text": "\"Mr Ardent.\" Mr Gammage came out of the back room with the dawn lamp and his tea. He is the night clerk, small and grey, with his cardigan buttoned one hole wrong. \"You're early. Trainees don't sit the night desk.\""
+    },
+    {
+      "type": "p",
+      "text": "\"I'm not sitting. I'm standing.\" I put the protractor away. \"May I ask you to hold the packet back from the dawn opening?\""
+    },
+    {
+      "type": "p",
+      "text": "He looked at the packet, then at me. \"Weirside expects it at dawn. They'll fuss.\""
+    },
+    {
+      "type": "p",
+      "text": "\"They already fuss,\" I said. \"They write it down.\""
+    },
+    {
+      "type": "p",
+      "text": "He set his tea on the far end of the desk, very carefully, as if it might go off."
+    },
+    {
+      "type": "p",
+      "text": "Cressida came in at the half-hour. Since Brackwater she has read the dead-pin board every morning before anyone else can. She stopped at the desk because I was standing at it, which is not where trainees stand."
+    },
+    {
+      "type": "p",
+      "text": "\"Ardent.\""
+    },
+    {
+      "type": "p",
+      "text": "I made a list, because she likes evidence and because I was frightened of being wrong in front of her."
+    },
+    {
+      "type": "p",
+      "text": "1. Mrs Prowse has reported nine Bole packets re-pressed since day twelve. 2. I measured all nine at the evening sealing. All true. 3. This one was true at the evening bell. It is three degrees off now. 4. It hasn't left this room."
+    },
+    {
+      "type": "p",
+      "text": "\"And the protractor says?\""
+    },
+    {
+      "type": "p",
+      "text": "\"That somebody lifted the seal and pressed it again by hand. Without the block.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Or that a clerk knocked it with a teacup.\" She did not look at Mr Gammage. \"One packet. One trainee. Weirside will say it proves nothing about the other nine.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Then we test the other nine.\""
+    },
+    {
+      "type": "p",
+      "text": "\"How?\""
+    },
+    {
+      "type": "p",
+      "text": "Footnote: I had got as far as being right. I had not got as far as how."
+    },
+    {
+      "type": "p",
+      "text": "\"Wax,\" I said. \"Whoever presses a seal again has to add wax. The Hall's wax comes from Gideon's stores, and Gideon writes everything down. And we send one packet that never spends a night on this desk. If it arrives true, the window shuts on our side.\""
+    },
+    {
+      "type": "p",
+      "text": "Cressida looked past me at the east wall, at the third door from the left. \"Carried by hand, that spends the Bole's opening. Nothing goes through at dawn.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Yes.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Mr Gammage. The packet stays where it is. Nobody touches it.\" She turned for the board. \"Brisk is on the stairs. Ask her whether she's busy.\""
+    },
+    {
+      "type": "p",
+      "text": "Mr Gammage sat down at the night desk and did not drink his tea."
+    },
+    {
+      "type": "p",
+      "text": "Footnote: I have never heard Cressida give an order that sounded like one."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "At the morning bell the Hall pinned a notice beside the dead-pin board, and the trainees' room emptied to read it."
+    },
+    {
+      "type": "p",
+      "text": "THE CHAINMAN'S WALK. A fixed route, sealed until the morning of the Walk. Three ballast kinds, chosen by the examiners and named three days ahead. Hazards set from the Least-Agreement Tables of Trainee V. Sallis. Entrants sign below."
+    },
+    {
+      "type": "p",
+      "text": "The date was thirty-eight days off. Day eighty, by my count."
+    },
+    {
+      "type": "p",
+      "text": "Verity Sallis was at her end of the Exchange Desk, nearest the window, not looking at the notice in the way people don't look at things they wrote."
+    },
+    {
+      "type": "p",
+      "text": "\"You designed the hazards,\" I said."
+    },
+    {
+      "type": "p",
+      "text": "\"I designed the arithmetic. The examiners designed the cruelty.\" She didn't look up from her grid. \"Thirty-eight percent of trainees pass the Walk first time. Yours is lower.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Why?\""
+    },
+    {
+      "type": "p",
+      "text": "\"You'll stop to measure something.\" She tipped her pencil at the night desk, where the packet sat alone under Mr Gammage's lamp. \"Seventy percent it's this side, if your protractor's honest.\""
+    },
+    {
+      "type": "p",
+      "text": "\"It's brass.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Brass can lie, Ardent. It just does it slowly.\""
+    },
+    {
+      "type": "p",
+      "text": "I signed the notice in pinned ink. Footnote: a waste of pinned ink. I wanted that line to stay true."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Gideon was humming when I came into the kit room, the tune nobody in the Bole knows. He stopped when I asked about wax."
+    },
+    {
+      "type": "p",
+      "text": "\"Sealing wax.\" He hauled the stores ledger onto the counter and ran a thick finger down a column. \"Survey red, from the chandler on Tallow Street, forty sticks to a batch, and no two batches pour the same, chuck. The day desk has batch nineteen. The night desk had batch twenty, twelve sticks, issued day nine, signed for by Mr Gammage.\" He tapped the line. \"Twenty came up a touch brick. I sent the chandler a note. He sent me a note back. Notes.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Do you keep samples?\""
+    },
+    {
+      "type": "p",
+      "text": "\"I keep a finger of every batch, sir. You'd be amazed what folk swear they were issued.\" He opened a drawer of short red stubs, each tied with a label, and cut me a sliver of nineteen and a sliver of twenty, wrapped them in paper and wrote the numbers on in ordinary ink. \"Three bottles of pinned ink and a prayer, and now I'm in the wax trade.\""
+    },
+    {
+      "type": "p",
+      "text": "Brisk put her head round the door. \"Cressida says I'm not busy.\""
+    },
+    {
+      "type": "p",
+      "text": "\"How old today, Brisk?\" said Gideon."
+    },
+    {
+      "type": "p",
+      "text": "\"Thirty-three.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Last week you were twenty-six.\""
+    },
+    {
+      "type": "p",
+      "text": "\"It's been a long week.\""
+    },
+    {
+      "type": "p",
+      "text": "Footnote: I keep a list. I keep it out of my sums."
+    },
+    {
+      "type": "p",
+      "text": "Miss Tolliver made up a fresh packet at the day desk with the morning's letters and sealed it with the block while Gideon, Brisk and I watched. I measured it. Nought. Brisk buttoned it inside her coat."
+    },
+    {
+      "type": "p",
+      "text": "The held packet, the one with the crooked seal, went into my satchel in an envelope with my initials across the flap. Cressida signed the envelope. Mr Gammage watched it go."
+    },
+    {
+      "type": "p",
+      "text": "Then Brisk went into the kit room alone for a minute to check her ballast, and I looked at the ceiling. Footnote: since Ferrytown I look at ceilings a great deal."
+    },
+    {
+      "type": "p",
+      "text": "Mine was in my coat: a marked stone, made on day forty at home, under a blanket, with nobody in the room and the lamp out. It would settle at the seventh midnight after I made it, the one that ends day forty-six. My spare from Greyfell had settled the week before, unspent, and was now only a pebble. Weirside had never had a kind from me. On day zero it had my name instead."
+    },
+    {
+      "type": "p",
+      "text": "I wrote my bill in pinned ink at the kit-room counter. Line one: My given name is Edric. Line two: I write shorthand at ninety words a minute. Line three: My father is Tobin Ardent."
+    },
+    {
+      "type": "p",
+      "text": "Gideon didn't read it upside down. Standing Order 3.4. He hummed at the ceiling instead."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "The Ninefold's east wall, third door from the left."
+    },
+    {
+      "type": "p",
+      "text": "Brisk stood in the doorway and read the route. It is one hinge long, and the hinge is my mother's. The door opened on the first reading."
+    },
+    {
+      "type": "p",
+      "text": "The Bole's opening for the day. Spent. Nothing else would go through to Weirside before dawn tomorrow, and on the night desk Mr Gammage's packet tray sat empty."
+    },
+    {
+      "type": "p",
+      "text": "\"Nine,\" said Brisk. \"Ardent.\""
+    },
+    {
+      "type": "p",
+      "text": "Standing Order 6.3: a trainee may accompany any crew within its leader's licence. Brisk's reaches eight. Weirside is one."
+    },
+    {
+      "type": "p",
+      "text": "I stepped through. Leaving home is free. Footnote: it's coming back that charges."
+    },
+    {
+      "type": "p",
+      "text": "\"Eight.\" Brisk came through after me, and at nine the door went cold behind her."
+    },
+    {
+      "type": "p",
+      "text": "Weirside's Ninefold Hall has green curtains. I've seen them twice now, and both times the light through them made everyone look slightly unwell, including, I assume, me."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Mrs Prowse was tall and grey and kept her spectacles on a chain, and she looked at my face for exactly as long as everyone in Weirside does."
+    },
+    {
+      "type": "p",
+      "text": "\"You're not ours,\" she said."
+    },
+    {
+      "type": "p",
+      "text": "\"No. Ardent, of the Bole. Trainee.\""
+    },
+    {
+      "type": "p",
+      "text": "\"I know who you are. Your packet?\""
+    },
+    {
+      "type": "p",
+      "text": "Brisk unbuttoned her coat and handed it over. I measured it on Mrs Prowse's blotter. Nought. Mrs Prowse ran her thumbnail round the edge of the seal, slowly, the whole way round."
+    },
+    {
+      "type": "p",
+      "text": "\"Clean,\" she said. \"One layer. That's how they used to come.\""
+    },
+    {
+      "type": "p",
+      "text": "She opened a drawer and laid out nine wrappers in date order, each with a slip pinned to it. Every seal sat a degree or two or three off true. When she tipped them to the lamp, every one showed it: a thin skirt of wax at the edge, a second layer, pressed over the first."
+    },
+    {
+      "type": "p",
+      "text": "Then I took the held packet out of its envelope and she tipped that one too. Same skirt."
+    },
+    {
+      "type": "p",
+      "text": "I unwrapped Gideon's slivers and laid them beside the wrappers, and used my glass."
+    },
+    {
+      "type": "p",
+      "text": "1. The first layer, the seal itself, matched batch nineteen. The day desk. 2. The skirt matched batch twenty. Brick. On all ten. 3. Weirside's own desk wax, which Mrs Prowse took from her drawer to show me, is green."
+    },
+    {
+      "type": "p",
+      "text": "\"We don't stock red,\" she said. \"Never have.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Then they were opened on our side,\" I said. \"Before handover. And pressed again with night-desk wax.\""
+    },
+    {
+      "type": "p",
+      "text": "\"I did say.\""
+    },
+    {
+      "type": "p",
+      "text": "\"You did. Nine times.\" Footnote: the Bole's night desk has one clerk. I wrote the conclusion in my notebook and stopped there. The rest belongs to the Hall."
+    },
+    {
+      "type": "p",
+      "text": "Mrs Prowse wrote her findings out as a letter for the Hall, signed it, and gave it to Brisk to carry. Then she turned over the slip on the wrapper from day thirty-one."
+    },
+    {
+      "type": "p",
+      "text": "\"That one had yours in it,\" she said. \"Your letter. To him.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Is he here? I've brought my bill.\" I had it out already. \"It's day forty-two. The swap's set. I wrote on day thirty to ask him to meet me at the door.\""
+    },
+    {
+      "type": "p",
+      "text": "She went to the pigeonholes on the back wall and didn't take anything out. She just stood aside."
+    },
+    {
+      "type": "p",
+      "text": "My letter was in his slot, unopened. My handwriting, addressed to my handwriting."
+    },
+    {
+      "type": "p",
+      "text": "\"He's away,\" said Mrs Prowse. \"Surveying far. He went three days before that came.\""
+    },
+    {
+      "type": "p",
+      "text": "Footnote: someone in the Bole read my settlement letter. The person it was for has not."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "\"Surveying far,\" I said. \"He's a Surveyor Third. Four hinges.\""
+    },
+    {
+      "type": "p",
+      "text": "Mrs Prowse looked at me over the spectacles, and then she brought out the threshold register."
+    },
+    {
+      "type": "p",
+      "text": "Weirside's register is kept in Weirside notation: hinges numbered from the far end, makers' initials boxed. His line was dated day twenty-eight by my count. Ardent, F., Surv. 3rd. Out by the Ninefold."
+    },
+    {
+      "type": "p",
+      "text": "The route ran to thirty-two hinges. The weir night stood at the top, numbered thirty-two, because it was the farthest from where he was going. One hinge back across into our side of the Fan, and thirty-one beyond it."
+    },
+    {
+      "type": "p",
+      "text": "\"That's distance thirty-one from the Bole,\" I said."
+    },
+    {
+      "type": "p",
+      "text": "\"It's further than anyone here has a licence for. Our senior's a Surveyor First. Sixteen.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Then who led him?\""
+    },
+    {
+      "type": "p",
+      "text": "She put her finger on the countersign column. There was no name in it. There was a mark: a small ring, open at the top, with a short stroke laid across the gap."
+    },
+    {
+      "type": "p",
+      "text": "\"Nobody here signs like that,\" said Mrs Prowse. \"I asked. Our Firsts asked. He said the leader was licensed further than any of us, and that he'd be back.\""
+    },
+    {
+      "type": "p",
+      "text": "The destination was Brindle Reach. In the margin, in green ink, in Mrs Prowse's square hand: Dead pin. The date was day forty, by mine."
+    },
+    {
+      "type": "p",
+      "text": "I copied the mark into my notebook. I copied it three times, because the first two weren't right."
+    },
+    {
+      "type": "p",
+      "text": "1. Brindle Reach fell on day forty. 2. Anyone visiting a branch when it falls is thrown home to their native branch. 3. He isn't home. 4. So he had already left it. For somewhere else."
+    },
+    {
+      "type": "p",
+      "text": "Footnote: Calder Fold, distance thirty-eight, cold since spring, with his note in the margin. Brindle Reach, thirty-one, cold since day forty, with his name in the register. He keeps arriving at places shortly before they stop."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Brisk was by the window with Weirside's pilot, comparing doors, the way other people compare weather."
+    },
+    {
+      "type": "p",
+      "text": "\"I'm going out,\" I said. \"Sluice Row.\""
+    },
+    {
+      "type": "p",
+      "text": "Brisk stopped smiling. \"Note said don't.\""
+    },
+    {
+      "type": "p",
+      "text": "\"The note isn't Standing Orders.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Neither am I, and I'm still saying it.\" She looked at me for a breath or two. \"Dusk. I'll read Weirside's side at the sixth bell. I don't hold her past nine for anyone, Ardent. Not even you.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Noted.\""
+    },
+    {
+      "type": "p",
+      "text": "I had a list on the way down the hall steps."
+    },
+    {
+      "type": "p",
+      "text": "1. My counterpart is away. Nothing can be settled today. 2. The opening home is at dusk. 3. I have five hours in the only branch where my father is alive. 4. I want to."
+    },
+    {
+      "type": "p",
+      "text": "Footnote: four is not a reason. I am aware. I left it on the list."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Number eleven Sluice Row has a green door with a brass knocker shaped like a fish. I knocked with my knuckles instead."
+    },
+    {
+      "type": "p",
+      "text": "The man who opened it was tall and grey at the temples, with a pencil behind one ear and my jaw. He wiped his hands on a cloth. He looked at me, and his whole face went easy."
+    },
+    {
+      "type": "p",
+      "text": "\"Fintan,\" he said. \"You're back early.\""
+    },
+    {
+      "type": "p",
+      "text": "It's on my first bill. Pinned ink says it was my name. It sounded like a word in a language I can read and don't speak."
+    },
+    {
+      "type": "p",
+      "text": "I answered to it anyway. \"Cut short,\" I said. That was the first lie."
+    },
+    {
+      "type": "p",
+      "text": "\"Come in, then. Kettle's on. Your mother's out till the lamps. She'll be cross she missed you.\""
+    },
+    {
+      "type": "p",
+      "text": "I had never heard my father's voice. Not that I could remember. It was low, a little hoarse at the bottom, the voice of a man who shouts over water for a living, and it said ordinary things. Kettle. Lamps. Sit down."
+    },
+    {
+      "type": "p",
+      "text": "Footnote: a memory made in a branch is agreed there and can never be taken there. Everywhere else, it's mine to lose."
+    },
+    {
+      "type": "p",
+      "text": "The kitchen had a dresser full of blue plates and a tide chart pinned by the window, written up in pencil. He saw me look at it."
+    },
+    {
+      "type": "p",
+      "text": "\"Four foot two over the crest this morning,\" he said. \"She's kind today.\""
+    },
+    {
+      "type": "p",
+      "text": "He measured the river in feet and inches. He measured it every morning and wrote it down. I sat at his table with my cup and thought: so that's where it comes from."
+    },
+    {
+      "type": "p",
+      "text": "He didn't ask about the trip. He didn't ask about the crew, or what I'd found, or why I had come by the front door and knocked. I told him anyway. The trip was dull. The crew was well. The far pins were cold and nobody knew why. I'd be off again tomorrow. Each one was smooth and easy, and none of them was true."
+    },
+    {
+      "type": "p",
+      "text": "\"You don't have to tell me anything,\" he said."
+    },
+    {
+      "type": "p",
+      "text": "\"I know,\" I said, and that was the closest I came."
+    },
+    {
+      "type": "p",
+      "text": "After the tea he took me down to the weir, because it was a fine afternoon and he said I looked peaky. We sat on the bench on the east bank. In the Bole, that spot has a slab with four names on it. My father's is third. Here, it has a bench, and he was sitting on it."
+    },
+    {
+      "type": "p",
+      "text": "He told me about the gates, and the spring floods, and a heron that has fished below the sluice for nine years and has opinions. He told me my mother had asked him to stay home one night, a long time ago, and he had, and it was the best thing anybody ever asked him. He said it the way you mention the weather. Weirside has had twenty-two years to get used to it."
+    },
+    {
+      "type": "p",
+      "text": "\"Fancy a swim?\" he said, watching the water. \"She's kind today.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Not today.\""
+    },
+    {
+      "type": "p",
+      "text": "Footnote: I can't swim. My mother never taught me. In this house, somebody would have."
+    },
+    {
+      "type": "p",
+      "text": "At the fifth bell he stood and stretched and said, \"I'll walk you up.\""
+    },
+    {
+      "type": "p",
+      "text": "\"You don't need to.\""
+    },
+    {
+      "type": "p",
+      "text": "\"I know,\" he said."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Lies told: fourteen. True things said: two, and I'm not sure either counts."
+    },
+    {
+      "type": "p",
+      "text": "Mrs Prowse let him into the threshold room without asking. Everyone in Weirside knows Tobin Ardent. He stood back from the door with his hands in his pockets, by the green curtains, where people wait."
+    },
+    {
+      "type": "p",
+      "text": "I read my bill under the lamp while we waited for the bell, and ran the exit through Least Agreement, as I do now before every door."
+    },
+    {
+      "type": "p",
+      "text": "1. Hinge facts: none. I have no hinges. 2. Glare: nothing I carry needs anything Weirside lacks. It's one hinge away. 3. Ballast: one marked stone, day forty, unwitnessed. It goes."
+    },
+    {
+      "type": "p",
+      "text": "My counterpart, wherever he is past the far pins, would receive a pebble with a mark he didn't make, and lose nothing for it. My father's voice was made here. Weirside agrees with it. It stays."
+    },
+    {
+      "type": "p",
+      "text": "At the sixth bell Brisk stood in the doorway and read the route home. Weirside's opening for the day. The door opened on the first reading."
+    },
+    {
+      "type": "p",
+      "text": "\"Nine,\" said Brisk. \"Ardent.\""
+    },
+    {
+      "type": "p",
+      "text": "I stepped through. A small tug at the doorway, nothing I could name, and the weight in my coat pocket was gone. Bill out. Standing Order 9.1. Every line true."
+    },
+    {
+      "type": "p",
+      "text": "\"Clean,\" I said."
+    },
+    {
+      "type": "p",
+      "text": "\"Seven. Six.\" Brisk came through last, as pilots do, and read hers. \"Clean.\""
+    },
+    {
+      "type": "p",
+      "text": "The door stayed open behind us. Through it, in the green light, my father had taken his hands out of his pockets. He didn't come any closer. He couldn't, and I think he knew it."
+    },
+    {
+      "type": "p",
+      "text": "\"Five,\" said Brisk."
+    },
+    {
+      "type": "p",
+      "text": "\"You're not my Fintan,\" said my father, across the open door. \"You're the one carrying the name he was born with. He told me I named him Edric once. I don't remember it.\""
+    }
+  ]
+}
