@@ -1,124 +1,106 @@
 {
-  "durationSec": 1171,
-  "voiceUsd": 0.267,
+  "durationSec": 1101,
+  "voiceUsd": 0.25,
   "engine": "gemini",
   "model": "gemini-3.8-flash-tts",
   "mode": "batched",
   "batches": [
     {
       "voice": "Achernar",
-      "lines": 4,
-      "chars": 2232,
-      "score": 0.934
-    },
-    {
-      "voice": "Alnilam",
-      "lines": 3,
-      "chars": 42,
-      "score": 1
-    },
-    {
-      "voice": "Sadaltager",
       "lines": 2,
-      "chars": 27,
-      "score": 0.5
+      "chars": 2321,
+      "score": 0.96
     },
     {
       "voice": "Achernar",
+      "lines": 7,
+      "chars": 1594,
+      "score": 0.968
+    },
+    {
+      "voice": "Alnilam",
       "lines": 1,
-      "chars": 1598,
-      "score": 0.95
+      "chars": 24,
+      "score": 0
     },
     {
       "voice": "Sadachbia",
       "lines": 2,
-      "chars": 140,
-      "score": 0.846
-    },
-    {
-      "voice": "Achernar",
-      "lines": 1,
-      "chars": 1798,
-      "score": 0.965
-    },
-    {
-      "voice": "Achernar",
-      "lines": 3,
-      "chars": 974,
-      "score": 0.959
-    },
-    {
-      "voice": "Erinome",
-      "lines": 5,
-      "chars": 129,
-      "score": 0.6
-    },
-    {
-      "voice": "Achernar",
-      "lines": 1,
-      "chars": 1596,
-      "score": 0.965
-    },
-    {
-      "voice": "Achernar",
-      "lines": 3,
-      "chars": 2244,
-      "score": 0.979
-    },
-    {
-      "voice": "Umbriel",
-      "lines": 1,
-      "chars": 9,
-      "score": 1
-    },
-    {
-      "voice": "Pulcherrima",
-      "lines": 2,
-      "chars": 296,
-      "score": 0.893
-    },
-    {
-      "voice": "Achernar",
-      "lines": 2,
-      "chars": 1774,
-      "score": 0.952
+      "chars": 141,
+      "score": 0.88
     },
     {
       "voice": "Enceladus",
-      "lines": 3,
-      "chars": 220,
-      "score": 0.923
+      "lines": 2,
+      "chars": 151,
+      "score": 0.867
+    },
+    {
+      "voice": "Pulcherrima",
+      "lines": 4,
+      "chars": 536,
+      "score": 0.827
     },
     {
       "voice": "Achernar",
+      "lines": 2,
+      "chars": 2335,
+      "score": 0.965
+    },
+    {
+      "voice": "Achernar",
+      "lines": 5,
+      "chars": 2230,
+      "score": 0.991
+    },
+    {
+      "voice": "Erinome",
       "lines": 4,
-      "chars": 1884,
-      "score": 0.973
+      "chars": 52,
+      "score": 0.571
+    },
+    {
+      "voice": "Achernar",
+      "lines": 5,
+      "chars": 1960,
+      "score": 0.976
+    },
+    {
+      "voice": "Umbriel",
+      "lines": 2,
+      "chars": 35,
+      "score": 0.667
     },
     {
       "voice": "Achernar",
       "lines": 1,
-      "chars": 1884,
-      "score": 0.92
+      "chars": 2701,
+      "score": 0.961
+    },
+    {
+      "voice": "Achernar",
+      "lines": 2,
+      "chars": 2209,
+      "score": 0.943
     }
   ],
   "weakLines": [
     {
-      "voice": "Erinome",
-      "text": "Forty-eight call-minutes, Mr Toller. Thirty-eight drift.",
-      "matched": 4,
-      "words": 9
+      "voice": "Alnilam",
+      "text": "Northing'll have them,",
+      "matched": 0,
+      "words": 3
     }
   ],
-  "requests": 16,
-  "apiCalls": 16,
+  "requests": 13,
+  "apiCalls": 13,
   "cachedCalls": 0,
-  "textTokens": 4138,
-  "audioTokens": 29415,
+  "textTokens": 3933,
+  "audioTokens": 27546,
   "tokensFrom": "api usage",
-  "renderWallSec": 691,
-  "apiSec": 320,
-  "renderedAt": "2026-11-10",
+  "renderWallSec": 589,
+  "apiSec": 267,
+  "renderedAt": "2026-11-12",
   "voices": {
     "narrator": "Achernar",
     "c-sorrel-tansley": "Achernar",
@@ -127,7 +109,7 @@
     "c-lucas-mbeki": "Enceladus",
     "amos-thurlow": "Alnilam",
     "dorcas-ely": "Erinome",
-    "wilfred-cobbing": "Sadaltager",
     "hamish-toller": "Umbriel"
-  }
+  },
+  "audioPath": "audio/seven-neighbours/S01E001.mp3"
 }

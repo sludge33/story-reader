@@ -35,6 +35,27 @@ const readJson = (p) => JSON.parse(readFileSync(p, "utf8"));
 const QUOTE = /["“”]([^"“”]*)["“”]/g;
 const SCENE_BREAK = /^\s*(\*\s*){3,}$/;
 
+/**
+ * British-style 'single' quotes, for paragraphs with no double quotes. Yields matches shaped like
+ * QUOTE's ({ 0, 1, index }). An opening mark follows the start, a space or an opening bracket/dash; a
+ * closing mark follows punctuation, or precedes the end or punctuation. Apostrophes inside words
+ * (you're) and plural possessives (the counters' sheet) are neither, so they stay in the quote.
+ */
+export function* singleQuotes(text) {
+  const Q = /['‘’]/;
+  let open = -1;
+  for (let i = 0; i < text.length; i++) {
+    if (!Q.test(text[i])) continue;
+    const prev = text[i - 1] ?? "", next = text[i + 1] ?? "";
+    if (open < 0) {
+      if ((prev === "" || /[\s(\[—–-]/.test(prev)) && next && !/\s/.test(next)) open = i;
+    } else if (/[.,!?;:—–…-]/.test(prev) || next === "" || /[.,!?;:—–…)]/.test(next)) {
+      yield Object.assign([text.slice(open, i + 1), text.slice(open + 1, i)], { index: open });
+      open = -1;
+    }
+  }
+}
+
 /** Split a script into paragraphs; each is narration and quote parts in order, or a scene break. */
 export function parseScript(md) {
   const paras = [];
@@ -44,7 +65,7 @@ export function parseScript(md) {
     if (SCENE_BREAK.test(text)) { paras.push({ sceneBreak: true }); continue; }
     const parts = [];
     let pos = 0;
-    for (const m of text.matchAll(QUOTE)) {
+    for (const m of (/["“”]/.test(text) ? text.matchAll(QUOTE) : singleQuotes(text))) {
       if (m.index > pos) parts.push({ kind: "narration", text: text.slice(pos, m.index) });
       parts.push({ kind: "quote", text: m[1] });
       pos = m.index + m[0].length;
