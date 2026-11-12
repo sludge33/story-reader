@@ -1,0 +1,511 @@
+{
+  "seriesId": "thirteenth-hour",
+  "seriesTitle": "The Reckoner of the Thirteenth Hour",
+  "code": "S01E003",
+  "title": "Dead Time",
+  "blurb": null,
+  "wordCount": 2952,
+  "durationSec": 1181,
+  "audio": null,
+  "publishedAt": null,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "I signed the Bank's report at 11:52 p.m."
+    },
+    {
+      "type": "p",
+      "text": "The clerk had sat across the night desk from me since half past ten with his hat on his knee. He did not hurry me. When I picked up the Bank pen, he looked at the wall."
+    },
+    {
+      "type": "p",
+      "text": "Under my signature, in the shorthand we keep at the Guild desk, I wrote one more line: Signed as receipt of ruling, not as agreement to cause. Weighed 47, warm."
+    },
+    {
+      "type": "p",
+      "text": "He blotted it without reading it, put the report in his case and wished me good night."
+    },
+    {
+      "type": "p",
+      "text": "I was ashamed of signing it. I had signed it anyway, because without me the Ninth Stair had three players."
+    },
+    {
+      "type": "p",
+      "text": "My key came the next morning in a Bank envelope with my licence: brass, registered to me, my name on the tag. So did a problem. Lisle brought it to the landing late that afternoon, before I had my coat off."
+    },
+    {
+      "type": "p",
+      "text": "'Millrace Stair,' she said. 'Stiller academy. They've never conceded a run to a four-a-side team. Not once. Two coppers says that's still true by tomorrow night.'"
+    },
+    {
+      "type": "p",
+      "text": "Drewe took the bet without looking up from the screwdriver she was turning in her fingers. Tran, on the bench by the wall, said 'mm' into a stone jug."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "We drilled on the Ninth Stair landing in what was left of the daylight, with no Hour and no seconds. Lisle carried a brass doorstop for the Token and walked the ring plate to plate, one stride across the dead floor each time, until her feet did it without her. Drewe walked it the other way round. Tran stood on plate XII with his arms folded and put a hand on the shoulder of whoever came past."
+    },
+    {
+      "type": "p",
+      "text": "Between drills I asked them what they meant to spend."
+    },
+    {
+      "type": "p",
+      "text": "'Thirty,' Lisle said. 'All night. Not a second over.'"
+    },
+    {
+      "type": "p",
+      "text": "'Same,' Drewe said."
+    },
+    {
+      "type": "p",
+      "text": "I looked at Tran. He lifted the jug an inch. 'Stiller,' he said. 'I don't spend. I owe sleep.'"
+    },
+    {
+      "type": "p",
+      "text": "'The Issue is three hundred,' I said."
+    },
+    {
+      "type": "p",
+      "text": "'And the stalls are mine.' Lisle sat down on the edge of plate IV. She was not loud. 'Three in one day at work last week. Foreman had me in his office this morning. One more on his floor and I'm out. He's got a nephew who'd like my bench.'"
+    },
+    {
+      "type": "p",
+      "text": "She was rubbing the side of one thumb hard with the other while she said it, and she had not bet on anything for a full minute. I believed her about the foreman."
+    },
+    {
+      "type": "p",
+      "text": "We were twelfth of twelve on five points with four matchdays left. Sixty seconds would not carry a Token past a Stiller academy. The rest would go back to the Bank at the Close without debt, and we would go back to twelfth."
+    },
+    {
+      "type": "p",
+      "text": "I had the graph paper in my satchel. I had been drawing their weeks on it since the chophouse without knowing what for: seven days across, twenty-four hours down, Lisle in red, Drewe in green, Tran in pencil because he had given me almost nothing. I unfolded the sheets on plate IV beside her."
+    },
+    {
+      "type": "p",
+      "text": "'The printed Laws let the Reckoner write a Stall Book at the Close,' I said. 'Every stall from my issue, at exact times inside the Week of Grace, with the debtor's spoken consent. Written times bind. The Laws don't say what the times have to be.'"
+    },
+    {
+      "type": "p",
+      "text": "I put my finger on Lisle's red block between two and six in the morning."
+    },
+    {
+      "type": "p",
+      "text": "'You're asleep here. A stall is a freeze. If it falls while you're asleep, you lose that much sleep and nothing else. Nobody sees it. Your foreman doesn't see it.' I moved my finger to the quarter hour she stood at the tram stop each morning. 'If it falls while you're waiting, the wait passes. You'd leave earlier, so you don't miss the tram.'"
+    },
+    {
+      "type": "p",
+      "text": "Nobody said anything. Drewe's screwdriver stopped turning."
+    },
+    {
+      "type": "p",
+      "text": "'How long can a stall be, asleep,' I asked, 'before it costs more than sleep?'"
+    },
+    {
+      "type": "p",
+      "text": "'Two hours,' Tran said. 'More than two in one night, you wake up stall-sick. Slow all day. Like you never went to bed.'"
+    },
+    {
+      "type": "p",
+      "text": "'Then nobody gets two hours in a night.'"
+    },
+    {
+      "type": "p",
+      "text": "Lisle was looking at the red squares, not at me. 'You can't stall a sleeper,' she said. 'Everybody knows that. A stalled sleeper never wakes up. Two coppers says that's why nobody's ever done this, and it's a trap.'"
+    },
+    {
+      "type": "p",
+      "text": "'It isn't in the Laws,' I said. 'I've read them. Where does it come from?'"
+    },
+    {
+      "type": "p",
+      "text": "'Everywhere. Every landing. My first captain told me in my first week.'"
+    },
+    {
+      "type": "p",
+      "text": "'Did he see it happen?'"
+    },
+    {
+      "type": "p",
+      "text": "'He didn't say.'"
+    },
+    {
+      "type": "p",
+      "text": "'It's an old one,' Drewe said. 'Nobody knows whose.'"
+    },
+    {
+      "type": "p",
+      "text": "'The printed Laws say unscheduled stalls fall at random, waking or asleep,' I said to Lisle. 'Some of yours last week may have fallen while you slept. You woke.'"
+    },
+    {
+      "type": "p",
+      "text": "'That's the Hour doing it. It's different when somebody writes it down.'"
+    },
+    {
+      "type": "p",
+      "text": "I had no figure that said it was or was not different, and I did not argue it."
+    },
+    {
+      "type": "p",
+      "text": "'Mm,' Tran said. I waited for more and there was none. He had no stalls to book. He was agreeing to the idea."
+    },
+    {
+      "type": "p",
+      "text": "'Put me in the book,' Drewe said. 'I've never been properly regulated.' She was nodding before I had finished turning to her."
+    },
+    {
+      "type": "p",
+      "text": "She agreed before I had asked. My verdict was that she would agree to anything that ended a meeting quickly, and I did not like it in her."
+    },
+    {
+      "type": "p",
+      "text": "Lisle held out her hand, palm up. 'Two coppers says I don't wake up.'"
+    },
+    {
+      "type": "p",
+      "text": "'If you don't wake up,' Drewe said, 'who do I collect from?'"
+    },
+    {
+      "type": "p",
+      "text": "'My foreman.' Lisle closed her hand. 'Fine. Write me in. You'll have my yes at the Close, out loud, the way the Laws want it.'"
+    },
+    {
+      "type": "p",
+      "text": "Tran drank from the jug while we talked. It was black chicory; I could smell it from plate IV. He drank it the way other men drink water, and between the second drill and the third he sat on the bench, put his chin on his chest and was asleep before Lisle had finished her stride. She kicked his boot on her way past. He woke, said 'mm', and drank again."
+    },
+    {
+      "type": "p",
+      "text": "He had come straight to the landing from a day's work, I thought, and would have come on one leg. I said nothing about it."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "The League posts the Rate Board twenty-four hours before a match, on the board at the foot of the home side's stair. I left my key locked in my desk drawer that night, so the stroke would not take me into the Hour, and walked over to the Millrace Stair on my rounds at a quarter past twelve."
+    },
+    {
+      "type": "p",
+      "text": "Plates IX and X were posted at double. XII, Millrace's Hour plate, was posted at three-fifths. VI, ours as the away side, was posted at three-halves. Everything else was at true rate."
+    },
+    {
+      "type": "p",
+      "text": "I copied it onto graph paper at the night desk and drew the ring."
+    },
+    {
+      "type": "p",
+      "text": "A Stiller on a plate posted at double can Still it down to the Stairwell floor, a half. She moves at double while anyone she Stills moves at a half. Millrace would stand Stillers on IX and X. A Token starting on VII or VIII had to cross both of them to come clockwise to XII. The other way round it had to cross VI, and Tran would be standing on VI, and only one of us may stand on a plate at a time. On IX and X it started on the wall itself."
+    },
+    {
+      "type": "p",
+      "text": "That left the starts from I to V. They could come round through I and meet no Stiller but the Keep. And XII was posted at three-fifths. Their Keep could Still it only a tenth, down to the floor. On her own plate she would move at three-fifths while our Sprinter moved at a half. She would have almost no edge."
+    },
+    {
+      "type": "p",
+      "text": "I laid it out for them on the landing the next afternoon."
+    },
+    {
+      "type": "p",
+      "text": "Tran looked at the ring for a long time. 'I know their Keep,' he said."
+    },
+    {
+      "type": "p",
+      "text": "'And?' Lisle said."
+    },
+    {
+      "type": "p",
+      "text": "'She turns to feet.'"
+    },
+    {
+      "type": "p",
+      "text": "'Academy Keeps,' Lisle said to me. 'They drill them to square up to the first foot on the plate. Tran was at Millrace. They drill it till they do it asleep.'"
+    },
+    {
+      "type": "p",
+      "text": "'Mm,' Tran said."
+    },
+    {
+      "type": "p",
+      "text": "I asked him how sure he was."
+    },
+    {
+      "type": "p",
+      "text": "'Sure,' he said. 'Mm.'"
+    },
+    {
+      "type": "p",
+      "text": "I built round eleven on that. The Token starts on XI. Lisle stands on XI with it. Drewe stands on I, the other side of XII. First Drewe spends a short count alone and puts one foot on XII. If Tran was right, the Keep turns to her. Drewe steps off before her count ends. The moment that Lull ends, they both say Spend together. Drewe puts her foot on again and takes it off. Lisle comes onto XII from XI, behind the Keep, and lets go."
+    },
+    {
+      "type": "p",
+      "text": "'One of you on her plate at a time,' I said. 'Never both. And in live play that plate runs at three-fifths. Turning round on it takes her longer than it would anywhere else.'"
+    },
+    {
+      "type": "p",
+      "text": "'And if she doesn't turn?' Drewe said."
+    },
+    {
+      "type": "p",
+      "text": "'Then she's facing Lisle and Lisle is Spilled. It works once. After that their Reckoner will tell her.'"
+    },
+    {
+      "type": "p",
+      "text": "I lodged the team sheet with the League office that afternoon: Lisle, Sprinter. Drewe, Sprinter. Tran, Stiller and Keep on VI. No Winder. The two-spender run needs two Sprinters."
+    },
+    {
+      "type": "p",
+      "text": "'Mainspring at last,' Drewe said when she read it. 'Watch me unwind.'"
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Later that afternoon I walked with Drewe to the movement-maker's counter on Spindle Row, because it was on my way to the Guild and she asked me to."
+    },
+    {
+      "type": "p",
+      "text": "She was paying her family's account. She took a paper twist from her coat, opened it and laid the coins on the counter in a row. They were new. The edges were sharp and there was not a thumb-mark on them. The man behind the counter wrote her a receipt without looking at them twice."
+    },
+    {
+      "type": "p",
+      "text": "'Shop had a good week,' Drewe said to me, folding the receipt."
+    },
+    {
+      "type": "p",
+      "text": "Before that, giving me her week to the quarter hour, she had told me the shop had taken in two pocket watches and a carriage clock in five days."
+    },
+    {
+      "type": "p",
+      "text": "I did not believe her. I said nothing."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "At a quarter to midnight the Arbiter held the sleep ledger open on her forearm for the pre-match check. Tran took her pen, wrote his line and handed the pen back. It took about four seconds. He did not look at the page while he wrote."
+    },
+    {
+      "type": "p",
+      "text": "I took it that he had filled in that form a hundred times and knew it by heart."
+    },
+    {
+      "type": "p",
+      "text": "I had logged the night at the Guild as a stair-tower inspection, as I had the week before."
+    },
+    {
+      "type": "p",
+      "text": "The Millrace landing was colder than ours and smaller. Their four stood on their plates without talking, and their Reckoner stood on the Arbor across from me. The Keep on XII was broad and still and did not look at any of us. At the stroke the Arbiter put the jar in my hands on the Arbor: three hundred."
+    },
+    {
+      "type": "p",
+      "text": "For the first five rounds we ran every round. In the odd ones I kept the whole jar for the run; in the even ones I banked as well."
+    },
+    {
+      "type": "p",
+      "text": "'Lisle, forty.'"
+    },
+    {
+      "type": "p",
+      "text": "'Held.'"
+    },
+    {
+      "type": "p",
+      "text": "I saw nothing of her run. Afterwards the Token lay dead on XII and the Keep stood at the I edge with one hand still lifted, and Lisle was back on I rubbing her shoulder where she had been touched. In the Bank minute I wrote nothing; I was keeping the jar for runs. Millrace wrote four."
+    },
+    {
+      "type": "p",
+      "text": "It went the same way in rounds three and five, and the same when Drewe tried from II and IV. The Keep was always standing where they stepped on. Almost no edge is enough when you are already in the right place."
+    },
+    {
+      "type": "p",
+      "text": "I won the even rounds' bank points with what I did not spend: six to five, five to four, seven to six. Tran held VI against everything Millrace sent at it until round seven, when their Sprinter scored from VII."
+    },
+    {
+      "type": "p",
+      "text": "'I had her,' Tran said afterwards, 'and then I didn't. Her second foot was quicker than her first. Good run.'"
+    },
+    {
+      "type": "p",
+      "text": "His Still had sprung, so he was the only one of us who saw it. I wrote it down the way he said it."
+    },
+    {
+      "type": "p",
+      "text": "In rounds eight and nine the Token started behind their wall, and we did not run. I banked six and seven. Millrace wrote nothing and then six, and both bank points were ours."
+    },
+    {
+      "type": "p",
+      "text": "After ten rounds it was six to five to Millrace. In round ten we had both written four, and nobody scored."
+    },
+    {
+      "type": "p",
+      "text": "Nobody on our side was rationing. Lisle answered 'Held' to every number I called, and spent every second of it. In the Bank minute before round eleven I had forty-six left in the jar by my own count of the issues and the Tally."
+    },
+    {
+      "type": "p",
+      "text": "'Drewe, twelve.'"
+    },
+    {
+      "type": "p",
+      "text": "'Held.'"
+    },
+    {
+      "type": "p",
+      "text": "'Lisle, twenty.'"
+    },
+    {
+      "type": "p",
+      "text": "'Held.'"
+    },
+    {
+      "type": "p",
+      "text": "Lisle lifted the Token on XI in live play. The Keep came to the XI edge of her plate and squared to her."
+    },
+    {
+      "type": "p",
+      "text": "Drewe opened her mouth."
+    },
+    {
+      "type": "p",
+      "text": "Then the Keep was at the I edge, facing Drewe, and Drewe was a stride back on I. I had perhaps half a heartbeat of that."
+    },
+    {
+      "type": "p",
+      "text": "Then the Token was lying on XII by the Keep's heel, and the Keep was turning, and the Arbiter's hand was up."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "I rebuilt it in the Bank minute and again on the landing afterwards, because I had not seen it."
+    },
+    {
+      "type": "p",
+      "text": "The Tally had our spent at two hundred and nineteen before the round. Then two hundred and twenty-five. Then two hundred and fifty-one. Six, and then twenty-six."
+    },
+    {
+      "type": "p",
+      "text": "Drewe's account: she said 'Spend six', put her left foot on XII from I, and the Keep came round 'like a door on a good hinge'. Drewe stepped back off with a second of her count to spare, and her count ran out on I. The Lull ended. They both said Spend in the same breath, the way they had drilled saying it on our landing: Drewe six, Lisle twenty. Drewe put her foot on again. The Keep held square to her. Drewe took her foot off."
+    },
+    {
+      "type": "p",
+      "text": "Lisle's account: she waited on XI with the Token until Drewe's foot was off the plate. Then she took one stride across the dead floor onto XII, behind the Keep's back, set the Token down by her heel and let go."
+    },
+    {
+      "type": "p",
+      "text": "'She turned,' Lisle said. 'She's quick. She wasn't quick enough on that plate.'"
+    },
+    {
+      "type": "p",
+      "text": "Six alone, then twenty-six together, thirty-two in all. Both accounts and the Tally agreed to the second. Two points."
+    },
+    {
+      "type": "p",
+      "text": "It was the first run Millrace Stair had ever conceded to a side of four."
+    },
+    {
+      "type": "p",
+      "text": "I wrote eight in that Bank minute. Millrace wrote seven. Eight to six."
+    },
+    {
+      "type": "p",
+      "text": "Round twelve started with the Token on XII beside their Keep. It was the bank and nothing else. I had six seconds left, and I wrote six. Millrace wrote nine."
+    },
+    {
+      "type": "p",
+      "text": "Eight to seven. We had won our first match. Eight points."
+    },
+    {
+      "type": "p",
+      "text": "Lisle came off her plate and put two coppers in Drewe's hand without being asked."
+    },
+    {
+      "type": "p",
+      "text": "'Worth it,' she said."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "The Close was in the Millrace porter's lodge, twenty minutes after the stroke. The Bank's clerk was a younger man than last week's, with clean cuffs. I checked the empty pan read zero before I weighed. Then I put the jar on it barehanded."
+    },
+    {
+      "type": "p",
+      "text": "Issue three hundred. Tally spent two hundred and fifty-one, banked forty-nine. The jar should hold forty-nine."
+    },
+    {
+      "type": "p",
+      "text": "It read forty-nine. The glass was cold."
+    },
+    {
+      "type": "p",
+      "text": "'Forty-nine,' I said. 'No variance. Cold.'"
+    },
+    {
+      "type": "p",
+      "text": "He wrote it as I said it, and I signed my own words."
+    },
+    {
+      "type": "p",
+      "text": "Then I opened the Stall Book. It covers what a Reckoner issued and the friction on it. Nobody had wound anything, so there was no friction to book. Tran is a Stiller; he owes Still-sleep, not stalls, and that is not mine to write."
+    },
+    {
+      "type": "p",
+      "text": "Lisle owed a hundred and forty-seven minutes of stall. I wrote her into her own sleep: every night of the Week of Grace, three in the morning to twenty-one minutes past."
+    },
+    {
+      "type": "p",
+      "text": "'Lisle,' I said. 'Do you consent?'"
+    },
+    {
+      "type": "p",
+      "text": "'I consent.' She looked at the page and not at me. 'Two coppers still says I don't wake up.'"
+    },
+    {
+      "type": "p",
+      "text": "Drewe owed a hundred and four. I wrote fourteen minutes into each of six nights, half past one to a quarter to two, and twenty minutes on the third afternoon, ten past three to half past, behind the counter of her family's shop, at the hour she had told me nobody ever comes in."
+    },
+    {
+      "type": "p",
+      "text": "'Drewe. Do you consent?'"
+    },
+    {
+      "type": "p",
+      "text": "'Consent.' She said it before I had finished her name."
+    },
+    {
+      "type": "p",
+      "text": "I blotted the page. Nothing in it was over two hours in a night. Nothing in it fell anywhere a foreman could see."
+    },
+    {
+      "type": "p",
+      "text": "I lifted the jar in both hands to give it to the clerk."
+    },
+    {
+      "type": "p",
+      "text": "The lodge door opened behind him and he stood up so fast his chair went over."
+    },
+    {
+      "type": "p",
+      "text": "The woman who came in wore a grey coat and grey kid gloves. She did not look at the clerk. She took the jar out of my hands, set it on the counter without looking at it, and drew off her gloves a finger at a time."
+    },
+    {
+      "type": "p",
+      "text": "'Severine Holt,' she said. 'I govern the Bank of Hours.'"
+    },
+    {
+      "type": "p",
+      "text": "I was afraid. I watched her hands. She laid the gloves flat on the counter beside the jar and put one hand on top of them."
+    },
+    {
+      "type": "p",
+      "text": "'What exactly did you weigh last week, Miss Sandor?' she said. 'And who else have you told?'"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T01:06:26.819Z",
+  "generatedAt": "2026-11-12T13:08:23.211Z",
   "series": [
     {
       "id": "lantern-mender",
@@ -115,8 +115,8 @@
       "episodes": [
         {
           "code": "S01E001",
-          "title": "The First Bill Is Paid in Full",
-          "blurb": null,
+          "title": "Chapter 1: Hinge-Maker: Blank",
+          "blurb": "A trainee surveyor's first provisional card has one field left blank, and filling it will cost him more than he was told.",
           "wordCount": 3747,
           "durationSec": 1443,
           "audio": "audio/branch-cartographer/S01E001.mp3",
@@ -124,8 +124,8 @@
         },
         {
           "code": "S01E002",
-          "title": "Rent",
-          "blurb": null,
+          "title": "Chapter 2: What the Lamplighter Lost",
+          "blurb": "A lamplighter loses one memory a week and wakes holding another man's childhood, and Fintan has until the next midnight to find whose.",
           "wordCount": 3105,
           "durationSec": 1242,
           "audio": null,
@@ -133,8 +133,8 @@
         },
         {
           "code": "S01E003",
-          "title": "Customs",
-          "blurb": null,
+          "title": "Chapter 3: Fourteen Lamps and No Bridge",
+          "blurb": "A trainee surveyor crosses to a Ferrytown without a bridge, and one picked-up pebble costs his pilot her oldest memory.",
           "wordCount": 3249,
           "durationSec": 1300,
           "audio": null,
@@ -182,6 +182,117 @@
           "blurb": null,
           "wordCount": 3128,
           "durationSec": 1251,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E009",
+          "title": "The Chainman's Walk",
+          "blurb": null,
+          "wordCount": 3532,
+          "durationSec": 1413,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E010",
+          "title": "Yorath",
+          "blurb": null,
+          "wordCount": 3622,
+          "durationSec": 1449,
+          "audio": null,
+          "publishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "fifth-floor-tenant",
+      "title": "The Fifth-Floor Tenant",
+      "logline": "Broke night-shift building super Ravi Anand finds his apartment block is a tiered dungeon the city keeps hidden, and that he is its caretaker. Each floor he cleans, patches and rezones raises his rank and the building's.",
+      "hook": "How high the building goes, what lives at the top, and why the city needed a caretaker who is unlicensed and underpaid.",
+      "genre": "progression",
+      "contentRating": "teen",
+      "season": 1,
+      "stage": "pilot",
+      "episodes": [
+        {
+          "code": "S01E001",
+          "title": "Episode 1",
+          "blurb": null,
+          "wordCount": 3561,
+          "durationSec": 1424,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E002",
+          "title": "Episode 2",
+          "blurb": null,
+          "wordCount": 3238,
+          "durationSec": 1295,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E003",
+          "title": "Episode 3",
+          "blurb": null,
+          "wordCount": 3124,
+          "durationSec": 1250,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E004",
+          "title": "Episode 4",
+          "blurb": null,
+          "wordCount": 3064,
+          "durationSec": 1226,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E005",
+          "title": "Episode 5",
+          "blurb": null,
+          "wordCount": 3040,
+          "durationSec": 1216,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E006",
+          "title": "Episode 6",
+          "blurb": null,
+          "wordCount": 3180,
+          "durationSec": 1272,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E007",
+          "title": "Episode 7",
+          "blurb": null,
+          "wordCount": 3155,
+          "durationSec": 1262,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E008",
+          "title": "Episode 8",
+          "blurb": null,
+          "wordCount": 3147,
+          "durationSec": 1259,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E009",
+          "title": "Episode 9",
+          "blurb": null,
+          "wordCount": 3191,
+          "durationSec": 1276,
           "audio": null,
           "publishedAt": null
         }
@@ -241,6 +352,126 @@
           "durationSec": 997,
           "audio": null,
           "publishedAt": null
+        },
+        {
+          "code": "S01E006",
+          "title": "Cold in the Lee",
+          "blurb": null,
+          "wordCount": 2667,
+          "durationSec": 1067,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E007",
+          "title": "Returned",
+          "blurb": null,
+          "wordCount": 2676,
+          "durationSec": 1070,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E008",
+          "title": "Leap-Day Problem",
+          "blurb": null,
+          "wordCount": 3071,
+          "durationSec": 1228,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E009",
+          "title": "The Crossing",
+          "blurb": null,
+          "wordCount": 2964,
+          "durationSec": 1186,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E010",
+          "title": "Wrong Side of the Sun",
+          "blurb": null,
+          "wordCount": 3136,
+          "durationSec": 1254,
+          "audio": null,
+          "publishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "thirteenth-hour",
+      "title": "The Reckoner of the Thirteenth Hour",
+      "logline": "In the stopped hour between midnight and one, a hidden league plays Lull with borrowed seconds. A night-shift auditor becomes its Reckoner, the player who keeps the count and sees what the seconds really cost.",
+      "hook": "Climb the Hour Divisions from the Stairwell League to the Midnight Final by out-counting everyone, while uncovering who is stealing the thirteenth hour from the city.",
+      "genre": "progression",
+      "contentRating": "teen",
+      "season": 1,
+      "stage": "pilot",
+      "episodes": [
+        {
+          "code": "S01E001",
+          "title": "Emergency Reckoner",
+          "blurb": null,
+          "wordCount": 3147,
+          "durationSec": 1259,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E002",
+          "title": "Calibration Error",
+          "blurb": null,
+          "wordCount": 2505,
+          "durationSec": 1002,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E003",
+          "title": "Dead Time",
+          "blurb": null,
+          "wordCount": 2952,
+          "durationSec": 1181,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E004",
+          "title": "The Price of an Audit",
+          "blurb": null,
+          "wordCount": 2856,
+          "durationSec": 1142,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E005",
+          "title": "Copper Stair Paper",
+          "blurb": null,
+          "wordCount": 2471,
+          "durationSec": 988,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E006",
+          "title": "Playing Clean",
+          "blurb": null,
+          "wordCount": 3022,
+          "durationSec": 1209,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E007",
+          "title": "The Itch of Waiting",
+          "blurb": null,
+          "wordCount": 2532,
+          "durationSec": 1013,
+          "audio": null,
+          "publishedAt": null
         }
       ]
     },
@@ -280,6 +511,51 @@
           "durationSec": 897,
           "audio": null,
           "publishedAt": null
+        },
+        {
+          "code": "S01E004",
+          "title": "The Barefoot Damper",
+          "blurb": null,
+          "wordCount": 2449,
+          "durationSec": 980,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E005",
+          "title": "The Drum That Sweats",
+          "blurb": null,
+          "wordCount": 2757,
+          "durationSec": 1103,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E006",
+          "title": "The Loose Stone",
+          "blurb": null,
+          "wordCount": 2458,
+          "durationSec": 983,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E007",
+          "title": "Someone Else's Count",
+          "blurb": null,
+          "wordCount": 2674,
+          "durationSec": 1070,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E008",
+          "title": "Notes Don't Turn Corners",
+          "blurb": null,
+          "wordCount": 2454,
+          "durationSec": 982,
+          "audio": null,
+          "publishedAt": null
         }
       ]
     },
@@ -297,9 +573,72 @@
           "code": "S01E001",
           "title": "Forty-One Over the Reedbed",
           "blurb": null,
-          "wordCount": 3144,
+          "wordCount": 3175,
           "durationSec": 1171,
           "audio": "audio/seven-neighbours/S01E001.mp3",
+          "publishedAt": null
+        },
+        {
+          "code": "S01E002",
+          "title": "Can You Raise?",
+          "blurb": null,
+          "wordCount": 2687,
+          "durationSec": 1075,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E003",
+          "title": "Six Rings, Shaking Hands",
+          "blurb": null,
+          "wordCount": 3087,
+          "durationSec": 1235,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E004",
+          "title": "Held in the Dyke",
+          "blurb": null,
+          "wordCount": 2502,
+          "durationSec": 1001,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E005",
+          "title": "Cold Fleet in a Gale",
+          "blurb": null,
+          "wordCount": 3323,
+          "durationSec": 1329,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E006",
+          "title": "High Water at Ketterby",
+          "blurb": null,
+          "wordCount": 2953,
+          "durationSec": 1181,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E007",
+          "title": "Copper in the Reeds",
+          "blurb": null,
+          "wordCount": 2721,
+          "durationSec": 1088,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E008",
+          "title": "The Seven Comes Apart",
+          "blurb": null,
+          "wordCount": 3193,
+          "durationSec": 1277,
+          "audio": null,
           "publishedAt": null
         }
       ]

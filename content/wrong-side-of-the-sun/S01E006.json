@@ -1,0 +1,540 @@
+{
+  "seriesId": "wrong-side-of-the-sun",
+  "seriesTitle": "Wrong Side of the Sun",
+  "code": "S01E006",
+  "title": "Cold in the Lee",
+  "blurb": null,
+  "wordCount": 2667,
+  "durationSec": 1067,
+  "audio": null,
+  "publishedAt": null,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Jory Ashdown had never heard Postscript this quiet."
+    },
+    {
+      "type": "p",
+      "text": "The engine space was down to reserve lights, and his breath showed in them. The drive housing ticked as it cooled. On the hook beside the tether housing hung the empty reel of spool two, and its tag had gone white at the edges with frost."
+    },
+    {
+      "type": "p",
+      "text": "From the grille above the hatch, Waybill read the log."
+    },
+    {
+      "type": "p",
+      "text": "\"Spool two. Moored Hearth Datum Post. Status: grounded, no cask. Cause, per keel log: drive cold, the Lee.\""
+    },
+    {
+      "type": "p",
+      "text": "Soph sat on the bottom rung of the ladder with a blanket round her shoulders and her table book on her knees. \"We moored it for exactly this,\" she said."
+    },
+    {
+      "type": "p",
+      "text": "Jory laid his palm on the drive housing. It was colder than his hand, and getting colder."
+    },
+    {
+      "type": "p",
+      "text": "\"And she let it go,\" he said, to nobody."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Sophronia Vell had argued against the spool at Hearth, which was not at all the same thing as being wrong about it."
+    },
+    {
+      "type": "p",
+      "text": "\"It's a Post spool,\" she said. \"We get three a run. One went on Lettice's codicil. Now you want to tie another one to Hearth and fly away from it.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Moor,\" said Peregrine."
+    },
+    {
+      "type": "p",
+      "text": "\"Moor it, then. Never use it, and Aubrey audits the tag and asks what it was for.\""
+    },
+    {
+      "type": "p",
+      "text": "They stood in Hearth Main's yard beside the Datum Post, a squat brass pillar with a clock face going green round the rim. Jory knelt at its foot with the spool in his lap and the Bishop in his hand, setting the mooring collar the way other people set a broken arm."
+    },
+    {
+      "type": "p",
+      "text": "\"A line home,\" said Peregrine."
+    },
+    {
+      "type": "p",
+      "text": "\"Hearth isn't home. Hearth is apples.\""
+    },
+    {
+      "type": "p",
+      "text": "\"It's a Post Office.\" He was watching the pillar, not her. \"If anything happens out there, somebody ought to know where.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Dead man's line,\" said Jory, without looking up. \"Old couriers swear by them. Mostly the ones who never needed one, mind, because the ones who did—\" He was already laughing. \"Well. They don't swear much now.\""
+    },
+    {
+      "type": "p",
+      "text": "Soph did not laugh. But she had watched Peregrine check the keel locker seal every watch since the cask. A captain who did that wanted a line home, and wanting was not a thing you could argue with a table."
+    },
+    {
+      "type": "p",
+      "text": "So she argued the cargo, because the cargo was arguable."
+    },
+    {
+      "type": "p",
+      "text": "\"Then the renewal,\" she said, and held up the envelope. \"Nessa Dunnage. Her family's kept a tug on Quarto's inner ring for forty years, and the berth lease runs out on Quarto's calendar. The lease says the renewal has to be lodged at Quarto's Harbour Office before it runs out. Lodged. Not posted. So the Postmark Rule can't save her; the lease names its own terms and its own calendar. Seventy days to Quarto at twenty to one. The lease runs out in seventy-three. That's three days in hand, and I want every one of them.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Still on time,\" said Peregrine."
+    },
+    {
+      "type": "p",
+      "text": "\"For now. And then there's this.\" She unfolded the Post Order for the leg. It had come down from the dispatch office with the mail sacks, under the Almanac Board's seal instead of the Concordat's, with the route written in. \"Look at that bearing.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine looked. \"It's the Order.\""
+    },
+    {
+      "type": "p",
+      "text": "\"It's daft. It isn't the short way. It isn't the cheap way. It's just a way, straight across the Lee, and nobody lingers in the Lee. I asked the dispatch clerk who wrote it, and she said, Board routing, not ours, take it up with Gnomon. Which is clerk for go away.\""
+    },
+    {
+      "type": "p",
+      "text": "Soph had opinions about the Board, and she kept most of them for the margins of her tables."
+    },
+    {
+      "type": "p",
+      "text": "\"She's on,\" said Jory, and stood, knees cracking. \"Easy, Bishop. Good lad.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine looked up at the empty air above the pillar, where the thread was paying out to nowhere anyone could see. Nobody had ever seen a tether."
+    },
+    {
+      "type": "p",
+      "text": "\"Thank you, Jory,\" he said, very politely indeed, and Soph decided she would not think about that either."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Jory had been flat on his back under the mass feed, talking Margaret round a stiff union, when the drive stopped."
+    },
+    {
+      "type": "p",
+      "text": "There was no cough to it, no stammer. He knew every noise she made going wrong, and she made none of them. She was running, and then she was not, the way a clock stops, and the lights dropped to reserve, and the deck went dead still under his shoulder blades."
+    },
+    {
+      "type": "p",
+      "text": "\"Drive cold,\" said Waybill. \"We are out of the Drift.\""
+    },
+    {
+      "type": "p",
+      "text": "Every live tether grounds when a drive goes cold. Waybill said so anyway, and Soph said her piece, and he said his."
+    },
+    {
+      "type": "p",
+      "text": "Then he went to the drive log."
+    },
+    {
+      "type": "p",
+      "text": "It ran down the screen the way it always did, her small complaints in the drive's own shorthand, and he could read it the way Soph read tables. And at the very moment of the cut-out there was one line he could not read at all."
+    },
+    {
+      "type": "p",
+      "text": "It was not a fault code. It was no channel he knew. It was a short row of characters, neat as print, with the time beside it to the second."
+    },
+    {
+      "type": "p",
+      "text": "\"Waybill. What's this?\""
+    },
+    {
+      "type": "p",
+      "text": "\"An entry written by the drive's own housekeeping, Engineer. I hold its time. I do not hold its meaning.\""
+    },
+    {
+      "type": "p",
+      "text": "He put the spanner down on the housing. He picked up the torque driver. He opened the coil panel and began checking coils that did not need checking, because there was nothing else his hands could do."
+    },
+    {
+      "type": "p",
+      "text": "Peregrine came down the ladder. \"How long?\""
+    },
+    {
+      "type": "p",
+      "text": "Jory did not answer. He was not going to give a captain a number he did not have."
+    },
+    {
+      "type": "p",
+      "text": "Soph answered instead, from the hatch. \"Every hour we hang here comes off the Dunnages' three days. We're at ground rate. It's the one place a clock doesn't cheat.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine looked at Jory a while, and at the driver in his hand, and did not ask him anything else."
+    },
+    {
+      "type": "p",
+      "text": "\"Signal traffic, Captain,\" said Waybill into the quiet. \"We are cold, so we can hear it.\""
+    },
+    {
+      "type": "p",
+      "text": "Postscript had never heard a thing in flight. Now the grille muttered like a dockside bar."
+    },
+    {
+      "type": "p",
+      "text": "\"Folio ore prices, some weeks old,\" said Waybill. \"A Quarto harbour notice. A choir, origin unclear.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Anything from Gnomon?\" asked Soph."
+    },
+    {
+      "type": "p",
+      "text": "\"Nothing from Gnomon. The Sun is between.\""
+    },
+    {
+      "type": "p",
+      "text": "\"We could shout for help,\" said Soph."
+    },
+    {
+      "type": "p",
+      "text": "\"Saying what?\" said Peregrine."
+    },
+    {
+      "type": "p",
+      "text": "\"That we're late. Which is news. You can't renew a lease by radio. Radio's news, never law; it can't carry a postmark.\""
+    },
+    {
+      "type": "p",
+      "text": "So nobody shouted. The choir sang something slow and badly tuned, the frost crept along the pipe lagging, and Jory worked through the hours without a word."
+    },
+    {
+      "type": "p",
+      "text": "\"Cold one day, nine hours,\" said Waybill, some time later."
+    },
+    {
+      "type": "p",
+      "text": "Later again, when Jory had not slept and had stopped pretending he might: \"Vessel approaching, Captain. Matching our course.\""
+    },
+    {
+      "type": "p",
+      "text": "Jory stopped, with the driver in his hand."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Soph Vell had always assumed that if anyone ever came for them, they would at least have the manners to be rude."
+    },
+    {
+      "type": "p",
+      "text": "The ship slid up out of the dark on the forward screen, a long grey hull with hardly a light on it and no name she could read on its collar."
+    },
+    {
+      "type": "p",
+      "text": "\"No registry answers, Captain,\" said Waybill. \"No transponder. She is matching course. We are cold; no gam is required to board a cold hull.\""
+    },
+    {
+      "type": "p",
+      "text": "\"That's for rescues,\" said Soph. \"The cold-hull rule. It's so people can be rescued.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Then perhaps we're being rescued.\" Peregrine stood. \"Waybill, open the lock when they ask. Please.\""
+    },
+    {
+      "type": "p",
+      "text": "He had said please to the ship. Soph filed that in the part of her head that kept the weather."
+    },
+    {
+      "type": "p",
+      "text": "The collar clamped on with a thump she felt in her teeth. The boarders came through in grey coats with no badges. Their captain was a tall woman of sixty or so with the manners of someone come to read the meter."
+    },
+    {
+      "type": "p",
+      "text": "\"Captain Blott,\" she said. \"Forgive us. We shan't keep you long.\""
+    },
+    {
+      "type": "p",
+      "text": "\"You're very welcome aboard,\" said Peregrine. \"Can I offer you anything? There's tea. It's cold, I'm afraid. Everything is.\""
+    },
+    {
+      "type": "p",
+      "text": "\"How kind. No.\""
+    },
+    {
+      "type": "p",
+      "text": "She knew his name. Nobody had given it to her."
+    },
+    {
+      "type": "p",
+      "text": "Her people went straight aft to the keel locker, as if they had been aboard before. Soph went after them, because Jory, who ought to have, was standing in the engine-space hatch with a driver in his hand and nothing at all to say."
+    },
+    {
+      "type": "p",
+      "text": "At the keel-ring one of them knelt with an inspector's lamp and found the hairline at once. He cut the stub away, filed the ring smooth, bagged the filings, and polished the place until there was no place. When Soph's boot was in his light he said, \"Excuse me,\" and waited until she moved it."
+    },
+    {
+      "type": "p",
+      "text": "\"That's evidence,\" said Soph. \"There's an inspector who'll want that.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Yes,\" said their captain, kindly, from the ladder. \"She will.\""
+    },
+    {
+      "type": "p",
+      "text": "And that was the moment Soph stopped being able to pretend. She had let Aubrey's stub be a scratch with a theory attached. Nobody crossed the Lee to tidy up a scratch. Ravels were real. Somebody had moored one to Postscript, and now somebody was cleaning up after it, as thoroughly and courteously as a good dentist."
+    },
+    {
+      "type": "p",
+      "text": "She thought about the Board's daft bearing, and then made herself stop, because she had no table for it yet."
+    },
+    {
+      "type": "p",
+      "text": "When she came forward, Peregrine was at the manifest board with a cloth. It was already clean; she had cleaned it herself at Hearth. He wiped it anyway, corner to corner, like a man polishing the last plate before company."
+    },
+    {
+      "type": "p",
+      "text": "\"Your cargo mind will have heard all this, I expect,\" said the woman."
+    },
+    {
+      "type": "p",
+      "text": "\"Everything said aboard is logged,\" said Waybill. \"Only a court on warrant may compel it.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Quite right.\" She sounded pleased, as if Waybill had passed something."
+    },
+    {
+      "type": "p",
+      "text": "Her people filed back past her into the lock. She took a small sealed letter from inside her coat and held it out face down."
+    },
+    {
+      "type": "p",
+      "text": "\"One more thing, Captain. I'm told you have never been late. Will you carry this? It's for Inspector Aubrey.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine's hand stopped on the cloth."
+    },
+    {
+      "type": "p",
+      "text": "Soph had seen him tighten clamps that were tight. She had never seen him simply stop, and she did not like it."
+    },
+    {
+      "type": "p",
+      "text": "\"Is it posted?\" he asked."
+    },
+    {
+      "type": "p",
+      "text": "\"It is.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Then I'll carry it.\" He took it by the edges and slid it into the courier's pouch at his hip without turning it over. Soph saw cream paper and the back of a seal, and nothing else. \"Safe travels.\""
+    },
+    {
+      "type": "p",
+      "text": "\"And you, Captain.\" The woman nodded to Soph on her way out, as if they had been introduced, and the lock cycled shut behind her."
+    },
+    {
+      "type": "p",
+      "text": "\"You thanked them,\" said Soph."
+    },
+    {
+      "type": "p",
+      "text": "\"I wished them safe travels. It isn't the same.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Vessel departed,\" said Waybill. \"No gam was logged; none was needed. Her hull is in my sensor log, Captain: mass, profile and drive signature.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Keep it,\" said Peregrine."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Jory Ashdown was on his knees by the coil panel, checking a coil he had already checked more than once, when the drive came back."
+    },
+    {
+      "type": "p",
+      "text": "It came up under his hands without being asked, warm and humming, as if somebody had been holding her by the scruff and had simply let go. Every gauge woke. He had not touched a switch."
+    },
+    {
+      "type": "p",
+      "text": "He went to the log. Drive available, it said, in her own plain shorthand. It did not say why. Nothing he could not read stood beside it this time, and somehow that was worse."
+    },
+    {
+      "type": "p",
+      "text": "\"Waybill.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Drive available, Engineer. Cold two days, fourteen hours.\""
+    },
+    {
+      "type": "p",
+      "text": "Soph was down the ladder before Waybill had finished. \"Then we've ten hours left of three days. Jory. How fast can you bring her up?\""
+    },
+    {
+      "type": "p",
+      "text": "Jory took his time. \"Proper way,\" he said, \"after she's sat cold this long, you bring her up a step a watch. She's like an old dog off a cold floor; you don't throw the stick first thing. Twenty to one by this time tomorrow.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Proper way loses us most of a day on the climb,\" said Soph. \"We haven't got most of a day. We've got ten hours, and they're going while you talk about dogs.\" She shoved her table book at him. \"Straight to twenty. Burn the mass to get her there. Show me where that's wrong.\""
+    },
+    {
+      "type": "p",
+      "text": "\"It isn't wrong. She'll hate it.\""
+    },
+    {
+      "type": "p",
+      "text": "\"She hates Quarto's mass prices too, and she lives.\""
+    },
+    {
+      "type": "p",
+      "text": "\"We'll be buying at Quarto prices again,\" said Jory. \"Twice over, after this.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine had come down behind her. He asked the only question that mattered. \"Will she hold?\""
+    },
+    {
+      "type": "p",
+      "text": "Jory looked at the housing for a long time, and thought about the line he could not read."
+    },
+    {
+      "type": "p",
+      "text": "\"She'll hold,\" he said at last. \"She won't thank us.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Running late—\" said Peregrine."
+    },
+    {
+      "type": "p",
+      "text": "\"—still running,\" said Soph, already halfway up the ladder."
+    },
+    {
+      "type": "p",
+      "text": "Jory laughed in spite of himself, and set his hand flat on the housing, and opened the feed."
+    },
+    {
+      "type": "p",
+      "text": "She complained the whole way up, a whine through the deck and into his knees, and he stood with her through it like a man with a horse at the farrier's. Then she was at twenty, sulking, and running."
+    },
+    {
+      "type": "p",
+      "text": "When the clamps took at Quarto, Waybill spoke up from the grille."
+    },
+    {
+      "type": "p",
+      "text": "\"Docked, Quarto. The captain has gone up the dock with the Dunnage renewal.\" A while later: \"The captain reports the renewal delivered at Quarto's counter for the Harbour Office. Valid. Punched. Four hours and forty minutes inside the lease.\""
+    },
+    {
+      "type": "p",
+      "text": "Jory found he had been holding the spanner for an hour without once looking at it."
+    },
+    {
+      "type": "p",
+      "text": "\"Easy, Margaret,\" he told it, and was surprised to hear himself. \"We're in.\""
+    },
+    {
+      "type": "p",
+      "text": "Then he took the imager aft and photographed the keel-ring where the stub had been. There was nothing to see. That was the point."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Soph Vell had never been inside Quarto's post office without wanting to sneeze. It smelled of soil, and of the beans on the sill, and of the garden out the back past the Datum Post."
+    },
+    {
+      "type": "p",
+      "text": "Cyprian Ko was back from up-ring and behind his own counter in gardening cuffs. He stamped their filing and heard Peregrine out about the Lee, all of it, in very few words. Then Jory laid the two images side by side under his lamp: the hairline stub at Saltpan, and the clean ring today."
+    },
+    {
+      "type": "p",
+      "text": "Ko looked for a long time."
+    },
+    {
+      "type": "p",
+      "text": "\"Cut,\" he said. \"Filed. Polished after, do you see the bloom on the metal? Somebody wished the Inspector to have nothing at all.\""
+    },
+    {
+      "type": "p",
+      "text": "\"In your letter,\" said Soph, \"you said it was a ravel. From a picture. Aubrey needed a lamp and a hand lens. You needed a picture.\""
+    },
+    {
+      "type": "p",
+      "text": "\"I did.\""
+    },
+    {
+      "type": "p",
+      "text": "\"How?\""
+    },
+    {
+      "type": "p",
+      "text": "Ko took his spectacles off and folded them. \"Because I know how one is moored, Miss Vell.\""
+    },
+    {
+      "type": "p",
+      "text": "Nobody said anything. Jory looked at the floor. Peregrine looked at Ko."
+    },
+    {
+      "type": "p",
+      "text": "\"You could moor one,\" said Peregrine."
+    },
+    {
+      "type": "p",
+      "text": "\"I could. I hope to die without doing it.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Who taught you?\" said Soph."
+    },
+    {
+      "type": "p",
+      "text": "Ko went quiet. He turned a bean pot on the sill a quarter turn, and then another quarter. \"Every letter knows where it's going,\" he said at last. \"It is only the courier who forgets.\""
+    },
+    {
+      "type": "p",
+      "text": "It was not an answer, and he did not pretend it was one."
+    },
+    {
+      "type": "p",
+      "text": "\"Technically,\" said Soph, \"that's a proverb.\" Then she heard the word come out of her, and knew exactly what weather she was in."
+    },
+    {
+      "type": "p",
+      "text": "Ko put his spectacles back on and looked at Peregrine. \"What else did they leave you, Cadet? People who come that far do not come only to tidy.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine was quiet a moment. Then, very courteously, he said, \"They asked me to carry a letter. For Inspector Aubrey.\" He took it from the pouch, laid it face down on the counter, and squared it to the edge with one finger."
+    },
+    {
+      "type": "p",
+      "text": "Ko picked it up and turned the sealed note over under his counter lamp. The light caught something pressed into the paper, and his face went still."
+    },
+    {
+      "type": "p",
+      "text": "\"Cadet,\" said Ko. \"That is a Zero Post mark.\""
+    }
+  ]
+}

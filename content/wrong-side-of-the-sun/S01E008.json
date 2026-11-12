@@ -1,0 +1,598 @@
+{
+  "seriesId": "wrong-side-of-the-sun",
+  "seriesTitle": "Wrong Side of the Sun",
+  "code": "S01E008",
+  "title": "Leap-Day Problem",
+  "blurb": null,
+  "wordCount": 3071,
+  "durationSec": 1228,
+  "audio": null,
+  "publishedAt": null,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Constance Aubrey heard it with the rest of Gnomon's dock, standing under the arrivals board with her coat buttoned to the throat."
+    },
+    {
+      "type": "p",
+      "text": "\"The Almanac Board gives notice,\" said the public channel, in the pleasant voice it kept for weather in the rings, \"that Revision 63 has been issued. It carries a correction to Octavo's conversion. It goes to every office by Post Order, Gnomon's own drawer included, and takes effect in each drawer seven days after posting.\""
+    },
+    {
+      "type": "p",
+      "text": "A porter groaned. Corrections were rare, and everyone on a dock had an opinion about them, and nobody's opinion had ever moved one."
+    },
+    {
+      "type": "p",
+      "text": "Then a voice Aubrey had only ever met as a signature at the foot of an edition: warm, unhurried, a little sorry. \"We do regret the inconvenience,\" said Deputy Laurence Prynne. \"It is, if you like, a leap-day problem.\""
+    },
+    {
+      "type": "p",
+      "text": "The channel moved on to the light from the Fringe, weeks old and sounding it. \"From Folio Circle. The Folio Combine has lodged a filing on the standing of Octavo, at the Folio Circle office.\""
+    },
+    {
+      "type": "p",
+      "text": "Seven days, and a filing. Aubrey knew of exactly one petition for Octavo, and which cutter was bringing it in."
+    },
+    {
+      "type": "p",
+      "text": "Above Aubrey's head, one line on the arrivals board turned over to DOCKED. POSTSCRIPT."
+    },
+    {
+      "type": "p",
+      "text": "She had come to Gnomon by the inner route because her superiors had sent for her, not to meet anybody. She found she was walking towards its berth all the same."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Peregrine Blott had carried the packet from Vellum the long way, by Quarto, with its addressee asleep in his spare bunk for most of the haul."
+    },
+    {
+      "type": "p",
+      "text": "\"Not aboard,\" Bettina Marr had said at Quarto, when he offered it to her. \"Not till the petition and the Register are under one roof. I've waited eighteen years, courier. I can wait a haul.\""
+    },
+    {
+      "type": "p",
+      "text": "So he handed it over at Gnomon's counter, the way the Code liked. The clerk checked the Vellum postmark against the drawer and the clock on the wall, and punched it. \"Valid. Bettina Marr. Sign here.\""
+    },
+    {
+      "type": "p",
+      "text": "Bettina signed. Under her other arm she had the petition in its document case, unsealed, and she did not put the case down to do it."
+    },
+    {
+      "type": "p",
+      "text": "\"Four thousand names in here,\" she told the clerk, who had not asked. \"Not a copy of one of them.\""
+    },
+    {
+      "type": "p",
+      "text": "She opened the packet at the side table. Peregrine stayed at the counter, which was not his business, and watched, which was. She read Dorcas's statement through once with her lips moving, the way people read handwriting they know. Then she unfolded the leaf."
+    },
+    {
+      "type": "p",
+      "text": "He had known what it said since Vellum. He had flown that cutter into Octavo himself. Knowing was not the same as watching someone read it."
+    },
+    {
+      "type": "p",
+      "text": "\"Courier Blott,\" Bettina read, under her breath. \"Second Class. Cutter registered to the Almanac Board.\" A pause. \"Postscript.\""
+    },
+    {
+      "type": "p",
+      "text": "She looked up from the leaf to the docking board above the counter, where the name sat in white letters beside a berth number. Then down. Then up again."
+    },
+    {
+      "type": "p",
+      "text": "\"Foolscap,\" she said. \"First cutter on the board that'd take an exiles' purse.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Excuse me, Dockmaster,\" said Peregrine. The berth log on the counter wanted his initials. Once he had initialled it, the line above it wanted straightening, and then the pen wanted wiping. The clerk watched him do all of it."
+    },
+    {
+      "type": "p",
+      "text": "\"Hollow it,\" Bettina said at last. \"I've been sleeping in the hull that brought it.\" She folded the leaf back inside the statement, square as a sail. \"Well. She flies straight, for a boat with that in her log.\" She stood up. \"What's the job now, courier?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Your petition, Dockmaster,\" said Peregrine. \"Valid, and in time.\""
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Her probation condition still gave her the run of Postscript at any dock, and she knew where to stand: by the galley hatch, out of everyone's way, where she could see every face."
+    },
+    {
+      "type": "p",
+      "text": "Soph had the captain half cornered by the urn, speaking low. \"Laid side by side, and not one metre between them. We're going to talk about the Lee, Captain.\""
+    },
+    {
+      "type": "p",
+      "text": "\"After the petition,\" said the captain, very courteously, and found a mug on its hook that wanted turning."
+    },
+    {
+      "type": "p",
+      "text": "\"You said that at Quarto,\" said Jory."
+    },
+    {
+      "type": "p",
+      "text": "\"And meant it at Quarto.\""
+    },
+    {
+      "type": "p",
+      "text": "Soph saw Aubrey then, and stopped. Aubrey did not know what lay in the Lee. She knew that courtesy; she had watched it at Vellum."
+    },
+    {
+      "type": "p",
+      "text": "Bettina had the Folio notice on a strip of channel paper and was holding it like a summons. \"That's it, then. The Combine's filed. They've stayed us.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Dockmaster,\" said Aubrey."
+    },
+    {
+      "type": "p",
+      "text": "Bettina looked at her as though a coat stand had spoken."
+    },
+    {
+      "type": "p",
+      "text": "\"The Code's wording,\" said Aubrey. \"A settlement's standing may be petitioned only by its own people. The holder of a charter may answer. An answer is heard with the petition, and it stays nothing.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Stays nothing.\""
+    },
+    {
+      "type": "p",
+      "text": "\"It is a filing, Dockmaster. It is not a petition. It is, in the ordinary sense of the word, paper.\""
+    },
+    {
+      "type": "p",
+      "text": "Jory Ashdown laughed first, then Bettina, harshly, and Aubrey could not see what was funny."
+    },
+    {
+      "type": "p",
+      "text": "Soph Vell had not laughed. She had the Board's issue copy of 63 spread across the galley table, and a finger on one line."
+    },
+    {
+      "type": "p",
+      "text": "\"Technically,\" said Soph, \"the Combine isn't the problem. Sixty-three is. Octavo's conversion. It moves three and a half months.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Sixty-two moved it eleven days,\" said Jory slowly."
+    },
+    {
+      "type": "p",
+      "text": "\"Sixty-two moved it eleven days. That was a revision. This is a demolition.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Window's twenty years, though,\" said Jory. \"Their years. Folio's agreement has a date on it, and the date doesn't move.\""
+    },
+    {
+      "type": "p",
+      "text": "\"The date doesn't move. Where it lands moves.\" Soph rapped the table. \"Nobody strikes an Octavo date anymore, Jory. Folio runs that counter on Folio's calendar. So every office converts the window's end and our postmark both, by whatever's in its drawer. Under sixty-two the window closes a few weeks after we could make Folio. Under sixty-three it closes three and a half months sooner.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Sooner's when?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Sooner's about now.\" Soph did not look up. \"In a sixty-three drawer our mark comes out a fortnight outside, and the office's own date is already past the end. So it's refused.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Void?\" said Bettina."
+    },
+    {
+      "type": "p",
+      "text": "\"Refused. Not void. Nobody forfeits a fee. They just won't punch it. Unpunched, unregistered, stays nothing, handed back across the counter.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Then we register it here,\" said Bettina. \"Today. Before sixty-three's in this drawer.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Here's half,\" said Soph. \"Standing is heard at the Register. Enforcement is Folio Circle's, and they run your dock. A stay here doesn't hold Folio's counter.\""
+    },
+    {
+      "type": "p",
+      "text": "\"So Folio as well,\" said Jory. \"Before it lands there.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Register here first and the entry goes out by light, beats us to Folio, and Folio refuses a prior delivery. Folio first is ten weeks out and ten back, and sixty-three's in this drawer long before. Here closes behind us.\""
+    },
+    {
+      "type": "p",
+      "text": "Jory was already grinning at something. \"Like timing two valves off one cam,\" he said, \"and the cam's in the other room.\" He laughed. Nobody else did."
+    },
+    {
+      "type": "p",
+      "text": "\"We haven't got a second four thousand names,\" said Bettina."
+    },
+    {
+      "type": "p",
+      "text": "The captain had said nothing at all. Aubrey watched him look, briefly, at the locker where the ship kept its last spool, and then at nothing."
+    },
+    {
+      "type": "p",
+      "text": "\"Running late,\" he said."
+    },
+    {
+      "type": "p",
+      "text": "\"Still running,\" said Soph, without looking up."
+    },
+    {
+      "type": "p",
+      "text": "Aubrey filed the locker."
+    },
+    {
+      "type": "p",
+      "text": "\"Then it's sealed now,\" said Bettina, \"while it's still in time.\" She bound Dorcas's statement and the leaf in behind the signatures with a Post cord, and pressed the seal down herself, there on the galley table."
+    },
+    {
+      "type": "p",
+      "text": "\"Sealed aboard at the dock,\" said Aubrey. \"It takes the dock office's date.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Gnomon's date,\" said Soph. \"Converted. Like every Octavo petition there'll ever be.\""
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Sophronia Vell had promised herself she would never set foot in the academy district again, and the promise lasted until the Landing Hall's reading room turned out to be in it."
+    },
+    {
+      "type": "p",
+      "text": "\"You don't have to come,\" she told Jory, at the arch."
+    },
+    {
+      "type": "p",
+      "text": "\"Margaret wanted the air.\" He patted his coat, where the spanner rode. \"She's never seen a university. She'll be ever so rude.\""
+    },
+    {
+      "type": "p",
+      "text": "The pillar stood in the hall beyond the glass, fenced off, its sealed clock face turned to the public, kept behind by tradition. Its log was not sealed in the sense of locked. It was sealed in the sense that nobody read it. Soph had to sign for it, and the reading-room attendant looked at her name for slightly too long."
+    },
+    {
+      "type": "p",
+      "text": "\"Show me the table,\" Soph muttered, and the attendant, startled, brought the issue copies of 62 and 63 as well."
+    },
+    {
+      "type": "p",
+      "text": "\"Both editions,\" she said to Jory, \"carry a Zero Post mark. Struck at the pillar, says the Board. Presented at the pillar, says this log, on the day, with the pillar's reading written down beside it.\""
+    },
+    {
+      "type": "p",
+      "text": "\"All right.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Sixty-two's mark and sixty-three's mark are ten weeks apart.\""
+    },
+    {
+      "type": "p",
+      "text": "\"All right,\" said Jory, less certainly."
+    },
+    {
+      "type": "p",
+      "text": "\"Between those two presentations the pillar's own reading moved fifteen months.\" She turned the log round for him. \"Fifteen months of pillar. Ten weeks of mark. Same clock, supposedly.\""
+    },
+    {
+      "type": "p",
+      "text": "Jory rubbed his jaw. \"Clocks drift. The Bishop wanders a quarter-turn a season.\""
+    },
+    {
+      "type": "p",
+      "text": "\"A quarter-turn. Not a year. That pillar is bolted to a floor at Gnomon. It runs at Gnomon's pace or it's broken, and the log says it isn't broken.\" Soph sat back. \"It can't lose a year standing still.\""
+    },
+    {
+      "type": "p",
+      "text": "\"So what loses a year?\""
+    },
+    {
+      "type": "p",
+      "text": "\"A clock in the Drift.\" She heard herself say it and kept going anyway. \"A clock on a hull, under drive. Hull time runs slow. Ten weeks aboard while fifteen months go by out here.\""
+    },
+    {
+      "type": "p",
+      "text": "Jory set Margaret on the table very gently. \"Then the Zero Post—\""
+    },
+    {
+      "type": "p",
+      "text": "\"Isn't here.\" Soph looked through the glass at the pillar, which went on being behind for everybody's benefit. \"It never stamped a thing. It's a clock in a hall.\""
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Soph Vell was halfway down the academy corridor, walking faster than Jory liked, when a voice behind her said her name as if it were good news."
+    },
+    {
+      "type": "p",
+      "text": "\"Sophronia. Miss Vell. How very nice.\""
+    },
+    {
+      "type": "p",
+      "text": "Laurence Prynne had not changed. He was still slightly stooped, still kind about the eyes, still dressed like a man whose tailor apologised to him. Jory, beside her, went still and quiet in the way he did around inspectors."
+    },
+    {
+      "type": "p",
+      "text": "\"Deputy,\" said Soph."
+    },
+    {
+      "type": "p",
+      "text": "The last time she had stood in this corridor, she had been carrying her own error report. Revision 58 had moved settlements' dates without any cause she could find, and she had said so, with tables, in writing, and Prynne had expelled her for it the same week. Nobody aboard Postscript knew. She had made sure of that for years."
+    },
+    {
+      "type": "p",
+      "text": "\"I owe you an apology,\" Prynne said. \"I have owed it a long time. Your report on fifty-eight was entirely correct. That was rather the difficulty.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Technically,\" said Soph, \"that's not an apology. Technically, that's a confession.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Then I make it sincerely, as both.\" He smiled. \"And I should do the same again tomorrow. I'm afraid that's the nature of the thing. One can be sorry about a leap day without abolishing the year.\""
+    },
+    {
+      "type": "p",
+      "text": "Soph found she had nothing to say, which had not happened to her in this building since the last time."
+    },
+    {
+      "type": "p",
+      "text": "\"Reading the pillar log?\" Prynne asked pleasantly. \"Dull stuff.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Technically, it was the only thing open.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Of course.\" He inclined his head. \"Do tell your captain I should like to give him tea. Tomorrow, if the Drift permits.\" His kind eyes moved to Jory. \"Good afternoon, Engineer.\""
+    },
+    {
+      "type": "p",
+      "text": "He walked on. Jory waited until the corridor was empty."
+    },
+    {
+      "type": "p",
+      "text": "\"He expelled me,\" said Soph. \"For being right.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Figured something like that,\" said Jory, and picked up his pace to match hers."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Constance Aubrey read the order through, standing, because the Chief Inspector had not offered her a chair."
+    },
+    {
+      "type": "p",
+      "text": "It closed the Ravel Desk's inquiry into the courier cutter Postscript, effective on receipt. No finding. No reason. At the foot, under the Inspectorate's own seal, a countersignature in an even, kindly hand: Approved for the Board. L. Prynne, Deputy."
+    },
+    {
+      "type": "p",
+      "text": "\"The Board doesn't countersign our inquiries,\" she said."
+    },
+    {
+      "type": "p",
+      "text": "\"It does this one,\" said the Chief Inspector. \"Your probation hold on the captain lapses with it. Unentered. You'll return to the Desk and take up the backlog. You will not go near that cutter.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Noted,\" said Aubrey, \"and not agreed.\""
+    },
+    {
+      "type": "p",
+      "text": "She went out into the corridor and stood very still, the way she had watched the captain stand at Vellum."
+    },
+    {
+      "type": "p",
+      "text": "Inspector: your Ravel Desk inquiry will be closed on an order countersigned by the Almanac Board. When it is, stay with the ship."
+    },
+    {
+      "type": "p",
+      "text": "She had read the note at Vellum's counter, and again in her quarters, and had told nobody what it said. Somebody had known this order before her superiors had written it. Somebody had posted it to her before any of this was decided, and had known she would be standing in this corridor to remember it. She disliked the feeling very much. It was the feeling of being somebody's creature."
+    },
+    {
+      "type": "p",
+      "text": "She went anyway."
+    },
+    {
+      "type": "p",
+      "text": "Postscript's ramp was down. The captain was at the foot of it, recoiling a mooring line that did not need recoiling."
+    },
+    {
+      "type": "p",
+      "text": "\"Captain,\" said Aubrey. \"My inquiry into this ship has been closed. The hold on the cask you opened has lapsed with it. Unentered. Your licence is clean.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Thank you, Inspector,\" he said, very courteously."
+    },
+    {
+      "type": "p",
+      "text": "\"I am not here for thanks. I wish to come aboard as Inspectorate witness to whatever you do next with that petition.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Witness,\" said the captain. \"On whose orders?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Mine.\""
+    },
+    {
+      "type": "p",
+      "text": "He looked at her for a long moment. Then he went politer still, which Aubrey had learned was not a good sign, and found the mooring line wanted coiling the other way."
+    },
+    {
+      "type": "p",
+      "text": "\"There's a bunk,\" he said."
+    },
+    {
+      "type": "p",
+      "text": "From the hatch above them came the ship's own voice. \"Inspectorate witness. Logged.\""
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Peregrine Blott had never had tea in the Almanac Board's offices, and he had not expected the cups to be so thin."
+    },
+    {
+      "type": "p",
+      "text": "\"Milk?\" said Prynne. \"We do it properly here. So few people do anything properly anymore.\""
+    },
+    {
+      "type": "p",
+      "text": "\"No. Thank you.\""
+    },
+    {
+      "type": "p",
+      "text": "The room was small and warm, panelled in pale wood, with a window onto the Landing Hall. Prynne poured as though pouring were a skill worth keeping up."
+    },
+    {
+      "type": "p",
+      "text": "\"I shall be frank, Captain, because I think you'd prefer it. The revisions are how the Long Register is kept. The Long Register is our record: of what has been done, and what will be done, and by whom. I am a Sacrist of the Recension. It is a society inside the Board. You'd have got there; your navigator certainly would.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine put his cup down without drinking. \"Sixty-two.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Eleven days.\" Prynne nodded, pleased, the way a teacher is pleased. \"Eleven days taught every drawer in the Spread that Octavo's conversion moves. So when sixty-three moves it further, nobody blinks. It lands as routine. That's the whole art of it. A leap-day problem is only a problem the first time.\""
+    },
+    {
+      "type": "p",
+      "text": "\"And the charter.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Was in the Long Register long before you carried it, Captain. You carried it very well.\" Prynne said it gently, and seemed to mean it as a kindness."
+    },
+    {
+      "type": "p",
+      "text": "\"Why tell me any of this?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Because the Long Register says I did.\" Prynne sipped. \"And because you've met my old teacher, and he will have been careful not to say. Cyprian Ko trained me, Captain, when I was a junior clerk and he was rather less fond of gardens. Do give him my regards. He won't want them.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine said nothing. He found that he had squared his saucer with the edge of the table, and stopped."
+    },
+    {
+      "type": "p",
+      "text": "Prynne slid a folded sheet across the cloth. \"An extract. I'm not supposed to, but then, I'm told I did.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine read it aloud, because he could not quite read it silently."
+    },
+    {
+      "type": "p",
+      "text": "\"Ravel moored to the keel-ring of Postscript, at Quarto, on her departure for Hearth. Spool end, tally one day twenty hours. Cask: from Postscript, ship's reckoning, about nineteen months after the mooring. Arrival in the keel locker two days twenty hours into the haul.\""
+    },
+    {
+      "type": "p",
+      "text": "Two days twenty. He had been standing in his own galley at that very hour, with a cask where no cask could be."
+    },
+    {
+      "type": "p",
+      "text": "\"It's an orphan entry,\" said Prynne. \"One of yours. The Post never loses one.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Who sends it?\""
+    },
+    {
+      "type": "p",
+      "text": "Prynne smiled, and poured himself a little more tea, and did not answer."
+    },
+    {
+      "type": "p",
+      "text": "\"Are you quite all right, Captain?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Still on time,\" said Peregrine."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "That evening Peregrine Blott stood at Gnomon's counter and told them, in a few words, whom he had taken tea with. Soph stood on one side of him and the Inspector on the other, with Jory leaning on the wall behind."
+    },
+    {
+      "type": "p",
+      "text": "\"A Sacrist,\" Soph said. \"Of course he is.\" She dropped her voice. \"And the Zero Post isn't at Gnomon. I'll show you the log.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Later.\""
+    },
+    {
+      "type": "p",
+      "text": "A courier in Board grey came through the doors with a satchel and handed a sealed Post Order across the counter. The postmaster read the seal, checked the clock, and opened the drawer."
+    },
+    {
+      "type": "p",
+      "text": "\"Edition sixty-three,\" she said, to the room. \"Posted. Effective in this drawer in seven days.\""
+    },
+    {
+      "type": "p",
+      "text": "Then she turned to Peregrine and slid a second Post Order across, under the same seal. \"Yours, Captain. On your manifest for Folio. Edition sixty-three, with its deadline.\""
+    },
+    {
+      "type": "p",
+      "text": "Soph read the deadline and went white about the mouth. \"They've given it to us.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Two couriers, two routes,\" said a warm voice by the door. Prynne had come to watch his edition posted, as a gardener watches a seed go in. \"A second copy goes with one of ours by the inner route. The Code is very wise about these things.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Whichever lands at Folio first,\" said Soph, \"starts Folio's seven days.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Just so.\" Prynne buttoned his coat. \"The Post never loses a letter, Captain. Safe travels.\""
+    },
+    {
+      "type": "p",
+      "text": "Soph waited until he had gone."
+    },
+    {
+      "type": "p",
+      "text": "\"The inner route's shorter,\" she said, barely audible. \"If his courier's a week ahead of us, sixty-three's in force at Folio before we dock. Four thousand names, handed back across the counter.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine looked at the Post Order in his hand. He would carry it, valid and in time; that was the job. For no longer than it took to stop himself, he thought of the locker where she kept her last spool."
+    },
+    {
+      "type": "p",
+      "text": "\"Then we don't dock late,\" he said."
+    }
+  ]
+}

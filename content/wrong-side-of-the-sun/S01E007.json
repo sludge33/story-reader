@@ -1,0 +1,513 @@
+{
+  "seriesId": "wrong-side-of-the-sun",
+  "seriesTitle": "Wrong Side of the Sun",
+  "code": "S01E007",
+  "title": "Returned",
+  "blurb": null,
+  "wordCount": 2676,
+  "durationSec": 1070,
+  "audio": null,
+  "publishedAt": null,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Constance Aubrey had never seen a letter opened the way the Code intended."
+    },
+    {
+      "type": "p",
+      "text": "The woman at Vellum's counter was seventy if she was a day, in a tug hand's quilted jacket. Her packet was stamped RETURNED in purple ink, which made it hers to open and nobody else's in the Spread. She broke the seal with her thumbnail and read aloud for the postmaster, as people do who want a witness."
+    },
+    {
+      "type": "p",
+      "text": "\"'I logged the courier who brought the charter that took our home. Second Class. Cutter registered to the Almanac Board. Name of Blott.'\""
+    },
+    {
+      "type": "p",
+      "text": "Beside Aubrey, the captain did not move at all."
+    },
+    {
+      "type": "p",
+      "text": "Not his hands, which were always finding work. Aubrey had spent a career watching what people did when a sentence landed on them, and she had never seen a man do nothing so completely."
+    },
+    {
+      "type": "p",
+      "text": "She filed that."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Days before, in Quarto's post office, Sophronia Vell was disagreeing with Octavo's dockmaster, which was how Soph listened."
+    },
+    {
+      "type": "p",
+      "text": "\"It isn't lost,\" said Soph. \"Void isn't lost. Void is very carefully found and sent home.\""
+    },
+    {
+      "type": "p",
+      "text": "\"It's lost to me,\" said Bettina Marr. She set the packet down by the bean pots. Across its face somebody had stamped RETURNED in purple. \"Dorcas Hebden. Clerk of the Octavo dock, back when there was a dock. Her statement for the petition. What she saw the day the charter came. Who brought it.\""
+    },
+    {
+      "type": "p",
+      "text": "She did not look at the captain when she said it. She looked at him a moment afterwards, which Soph thought was worse."
+    },
+    {
+      "type": "p",
+      "text": "\"Of course, Dockmaster,\" said Peregrine, very courteously, and squared a stack of blank chits that had been square already."
+    },
+    {
+      "type": "p",
+      "text": "Soph marked it the way she marked a bad conversion. She would come back to it."
+    },
+    {
+      "type": "p",
+      "text": "Cyprian Ko turned the packet face up. \"Sealed aboard the ice-tug Tolerance, under drive, after the tug's reckoning had gone stale,\" he said. \"A stale ship cannot postmark. No postmark, no delivery. I stamped it myself. It grieved me.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Tugs run four to one,\" said Soph. \"A tug goes stale on both clocks the same afternoon.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Only Dorcas may open it now,\" said Bettina. \"She'd signed on as crew, and she wrote it aboard, on the long leg in to Foolscap. And the tug has gone.\""
+    },
+    {
+      "type": "p",
+      "text": "\"The Code sends a sailor's returned post to her ship's next filing office,\" said Ko. \"When Tolerance files, this should be on the counter, waiting.\""
+    },
+    {
+      "type": "p",
+      "text": "\"And it won't be, by the slow mail, courier,\" said Bettina. \"Once the petition's registered, the matter's stayed, and the counter refuses everything later on it. Her statement goes in the binding or it doesn't go.\""
+    },
+    {
+      "type": "p",
+      "text": "\"She could write another,\" said Soph."
+    },
+    {
+      "type": "p",
+      "text": "\"She put the leaf from her dock daybook in with it. The only one. Tore it out the night we left.\" \"Twenty years, our founding gives us, to petition for standing. There's under one left, by Octavo's count. I'll not spend it waiting on a tug.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Where's Tolerance going?\" said Peregrine. His hand had gone to the pouch where the other letter rode, and it stayed there. Soph marked that as well."
+    },
+    {
+      "type": "p",
+      "text": "\"Tugs never declare, Cadet,\" said Ko, and slid a slip across. \"Foolscap lit us the tug's filing.\""
+    },
+    {
+      "type": "p",
+      "text": "Soph read it. \"Filed at Foolscap. 'Arrived stale.' Left with empty tanks and hardly any mass taken on.\""
+    },
+    {
+      "type": "p",
+      "text": "\"That's a hop, that is,\" said Jory, after a while. \"Tug buys mass the way I buy grease for Margaret. To the gram.\""
+    },
+    {
+      "type": "p",
+      "text": "\"A short hop, then,\" said Soph. \"Not Quarto, or the tug would be here. Not Octavo; nobody's let in. Folio...\""
+    },
+    {
+      "type": "p",
+      "text": "\"Combine ice,\" said Bettina. \"They'd not sell a drop to a tug carrying one of mine.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Vellum, then,\" said Soph. \"Open ice ring, open counter. And this time Dorcas signs at Vellum's counter, not aboard, or it comes home purple again.\""
+    },
+    {
+      "type": "p",
+      "text": "\"When does the tug dock?\" said Peregrine."
+    },
+    {
+      "type": "p",
+      "text": "\"If we file out today and pay Quarto prices for mass,\" Soph said at last, \"we reach Vellum in the tug's grace. Hours, not days.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Still on time,\" said Peregrine."
+    },
+    {
+      "type": "p",
+      "text": "\"What's it cost me?\" said Bettina."
+    },
+    {
+      "type": "p",
+      "text": "He named a fee. Soph opened her mouth to say it would not buy half the mass, and found Jory's boot on her foot. She shut it. She marked that too."
+    },
+    {
+      "type": "p",
+      "text": "The printer at Ko's elbow chattered: a light bulletin out of Gnomon. Ko read it in his slow, amused voice, which was not amused by the end."
+    },
+    {
+      "type": "p",
+      "text": "\"'The Almanac Board gives notice that Revision Sixty-three, to follow, will carry a further correction to the conversion of Octavo. Particulars with the edition.'\""
+    },
+    {
+      "type": "p",
+      "text": "\"Further,\" said Bettina."
+    },
+    {
+      "type": "p",
+      "text": "\"Which way?\" said Soph."
+    },
+    {
+      "type": "p",
+      "text": "\"It does not say,\" said Ko. \"The Board seldom does.\" He considered the sheet. \"We used to say at the counter that 'to follow' means already posted.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Hollow it,\" said Bettina, quietly, to the beans."
+    },
+    {
+      "type": "p",
+      "text": "Soph found she had folded the bulletin into a very small square. She flattened it out again and said nothing about the Board at all."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Peregrine Blott came up Vellum's dock ramp with two letters in his pouch, and the arrivals board told him the first thing he needed. Tolerance: docked at the ninth hour. Her grace was running."
+    },
+    {
+      "type": "p",
+      "text": "Vellum's post office faced the ice ring through a long, frosted window. There was a bench under the window, and on the bench, as if she had been posted there, sat Inspector Aubrey."
+    },
+    {
+      "type": "p",
+      "text": "\"Captain.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Inspector.\""
+    },
+    {
+      "type": "p",
+      "text": "\"The Inspectorate keeps its Fringe office two doors along,\" she said, before he could ask. \"I had business in it. Vellum puts its arrivals on the concourse, and Postscript went up while I was passing. I can read a board.\""
+    },
+    {
+      "type": "p",
+      "text": "He went to the counter first. The postmaster was a broad man named Hobday with ink to the wrists."
+    },
+    {
+      "type": "p",
+      "text": "\"Returned item,\" said Peregrine. \"Sender is crew aboard Tolerance. For her ship's filing.\""
+    },
+    {
+      "type": "p",
+      "text": "Hobday read the face, and the purple, and whistled. \"Her master files before the twentieth hour, he tells me, and he's a man in a hurry. Tugs pay dock by the hour. You've cut it fine, Captain.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Still on time,\" said Peregrine."
+    },
+    {
+      "type": "p",
+      "text": "Hobday logged the packet and set it in the tray for Tolerance."
+    },
+    {
+      "type": "p",
+      "text": "Peregrine took out the second letter and laid it on the counter face down. \"Delivery. For Inspector Aubrey.\""
+    },
+    {
+      "type": "p",
+      "text": "Behind him, the bench creaked."
+    },
+    {
+      "type": "p",
+      "text": "Hobday turned it over. The sunburst caught the light from the ice ring. He looked at it for a long moment, and then he sat down."
+    },
+    {
+      "type": "p",
+      "text": "\"That's a Zero Post mark,\" he said. \"On a letter. I've to log that and report it to the Inspectorate.\""
+    },
+    {
+      "type": "p",
+      "text": "\"I am the Inspectorate,\" said Aubrey, at Peregrine's shoulder."
+    },
+    {
+      "type": "p",
+      "text": "\"Then I'm reporting it to you, Inspector, and to Gnomon as well, and you'll sign that I did.\" Hobday ran the mark against his drawer edition, the way any postmaster checks any postmark, and grunted. \"A long way behind us, as ever. Valid.\" He punched it. \"How came you by it, Captain? For the form.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Handed to me for carriage,\" said Peregrine. \"In the Lee. By the master of a ship that gave no name.\""
+    },
+    {
+      "type": "p",
+      "text": "Aubrey's eyes came up at the Lee, and went down again to the letter."
+    },
+    {
+      "type": "p",
+      "text": "She broke the seal there at the counter. It was short; he could see that much from the back of the sheet. She read it once, and then again. Her face did nothing that he could name. She folded it in half, and in half again, and put it inside her coat, and for a moment she laid her hand flat on the counter, as if to make sure the counter was still there."
+    },
+    {
+      "type": "p",
+      "text": "\"Is there a reply to carry, Inspector?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Captain,\" said Aubrey."
+    },
+    {
+      "type": "p",
+      "text": "That was the whole answer. She took Hobday's form and signed it in a clean, upright hand."
+    },
+    {
+      "type": "p",
+      "text": "There was the matter of her stub, too, gone from his keel-ring into a stranger's bag. He would tell her. But there was something he owed his own crew first, and it had waited long enough."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Inspector Constance Aubrey stood at Vellum's counter and watched an ice-tug's master argue over his filing fee while the clock above the window crept toward the twentieth hour."
+    },
+    {
+      "type": "p",
+      "text": "A woman of seventy in a tug hand's quilted jacket came to the counter on her own. Hobday checked her name against Tolerance's crew list and against the sender's line on the packet, found them the same, and handed it across."
+    },
+    {
+      "type": "p",
+      "text": "\"Dorcas Hebden,\" said Hobday. \"Returned to sender. Yours to open, and only yours.\""
+    },
+    {
+      "type": "p",
+      "text": "\"I know the rule,\" said the woman. \"I clerked docks for thirty years.\""
+    },
+    {
+      "type": "p",
+      "text": "She broke the seal with her thumbnail. It bloomed purple across the flap, the way every Post seal blooms when it is broken, and Aubrey thought, without meaning to, of another purple seal in her evidence locker, broken mid-haul aboard a ship whose captain had answered for it and named nobody."
+    },
+    {
+      "type": "p",
+      "text": "This one was lawful. It was the first she had ever watched."
+    },
+    {
+      "type": "p",
+      "text": "She did not think about the letter inside her coat. She had decided not to, until she was alone, and she kept her decisions."
+    },
+    {
+      "type": "p",
+      "text": "\"Read it to me, then,\" said Hobday, \"and I'll witness the fresh one word for word.\""
+    },
+    {
+      "type": "p",
+      "text": "So Dorcas Hebden read aloud."
+    },
+    {
+      "type": "p",
+      "text": "\"'Statement of Dorcas Hebden, late clerk of the Octavo dock. I logged the courier who brought the charter that took our home. Second Class. Cutter registered to the Almanac Board. Name of Blott. He handed the Register's copy over my counter himself and asked me for a receipt, and I gave him one, because that was my work.'\""
+    },
+    {
+      "type": "p",
+      "text": "The captain still had not moved. Aubrey did not look at him directly. She did not need to."
+    },
+    {
+      "type": "p",
+      "text": "\"'Two years after, I witnessed our dockmaster sign Folio's paper with the water going off in the lower rings. She wrote \"under protest\" in the margin in her own hand, and I watched her do it. Nobody asked us anything. I am asking now to be heard.'\""
+    },
+    {
+      "type": "p",
+      "text": "Dorcas folded the sheet back along its old creases. Inside lay a single leaf of ruled dock paper, brown at the edges. She did not unfold that."
+    },
+    {
+      "type": "p",
+      "text": "Then she copied her statement onto a fresh form, slowly, while Hobday followed every line with his finger. She signed it. She slid the daybook leaf in beside it. Hobday sealed it at the counter and struck it with Vellum's date and hour, and it was a postmark that nobody in the Spread could argue with."
+    },
+    {
+      "type": "p",
+      "text": "\"Addressed to Bettina Marr, for the Octavo petition,\" said Hobday. \"Who's carrying?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Postscript,\" said Aubrey, because nobody else had said it. \"The captain here.\""
+    },
+    {
+      "type": "p",
+      "text": "Dorcas Hebden looked at the captain for the first time. If she knew the face, Aubrey could not find it in hers. Nineteen years is a long time on the ground, and the captain had not lived most of them."
+    },
+    {
+      "type": "p",
+      "text": "\"Then thank you, Captain,\" she said."
+    },
+    {
+      "type": "p",
+      "text": "\"It was the job,\" said the captain."
+    },
+    {
+      "type": "p",
+      "text": "Aubrey watched him take the letter and stow it. There were not many Blotts in the courier lists. There was, so far as she knew, one."
+    },
+    {
+      "type": "p",
+      "text": "She filed that, too, and went along to the Inspectorate's office, and did not take the letter out until the door was shut."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Peregrine Blott waited until the Inspector's coat had gone round the corner of the concourse. Then he went aboard and asked his crew into the galley."
+    },
+    {
+      "type": "p",
+      "text": "\"Waybill. Log this.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Everything said aboard is logged, Captain,\" said Waybill. \"It is ship's law.\""
+    },
+    {
+      "type": "p",
+      "text": "\"I know. Log it anyway.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Logged.\""
+    },
+    {
+      "type": "p",
+      "text": "Soph sat on the counter. Jory leaned in the hatch with Margaret in his hand. The galley fan turned over."
+    },
+    {
+      "type": "p",
+      "text": "Peregrine said it plainly, because there was no other way he knew to say anything."
+    },
+    {
+      "type": "p",
+      "text": "\"Six years ago by my clock. Nineteen by Gnomon's. I'd had my Second Class licence a month. A man at Gnomon offered me a job off the book. Fly a cutter into the Lee. Gam a ship with no registry. Take one sealed item across the seal. Deliver it to the Concordat Register. Then carry the Register's copy out to Octavo's counter.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Off the book how?\" said Soph."
+    },
+    {
+      "type": "p",
+      "text": "\"No Post Order. No manifest line. A fee.\""
+    },
+    {
+      "type": "p",
+      "text": "He could see it as he spoke. The Lee with the Sun behind it, so that every line of sight to home was gone. Two hours hull-to-hull with a ship that would not give its name. The item coming through the seal into his hands, and the sunburst on it, and the date. He had learnt Octavo's founding year at school, like everyone. The date on the sunburst was two years before it."
+    },
+    {
+      "type": "p",
+      "text": "He had stood in the lock with it for the length of one long breath. Then he had stowed it, and logged it, and flown on. A postmark is a postmark, he had told himself; the Register decides, and the courier only carries. He had been good enough at the work, even then, to know that was an excuse."
+    },
+    {
+      "type": "p",
+      "text": "\"I saw the mark,\" he said. \"I knew it was impossible. I delivered it anyway. It was valid. The Register punched it, and Octavo lost its standing from a date before it existed. The charter went to the Folio Assay Company.\""
+    },
+    {
+      "type": "p",
+      "text": "Jory set Margaret down on the table. He did not say her name. Peregrine saw that, and did not ask."
+    },
+    {
+      "type": "p",
+      "text": "\"And the fee?\" said Soph."
+    },
+    {
+      "type": "p",
+      "text": "\"This ship.\" He touched the bulkhead without meaning to. \"Her papers said Board registry. The man never said who he worked for. I didn't ask the papers either.\""
+    },
+    {
+      "type": "p",
+      "text": "There was one thing more he knew, about a voice on a record card. He set it to one side, as he would a parcel for a later stop. This was the run he owed them tonight."
+    },
+    {
+      "type": "p",
+      "text": "Nobody spoke for a while."
+    },
+    {
+      "type": "p",
+      "text": "\"I heard Bettina say it,\" said Jory at last, slowly. \"At Quarto's counter. Blott. I thought, well, there's more than one Blott.\" He started laughing before he got there. \"Then I thought, no. There isn't.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Technically,\" said Soph, and stopped. \"Technically, I had you down for gambling debts. Technically, I'd have lent you the money. At interest. Technically...\" She pressed both hands flat on the counter. \"Technically. I can't stop saying it.\""
+    },
+    {
+      "type": "p",
+      "text": "\"We know,\" said Jory kindly."
+    },
+    {
+      "type": "p",
+      "text": "Peregrine waited. He did not say the other thing; he had never found it any use to anyone. \"What's the job now?\" he said."
+    },
+    {
+      "type": "p",
+      "text": "Soph looked at him for a long time, the way she looked at a table she meant to take apart."
+    },
+    {
+      "type": "p",
+      "text": "\"The job is the petition,\" she said. \"It gets to the Register valid and in time, with that woman's statement bound in, and it's carried by the courier whose name is in her daybook. That's the job.\" She found the word and set it down. \"That's the amends. Since you won't name it, I will.\""
+    },
+    {
+      "type": "p",
+      "text": "\"You've been running on a cracked mount six years, Captain,\" said Jory. \"Engine'll do that. Runs sweet till it doesn't. You don't shout at her for it.\" He picked Margaret up again. \"You fix the mount. Easy, Margaret.\""
+    },
+    {
+      "type": "p",
+      "text": "Peregrine let out a breath he had been holding, by his own reckoning, since CS 153."
+    },
+    {
+      "type": "p",
+      "text": "\"Waybill,\" he said. \"Your partition.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Previous owner's records. Not mine to open.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Whose, then?\""
+    },
+    {
+      "type": "p",
+      "text": "\"The registered owner's. Yours, Captain. Nobody has asked.\""
+    },
+    {
+      "type": "p",
+      "text": "\"I'm asking.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Opening.\" The fan turned. \"Partition open. Previous keel log. Previous ship's record. Registry. Previous registered owner: the Almanac Board, Gnomon.\""
+    },
+    {
+      "type": "p",
+      "text": "Soph said nothing. Jory said nothing. It was only what the papers had said. It sounded different in the ship's own voice."
+    },
+    {
+      "type": "p",
+      "text": "\"The gam,\" said Peregrine. \"CS 153. Read me the position.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Previous keel log. Gam logged: two hours, matched factor, vessel unregistered. Position recorded.\""
+    },
+    {
+      "type": "p",
+      "text": "He thought of the cold, and of the bearing nobody would explain."
+    },
+    {
+      "type": "p",
+      "text": "\"And the cold drive,\" he said. \"Our last crossing. That point in the Lee.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Present keel log. Drive cold, the Lee. Position recorded.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Lay them side by side,\" said Jory, very quietly."
+    },
+    {
+      "type": "p",
+      "text": "\"Laid side by side, Captain.\" The galley fan made one full turn. \"Difference: none. They match to the metre.\""
+    }
+  ]
+}

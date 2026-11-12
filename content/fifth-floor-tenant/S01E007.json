@@ -1,0 +1,437 @@
+{
+  "seriesId": "fifth-floor-tenant",
+  "seriesTitle": "The Fifth-Floor Tenant",
+  "code": "S01E007",
+  "title": "Episode 7",
+  "blurb": null,
+  "wordCount": 3155,
+  "durationSec": 1262,
+  "audio": null,
+  "publishedAt": null,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "``` CARETAKER:   R. ANAND. GRADE:       1. ODD-JOB. CREDITS:     9. HOLDING:     2. CERTIFIED:   5. ```"
+    },
+    {
+      "type": "p",
+      "text": "That was all the book had to say about me, fifteen nights after Walter told me not yet. It left out the soot I was breathing and the fever I was running. It left out that an hour before, on floor 6, I'd heard myself say \"maybe\" to a furnace."
+    },
+    {
+      "type": "p",
+      "text": "I'd asked Walter again the next night, at the lift. He looked at the lit 6, then at me, and lay down on the tiles. I held the door for him every night after that, and every night he did the same and went back to his mat. In a dog that's as clear as a sentence. In Walter it was a whole one, and I knew which."
+    },
+    {
+      "type": "p",
+      "text": "So I'd been going up on my own."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Floor 6 is a boiler hall. The lift opens on heat and the smell of coke: a long brick room, an iron gantry down one side, pipe runs lagged in grey cloth, and at the far end a furnace the size of a garden shed. The glow comes from the vents in its door. Behind them lives the lodger."
+    },
+    {
+      "type": "p",
+      "text": "Everything on floor 6 wants grade two. I'd only ever held two pieces of metal better than grade one. One was Jurek's. The other I'd already spent."
+    },
+    {
+      "type": "p",
+      "text": "That was on the fourth night. WO-6-001 was a sheared hanger on the gantry, a pipe sagging off its bracket. Standing at the rail, I had a theory. Jurek's brass had been heavy in my hand because of sixty years in a lived-in house. Floor 5 was a finished floor now, every order on it black. Maybe what was on a finished floor carried something of the finishing. There was a cast-iron bracket in riser 1's cupboard on floor 5, holding up nothing any more. I unbolted it and carried it up, and at the fault it was heavy the way Jurek's brass had been. By the time I got down to the office the book had opened a new order for it."
+    },
+    {
+      "type": "p",
+      "text": "``` WO-5-008.   FLOOR 5.   TIER 1. FAULT:            BRACKET REMOVED. RISER 1 CUPBOARD. SALVAGE BY:       R. ANAND. GRADE REQUIRED:   1. CREDIT:           NIL. ```"
+    },
+    {
+      "type": "p",
+      "text": "Fair enough. I'd taken it. Floor 5's page got one red line, and the button for 6 stayed lit anyway, which I was more relieved about than I let the dog see. The old bracket went on the gantry and WO-6-001 signed off black. Two credits. Next morning I put a plain new steel bracket from Ropewalk Lane in riser 1's cupboard, signed it, earned nothing, and floor 5 was black again."
+    },
+    {
+      "type": "p",
+      "text": "Then I took two more orders."
+    },
+    {
+      "type": "p",
+      "text": "The book won't take a cause off anybody but the man who's signed for the order. So on the twenty-second night I signed for WO-6-002, the soot in the flue gallery, to go and look. And because the hot run by the furnace was blistering paint off the wall, I signed for WO-6-003 too."
+    },
+    {
+      "type": "p",
+      "text": "That was the two I'm allowed. I found what was wrong with the hot run the same night, wrote it up and waited for the book to throw it back at me. It didn't."
+    },
+    {
+      "type": "p",
+      "text": "``` WO-6-003.   FLOOR 6.   TIER 2. FAULT:            HOT RUN. SCALDING. CAUSE:            regulating valve on the hot run. jumper worn through with age. passes the furnace's heat unchecked. GRADE REQUIRED:   2. SYMPTOM:          FEVER. HEAT. STATUS:           TAKEN. ```"
+    },
+    {
+      "type": "p",
+      "text": "No bounce. I was right about the valve. I just had nothing of grade two to put in it."
+    },
+    {
+      "type": "p",
+      "text": "Since then I'd breathed like a man who'd slept in a chimney, with a cough that brought up grey. And I ran hot in the face and the eyes and cold everywhere else, so I sat in the office with my coat on, sweating and shivering, holding a mug I couldn't feel."
+    },
+    {
+      "type": "p",
+      "text": "The lodger had noticed. It doesn't miss much about heat."
+    },
+    {
+      "type": "p",
+      "text": "\"Warm your hands, caretaker,\" it had said that night, in the voice that comes out of the vents, a slow drawing roar with words in it. \"Warm all of you. For a price.\""
+    },
+    {
+      "type": "p",
+      "text": "\"What price?\""
+    },
+    {
+      "type": "p",
+      "text": "\"The cards on your office wall. Old paper burns sweet.\""
+    },
+    {
+      "type": "p",
+      "text": "Years of an old man's square capitals. An old man who'd been lying on a mat for a fortnight with his chin on his paws, not telling me what was on Mrs Wrobel."
+    },
+    {
+      "type": "p",
+      "text": "\"Maybe,\" I'd said. Out loud. To a furnace."
+    },
+    {
+      "type": "p",
+      "text": "I took that home and sat with it in B1 for a long time."
+    },
+    {
+      "type": "p",
+      "text": "There was a washer in my shirt pocket, too. Jurek's, out of the tap Mrs Wrobel gave me. It would very likely have fitted that valve. But she'd given the tap for riser 2, and anything else of Jurek's I used, I meant to ask her about first. And I couldn't knock at 4C and ask for her husband's washer without asking about roll 4C. I'd been up to the fourth-floor landing more than once, and listened to her cough, dry, behind her door, and gone back down without knocking."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Kit came back on the twenty-fifth, at four in the afternoon, the e-bike propped against the bins and a box under one arm."
+    },
+    {
+      "type": "p",
+      "text": "\"Boss.\" They put the box down by the service-lift doors, next to the 5-1 parcel, still on the tiles a fortnight on because nobody had told me what I was allowed to do with it. Kit looked at it. \"Still here, then. Nobody signs for anything in this building.\""
+    },
+    {
+      "type": "p",
+      "text": "\"How've you been?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Busy. Look.\" They had their phone out already, thumb going. \"You want to know why I keep coming to a building with no fifth floor? This.\""
+    },
+    {
+      "type": "p",
+      "text": "The Errandry app: orange, cheerful, a cartoon parcel with legs. Kit scrolled past the ordinary runs and tapped a tab I'd never seen."
+    },
+    {
+      "type": "p",
+      "text": "UNLISTED RUNS. And next to it, in a green lozenge, x3."
+    },
+    {
+      "type": "p",
+      "text": "\"Triple,\" said Kit. \"No contents listed. Never. You leave it at the service door and you go.\" They scrolled. Addresses all over Vellhaven. Corder House, 7th floor. Lammas Buildings, 9th floor. Gannet Arcade, 6th. \"Corder House is three storeys. Out the front, past the chip shop, look up, three. Lammas is four.\" Scroll. \"Saltcote Wharf, 8th floor.\" Their thumb stopped. \"My gran lives in Saltcote. I've been in that lift. It's got four buttons.\""
+    },
+    {
+      "type": "p",
+      "text": "I coughed, which bought me a second, and the second wasn't enough."
+    },
+    {
+      "type": "p",
+      "text": "\"Service lifts in those old blocks are slow,\" I said. \"Twelve, fifteen seconds a floor if the counterweight's original. And that one you've brought me's three, four kilo. You don't want to be carrying that on a bike one-handed.\""
+    },
+    {
+      "type": "p",
+      "text": "Kit looked at me."
+    },
+    {
+      "type": "p",
+      "text": "I'd got that look off my mum once, when I told her the bruise was from football. It doesn't argue. It waits for you to finish."
+    },
+    {
+      "type": "p",
+      "text": "\"Three and a half,\" Kit said. \"You're good. Five stars for the weight.\" They put the phone away. \"One star for the rest.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Kit—\""
+    },
+    {
+      "type": "p",
+      "text": "\"You're boiling, boss. You know that? You're shaking and you've got your coat done up and you're boiling.\" Then, quieter, and very polite all of a sudden, like a kid at a friend's house: \"I've never asked what's in them. I'm not asking now. I'm asking if there's floors.\""
+    },
+    {
+      "type": "p",
+      "text": "I looked at the box instead. It was taped in brown tape printed all the way round, GREYFOLD PROPERTY PARTNERS, SUPPLIES, and the label said OCCUPANT, 6, FURNACE. PELLORY COURT. LEAVE AT SERVICE-LIFT DOOR."
+    },
+    {
+      "type": "p",
+      "text": "\"Lift's due a service,\" I said. \"Cables are fine. It's the gate runners.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Right,\" said Kit. \"Thank you for your time.\" They went back to the bike and didn't rate anything on the way out."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "I took the box up at ten. Dusty looked at the lit 6 and lay down on the tiles, and I said, \"Suit yourself,\" and he did."
+    },
+    {
+      "type": "p",
+      "text": "It clinked when the lift moved. By floor 6 my chest was tight and my shirt was stuck to me, and when the doors opened the heat hit my face like a hand."
+    },
+    {
+      "type": "p",
+      "text": "\"Delivery,\" I said, down the long room, and coughed. The glow in the furnace vents brightened."
+    },
+    {
+      "type": "p",
+      "text": "\"Open it, caretaker. I'll only burn the box.\""
+    },
+    {
+      "type": "p",
+      "text": "So I opened it on the brick floor by the furnace door, in the light from the vents. Inside, in shredded paper, were brass fittings. Unions, olives, a few elbows, and a card of valve jumpers: little brass discs on stems, each with its fibre washer, exactly the pattern the regulating valve wanted. Every one was stamped. Clean, crisp, a tiny anvil mark and under it GRADE 2."
+    },
+    {
+      "type": "p",
+      "text": "I sat back on my heels."
+    },
+    {
+      "type": "p",
+      "text": "\"You've been waiting for these,\" I said."
+    },
+    {
+      "type": "p",
+      "text": "\"I'm owed them. Take one. Fix the run. I want my heat back where it lives.\""
+    },
+    {
+      "type": "p",
+      "text": "So that was why the lodger cared about WO-6-003. The worn valve wasn't only scalding the run. It was letting the furnace bleed down the pipes into the wall."
+    },
+    {
+      "type": "p",
+      "text": "I turned a jumper over and read the stamp twice. Away from a fault, metal is just metal to me. Walter had told me new metal is grade one whatever you pay for it, but I'd taken that to be about shops. The man at Ropewalk Lane doesn't know what a grade is. Whoever made these did; they'd stamped the number on and packed them for this floor. Greyfold knew what was up here. And I'd spent every working day before this building trusting the mark a maker puts on his metal. You can't build anything if you don't. You'd have to cut every beam open."
+    },
+    {
+      "type": "p",
+      "text": "Also, if it was true, the washer in my pocket could stay where it was."
+    },
+    {
+      "type": "p",
+      "text": "\"Thank you,\" I said to the lodger, and took the jumper to the hot run."
+    },
+    {
+      "type": "p",
+      "text": "I isolated the valve with a cloth round my hand. It didn't cool much; nothing on floor 6 does. I backed off the bonnet, lifted out the old jumper, pitted and thin, and fitted the Greyfold one. The spindle came down sweet. I made the bonnet up and opened the isolator. The hiss stopped. The paint on the wall stopped ticking."
+    },
+    {
+      "type": "p",
+      "text": "I got the carbon slip out of my top pocket, leant on the lagging, and signed it at the fault."
+    },
+    {
+      "type": "p",
+      "text": "``` WO-6-003.   FLOOR 6.   TIER 2. TAKEN BY:              R. Anand SIGNED OFF AT FAULT:   R. Anand ```"
+    },
+    {
+      "type": "p",
+      "text": "The ink sat there, red."
+    },
+    {
+      "type": "p",
+      "text": "I waited for the fever to go out of me the way the swelling had gone out of my hands on floor 5. It didn't. I was still hot behind the eyes. My chest still felt like a bag of grit."
+    },
+    {
+      "type": "p",
+      "text": "\"Come on,\" I said to the slip. Then I put my palm flat on the valve body, over the new jumper, and held it there through the heat."
+    },
+    {
+      "type": "p",
+      "text": "It was light. Not in weight; in the other way, the way I'd only started feeling since Jurek's brass. Jurek's had sixty years of a kitchen in it. This had nothing in it. It was grade one, plain and new, and the stamp on it was the cleanest lie I'd ever held."
+    },
+    {
+      "type": "p",
+      "text": "I took my hand off and stood there in the heat with my mouth open."
+    },
+    {
+      "type": "p",
+      "text": "A maker doesn't stamp GRADE 2 on grade-one brass by accident. Not a whole card of them, packed for one floor, addressed to the one occupant up here that fits things, paid at triple rate so the courier doesn't ask. Somebody wanted floor 6 mended with parts that wouldn't mend it. The run would look fixed and the book would stay red."
+    },
+    {
+      "type": "p",
+      "text": "\"Right,\" I said to the pipe run. My voice came out hoarse and too loud and I kept going anyway. \"Right. That's mine, that is. I put that in you. I read the stamp and I didn't read the metal, and you've been scalding for weeks and I've gone and given you a fake. Sorry. I'll have it off you before I leave this floor. Before I leave this floor. You hear me?\""
+    },
+    {
+      "type": "p",
+      "text": "The pipe ticked."
+    },
+    {
+      "type": "p",
+      "text": "I shut the isolator again. I didn't wait for it to cool, because it wasn't going to, and the promise was the floor, not the night. I wrapped the cloth round my hand and backed off the bonnet, and the cloth wasn't enough, and the backs of two knuckles came up in red stripes. I lifted the Greyfold jumper out with my pliers and dropped it in my trouser pocket, well away from Jurek's washer. I put the old worn one back. It would pass heat again, but it was honest about it."
+    },
+    {
+      "type": "p",
+      "text": "I opened the isolator and the hiss came back. I stood and listened to the run fail the way it had been failing, and it was a better sound than the quiet."
+    },
+    {
+      "type": "p",
+      "text": "\"There,\" I told it. \"Off. Like I said.\""
+    },
+    {
+      "type": "p",
+      "text": "I went back to the furnace and sat down on the brick floor in front of it, because my legs wanted me to."
+    },
+    {
+      "type": "p",
+      "text": "\"It didn't hold,\" said the lodger."
+    },
+    {
+      "type": "p",
+      "text": "\"No. It was never going to.\" I coughed until I could talk again. \"How many of these have you fitted?\""
+    },
+    {
+      "type": "p",
+      "text": "The glow went low in the vents for a while. When it spoke again it was quieter."
+    },
+    {
+      "type": "p",
+      "text": "\"Parts come. Coal comes with them. Good coal, a sack a time. I fit the parts where things hiss. Then the things hiss again.\" A long draw of air through the grate. \"Nothing up here closes, caretaker. I thought that was the floor.\""
+    },
+    {
+      "type": "p",
+      "text": "\"It's not the floor. It's the parts.\" I held up my burnt hand in the orange light, as if that proved anything. \"I want it to stop. No more of their boxes. Nothing of theirs on this floor.\""
+    },
+    {
+      "type": "p",
+      "text": "\"I want feeding.\""
+    },
+    {
+      "type": "p",
+      "text": "There wasn't any arguing with that. It was cold for a furnace, now I looked; the glow was dull and the door barely warm."
+    },
+    {
+      "type": "p",
+      "text": "\"Fuel for heat,\" I said. \"That's your trade?\""
+    },
+    {
+      "type": "p",
+      "text": "\"That's the only trade.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Then I'll trade. Honest coal, from the yard behind the ropewalk. A sack a week, every week, from me. You don't fit anything else of theirs, and you don't take their coal. And you don't touch my cards.\""
+    },
+    {
+      "type": "p",
+      "text": "The glow brightened a shade."
+    },
+    {
+      "type": "p",
+      "text": "\"A sack a week,\" it said. \"Every week. And you'll warm your hands, caretaker, because you're shaking, and it's free with the coal.\""
+    },
+    {
+      "type": "p",
+      "text": "I put my hands out to the door. The warmth came through the vents slow and kind. The fever stayed where it was, and so did the soot in my chest, but my fingers came back. I sat there like a man at a brazier and did sums that didn't come out. The tip tin on the office shelf, where the tenants' odd-job money goes, wouldn't stretch to one sack, let alone every week. I'd said it anyway."
+    },
+    {
+      "type": "p",
+      "text": "I took the box of Greyfold fittings down with me, every stamped piece."
+    },
+    {
+      "type": "p",
+      "text": "In the lobby I crouched by Dusty's mat with the box on my knee, coughing into my sleeve, hot all down my back."
+    },
+    {
+      "type": "p",
+      "text": "\"I trusted a stamp,\" I told him. \"Me. I read it twice and believed it. My hand knew in two seconds, and I didn't ask my hand.\" He opened one eye. \"There's somebody building this place to fail, Dusty. On purpose. With a foundry.\""
+    },
+    {
+      "type": "p",
+      "text": "He sighed through his nose and closed the eye."
+    },
+    {
+      "type": "p",
+      "text": "In the office I sat in my coat, sweating. The book had WO-6-003 exactly as I'd left it: TAKEN, red. No mark for what I'd done. As far as the book was concerned, I'd spent the evening in a chair."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "The drill started at ten past seven."
+    },
+    {
+      "type": "p",
+      "text": "I felt it through the floor of B1 before I heard it. I went out into the yard in my coat with my chest full of grit and found a Greyfold van backed up to the east wall, and two men in orange tabards running a core rig into the ground at the footing, where the east stair comes down inside."
+    },
+    {
+      "type": "p",
+      "text": "\"Morning,\" said the older one, very pleasant, and held up a sheet of paper in a plastic sleeve before I'd asked. \"Survey works under the permit. Core samples. Won't be long, chief.\""
+    },
+    {
+      "type": "p",
+      "text": "\"You're on the footing of a stair.\""
+    },
+    {
+      "type": "p",
+      "text": "\"That's where they want the sample.\""
+    },
+    {
+      "type": "p",
+      "text": "I read the sheet twice. It said what he said. The wrecking permit was named on it, and the name under the permit was I. Tarrant."
+    },
+    {
+      "type": "p",
+      "text": "I went back in to stand on the stair, because I wanted my feet on it. My face was burning in the cold stairwell and every breath scraped. Outside, the drill note changed from a grind to a whine."
+    },
+    {
+      "type": "p",
+      "text": "On the second-floor landing Lou Mabbott was coming down with Danny and his book bag, Danny two steps ahead, eating toast."
+    },
+    {
+      "type": "p",
+      "text": "\"What's that racket?\" said Lou."
+    },
+    {
+      "type": "p",
+      "text": "\"Survey,\" I said. \"Stay on the wall side, would you? Both of you. Wall side.\""
+    },
+    {
+      "type": "p",
+      "text": "She did it without asking, because I'd said it like a man who knew. Then the plaster went."
+    },
+    {
+      "type": "p",
+      "text": "It went with a sound like a knuckle cracking. A line opened at the foot of the stair and ran up the stringer wall faster than you could follow, ticking through the paint, past the first-floor landing, past my feet. Danny stopped with his toast halfway up. It went past him and past Lou, who put her hand over her mouth, and on up round the turn, and I heard it go on above us all the way to the fourth floor. Then the drill stopped outside, and there was only dust coming down through the stairwell in the light from the window."
+    },
+    {
+      "type": "p",
+      "text": "\"Is that the roof again?\" said Lou."
+    },
+    {
+      "type": "p",
+      "text": "\"No,\" I said. \"That's the stair.\" I made my voice ordinary. \"Take him out the front, Lou. Walk on the wall side. Tread on the edges, not the middle.\""
+    },
+    {
+      "type": "p",
+      "text": "She took Danny's hand and went. Danny looked back at the crack the whole way down, delighted."
+    },
+    {
+      "type": "p",
+      "text": "I have a thing about east stairs. I'm not going into it."
+    },
+    {
+      "type": "p",
+      "text": "I went down to the office with the dust still in my hair. The book was lying open at a page I'd never had a reason to see, the one for floor 1, and on it, in the copperplate, a red line was finishing itself as I came in. East stair. Crack. Public floor. Tier one. And under that, a line I hadn't seen on any page before: it escalates every seven days, whether anybody takes it or not."
+    },
+    {
+      "type": "p",
+      "text": "I picked up the pen to take it before I'd even thought. The book wouldn't have my name. The reason was right there in the header, the way it had been all fortnight, holding two, and I stood in the basement breathing soot, burning up, with a stamped brass lie in one pocket and a dead man's washer in the other, and listened through four floors of brick to the stair ticking in its new crack."
+    }
+  ]
+}
