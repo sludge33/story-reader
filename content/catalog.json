@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T13:08:23.211Z",
+  "generatedAt": "2026-11-12T20:26:47.815Z",
   "series": [
     {
       "id": "lantern-mender",
@@ -142,8 +142,8 @@
         },
         {
           "code": "S01E004",
-          "title": "Two Dead People at a Door",
-          "blurb": null,
+          "title": "Chapter 4: The Third Door",
+          "blurb": "With Saltings shut to him and a doorway three days from being bricked up, Fintan sends his crew to every door but the one on his own street.",
           "wordCount": 3111,
           "durationSec": 1244,
           "audio": null,
@@ -151,8 +151,8 @@
         },
         {
           "code": "S01E005",
-          "title": "Next Door to a Dead Pin",
-          "blurb": null,
+          "title": "Chapter 5: Measuring Decay",
+          "blurb": "Fintan goes to Greyfell to measure a dead branch's decay, and a whole branch stops in a single breath.",
           "wordCount": 2959,
           "durationSec": 1184,
           "audio": null,
@@ -160,8 +160,8 @@
         },
         {
           "code": "S01E006",
-          "title": "Wax",
-          "blurb": null,
+          "title": "Chapter 6: Back Early",
+          "blurb": "A packet seal sits three degrees off true, and the wax leads Fintan to Weirside and a door he was told to leave shut.",
           "wordCount": 3141,
           "durationSec": 1256,
           "audio": null,
@@ -169,8 +169,8 @@
         },
         {
           "code": "S01E007",
-          "title": "Grey Eyes",
-          "blurb": null,
+          "title": "Chapter 7: Source Unknown",
+          "blurb": "Cressida wakes remembering her mother's face, and Fintan traces it to a falling branch and a question she will not answer.",
           "wordCount": 2760,
           "durationSec": 1104,
           "audio": null,
@@ -178,8 +178,8 @@
         },
         {
           "code": "S01E008",
-          "title": "Treat Crossing",
-          "blurb": null,
+          "title": "Chapter 8: The Treat Crossing",
+          "blurb": "A nine-year-old asks what time the treat crossing leaves, and a scarfed stranger has promised her a door at ten.",
           "wordCount": 3128,
           "durationSec": 1251,
           "audio": null,
@@ -187,8 +187,8 @@
         },
         {
           "code": "S01E009",
-          "title": "The Chainman's Walk",
-          "blurb": null,
+          "title": "Chapter 9: Three Kinds, Three Days",
+          "blurb": "Fintan sits the Chainman's Walk with ballast he made himself, and someone has slipped a letter into his folder.",
           "wordCount": 3532,
           "durationSec": 1413,
           "audio": null,
@@ -196,8 +196,8 @@
         },
         {
           "code": "S01E010",
-          "title": "Yorath",
-          "blurb": null,
+          "title": "Chapter 10: Reverse Order",
+          "blurb": "Fintan crosses alone to win his name back and finds it has already travelled somewhere he cannot follow.",
           "wordCount": 3622,
           "durationSec": 1449,
           "audio": null,
@@ -217,8 +217,8 @@
       "episodes": [
         {
           "code": "S01E001",
-          "title": "Episode 1",
-          "blurb": null,
+          "title": "Chapter 1: Dry by Morning",
+          "blurb": "A night caretaker promises a tenant her kitchen wall will be dry by morning, then follows the leak to a floor that is not on any drawing.",
           "wordCount": 3561,
           "durationSec": 1424,
           "audio": null,
@@ -226,8 +226,8 @@
         },
         {
           "code": "S01E002",
-          "title": "Episode 2",
-          "blurb": null,
+          "title": "Chapter 2: Retained",
+          "blurb": "The dog on floor 5 has rules for Ravi, and one he won't explain.",
           "wordCount": 3238,
           "durationSec": 1295,
           "audio": null,
@@ -235,8 +235,8 @@
         },
         {
           "code": "S01E003",
-          "title": "Episode 3",
-          "blurb": null,
+          "title": "Chapter 3: Cause Unseen",
+          "blurb": "Ravi blames the thing that chews, and a stranger knows his surname.",
           "wordCount": 3124,
           "durationSec": 1250,
           "audio": null,
@@ -244,8 +244,8 @@
         },
         {
           "code": "S01E004",
-          "title": "Episode 4",
-          "blurb": null,
+          "title": "Chapter 4: The Middle of the Rope",
+          "blurb": "The key-eaters lose their dispute but win Ravi a deeper culprit, and the pipe's real tenant has already filed a complaint against him.",
           "wordCount": 3064,
           "durationSec": 1226,
           "audio": null,
@@ -253,8 +253,8 @@
         },
         {
           "code": "S01E005",
-          "title": "Episode 5",
-          "blurb": null,
+          "title": "Chapter 5: Old Brass, Freely Given",
+          "blurb": "The order Ravi handed back has come back worse, and the only fix he can find is metal that has to be given freely.",
           "wordCount": 3040,
           "durationSec": 1216,
           "audio": null,
@@ -262,8 +262,8 @@
         },
         {
           "code": "S01E006",
-          "title": "Episode 6",
-          "blurb": null,
+          "title": "Chapter 6: Dry by Midnight",
+          "blurb": "Ravi has until midnight to keep a promise to a mould, and when it is kept the lift grows a new button.",
           "wordCount": 3180,
           "durationSec": 1272,
           "audio": null,
@@ -271,28 +271,37 @@
         },
         {
           "code": "S01E007",
-          "title": "Episode 7",
-          "blurb": null,
-          "wordCount": 3155,
-          "durationSec": 1262,
+          "title": "Chapter 7: Holding Two",
+          "blurb": "Ravi trusts a stamp on a box of brass, and by morning the east stair is cracking and the book won't take his name.",
+          "wordCount": 3164,
+          "durationSec": 1266,
           "audio": null,
           "publishedAt": null
         },
         {
           "code": "S01E008",
-          "title": "Episode 8",
-          "blurb": null,
-          "wordCount": 3147,
-          "durationSec": 1259,
+          "title": "Chapter 8: What the Stair Stands On",
+          "blurb": "Ravi has a free slot for the cracked east stair, but not yet any idea what it stands on.",
+          "wordCount": 3145,
+          "durationSec": 1258,
           "audio": null,
           "publishedAt": null
         },
         {
           "code": "S01E009",
-          "title": "Episode 9",
-          "blurb": null,
-          "wordCount": 3191,
+          "title": "Chapter 9: A Very Tidy Cause",
+          "blurb": "Ravi names the firm behind the cracked east stair and sends the proof across the city by courier, but a midnight ruling can hand the weight straight back.",
+          "wordCount": 3189,
           "durationSec": 1276,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E010",
+          "title": "Chapter 10: The Usual Arrangement",
+          "blurb": "The east stair is mended by morning, but a clerk arrives with a tenant roll and an offer Ravi knows is real.",
+          "wordCount": 3775,
+          "durationSec": 1510,
           "audio": null,
           "publishedAt": null
         }
@@ -311,7 +320,7 @@
         {
           "code": "S01E001",
           "title": "Postmarked Next Year",
-          "blurb": null,
+          "blurb": "A sealed cask in the keel locker is postmarked from this very ship, nineteen months in the future.",
           "wordCount": 2355,
           "durationSec": 875,
           "audio": "audio/wrong-side-of-the-sun/S01E001.mp3",
@@ -319,8 +328,8 @@
         },
         {
           "code": "S01E002",
-          "title": "Day Six",
-          "blurb": null,
+          "title": "Noted, and Not Agreed",
+          "blurb": "An Inspector who does not believe in perfect records goes through every spool aboard Postscript while a sack of ballots races a midnight rule change.",
           "wordCount": 2547,
           "durationSec": 1019,
           "audio": null,
@@ -328,8 +337,8 @@
         },
         {
           "code": "S01E003",
-          "title": "The Later Hand",
-          "blurb": null,
+          "title": "The Gift and the Bargain",
+          "blurb": "A dying passenger wants her last letter to arrive before she does, and a postmaster shows Peregrine a trick that is perfectly legal.",
           "wordCount": 2438,
           "durationSec": 975,
           "audio": null,
@@ -337,8 +346,8 @@
         },
         {
           "code": "S01E004",
-          "title": "Flat Note",
-          "blurb": null,
+          "title": "A Berth by the Hour",
+          "blurb": "A dockmaster's claim race ends at a Register screen that names the one courier who should never have been there.",
           "wordCount": 2606,
           "durationSec": 1042,
           "audio": null,
@@ -346,8 +355,8 @@
         },
         {
           "code": "S01E005",
-          "title": "Not Agreed",
-          "blurb": null,
+          "title": "Sharp Practice",
+          "blurb": "A queen bee, a sixty-day permit and a seventy-day haul: the Code is very particular about letters.",
           "wordCount": 2492,
           "durationSec": 997,
           "audio": null,
@@ -355,8 +364,8 @@
         },
         {
           "code": "S01E006",
-          "title": "Cold in the Lee",
-          "blurb": null,
+          "title": "The Cold Hull",
+          "blurb": "When Postscript's drive goes cold in the Lee, a very polite stranger comes aboard and the courier who has never been late is handed one more letter to carry.",
           "wordCount": 2667,
           "durationSec": 1067,
           "audio": null,
@@ -364,8 +373,8 @@
         },
         {
           "code": "S01E007",
-          "title": "Returned",
-          "blurb": null,
+          "title": "The Courier's Receipt",
+          "blurb": "A returned letter is finally opened the way the Code intended, and the name in it makes a captain stop moving.",
           "wordCount": 2676,
           "durationSec": 1070,
           "audio": null,
@@ -373,8 +382,8 @@
         },
         {
           "code": "S01E008",
-          "title": "Leap-Day Problem",
-          "blurb": null,
+          "title": "The Second Courier",
+          "blurb": "Revision 63 is posted and a very kind deputy has sent a second courier to Folio, so Postscript has to beat him there with four thousand names.",
           "wordCount": 3071,
           "durationSec": 1228,
           "audio": null,
@@ -382,8 +391,8 @@
         },
         {
           "code": "S01E009",
-          "title": "The Crossing",
-          "blurb": null,
+          "title": "Delivered Before It Left",
+          "blurb": "A petition comes back from a counter it has not yet reached, and the last spool is spent on a legal trick that costs the courier his clean record.",
           "wordCount": 2964,
           "durationSec": 1186,
           "audio": null,
@@ -391,10 +400,10 @@
         },
         {
           "code": "S01E010",
-          "title": "Wrong Side of the Sun",
-          "blurb": null,
-          "wordCount": 3136,
-          "durationSec": 1254,
+          "title": "Returned to Sender",
+          "blurb": "The season finale: a grey cask crosses the collar, a recording is played to the one person it was meant for, and the last bag goes home to Quarto.",
+          "wordCount": 3143,
+          "durationSec": 1257,
           "audio": null,
           "publishedAt": null
         }
@@ -412,8 +421,8 @@
       "episodes": [
         {
           "code": "S01E001",
-          "title": "Emergency Reckoner",
-          "blurb": null,
+          "title": "Chapter 1: The Emergency Reckoner",
+          "blurb": "A night auditor passed over for her own job is handed a brass key at nine o'clock and must Reckon for a failing side at midnight.",
           "wordCount": 3147,
           "durationSec": 1259,
           "audio": null,
@@ -421,8 +430,8 @@
         },
         {
           "code": "S01E002",
-          "title": "Calibration Error",
-          "blurb": null,
+          "title": "Chapter 2: Declared, Not Signed",
+          "blurb": "Petra refuses the clerk's wording, and the Bank gives her until midnight to sign a lie.",
           "wordCount": 2505,
           "durationSec": 1002,
           "audio": null,
@@ -430,8 +439,8 @@
         },
         {
           "code": "S01E003",
-          "title": "Dead Time",
-          "blurb": null,
+          "title": "Chapter 3: A Stalled Sleeper Never Wakes",
+          "blurb": "Petra's crew books the first dead-time Stall Book against a side that has never conceded to four, and the Bank's governor walks in at the Close.",
           "wordCount": 2952,
           "durationSec": 1181,
           "audio": null,
@@ -439,8 +448,8 @@
         },
         {
           "code": "S01E004",
-          "title": "The Price of an Audit",
-          "blurb": null,
+          "title": "Chapter 4: What Coyle Knows",
+          "blurb": "Hester Coyle swears she will call her Audit tonight, and Petra has a jar she has not dared to weigh.",
           "wordCount": 2856,
           "durationSec": 1142,
           "audio": null,
@@ -448,8 +457,8 @@
         },
         {
           "code": "S01E005",
-          "title": "Copper Stair Paper",
-          "blurb": null,
+          "title": "Chapter 5: The Slow Clock",
+          "blurb": "Lisle confesses a debt that is falling on her without warning, and the tram-stop clock is running slow.",
           "wordCount": 2471,
           "durationSec": 988,
           "audio": null,
@@ -457,8 +466,8 @@
         },
         {
           "code": "S01E006",
-          "title": "Playing Clean",
-          "blurb": null,
+          "title": "Chapter 6: Whose Seconds Are These",
+          "blurb": "Petra accuses the wrong teammate before a match against the Guild's own side, and the truth arrives too late to save the night.",
           "wordCount": 3022,
           "durationSec": 1209,
           "audio": null,
@@ -466,10 +475,37 @@
         },
         {
           "code": "S01E007",
-          "title": "The Itch of Waiting",
-          "blurb": null,
+          "title": "Chapter 7: Three Hours Owed",
+          "blurb": "Petra learns where the seconds come from, and Tran's debt of sleep comes due on the plate.",
           "wordCount": 2532,
           "durationSec": 1013,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E008",
+          "title": "Chapter 8: The Sum Tran Hid",
+          "blurb": "Tran has been lying about how much sleep he owes, and Petra has two nights to get him under the bench line before the last matchday.",
+          "wordCount": 2885,
+          "durationSec": 1154,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E009",
+          "title": "Chapter 9: A Full Box, Still Warm",
+          "blurb": "The night before the playoff, Drewe puts Mabry's full, warm box on Petra's desk and repeats the order that would hand Wardle a Pool Fraud Audit.",
+          "wordCount": 2639,
+          "durationSec": 1056,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E010",
+          "title": "Chapter 10: Figures at the Guild Door",
+          "blurb": "Petra wins the Daylight Playoff on the Ninth Stair, opens the clock that cost her a post, and at dawn is asked to audit the Reserve.",
+          "wordCount": 3272,
+          "durationSec": 1309,
           "audio": null,
           "publishedAt": null
         }
@@ -487,8 +523,8 @@
       "episodes": [
         {
           "code": "S01E001",
-          "title": "A Mason with a Debt",
-          "blurb": null,
+          "title": "Four Seconds",
+          "blurb": "A mason with a debt takes one night's work standing in front of notes that ruin bodies, and has four seconds to decide what to do with the biggest one.",
           "wordCount": 2611,
           "durationSec": 941,
           "audio": "audio/dead-air/S01E001.mp3",
@@ -496,8 +532,8 @@
         },
         {
           "code": "S01E002",
-          "title": "Hands That Won't Close",
-          "blurb": null,
+          "title": "Stand Like That",
+          "blurb": "Wren's hands won't hold a chisel, the bailiff is counting down, and the one man who could coach the side comes down the stair to ask who taught Wren to stand.",
           "wordCount": 1993,
           "durationSec": 797,
           "audio": null,
@@ -505,8 +541,8 @@
         },
         {
           "code": "S01E003",
-          "title": "Boots Off",
-          "blurb": null,
+          "title": "Half a Wave",
+          "blurb": "Someone keeps chalking drills on Wren's bench, and in the Ropewalk Drum Wren must trust a partner's timing to the instant.",
           "wordCount": 2243,
           "durationSec": 897,
           "audio": null,
@@ -514,8 +550,8 @@
         },
         {
           "code": "S01E004",
-          "title": "The Barefoot Damper",
-          "blurb": null,
+          "title": "Nothing, Halloway",
+          "blurb": "Barefoot in front of a laughing gallery, Wren finds a way to kill a note in mid-air, and a stranger in the front row has been watching her feet.",
           "wordCount": 2449,
           "durationSec": 980,
           "audio": null,
@@ -523,8 +559,8 @@
         },
         {
           "code": "S01E005",
-          "title": "The Drum That Sweats",
-          "blurb": null,
+          "title": "Wet Floor, Cold Feet",
+          "blurb": "Wren's pairs fail on a sweating floor at Wellhead, and the cause points somewhere much closer to home.",
           "wordCount": 2757,
           "durationSec": 1103,
           "audio": null,
@@ -532,8 +568,8 @@
         },
         {
           "code": "S01E006",
-          "title": "The Loose Stone",
-          "blurb": null,
+          "title": "Flat Where It Rang",
+          "blurb": "The Last Stand rang true yesterday; this morning it rocks, and the match is in three hours.",
           "wordCount": 2458,
           "durationSec": 983,
           "audio": null,
@@ -541,8 +577,8 @@
         },
         {
           "code": "S01E007",
-          "title": "Someone Else's Count",
-          "blurb": null,
+          "title": "The Count That Isn't Mine",
+          "blurb": "Glasshouse take away Wren's warning, and the only way through is to draw on someone else's count.",
           "wordCount": 2674,
           "durationSec": 1070,
           "audio": null,
@@ -550,10 +586,28 @@
         },
         {
           "code": "S01E008",
-          "title": "Notes Don't Turn Corners",
-          "blurb": null,
+          "title": "Nearly True",
+          "blurb": "Quist gives Wren one rule, Old Mint throws a note nobody can feel coming, and a courteous letter arrives with a bell on its seal.",
           "wordCount": 2454,
           "durationSec": 982,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E009",
+          "title": "A Peg in Plain Sight",
+          "blurb": "The unbeaten Tannery Hounds throw notes no pair can null, so Kilnyard leaves the Dead Air on the shelf and bets everything on a peg in plain sight.",
+          "wordCount": 2793,
+          "durationSec": 1117,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E010",
+          "title": "The Warm Wall",
+          "blurb": "The Chapterhouse wall is warm, every stand pair is wrong, and the floor has something to say.",
+          "wordCount": 2716,
+          "durationSec": 1086,
           "audio": null,
           "publishedAt": null
         }
@@ -571,8 +625,8 @@
       "episodes": [
         {
           "code": "S01E001",
-          "title": "Forty-One Over the Reedbed",
-          "blurb": null,
+          "title": "Chapter 1: Forty-One Over the Reedbed",
+          "blurb": "The Circuit Loft's spare hand counts forty-one birds over a failing fen, and the official counter writes down forty.",
           "wordCount": 3175,
           "durationSec": 1171,
           "audio": "audio/seven-neighbours/S01E001.mp3",
@@ -580,8 +634,8 @@
         },
         {
           "code": "S01E002",
-          "title": "Can You Raise?",
-          "blurb": null,
+          "title": "Chapter 2: Copper on the Wrist",
+          "blurb": "Sorrel gives up her notebooks to join Hobsmere's crew, but the only person who offers to stand behind her is the one she cannot trust.",
           "wordCount": 2687,
           "durationSec": 1075,
           "audio": null,
@@ -589,8 +643,8 @@
         },
         {
           "code": "S01E003",
-          "title": "Six Rings, Shaking Hands",
-          "blurb": null,
+          "title": "Chapter 3: The Line Across the Water",
+          "blurb": "Sorrel's first match ends level, but the walk home runs straight across the black water where the forty-first bird vanished.",
           "wordCount": 3087,
           "durationSec": 1235,
           "audio": null,
@@ -598,8 +652,8 @@
         },
         {
           "code": "S01E004",
-          "title": "Held in the Dyke",
-          "blurb": null,
+          "title": "Chapter 4: Seven Shades in Chalk",
+          "blurb": "After a night in the drain, Sorrel and Joan chalk out a plan for the Seven while a gale warning settles over Saturday's match.",
           "wordCount": 2502,
           "durationSec": 1001,
           "audio": null,
@@ -607,8 +661,8 @@
         },
         {
           "code": "S01E005",
-          "title": "Cold Fleet in a Gale",
-          "blurb": null,
+          "title": "Chapter 5: The Eighth Nearest",
+          "blurb": "In a Fen gale Sorrel holds the flock with the Seven, and the one bird that refuses to be counted stays right beside her.",
           "wordCount": 3323,
           "durationSec": 1329,
           "audio": null,
@@ -616,8 +670,8 @@
         },
         {
           "code": "S01E006",
-          "title": "High Water at Ketterby",
-          "blurb": null,
+          "title": "Chapter 6: The Tide Table",
+          "blurb": "The sea comes in over Ketterby's flats and ruins every plan Sorrel made, and a letter from the Loft Court is waiting at the Dyke Arms.",
           "wordCount": 2953,
           "durationSec": 1181,
           "audio": null,
@@ -625,8 +679,8 @@
         },
         {
           "code": "S01E007",
-          "title": "Copper in the Reeds",
-          "blurb": null,
+          "title": "Chapter 7: The Rule as Written",
+          "blurb": "A copper ring in the reed and a Court inquiry put the Seven on trial, and the Clerk has a question of her own for Sorrel.",
           "wordCount": 2721,
           "durationSec": 1088,
           "audio": null,
@@ -634,10 +688,28 @@
         },
         {
           "code": "S01E008",
-          "title": "The Seven Comes Apart",
-          "blurb": null,
+          "title": "Chapter 8: The Full Minute",
+          "blurb": "Tarrow Dyke have learned to drop the Seven, and Sorrel must choose between the shape she wants and the minute she owes the Breath.",
           "wordCount": 3193,
           "durationSec": 1277,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E009",
+          "title": "Chapter 9: The First Ring",
+          "blurb": "Fallowby's protest costs Hobsmere a player before the last match, and Sorrel finds a number in the Loft's old books that nobody was meant to ask about.",
+          "wordCount": 2687,
+          "durationSec": 1075,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E010",
+          "title": "Chapter 10: Six Cannot Hold",
+          "blurb": "One match, one point bird, and a ring that no one on the Reedbed can cut.",
+          "wordCount": 3389,
+          "durationSec": 1356,
           "audio": null,
           "publishedAt": null
         }

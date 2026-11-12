@@ -2,10 +2,10 @@
   "seriesId": "fifth-floor-tenant",
   "seriesTitle": "The Fifth-Floor Tenant",
   "code": "S01E007",
-  "title": "Episode 7",
-  "blurb": null,
-  "wordCount": 3155,
-  "durationSec": 1262,
+  "title": "Chapter 7: Holding Two",
+  "blurb": "Ravi trusts a stamp on a box of brass, and by morning the east stair is cracking and the book won't take his name.",
+  "wordCount": 3164,
+  "durationSec": 1266,
   "audio": null,
   "publishedAt": null,
   "blocks": [
@@ -180,7 +180,7 @@
     },
     {
       "type": "p",
-      "text": "I took the box up at ten. Dusty looked at the lit 6 and lay down on the tiles, and I said, \"Suit yourself,\" and he did."
+      "text": "I took the box up at ten. Dusty, which is all Walter is down in the lobby, looked at the lit 6 and lay down on the tiles, and I said, \"Suit yourself,\" and he did."
     },
     {
       "type": "p",

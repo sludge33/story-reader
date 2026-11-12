@@ -2,10 +2,10 @@
   "seriesId": "fifth-floor-tenant",
   "seriesTitle": "The Fifth-Floor Tenant",
   "code": "S01E008",
-  "title": "Episode 8",
-  "blurb": null,
-  "wordCount": 3147,
-  "durationSec": 1259,
+  "title": "Chapter 8: What the Stair Stands On",
+  "blurb": "Ravi has a free slot for the cracked east stair, but not yet any idea what it stands on.",
+  "wordCount": 3145,
+  "durationSec": 1258,
   "audio": null,
   "publishedAt": null,
   "blocks": [
@@ -231,7 +231,7 @@
     },
     {
       "type": "p",
-      "text": "The doors opened on floor 6 and the heat came in, and the smell of coke, and he stood up and said, \"Mind the gantry, son. Third plate from the end's loose.\""
+      "text": "The doors opened on floor 6 and the heat came in, and the smell of coke, and Walter stood up and said, \"Mind the gantry, son. Third plate from the end's loose.\""
     },
     {
       "type": "p",
@@ -399,7 +399,7 @@
     },
     {
       "type": "p",
-      "text": "I read it twice on the doormat, lips moving."
+      "text": "I read it twice on the doormat."
     },
     {
       "type": "p",
