@@ -1,0 +1,123 @@
+{
+  "durationSec": 922,
+  "voiceUsd": 0.213,
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "mode": "batched",
+  "batches": [
+    {
+      "voice": "Leda",
+      "lines": 5,
+      "chars": 2175,
+      "score": 0.978
+    },
+    {
+      "voice": "Algieba",
+      "lines": 9,
+      "chars": 363,
+      "score": 0.969
+    },
+    {
+      "voice": "Kore",
+      "lines": 4,
+      "chars": 79,
+      "score": 1
+    },
+    {
+      "voice": "Alnilam",
+      "lines": 2,
+      "chars": 39,
+      "score": 0.833
+    },
+    {
+      "voice": "Leda",
+      "lines": 7,
+      "chars": 2385,
+      "score": 0.972
+    },
+    {
+      "voice": "Sulafat",
+      "lines": 7,
+      "chars": 348,
+      "score": 0.952
+    },
+    {
+      "voice": "Leda",
+      "lines": 3,
+      "chars": 676,
+      "score": 0.941
+    },
+    {
+      "voice": "Leda",
+      "lines": 1,
+      "chars": 1819,
+      "score": 0.98
+    },
+    {
+      "voice": "Leda",
+      "lines": 9,
+      "chars": 2116,
+      "score": 0.998
+    },
+    {
+      "voice": "Achird",
+      "lines": 3,
+      "chars": 86,
+      "score": 1
+    },
+    {
+      "voice": "Callirrhoe",
+      "lines": 2,
+      "chars": 51,
+      "score": 1
+    },
+    {
+      "voice": "Laomedeia",
+      "lines": 7,
+      "chars": 208,
+      "score": 0.971
+    },
+    {
+      "voice": "Leda",
+      "lines": 5,
+      "chars": 1566,
+      "score": 0.993
+    },
+    {
+      "voice": "Leda",
+      "lines": 7,
+      "chars": 2113,
+      "score": 0.942
+    },
+    {
+      "voice": "Schedar",
+      "lines": 2,
+      "chars": 34,
+      "score": 1
+    }
+  ],
+  "weakLines": [],
+  "requests": 15,
+  "apiCalls": 15,
+  "cachedCalls": 0,
+  "textTokens": 3416,
+  "audioTokens": 23473,
+  "tokensFrom": "api usage",
+  "renderWallSec": 643,
+  "apiSec": 250,
+  "renderedAt": "2026-11-13",
+  "voices": {
+    "narrator": "Leda",
+    "c-ila-brandt": "Leda",
+    "c-cuthbert-oake": "Algieba",
+    "supervisor": "Kore",
+    "wilf": "Alnilam",
+    "bernie": "Sulafat",
+    "hester": "Callirrhoe",
+    "colin": "Achird",
+    "nurse": "Laomedeia",
+    "paramedic": "Alnilam",
+    "stan": "Schedar"
+  },
+  "audioPath": "audio/knot-mender/S01E001.mp3"
+}

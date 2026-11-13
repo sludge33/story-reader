@@ -1,0 +1,39 @@
+{
+  "_note": "Voice casting for Down Is Where I Say (1st person, past tense: Dagny Quillon). Dagny's own lines stay on the narrator voice (gemini.voices c-dagny-quillon = \"narrator\"). gemini.narrator overrides config/tts.json gemini.narrator. Voices kept distinct from knot-mender. lexicon: Kokoro IPA; respell: Gemini only. Cast 2026-11-13, not yet approved by Ben.",
+  "lexicon": {
+    "Dagny": "/dˈaɡni/",
+    "Quillon": "/kwˈɪlən/",
+    "Mattias": "/mətˈaɪəs/",
+    "Osk": "/ˈɒsk/",
+    "Stenning": "/stˈɛnɪŋ/",
+    "Haig": "/hˈeɪɡ/",
+    "Garrow": "/ɡˈaɹəʊ/",
+    "Ambry": "/ˈambɹi/",
+    "Sibbald": "/sˈɪbəld/",
+    "Teague": "/tˈiːɡ/",
+    "Brannock": "/bɹˈanək/",
+    "Scarrow": "/skˈaɹəʊ/",
+    "Ellery": "/ˈɛləɹi/",
+    "Tull": "/tˈʌl/"
+  },
+  "respell": {
+    "_note": "Gemini only: words replaced in the text sent to Gemini.",
+    "Quillon": "Quillun"
+  },
+  "gemini": {
+    "narrator": {
+      "voice": "Despina",
+      "style": "Plain, earnest young woman from a northern English mining town telling her own story straight; low, steady and physical; fear held tight in a controlled voice, never jokey; numbers said carefully, with weight; measured pace with clear pauses between paragraphs"
+    },
+    "voices": {
+      "c-dagny-quillon": "narrator",
+      "c-rafe-quillon": { "voice": "Fenrir", "style": "Fast, jokey, excitable sixteen-year-old northern English lad; deflects with gallows humour; ends sentences on a question" },
+      "c-mattias-osk": { "voice": "Algenib", "style": "Old northern English shaft gaffer; low and slow, long pause before the important word; never raises his voice" },
+      "c-hal-stenning": { "voice": "Orus", "style": "Hoarse, tired northern English man of few words, hurting and trying to hide it" },
+      "c-dunnet-haig": { "voice": "Sadaltager", "style": "Big, booming, laughing northern English man; grim jokes said to cheer the others" },
+      "c-lisbet-garrow": { "voice": "Aoede", "style": "Quick, practical, impatient northern English woman, a rope-maker; short commands" },
+      "c-pru-ambry": { "voice": "Zephyr", "style": "Fast, sharp northern English bookie's patter, calling odds; shouting down a shaft when live" },
+      "c-sibbald-teague": { "voice": "Iapetus", "style": "Soft, courteous, precise moneylender; gentle as a man reading a hymn number; quietly menacing" }
+    }
+  }
+}

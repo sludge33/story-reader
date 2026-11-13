@@ -1,0 +1,20 @@
+{
+  "_note": "Audio producer notes for S01E001. speakers: quote # (from narrate --dry-run) -> speaker. \"narrator\" = Dagny. 11-13 are Hal; 19-20 the Weighman; 27-31 Dagny counting and calling to her Da; 34-35 the Coopers' Caller.",
+  "cast": {
+    "weighman": { "gemini": { "voice": "Sadachbia", "style": "Flat, official northern English match weighman reading a scale" }, "names": [] },
+    "coopers-caller": { "gemini": { "voice": "Achernar", "style": "Big-voiced northern English woman, a team caller, now quiet and exhausted, giving in" }, "names": [] }
+  },
+  "speakers": {
+    "1": "c-rafe-quillon", "2": "c-rafe-quillon", "3": "narrator", "4": "c-rafe-quillon", "5": "narrator",
+    "6": "c-sibbald-teague", "7": "c-sibbald-teague", "8": "c-sibbald-teague", "9": "c-sibbald-teague", "10": "c-sibbald-teague",
+    "11": "c-hal-stenning", "12": "c-hal-stenning", "13": "c-hal-stenning",
+    "14": "c-dunnet-haig", "15": "c-dunnet-haig",
+    "16": "c-mattias-osk", "17": "c-mattias-osk", "18": "c-mattias-osk",
+    "19": "weighman", "20": "weighman", "21": "c-lisbet-garrow",
+    "22": "c-pru-ambry", "23": "c-pru-ambry", "24": "c-pru-ambry", "25": "c-dunnet-haig", "26": "c-dunnet-haig",
+    "27": "narrator", "28": "narrator", "29": "narrator", "30": "narrator", "31": "narrator",
+    "32": "c-pru-ambry", "33": "c-pru-ambry", "34": "coopers-caller", "35": "coopers-caller",
+    "36": "c-rafe-quillon", "37": "c-rafe-quillon", "38": "narrator", "39": "narrator",
+    "40": "c-lisbet-garrow", "41": "narrator", "42": "narrator"
+  }
+}

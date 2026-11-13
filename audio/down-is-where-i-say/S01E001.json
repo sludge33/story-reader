@@ -1,0 +1,135 @@
+{
+  "durationSec": 1034,
+  "voiceUsd": 0.24,
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "mode": "batched",
+  "batches": [
+    {
+      "voice": "Despina",
+      "lines": 9,
+      "chars": 2380,
+      "score": 0.966
+    },
+    {
+      "voice": "Fenrir",
+      "lines": 5,
+      "chars": 392,
+      "score": 0.946
+    },
+    {
+      "voice": "Iapetus",
+      "lines": 5,
+      "chars": 365,
+      "score": 0.815
+    },
+    {
+      "voice": "Orus",
+      "lines": 3,
+      "chars": 66,
+      "score": 0.778
+    },
+    {
+      "voice": "Despina",
+      "lines": 9,
+      "chars": 932,
+      "score": 0.957
+    },
+    {
+      "voice": "Sadaltager",
+      "lines": 4,
+      "chars": 191,
+      "score": 1
+    },
+    {
+      "voice": "Algenib",
+      "lines": 3,
+      "chars": 127,
+      "score": 0.957
+    },
+    {
+      "voice": "Sadachbia",
+      "lines": 2,
+      "chars": 90,
+      "score": 1
+    },
+    {
+      "voice": "Aoede",
+      "lines": 2,
+      "chars": 159,
+      "score": 0.906
+    },
+    {
+      "voice": "Despina",
+      "lines": 3,
+      "chars": 2155,
+      "score": 0.958
+    },
+    {
+      "voice": "Zephyr",
+      "lines": 5,
+      "chars": 177,
+      "score": 0.8
+    },
+    {
+      "voice": "Despina",
+      "lines": 2,
+      "chars": 658,
+      "score": 0.938
+    },
+    {
+      "voice": "Despina",
+      "lines": 1,
+      "chars": 1869,
+      "score": 0.969
+    },
+    {
+      "voice": "Despina",
+      "lines": 2,
+      "chars": 1278,
+      "score": 0.96
+    },
+    {
+      "voice": "Despina",
+      "lines": 5,
+      "chars": 2367,
+      "score": 0.975
+    },
+    {
+      "voice": "Achernar",
+      "lines": 2,
+      "chars": 23,
+      "score": 1
+    },
+    {
+      "voice": "Despina",
+      "lines": 1,
+      "chars": 834,
+      "score": 0.988
+    }
+  ],
+  "weakLines": [],
+  "requests": 17,
+  "apiCalls": 17,
+  "cachedCalls": 0,
+  "textTokens": 3658,
+  "audioTokens": 26408,
+  "tokensFrom": "api usage",
+  "renderWallSec": 683,
+  "apiSec": 278,
+  "renderedAt": "2026-11-13",
+  "voices": {
+    "narrator": "Despina",
+    "c-dagny-quillon": "Despina",
+    "c-rafe-quillon": "Fenrir",
+    "c-mattias-osk": "Algenib",
+    "c-hal-stenning": "Orus",
+    "c-dunnet-haig": "Sadaltager",
+    "c-lisbet-garrow": "Aoede",
+    "c-pru-ambry": "Zephyr",
+    "c-sibbald-teague": "Iapetus",
+    "weighman": "Sadachbia",
+    "coopers-caller": "Achernar"
+  },
+  "audioPath": "audio/down-is-where-i-say/S01E001.mp3"
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T17:56:41.308Z",
+  "generatedAt": "2026-11-13T19:25:11.996Z",
   "series": [
     {
       "id": "lantern-mender",
@@ -220,8 +220,8 @@
           "title": "Plain as You Like",
           "blurb": "A junior clerk unties two strands of umbrella trouble on a quiet set of steps, and the man at the centre of it stops breathing.",
           "wordCount": 2688,
-          "durationSec": 1075,
-          "audio": null,
+          "durationSec": 922,
+          "audio": "audio/knot-mender/S01E001.mp3",
           "publishedAt": null
         },
         {
@@ -628,8 +628,8 @@
           "title": "Eighty Crowns on the Ninepins",
           "blurb": "Dagny Quillon has never held a Pin in a match, but her brother has borrowed eighty crowns against a team that just lost its Anchor.",
           "wordCount": 2758,
-          "durationSec": 1103,
-          "audio": null,
+          "durationSec": 1034,
+          "audio": "audio/down-is-where-i-say/S01E001.mp3",
           "publishedAt": null
         },
         {

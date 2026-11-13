@@ -1,0 +1,1408 @@
+{
+  "code": "S01E001",
+  "pass": false,
+  "checks": [
+    {
+      "name": "Loudness",
+      "pass": true,
+      "value": "-16.6 LUFS",
+      "want": "-16 ±1"
+    },
+    {
+      "name": "True peak",
+      "pass": true,
+      "value": "-1.2 dBTP",
+      "want": "≤ -1"
+    },
+    {
+      "name": "Clipping",
+      "pass": true,
+      "value": "0 samples at full scale",
+      "want": "0"
+    },
+    {
+      "name": "Dead air",
+      "pass": true,
+      "value": "none",
+      "want": "no silence > 3s"
+    },
+    {
+      "name": "Script lint",
+      "pass": false,
+      "value": "17 issue(s)",
+      "want": "0"
+    },
+    {
+      "name": "Word accuracy",
+      "pass": true,
+      "value": "97.4% (55 spots)",
+      "want": "≥ 97%"
+    },
+    {
+      "name": "Pace (overall)",
+      "pass": true,
+      "value": "161 wpm",
+      "want": "145-170 wpm"
+    },
+    {
+      "name": "Voice level match",
+      "pass": false,
+      "value": "3.1 dB spread",
+      "want": "≤ 3 dB"
+    }
+  ],
+  "signal": {
+    "lufs": -16.6,
+    "lra": 5.2,
+    "truePeak": -1.2,
+    "samplePeak": -1.3,
+    "clipped": 0,
+    "gaps": []
+  },
+  "voices": [
+    {
+      "who": "dagny-quillon",
+      "voice": "Despina",
+      "wpm": 218,
+      "levelDb": -16.8
+    },
+    {
+      "who": "rafe-quillon",
+      "voice": "Fenrir",
+      "wpm": 287,
+      "levelDb": -16.5
+    },
+    {
+      "who": "sibbald-teague",
+      "voice": "Iapetus",
+      "wpm": 174,
+      "levelDb": -16.1
+    },
+    {
+      "who": "hal-stenning",
+      "voice": "Orus",
+      "wpm": null,
+      "levelDb": null
+    },
+    {
+      "who": "dunnet-haig",
+      "voice": "Sadaltager",
+      "wpm": 231,
+      "levelDb": -15.8
+    },
+    {
+      "who": "mattias-osk",
+      "voice": "Algenib",
+      "wpm": 205,
+      "levelDb": -15.6
+    },
+    {
+      "who": "weighman",
+      "voice": "Sadachbia",
+      "wpm": 122,
+      "levelDb": -18.7
+    },
+    {
+      "who": "lisbet-garrow",
+      "voice": "Aoede",
+      "wpm": 298,
+      "levelDb": -16.6
+    },
+    {
+      "who": "pru-ambry",
+      "voice": "Zephyr",
+      "wpm": 353,
+      "levelDb": -15.7
+    },
+    {
+      "who": "coopers-caller",
+      "voice": "Achernar",
+      "wpm": null,
+      "levelDb": null
+    }
+  ],
+  "lint": {
+    "issues": [
+      {
+        "seg": 108,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "She lowered me to L5, a ledge three metres deep with a chalk circle round the Pin and a lamp hung on the wall."
+      },
+      {
+        "seg": 110,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "Below me, across the shaft, was the Coopers' L6, and under that the Throat and the two wells."
+      },
+      {
+        "seg": 116,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "I was slow in Drop 1."
+      },
+      {
+        "seg": 118,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "The Coopers' Anchor, Brannock, held L4 across the shaft from me, and every time he turned, I turned after him, and after"
+      },
+      {
+        "seg": 129,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "Walls swapped for Drop 2."
+      },
+      {
+        "seg": 130,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "I took L6, the lowest ledge on our side, above our own well."
+      },
+      {
+        "seg": 131,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "Brannock took L5 across from me, and our two zones met in the Lap between us."
+      },
+      {
+        "seg": 167,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "We were behind, so we chose our wall for Drop 3."
+      },
+      {
+        "seg": 168,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "I asked for L5 again."
+      },
+      {
+        "seg": 173,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "I'd watched the Coopers' Dropper, Tull, all through Drops 1 and 2."
+      },
+      {
+        "seg": 207,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "Up above, the Coopers' other Anchor was holding the Cob high, up by L2, and Hal was fighting him for it from L3."
+      },
+      {
+        "seg": 210,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "At the five-minute bell, if the Cob was still above the floor of L4, the Weighman would call the Letgo, and every Pin wo"
+      },
+      {
+        "seg": 235,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "Dunnet caught it in L3 and came down the far wall rope with it, through my zone, past Tull, walking down the stone on hi"
+      },
+      {
+        "seg": 239,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "Then he was below me, past the Lap, sliding down the rope past the L6 ledge on their wall and in under it."
+      },
+      {
+        "seg": 241,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "Dunnet fell upward into the underside of the L6 ledge and stuck there with the Cob hugged to his belly and one hand on t"
+      },
+      {
+        "seg": 245,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "The Cob was under L4."
+      },
+      {
+        "seg": 301,
+        "why": "digits (spell out, or check how they're read)",
+        "text": "Then I was alone on L5."
+      }
+    ],
+    "unknownNames": [
+      [
+        "Anchor",
+        6
+      ],
+      [
+        "Coopers'",
+        6
+      ],
+      [
+        "Coopers",
+        5
+      ],
+      [
+        "Shaft",
+        3
+      ],
+      [
+        "Nine",
+        3
+      ],
+      [
+        "Caller",
+        3
+      ],
+      [
+        "Gaffer",
+        2
+      ],
+      [
+        "Gallowsgate",
+        1
+      ],
+      [
+        "Ninepins'",
+        1
+      ],
+      [
+        "Tuesday",
+        1
+      ],
+      [
+        "Drops",
+        1
+      ],
+      [
+        "Dropper",
+        1
+      ]
+    ]
+  },
+  "asr": {
+    "wer": 0.0256,
+    "model": "small.en",
+    "names": {
+      "ellery": {
+        "ellery": 1
+      },
+      "hal": {
+        "hal": 6
+      },
+      "round": {
+        "round": 3,
+        "around": 1
+      },
+      "rafe": {
+        "rafe": 6,
+        "rave": 1,
+        "riff": 1
+      },
+      "ninepins": {
+        "nine pins": 1,
+        "ninepins": 2,
+        "nine pin's": 1
+      },
+      "throat": {
+        "throat": 5
+      },
+      "sibbald": {
+        "sybil": 2,
+        "civil": 1
+      },
+      "teague": {
+        "teague": 5,
+        "teak": 1
+      },
+      "step": {
+        "step": 1,
+        "steppe": 1
+      },
+      "stenning": {
+        "stenning": 2
+      },
+      "season": {
+        "season": 1
+      },
+      "pin": {
+        "pin": 11
+      },
+      "lisbet": {
+        "lisbeck": 1,
+        "lisbet": 1,
+        "this bet garel": 1,
+        "elizabeth holed": 1
+      },
+      "lip": {
+        "lip": 10
+      },
+      "dagny": {
+        "dagny": 1
+      },
+      "quillon": {
+        "quillen": 2
+      },
+      "thaw": {
+        "thaw": 1
+      },
+      "weighhouse": {
+        "way house": 1
+      },
+      "settle": {
+        "saddle": 1,
+        "settle": 1
+      },
+      "tallymen": {
+        "tally men": 1
+      },
+      "osk": {
+        "osk": 5
+      },
+      "dunnet": {
+        "dunnit": 4,
+        "done it": 2,
+        "donut": 2,
+        "dunnit lo": 1,
+        "donner": 1,
+        "donit": 2
+      },
+      "haig": {
+        "haig": 1
+      },
+      "scarrow": {
+        "skaro": 1
+      },
+      "cob": {
+        "cob": 13,
+        "cobb": 1
+      },
+      "weighman": {
+        "wayman": 5,
+        "waymen": 1
+      },
+      "garrow": {
+        "this bet garel": 1
+      },
+      "drop": {
+        "drop": 4
+      },
+      "brannock": {
+        "brannock": 6,
+        "brannak": 1,
+        "branok": 1
+      },
+      "hoist": {
+        "hoist": 2
+      },
+      "lap": {
+        "lap": 2,
+        "laugh": 1
+      },
+      "pru": {
+        "prue": 3
+      },
+      "tull": {
+        "tull": 5,
+        "tall": 1,
+        "tool": 1
+      },
+      "plumb": {
+        "plumb": 1
+      },
+      "free": {
+        "freefall": 2,
+        "free": 1
+      },
+      "letgo": {
+        "let go": 3
+      },
+      "release": {
+        "release": 1
+      },
+      "heavy": {
+        "heavy": 1
+      }
+    },
+    "issues": [
+      {
+        "kind": "misheard",
+        "time": 23.6,
+        "seg": 6,
+        "voice": "Fenrir",
+        "who": "rafe-quillon",
+        "expected": "dags",
+        "heard": "thanks",
+        "context": "still rafe is never still [dags] he said i've got eighty",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 46.32,
+        "seg": 14,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "sibbald",
+        "heard": "sybil",
+        "context": "frightened eighty crowns borrowed from [sibbald] teague this week four crowns",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 69.16,
+        "seg": 20,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "rafe's",
+        "heard": "rave's",
+        "context": "it if the ninepins lost [rafe's] money was gone and the",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 75,
+        "seg": 20,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "",
+        "heard": "he",
+        "context": "week until the day teague [] came to collect it and",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 91.82,
+        "seg": 23,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "coal",
+        "heard": "cold",
+        "context": "on the back of a [coal] chit at our kitchen table",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 101.26,
+        "seg": 25,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "he would",
+        "heard": "you",
+        "context": "read it i knew what [he would] do with it i left",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 109.1,
+        "seg": 30,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "rafe",
+        "heard": "rave",
+        "context": "that i'm able i said [rafe] stared at me you've never",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 116.64,
+        "seg": 35,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "lisbet",
+        "heard": "lisbeck",
+        "context": "you can't climb can you [lisbet] can rope me he didn't",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 122.86,
+        "seg": 38,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "sibbald",
+        "heard": "sybil",
+        "context": "anything he could have said [sibbald] teague was standing on the",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 126.2,
+        "seg": 38,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "weighman's",
+        "heard": "weyman's",
+        "context": "down the ladder beside the [weighman's] platform in a good grey",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 128,
+        "seg": 38,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "grey",
+        "heard": "gray",
+        "context": "weighman's platform in a good [grey] coat he is a soft",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 132.84,
+        "seg": 40,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "were",
+        "heard": "was",
+        "context": "to me as if i [were] somebody abel quillon's girl he",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 134.28,
+        "seg": 41,
+        "voice": "Iapetus",
+        "who": "sibbald-teague",
+        "expected": "",
+        "heard": "howl steny",
+        "context": "as if i were somebody [] abel quillon's girl he said",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 136.62,
+        "seg": 41,
+        "voice": "Iapetus",
+        "who": "sibbald-teague",
+        "expected": "quillon's",
+        "heard": "quillen's",
+        "context": "if i were somebody abel [quillon's] girl he said dagny quillon",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 139.58,
+        "seg": 43,
+        "voice": "Iapetus",
+        "who": "sibbald-teague",
+        "expected": "quillon",
+        "heard": "quillen",
+        "context": "quillon's girl he said dagny [quillon] plumbed on the second tuesday",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 148.08,
+        "seg": 44,
+        "voice": "Iapetus",
+        "who": "sibbald-teague",
+        "expected": "weighhouse",
+        "heard": "way house",
+        "context": "the long room over the [weighhouse] stables able never signed he",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 150.86,
+        "seg": 45,
+        "voice": "Iapetus",
+        "who": "sibbald-teague",
+        "expected": "able",
+        "heard": "abel",
+        "context": "room over the weighhouse stables [able] never signed he smiled your",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 164.62,
+        "seg": 51,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "settle",
+        "heard": "saddle",
+        "context": "water my father ran the [settle] lift until its cable parted",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 180.22,
+        "seg": 54,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "teague",
+        "heard": "teak",
+        "context": "i'd stood in at fourteen [teague] turned to my brother rafe",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 182.26,
+        "seg": 55,
+        "voice": "Iapetus",
+        "who": "sibbald-teague",
+        "expected": "quillon",
+        "heard": "quillen",
+        "context": "turned to my brother rafe [quillon] eighty crowns eighty four a",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 190.24,
+        "seg": 58,
+        "voice": "Iapetus",
+        "who": "sibbald-teague",
+        "expected": "step",
+        "heard": "steppe",
+        "context": "on the day of the [step] he said it gently like",
+        "name": true
+      },
+      {
+        "kind": "missing",
+        "time": 212.86,
+        "seg": 64,
+        "voice": "Orus",
+        "who": "hal-stenning",
+        "expected": "a",
+        "heard": "",
+        "context": "he took the hand away [a] liability he said to gaffer",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 223.64,
+        "seg": 69,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "",
+        "heard": "can't",
+        "context": "never trained can't climb can't [] he coughed again can't throw",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 229.32,
+        "seg": 72,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "dunnet",
+        "heard": "dunnit",
+        "context": "throw liability is it said [dunnet] haig and laughed big and",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 240,
+        "seg": 73,
+        "voice": "Sadaltager",
+        "who": "dunnet-haig",
+        "expected": "clerk",
+        "heard": "clark",
+        "context": "her breath like a tally [clerk] counts that's you now welcome",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 245.56,
+        "seg": 76,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "dunnet",
+        "heard": "dunnit",
+        "context": "welcome to shaft nine counts [dunnet] and lisbet went up and",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 258.3,
+        "seg": 79,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "scarrow",
+        "heard": "skaro",
+        "context": "winch rope groaned everybody in [scarrow] knows it's packed with lead",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 266.62,
+        "seg": 80,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "round",
+        "heard": "around",
+        "context": "to its legs and lay [round] each one in a little",
+        "name": true
+      },
+      {
+        "kind": "unclear",
+        "time": 279.08,
+        "seg": 84,
+        "expected": "quiet",
+        "heard": "quiet",
+        "p": 0.024
+      },
+      {
+        "kind": "misheard",
+        "time": 308.36,
+        "seg": 99,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "weighman",
+        "heard": "wayman",
+        "context": "anything about letting go the [weighman] put me on the lip",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 318.86,
+        "seg": 102,
+        "voice": "Sadachbia",
+        "who": "weighman",
+        "expected": "clause",
+        "heard": "claws",
+        "context": "word beside my name emergency [clause] result stands if she's registered",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 323.4,
+        "seg": 104,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "lisbet garrow",
+        "heard": "this bet garel",
+        "context": "she's registered inside seven days [lisbet garrow] put me in a sling",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 392.92,
+        "seg": 119,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "dunnet",
+        "heard": "done it",
+        "context": "is too late he pinned [dunnet] flat on our wall for",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 395.58,
+        "seg": 119,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "weighman",
+        "heard": "wayman",
+        "context": "for sixty counts and the [weighman] called the point then the",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 401.52,
+        "seg": 120,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "go into",
+        "heard": "going to",
+        "context": "throat and i heard it [go into] our well like a door",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 406.3,
+        "seg": 122,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "lisbet hauled",
+        "heard": "elizabeth holed",
+        "context": "a door slamming four nil [lisbet hauled] me up for the hoist",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 412.28,
+        "seg": 124,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "weighman",
+        "heard": "wayman",
+        "context": "wrist ached a lot the [weighman] read the scale nine stone",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 432.96,
+        "seg": 131,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "brannock",
+        "heard": "brannak",
+        "context": "side above our own well [brannock] took l5 across from me",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 443.56,
+        "seg": 135,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "their caller",
+        "heard": "tekola",
+        "context": "not the cob the anchor [their caller] was a big voiced woman",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 472.6,
+        "seg": 143,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "thirty",
+        "heard": "30",
+        "context": "counts so one count is [thirty] degrees and thirty degrees in",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 474.5,
+        "seg": 143,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "thirty",
+        "heard": "30",
+        "context": "count is thirty degrees and [thirty] degrees in a lap is",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 475.7,
+        "seg": 143,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "lap",
+        "heard": "laugh",
+        "context": "and thirty degrees in a [lap] is the difference between a",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 485.42,
+        "seg": 145,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "pru",
+        "heard": "prue",
+        "context": "it evens on the left [pru] called down from the lip",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 488.18,
+        "seg": 146,
+        "voice": "Zephyr",
+        "who": "pru-ambry",
+        "expected": "he's",
+        "heard": "is",
+        "context": "the lip seven to two [he's] late dunnet long the counting",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 489.26,
+        "seg": 147,
+        "voice": "Zephyr",
+        "who": "pru-ambry",
+        "expected": "dunnet",
+        "heard": "done it",
+        "context": "seven to two he's late [dunnet] long the counting didn't make",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 506,
+        "seg": 152,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "dunnet",
+        "heard": "donut",
+        "context": "hands could do the work [dunnet] swung across on his rope",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 513.18,
+        "seg": 155,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "dunnet",
+        "heard": "donut",
+        "context": "a count late thirty degrees [dunnet] let go over their side",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 529.86,
+        "seg": 160,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "pru",
+        "heard": "prue",
+        "context": "the backs of my legs [pru] read the coopers numbers off",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 531.22,
+        "seg": 160,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "weighman's",
+        "heard": "weyman's",
+        "context": "the coopers numbers off the [weighman's] board brannock's carrying six stone",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 535.72,
+        "seg": 162,
+        "voice": "Zephyr",
+        "who": "pru-ambry",
+        "expected": "he's sore",
+        "heard": "he saw",
+        "context": "carrying six stone twelve evens [he's sore] long odds he's happy coopers",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 539.92,
+        "seg": 165,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "dunnet",
+        "heard": "dunnit",
+        "context": "odds he's happy coopers said [dunnet] and grinned at their bench",
+        "name": true
+      },
+      {
+        "kind": "missing",
+        "time": 583.42,
+        "seg": 177,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "coopers had no dropper",
+        "heard": "",
+        "context": "flat on a wall the [coopers had no dropper] then the only thing between",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 584.76,
+        "seg": 178,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "cob",
+        "heard": "cobb",
+        "context": "the only thing between the [cob] and their well was brannock's",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 595.84,
+        "seg": 181,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "tull",
+        "heard": "tall",
+        "context": "a stone a minute too [tull] was one head one head",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 622.2,
+        "seg": 187,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "short fall he",
+        "heard": "shortfall there",
+        "context": "onto the far wall a [short fall he] was a metre off it",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 628.92,
+        "seg": 189,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "weighman",
+        "heard": "waymen",
+        "context": "were a floor and the [weighman] began to count he crawled",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 650.12,
+        "seg": 195,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "sixty",
+        "heard": "60",
+        "context": "i tipped and he slid [sixty] counts the weighman called the",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 651.9,
+        "seg": 196,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "weighman",
+        "heard": "wayman",
+        "context": "he slid sixty counts the [weighman] called the point four four",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 666.46,
+        "seg": 202,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "coal sack",
+        "heard": "colesack",
+        "context": "someone had hung a full [coal sack] from each knee by a",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 700.32,
+        "seg": 210,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "weighman",
+        "heard": "wayman",
+        "context": "the floor of l4 the [weighman] would call the letgo and",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 706.3,
+        "seg": 212,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "tull",
+        "heard": "tool",
+        "context": "for ten counts mine too [tull] would go free everything i'd",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 708.16,
+        "seg": 213,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "i'd",
+        "heard": "i",
+        "context": "tull would go free everything [i'd] paid would be for nothing",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 756.28,
+        "seg": 226,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "da",
+        "heard": "darr",
+        "context": "if i failed cage loaded [da] i said hold the brake",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 761.1,
+        "seg": 229,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "at",
+        "heard": "with",
+        "context": "that into the speaking tube [at] the top of the settle",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 766.66,
+        "seg": 231,
+        "voice": "Zephyr",
+        "who": "pru-ambry",
+        "expected": "low pru",
+        "heard": "prue",
+        "context": "every run nobody answered me [low pru] screamed from the lip dunnet",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 768.52,
+        "seg": 233,
+        "voice": "Zephyr",
+        "who": "pru-ambry",
+        "expected": "dunnet low",
+        "heard": "dunnit lo",
+        "context": "pru screamed from the lip [dunnet low] it's yours go go hal",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 773.28,
+        "seg": 235,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "dunnet",
+        "heard": "dunnit",
+        "context": "had knocked the cob loose [dunnet] caught it in l3 and",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 787.14,
+        "seg": 237,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "dunnet",
+        "heard": "donner",
+        "context": "zone it was eleven counts [dunnet] is a head and a",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 793.18,
+        "seg": 238,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "go into",
+        "heard": "going to",
+        "context": "every count i felt it [go into] my shins then he was",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 809.66,
+        "seg": 241,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "dunnet",
+        "heard": "donit",
+        "context": "a count late as always [dunnet] fell upward into the underside",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 822.44,
+        "seg": 243,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "their",
+        "heard": "there",
+        "context": "the throat a metre from [their] well the five minute bell",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 839.44,
+        "seg": 249,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "brannock",
+        "heard": "branok",
+        "context": "i am ashamed of that [brannock] was holding two heads straight",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 853.86,
+        "seg": 255,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "breathing",
+        "heard": "breathe in",
+        "context": "it too i heard her [breathing] between calls she lasted twenty",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 857.84,
+        "seg": 257,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "thirty",
+        "heard": "30",
+        "context": "she lasted twenty counts then [thirty] brannock she said not loud",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 868.98,
+        "seg": 264,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "dunnet",
+        "heard": "donit",
+        "context": "opened his zone went true [dunnet] dropped a metre on his",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 869.62,
+        "seg": 264,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "metre",
+        "heard": "meter",
+        "context": "went true dunnet dropped a [metre] on his rope opened his",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 873.1,
+        "seg": 264,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "coopers",
+        "heard": "coop as",
+        "context": "the cob fell into the [coopers] well seven four i opened",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 907.56,
+        "seg": 275,
+        "voice": "Fenrir",
+        "who": "rafe-quillon",
+        "expected": "brannock's",
+        "heard": "pranak's",
+        "context": "the ledge did you see [brannock's] face dags like a man",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 912.82,
+        "seg": 277,
+        "voice": "Fenrir",
+        "who": "rafe-quillon",
+        "expected": "and their caller",
+        "heard": "they call her",
+        "context": "down the shaft wasn't it [and their caller] did you see her i've",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 916.04,
+        "seg": 278,
+        "voice": "Fenrir",
+        "who": "rafe-quillon",
+        "expected": "a",
+        "heard": "had",
+        "context": "woman look so much like [a] dropped pie have you i",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 916.36,
+        "seg": 278,
+        "voice": "Fenrir",
+        "who": "rafe-quillon",
+        "expected": "pie",
+        "heard": "by",
+        "context": "so much like a dropped [pie] have you i tried to",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 935.6,
+        "seg": 283,
+        "voice": "Fenrir",
+        "who": "rafe-quillon",
+        "expected": "dags",
+        "heard": "dugs",
+        "context": "my hands still rafe stopped [dags] you're all right aren't you",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 941.72,
+        "seg": 288,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "",
+        "heard": "time",
+        "context": "i said i can't climb [] i didn't say anything after",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 950.04,
+        "seg": 291,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "lisbet's",
+        "heard": "lisbert's",
+        "context": "it his face changed then [lisbet's] voice came down from above",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 953.2,
+        "seg": 292,
+        "voice": "Aoede",
+        "who": "lisbet-garrow",
+        "expected": "haul",
+        "heard": "hold",
+        "context": "above she's too heavy to [haul] by hand i'll get the",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 954.32,
+        "seg": 293,
+        "voice": "Aoede",
+        "who": "lisbet-garrow",
+        "expected": "i'll",
+        "heard": "i",
+        "context": "heavy to haul by hand [i'll] get the harness and the",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 955.72,
+        "seg": 294,
+        "voice": "Aoede",
+        "who": "lisbet-garrow",
+        "expected": "rafe",
+        "heard": "riff",
+        "context": "the harness and the winch [rafe] up you're in my way",
+        "name": true
+      },
+      {
+        "kind": "missing",
+        "time": 965.16,
+        "seg": 299,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "he",
+        "heard": "",
+        "context": "sixteen and he'd won and [he] couldn't stop grinning i watched",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 981.38,
+        "seg": 300,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "sibbald",
+        "heard": "civil",
+        "context": "how you end up owing [sibbald] teague eighty crowns in the",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 982.38,
+        "seg": 300,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "eighty",
+        "heard": "80",
+        "context": "end up owing sibbald teague [eighty] crowns in the first place",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 1032.98,
+        "seg": 310,
+        "voice": "Despina",
+        "who": "dagny-quillon",
+        "expected": "down",
+        "heard": "dallin",
+        "context": "was holding a pin and [down] was pointing at me",
+        "name": false
+      }
+    ]
+  }
+}

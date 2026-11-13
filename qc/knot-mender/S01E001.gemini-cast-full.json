@@ -1,0 +1,827 @@
+{
+  "code": "S01E001",
+  "pass": false,
+  "checks": [
+    {
+      "name": "Loudness",
+      "pass": true,
+      "value": "-16.5 LUFS",
+      "want": "-16 ±1"
+    },
+    {
+      "name": "True peak",
+      "pass": false,
+      "value": "-0.9 dBTP",
+      "want": "≤ -1"
+    },
+    {
+      "name": "Clipping",
+      "pass": true,
+      "value": "0 samples at full scale",
+      "want": "0"
+    },
+    {
+      "name": "Dead air",
+      "pass": true,
+      "value": "none",
+      "want": "no silence > 3s"
+    },
+    {
+      "name": "Script lint",
+      "pass": true,
+      "value": "0 issue(s)",
+      "want": "0"
+    },
+    {
+      "name": "Word accuracy",
+      "pass": true,
+      "value": "97.7% (42 spots)",
+      "want": "≥ 97%"
+    },
+    {
+      "name": "Pace (overall)",
+      "pass": false,
+      "value": "176 wpm",
+      "want": "145-170 wpm"
+    },
+    {
+      "name": "Voice level match",
+      "pass": false,
+      "value": "3.3 dB spread",
+      "want": "≤ 3 dB"
+    }
+  ],
+  "signal": {
+    "lufs": -16.5,
+    "lra": 4.9,
+    "truePeak": -0.9,
+    "samplePeak": -1.6,
+    "clipped": 0,
+    "gaps": []
+  },
+  "voices": [
+    {
+      "who": "ila-brandt",
+      "voice": "Leda",
+      "wpm": 235,
+      "levelDb": -16.8
+    },
+    {
+      "who": "cuthbert-oake",
+      "voice": "Algieba",
+      "wpm": 189,
+      "levelDb": -17.8
+    },
+    {
+      "who": "supervisor",
+      "voice": "Kore",
+      "wpm": 200,
+      "levelDb": -16.9
+    },
+    {
+      "who": "paramedic",
+      "voice": "Alnilam",
+      "wpm": null,
+      "levelDb": null
+    },
+    {
+      "who": "bernie",
+      "voice": "Sulafat",
+      "wpm": 236,
+      "levelDb": -16.4
+    },
+    {
+      "who": "colin",
+      "voice": "Achird",
+      "wpm": null,
+      "levelDb": null
+    },
+    {
+      "who": "hester",
+      "voice": "Callirrhoe",
+      "wpm": 154,
+      "levelDb": -16.9
+    },
+    {
+      "who": "nurse",
+      "voice": "Laomedeia",
+      "wpm": 176,
+      "levelDb": -19.7
+    },
+    {
+      "who": "stan",
+      "voice": "Schedar",
+      "wpm": null,
+      "levelDb": null
+    }
+  ],
+  "lint": {
+    "issues": [],
+    "unknownNames": [
+      [
+        "Registry",
+        6
+      ],
+      [
+        "Second",
+        3
+      ],
+      [
+        "Class",
+        3
+      ],
+      [
+        "Bureau",
+        2
+      ],
+      [
+        "Allocation",
+        2
+      ],
+      [
+        "Wilf",
+        2
+      ],
+      [
+        "Mr",
+        2
+      ],
+      [
+        "Lost",
+        1
+      ],
+      [
+        "Umbrellas",
+        1
+      ],
+      [
+        "Clerk",
+        1
+      ],
+      [
+        "Knotter",
+        1
+      ],
+      [
+        "Tuner",
+        1
+      ],
+      [
+        "Porters",
+        1
+      ],
+      [
+        "Bernie",
+        1
+      ],
+      [
+        "Defibrillator",
+        1
+      ],
+      [
+        "Biscuit",
+        1
+      ],
+      [
+        "Ray",
+        1
+      ]
+    ]
+  },
+  "asr": {
+    "wer": 0.0233,
+    "model": "small.en",
+    "names": {
+      "lantry": {
+        "lantry": 3,
+        "lantern": 1,
+        "landtree": 1
+      },
+      "steps": {
+        "steps": 17
+      },
+      "row": {
+        "row": 2
+      },
+      "ila": {
+        "ela": 3,
+        "eel a brunt": 1
+      },
+      "brandt": {
+        "brandt": 5,
+        "eel a brunt": 1
+      },
+      "pargeter": {
+        "pargeter": 7,
+        "pajita": 1
+      },
+      "back": {
+        "back": 5
+      },
+      "docket": {
+        "docket": 3
+      },
+      "hands": {
+        "hands": 7
+      },
+      "tallow": {
+        "tallow": 1
+      }
+    },
+    "issues": [
+      {
+        "kind": "misheard",
+        "time": 22.56,
+        "seg": 6,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "turn",
+        "heard": "to hern",
+        "context": "silk it gives a half [turn] as if it has changed",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 45.26,
+        "seg": 11,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "fid",
+        "heard": "fit",
+        "context": "the man glances at the [fid] on my belt careful with",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 54.56,
+        "seg": 15,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "ila",
+        "heard": "ela",
+        "context": "a warrant good afternoon i'm [ila] brandt from the bureau of",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 57,
+        "seg": 16,
+        "voice": "Algieba",
+        "who": "cuthbert-oake",
+        "expected": "of",
+        "heard": "i've",
+        "context": "brandt from the bureau of [of] lost umbrellas i should think",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 69.14,
+        "seg": 20,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "fid",
+        "heard": "fit",
+        "context": "you do nobody calls a [fid] a spike not any more",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 121.42,
+        "seg": 35,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "knotter",
+        "heard": "not a",
+        "context": "the countersignature field allocation senior [knotter] vosper's section field allocation does",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 145.8,
+        "seg": 43,
+        "voice": "Alnilam",
+        "who": "paramedic",
+        "expected": "bureau",
+        "heard": "be alright",
+        "context": "he said mind the puddles [bureau] and i very nearly floated",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 161.76,
+        "seg": 47,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "l",
+        "heard": "el",
+        "context": "letters on the lid say [l] pargeter piano tuner mr pargeter",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 167.8,
+        "seg": 50,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "then",
+        "heard": "and",
+        "context": "of something under his breath [then] says the very same the",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 168.62,
+        "seg": 51,
+        "voice": "Algieba",
+        "who": "cuthbert-oake",
+        "expected": "",
+        "heard": "half",
+        "context": "under his breath then says [] the very same the flower",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 175.9,
+        "seg": 53,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "she is",
+        "heard": "she's",
+        "context": "of this over her buckets [she is] about sixty in a fleece",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 184.68,
+        "seg": 55,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "",
+        "heard": "he does it every day",
+        "context": "you won't shift him love [] she says he's here every",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 197.74,
+        "seg": 61,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "ila",
+        "heard": "ela",
+        "context": "we can talk properly i'm [ila] what's your name bernadette bernie",
+        "name": true
+      },
+      {
+        "kind": "extra",
+        "time": 209.22,
+        "seg": 67,
+        "voice": "Sulafat",
+        "who": "bernie",
+        "expected": "",
+        "heard": "thirty",
+        "context": "it twenty years myself thirty [] years near enough he's been",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 212.64,
+        "seg": 68,
+        "voice": "Sulafat",
+        "who": "bernie",
+        "expected": "you",
+        "heard": "he",
+        "context": "his lunch on that step [you] could time the trams by",
+        "name": false
+      },
+      {
+        "kind": "missing",
+        "time": 235.02,
+        "seg": 76,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "cheese",
+        "heard": "",
+        "context": "in the rain eating a [cheese] and pickle sandwich i swing",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 262.71,
+        "seg": 85,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "",
+        "heard": "work",
+        "context": "one inside is second class [] work and i am not",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 263.07,
+        "seg": 85,
+        "expected": "work",
+        "heard": "work,",
+        "p": 0.01
+      },
+      {
+        "kind": "spelling",
+        "time": 303.85,
+        "seg": 95,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "knotter",
+        "heard": "notter",
+        "context": "i feel like a field [knotter] mr pargeter i say i'm",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 312.35,
+        "seg": 101,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "",
+        "heard": "up",
+        "context": "the umbrellas will just stop [] he looks at me for",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 319.15,
+        "seg": 103,
+        "voice": "Algieba",
+        "who": "cuthbert-oake",
+        "expected": "",
+        "heard": "yes sir i say",
+        "context": "the brim of his hat [] must you he says somebody",
+        "name": false
+      },
+      {
+        "kind": "missing",
+        "time": 322.67,
+        "seg": 104,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "he says",
+        "heard": "",
+        "context": "of his hat must you [he says] somebody complained i'm afraid it's",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 333.87,
+        "seg": 110,
+        "voice": "Algieba",
+        "who": "cuthbert-oake",
+        "expected": "you'll",
+        "heard": "you will",
+        "context": "out at the river well [you'll] do as you think best",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 341.71,
+        "seg": 112,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "fid",
+        "heard": "fit",
+        "context": "and tie it to my [fid] by its string then i",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 344.39,
+        "seg": 114,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "ila brandt",
+        "heard": "eel a brunt",
+        "context": "string then i sign it [ila brandt] in my own hand before",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 346.31,
+        "seg": 114,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "fid",
+        "heard": "fit",
+        "context": "my own hand before the [fid] goes in that makes me",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 355.93,
+        "seg": 116,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "twenty four",
+        "heard": "24",
+        "context": "me somewhere in the next [twenty four] hours against the grain of",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 362.17,
+        "seg": 118,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "missed",
+        "heard": "mist",
+        "context": "two strands is nothing a [missed] tram a spilled tea the",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 370.61,
+        "seg": 122,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "shoos",
+        "heard": "shoes",
+        "context": "wet step beside him bernie [shoos] a pigeon off the railing",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 405.21,
+        "seg": 132,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "fid",
+        "heard": "fit",
+        "context": "with the point of the [fid] patient not hurrying because an",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 440.57,
+        "seg": 142,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "done",
+        "heard": "down",
+        "context": "back on my heels all [done] mr pargeter you won't he",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 441.09,
+        "seg": 142,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "pargeter",
+        "heard": "pajita",
+        "context": "my heels all done mr [pargeter] you won't he does not",
+        "name": true
+      },
+      {
+        "kind": "misheard",
+        "time": 472.27,
+        "seg": 152,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "course",
+        "heard": "cause",
+        "context": "way the bureau's first aid [course] taught us his chest gives",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 500.29,
+        "seg": 166,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "them a man's",
+        "heard": "the merman's",
+        "context": "for an ambulance and tell [them a man's] heart has stopped on the",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 516.25,
+        "seg": 171,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "kerb",
+        "heard": "curb",
+        "context": "all and stands at the [kerb] with her arm half raised",
+        "name": false
+      },
+      {
+        "kind": "missing",
+        "time": 525.07,
+        "seg": 176,
+        "voice": "Achird",
+        "who": "colin",
+        "expected": "they",
+        "heard": "",
+        "context": "man with the dog says [they] say twelve minutes twelve minutes",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 526.25,
+        "seg": 176,
+        "expected": "say",
+        "heard": "say",
+        "p": 0.047
+      },
+      {
+        "kind": "extra",
+        "time": 530.27,
+        "seg": 178,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "",
+        "heard": "he's gone",
+        "context": "minutes twelve minutes they're saying [] and the woman in the",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 532.97,
+        "seg": 179,
+        "voice": "Callirrhoe",
+        "who": "hester",
+        "expected": "",
+        "heard": "i don't wonder that",
+        "context": "in the green coat says [] keep going you're doing it",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 551.13,
+        "seg": 185,
+        "expected": "queue",
+        "heard": "queue",
+        "p": 0.001
+      },
+      {
+        "kind": "extra",
+        "time": 556.63,
+        "seg": 188,
+        "voice": "Laomedeia",
+        "who": "nurse",
+        "expected": "",
+        "heard": "can i help",
+        "context": "scrubs cardiac nurse she says [] off shift don't stop she",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 608.33,
+        "seg": 205,
+        "voice": "Laomedeia",
+        "who": "nurse",
+        "expected": "them",
+        "heard": "him",
+        "context": "asked for then don't knock [them] the nurse says hands off",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 725.75,
+        "seg": 242,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "lantry",
+        "heard": "lantern",
+        "context": "goes the umbrellas on the [lantry] steps stay the right way",
+        "name": true
+      },
+      {
+        "kind": "missing",
+        "time": 734.93,
+        "seg": 247,
+        "voice": "Callirrhoe",
+        "who": "hester",
+        "expected": "hester",
+        "heard": "",
+        "context": "green coat what's your name [hester] thank you hester you held",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 749.57,
+        "seg": 256,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "kerb",
+        "heard": "curb",
+        "context": "you biscuit bernie at the [kerb] with rain running off her",
+        "name": false
+      },
+      {
+        "kind": "spelling",
+        "time": 761.07,
+        "seg": 260,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "realise",
+        "heard": "realized",
+        "context": "him too the nurse i [realise] never told me hers and",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 795.97,
+        "seg": 268,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "twenty four",
+        "heard": "24",
+        "context": "coming somewhere in the next [twenty four] hours and i cannot make",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 838.49,
+        "seg": 283,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "",
+        "heard": "mmm",
+        "context": "isn't a box for that [] she says put see remarks",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 841.59,
+        "seg": 285,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "",
+        "heard": "remarks",
+        "context": "she says put see remarks [] so i put see remarks",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 843.45,
+        "seg": 286,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "see",
+        "heard": "c",
+        "context": "see remarks so i put [see] remarks and in the remarks",
+        "name": false
+      },
+      {
+        "kind": "misheard",
+        "time": 852.53,
+        "seg": 288,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "lantry",
+        "heard": "landtree",
+        "context": "ate his lunch on the [lantry] steps at noon for thirty",
+        "name": true
+      },
+      {
+        "kind": "spelling",
+        "time": 879.29,
+        "seg": 296,
+        "voice": "Schedar",
+        "who": "stan",
+        "expected": "gentleman",
+        "heard": "gentlemen",
+        "context": "not fit through the door [gentleman] for you the gentleman is",
+        "name": false
+      },
+      {
+        "kind": "extra",
+        "time": 898.07,
+        "seg": 301,
+        "voice": "Leda",
+        "who": "ila-brandt",
+        "expected": "",
+        "heard": "and",
+        "context": "corners he has his hat [] he is mr pargeter he",
+        "name": false
+      },
+      {
+        "kind": "unclear",
+        "time": 909.03,
+        "seg": 304,
+        "expected": "they",
+        "heard": "They",
+        "p": 0.023
+      },
+      {
+        "kind": "misheard",
+        "time": 917.39,
+        "seg": 307,
+        "voice": "Algieba",
+        "who": "cuthbert-oake",
+        "expected": "ila",
+        "heard": "ela",
+        "context": "they were restarting my heart [ila] brandt plain as you like",
+        "name": true
+      }
+    ]
+  }
+}

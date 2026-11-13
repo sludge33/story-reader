@@ -1,0 +1,27 @@
+{
+  "_note": "Audio producer notes for S01E001. speakers: quote # (from narrate --dry-run) -> speaker. \"narrator\" = Ila. Mr Pargeter is Cuthbert Oake under his alias. 5 and 60 are words quoted inside narration. 36-37 and 40-44 are the off-shift nurse; 47 is a voice in the ambulance.",
+  "cast": {
+    "supervisor": { "gemini": { "voice": "Kore", "style": "Dry, unflappable British office supervisor; flat, matter-of-fact, faintly kind" }, "names": [] },
+    "wilf": { "gemini": { "voice": "Alnilam", "style": "Friendly older British tram driver, gruff and teasing" }, "names": [] },
+    "bernie": { "gemini": { "voice": "Sulafat", "style": "Warm, chatty British flower seller of about sixty; calls everyone love" }, "names": [] },
+    "hester": { "gemini": { "voice": "Callirrhoe", "style": "Calm, steady British woman, kneeling and encouraging under pressure" }, "names": [] },
+    "colin": { "gemini": { "voice": "Achird", "style": "Ordinary, shaken British man in a flat cap; relaying a phone call, then quietly polite" }, "names": [] },
+    "nurse": { "gemini": { "voice": "Laomedeia", "style": "Brisk, practical British cardiac nurse, off shift; quick and in command" }, "names": [] },
+    "paramedic": { "gemini": { "voice": "Alnilam", "style": "Quiet British paramedic, low and regretful" }, "names": [] },
+    "stan": { "gemini": { "voice": "Schedar", "style": "Polite older British front-desk man, mildly put-upon" }, "names": [] }
+  },
+  "speakers": {
+    "1": "c-cuthbert-oake", "2": "narrator", "3": "c-cuthbert-oake", "4": "c-cuthbert-oake", "5": "narrator",
+    "6": "supervisor", "7": "narrator", "8": "wilf", "9": "narrator", "10": "c-cuthbert-oake",
+    "11": "bernie", "12": "bernie", "13": "narrator", "14": "narrator", "15": "bernie", "16": "bernie",
+    "17": "narrator", "18": "narrator", "19": "narrator", "20": "narrator", "21": "c-cuthbert-oake",
+    "22": "narrator", "23": "c-cuthbert-oake", "24": "c-cuthbert-oake", "25": "bernie", "26": "bernie",
+    "27": "narrator", "28": "narrator", "29": "narrator", "30": "narrator", "31": "narrator", "32": "narrator", "33": "narrator",
+    "34": "colin", "35": "hester", "36": "nurse", "37": "nurse", "38": "narrator", "39": "narrator",
+    "40": "nurse", "41": "nurse", "42": "nurse", "43": "nurse", "44": "nurse", "45": "narrator", "46": "narrator",
+    "47": "paramedic", "48": "narrator", "49": "hester", "50": "narrator", "51": "colin", "52": "colin",
+    "53": "narrator", "54": "bernie", "55": "narrator", "56": "supervisor", "57": "narrator",
+    "58": "supervisor", "59": "supervisor", "60": "narrator", "61": "stan", "62": "stan",
+    "63": "c-cuthbert-oake", "64": "c-cuthbert-oake"
+  }
+}

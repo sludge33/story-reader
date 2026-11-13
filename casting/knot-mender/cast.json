@@ -1,0 +1,37 @@
+{
+  "_note": "Voice casting for The Knot Clerk (1st person, present tense: Ila Brandt). Ila's own lines stay on the narrator voice (gemini.voices c-ila-brandt = \"narrator\"). gemini.narrator overrides config/tts.json gemini.narrator. In S01E001 Cuthbert Oake appears as Mr Pargeter (his alias), so those lines use Cuthbert's voice. Voices kept distinct from down-is-where-i-say. lexicon: Kokoro IPA; respell: Gemini only. Cast 2026-11-13, not yet approved by Ben.",
+  "lexicon": {
+    "Ila": "/ˈiːlə/",
+    "Brandt": "/bɹˈant/",
+    "Treadgold": "/tɹˈɛdɡəʊld/",
+    "Cuthbert": "/kˈʌθbət/",
+    "Danquah": "/dˈaŋkwə/",
+    "Gervase": "/dʒˈɜːveɪz/",
+    "Vosper": "/vˈɒspə/",
+    "Tregear": "/tɹəɡˈɪə/",
+    "Aurel": "/ˈaʊɹəl/",
+    "Pargeter": "/pˈɑːdʒɪtə/",
+    "Lantry": "/lˈantɹi/",
+    "fid": "/fˈɪd/"
+  },
+  "respell": {
+    "_note": "Gemini only: words replaced in the text sent to Gemini.",
+    "Ila": "Eela"
+  },
+  "gemini": {
+    "narrator": {
+      "voice": "Leda",
+      "style": "Earnest, eager, warm young British woman telling her own story in the present tense, a clerk on her first field job; bright and over-friendly, never dry or ironic; quicker and higher when excited or frightened; natural pace with clear pauses between paragraphs"
+    },
+    "voices": {
+      "c-ila-brandt": "narrator",
+      "c-cuthbert-oake": { "voice": "Algieba", "style": "Courtly, gentle older British gentleman; cultured voice a little worn, like a good coat out in a lot of weather; mild, amused, unhurried" },
+      "c-orla-treadgold": { "voice": "Gacrux", "style": "Blunt older British woman, a gardener; short sentences with long pauses; teaches by asking questions" },
+      "c-mags-danquah": { "voice": "Pulcherrima", "style": "Brisk British union shop steward; warm underneath, firm and final, never sentimental" },
+      "c-ferdie-lusk": { "voice": "Puck", "style": "Fast, cheerful young British man who talks in times and routes; goes quiet and careful at the word luck" },
+      "c-gervase-vosper": { "voice": "Rasalgethi", "style": "Warm, generous, salesman-smooth British man; friendly and precise; never raises his voice" },
+      "c-honoria-tregear": { "voice": "Erinome", "style": "Soft, exact, formal British woman of authority; polite and cool; no contractions" },
+      "c-aurel-brandt": { "voice": "Charon", "style": "Gentle, terse older British man, a bicycle mender; quiet and fond" }
+    }
+  }
+}
