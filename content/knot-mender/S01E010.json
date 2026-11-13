@@ -1,0 +1,576 @@
+{
+  "seriesId": "knot-mender",
+  "seriesTitle": "The Knot Clerk",
+  "code": "S01E010",
+  "title": "The Wrong Mile",
+  "blurb": "Ila has one morning to stop a snare aimed at her friend, and her perfect plan is guarding the wrong mile.",
+  "wordCount": 3169,
+  "durationSec": 1268,
+  "audio": null,
+  "publishedAt": null,
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Seven in the morning, and my father's name is still lying face up on the bench."
+    },
+    {
+      "type": "p",
+      "text": "Neither of us has been to bed. Mags went home at midnight. Since then Dad has trued four wheels, one-handed, each rim clamped between his knees, and I have sat on the upturned crate by the door and watched him do every one. The blue carbon card hasn't moved. Keeper: Aurel Brandt. Thirty years old, and steady as print."
+    },
+    {
+      "type": "p",
+      "text": "\"The chain,\" I say. It's the first thing either of us has said since the paraffin heater ran out. \"On the docks. The crane. That was the five strands.\""
+    },
+    {
+      "type": "p",
+      "text": "The spoke key stops."
+    },
+    {
+      "type": "p",
+      "text": "\"Next afternoon,\" Dad says. \"Teatime.\""
+    },
+    {
+      "type": "p",
+      "text": "That's all. He turns the wheel a quarter and starts again."
+    },
+    {
+      "type": "p",
+      "text": "I've spent the whole night practising what to say to him, and none of it was this. \"Dad. There were two knotters inside. One of them lived. I've met him. He's alive, and he eats a cheese and pickle sandwich at noon on the same step every day, and I can't tell you his name, because it isn't mine to tell. But he's alive.\""
+    },
+    {
+      "type": "p",
+      "text": "My father looks at the wheel for a long time."
+    },
+    {
+      "type": "p",
+      "text": "\"Pass us the spoke key, Inspector,\" he says. \"It's gone under the tin.\""
+    },
+    {
+      "type": "p",
+      "text": "It's in his hand. I don't tell him."
+    },
+    {
+      "type": "p",
+      "text": "Then the roller door rattles up, and Ferdie ducks under it in his Same-Day jacket, rain on his shoulders, a sheet of paper held flat to his chest."
+    },
+    {
+      "type": "p",
+      "text": "\"Seven-oh-two,\" he says, out of breath. \"Morning, Mr Brandt. Ila, I carry Allocation's run sheet to the Porters' hall every morning, I'm due there at ten past and I'll be there at ten past, but look at the top line first. It's his. It's his own job.\""
+    },
+    {
+      "type": "p",
+      "text": "I look. The top line is in Allocation's typewriter capitals: the old fish market, the weighbridge yard, a worn knot of six strands, for clearance by Senior Knotter G. Vosper, Porter's docket attached, untie at eleven."
+    },
+    {
+      "type": "p",
+      "text": "Vosper doesn't do his own clearances. He has juniors to swing his sites, and he certifies their sheets two strands low. I have twelve photographs that say so. But a sour he's been saving for a shop steward is exactly the job a man would do himself."
+    },
+    {
+      "type": "p",
+      "text": "I stand up and look at my chalk map on Dad's back wall. The old fish market. The union hall. Under a mile apart in a straight line. I chalked them both."
+    },
+    {
+      "type": "p",
+      "text": "It comes together all at once, the way the right answer does in an exam, and I can feel myself smiling for the first time since last night."
+    },
+    {
+      "type": "p",
+      "text": "Item: the snare is at the weighbridge. Item: the mile is measured when it fires. Item: the untie is at eleven. Item: so at eleven, Mags is two miles away, and the snare is spent."
+    },
+    {
+      "type": "p",
+      "text": "\"Ferdie,\" I say, \"I need to get to the hall before you do.\""
+    },
+    {
+      "type": "p",
+      "text": "\"You can't,\" says Ferdie. \"Come with me. Seven-oh-four. Come on.\""
+    },
+    {
+      "type": "p",
+      "text": "At the door I look back. Dad still hasn't looked up."
+    },
+    {
+      "type": "p",
+      "text": "\"Mind how you go, Inspector,\" he says, to the wheel."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Mags is already in the hall kitchen in her donkey jacket, making tea in the big brown pot as if this is any other morning. I lay the run sheet on the table and tell her the plan before she's poured. The 14 at half past ten. Out past the gasworks, two miles at least, by eleven. Vosper unties on the minute on his own paper, the snare fires with Mags far out of range, it's spent, and it's over."
+    },
+    {
+      "type": "p",
+      "text": "Mags hears me out. Then she lays her palm flat on the run sheet."
+    },
+    {
+      "type": "p",
+      "text": "\"He doesn't untie at eleven, love,\" she says. \"He unties when I'm inside his mile. If I run, he waits, and he sours the next steward. And if he's daft enough to untie while I'm away—\" She moves her palm down to the last line. Porter's docket attached. \"Six strands land on my member.\""
+    },
+    {
+      "type": "p",
+      "text": "I look at the line under her hand. Allocation's hour, on Allocation's paper, on Vosper's own job. The man with the fid chooses the minute, and I've been guarding a mile around a time he wrote down himself."
+    },
+    {
+      "type": "p",
+      "text": "\"I'm wrong,\" I say. \"I'm wrong. I was guarding the wrong mile.\""
+    },
+    {
+      "type": "p",
+      "text": "\"You were.\" She pours the tea anyway and pushes a mug at me."
+    },
+    {
+      "type": "p",
+      "text": "\"Then you have to go further. Out of the city. Tonight, and stay out until—\""
+    },
+    {
+      "type": "p",
+      "text": "\"Until what? He waits a month. A year. A snare keeps till it fires; you told me that yourself.\" She sits down. \"No. I stay here. Inside his mile, in my own hall, with the membership round me. If it's coming, it comes today, and it comes where people can hear whose name rides on it.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Mags, it's six strands.\""
+    },
+    {
+      "type": "p",
+      "text": "\"I know what six is. I've signed for six in my time.\" She says it plainly, the way she says everything. \"Now tell me the bit where the name isn't my member's.\""
+    },
+    {
+      "type": "p",
+      "text": "That's a rule I know word for word, and this time I check the case before I open my mouth. \"A keeper can withdraw consent until the slack falls. He says so, and tears the counterfoil. Then the untier is the keeper.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Union rule,\" says Mags. \"No member shall withdraw his hand from a docket once given, save in a dispute declared by his branch.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Then declare one.\""
+    },
+    {
+      "type": "p",
+      "text": "Her palm goes flat on the table. \"Branch declares. Notice to Management by close of the day.\" The corner of her mouth moves. \"Rule doesn't say before eleven.\""
+    },
+    {
+      "type": "p",
+      "text": "There's one more thing I want. I ring Standards from the hall telephone, on my own suspended name, and tell a bored voice that a branch of the Porters is declaring a dispute this morning over a live Allocation docket, with withdrawals at the hall before the fall. If nobody witnesses them, Standards will be swinging the wrong keeper tomorrow."
+    },
+    {
+      "type": "p",
+      "text": "There's a long pause."
+    },
+    {
+      "type": "p",
+      "text": "\"Someone will attend at half past ten,\" the voice says."
+    },
+    {
+      "type": "p",
+      "text": "When I put the phone down, Mags has the sour book open on the table. The black card cover. The dozen clean tags, and after them the last one, with her own name pencilled on the target line in Vosper's hand. She tears off a blank and holds it out."
+    },
+    {
+      "type": "p",
+      "text": "\"You'll want something to sign,\" she says. \"They're his. He'll not miss one.\""
+    },
+    {
+      "type": "p",
+      "text": "I put it in my coat with my bob."
+    },
+    {
+      "type": "p",
+      "text": "\"Mags. I promised you a day.\""
+    },
+    {
+      "type": "p",
+      "text": "\"You did.\""
+    },
+    {
+      "type": "p",
+      "text": "\"I can't keep it. I'm sorry.\""
+    },
+    {
+      "type": "p",
+      "text": "She looks at the clock over the kitchen door. \"It's still the day, love,\" she says. \"Go and keep it.\""
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "The fish market moved out to the bypass years ago, but the public weighbridge still works: a steel plate the size of a lorry bed in a yard of wet cobbles, a hut with a clock over its door, and a clerk in an orange cagoule eating toast in the doorway."
+    },
+    {
+      "type": "p",
+      "text": "I take my bob out over the plate."
+    },
+    {
+      "type": "p",
+      "text": "It swings crooked, then circles. Six times round, and still. No half-turn. Six."
+    },
+    {
+      "type": "p",
+      "text": "The Porter comes at a quarter to eleven, a young man in a flat cap with his hands in his pockets. He doesn't look at me. A minute later Ferdie rings to say the man from Standards has come to the hall, wet shoes and a clipboard, and Mags has given him the good chair."
+    },
+    {
+      "type": "p",
+      "text": "Gervase Vosper arrives at five to eleven, under his black umbrella."
+    },
+    {
+      "type": "p",
+      "text": "\"Ila,\" he says, delighted. \"Good morning. Have you come to see how it's done?\""
+    },
+    {
+      "type": "p",
+      "text": "\"I've come to swing it.\""
+    },
+    {
+      "type": "p",
+      "text": "\"And?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Six.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Six,\" he agrees warmly, and takes out the docket and writes six in the count, in front of me. It's the first count of his I've seen that matches the ground. \"What a steady wrist you have.\""
+    },
+    {
+      "type": "p",
+      "text": "The Porter signs as keeper in his own hand, sober, in the rain, and ties the docket to the fid. Vosper kneels by the plate. He doesn't hurry. He never does."
+    },
+    {
+      "type": "p",
+      "text": "I want to take hold of his arm. I don't. A fid stopped halfway leaves a snarl, and a snarl misfires on everyone round its anchor until somebody with reach enough finishes the job. The lorry drivers. The clerk with his toast. Me. So I stand still and watch a man untie a knot he tied a snare to, and it is the longest six minutes of my life."
+    },
+    {
+      "type": "p",
+      "text": "Six minutes past eleven. The knot is gone. The rain over the plate comes down a little wrong, a little slow, and when I hold out my bob it pulls toward the plate as if the plate were downhill. That's the dwell. Six minutes of it. Then the snare fires on Mags."
+    },
+    {
+      "type": "p",
+      "text": "I hold my phone out to the Porter. It's on speaker."
+    },
+    {
+      "type": "p",
+      "text": "\"It's your steward,\" I say."
+    },
+    {
+      "type": "p",
+      "text": "Mags's voice comes out of it into the yard, and behind her I can hear chairs scraping and men going quiet. \"The branch is in dispute with Field Allocation,\" she says. \"Members on Management's paper, withdraw your hands.\""
+    },
+    {
+      "type": "p",
+      "text": "The Porter looks at the phone. Then at Vosper."
+    },
+    {
+      "type": "p",
+      "text": "\"Whose name's on it?\" he asks me. \"The target. Nobody ever tells us the target.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Hers,\" I say. \"Your steward's.\""
+    },
+    {
+      "type": "p",
+      "text": "He takes his hands out of his pockets. \"I withdraw my hand,\" he says, quite loud, and walks to the fid where it lies on the plate and tears the counterfoil off the docket."
+    },
+    {
+      "type": "p",
+      "text": "Vosper lets him. He even says thank you, the way you'd thank someone for passing your coat."
+    },
+    {
+      "type": "p",
+      "text": "So now the keeper is Vosper. In a few minutes the snare fires, and Mags takes six strands of whatever he designed for her, and the name inside it will be his. That's what Mags chose. That's what I asked Standards to come and hear. I knew it in the hall kitchen this morning and I know it now, and none of that is the same as standing in the rain while it happens."
+    },
+    {
+      "type": "p",
+      "text": "Vosper looks round the yard: at the gate onto the street, at the clerk, at the Porter, at me. Then he folds both hands on his umbrella handle, and waits."
+    },
+    {
+      "type": "p",
+      "text": "I'm frightened. So I do what I always do."
+    },
+    {
+      "type": "p",
+      "text": "\"You in the orange cagoule,\" I call. \"Could you hold that gate shut for me and not move? Just stand there where I can see you.\""
+    },
+    {
+      "type": "p",
+      "text": "The clerk puts his toast down on the hut step. He goes to the gate and holds it."
+    },
+    {
+      "type": "p",
+      "text": "\"You in the flat cap. Could you watch the clock over the hut and tell me when it's ten past?\""
+    },
+    {
+      "type": "p",
+      "text": "The Porter nods."
+    },
+    {
+      "type": "p",
+      "text": "I take the blank tag out of my coat and sign it against my knee. Ila Brandt, keeper. I'm suspended and unlicensed, and I have never made a real catch in my life, and this is a crime under the Act, and I sign it in my own hand anyway."
+    },
+    {
+      "type": "p",
+      "text": "There's an old cobble at the edge of the plate, worn round, moss in the joints all the way about it. Nobody has lifted it in my lifetime or the clerk's. Room for two. I only need room for one."
+    },
+    {
+      "type": "p",
+      "text": "In the garden Orla catches and I watch. Here there's only me, and the wrong rain, and the slack waiting over a steel plate for the minute it's due. I put my hands into the cold of it and find one strand. Just one: my tie reach is one. And I need a loose strand in sight to tie it with, and there he is, a man in an orange cagoule holding a gate, a whole chain of causes, his shift and his toast and whatever brought him to this hut. I bring the strand round to him the way I've tied a thousand practice knots on bare cord with my eyes shut."
+    },
+    {
+      "type": "p",
+      "text": "I lay it on the cobble."
+    },
+    {
+      "type": "p",
+      "text": "The cobble does nothing at all. Then a coin I didn't know was in the puddle beside it rolls up onto its edge, and stays there."
+    },
+    {
+      "type": "p",
+      "text": "\"Ten past,\" says the Porter."
+    },
+    {
+      "type": "p",
+      "text": "My phone is still in his hand. I take it back. On the other end I can hear the hall: the urn, somebody coughing, Mags saying, \"Sit down, the lot of you.\""
+    },
+    {
+      "type": "p",
+      "text": "It isn't enough. It's all I can do."
+    },
+    {
+      "type": "p",
+      "text": "Then, out of the phone, a bang like a door slammed by the wind, and metal, and crates going over, and Mags's voice, short and sharp, and everybody shouting at once."
+    },
+    {
+      "type": "p",
+      "text": "\"Eleven-eleven,\" Ferdie says, very close to the phone. \"The van at the yard door, the tailgate just gave way, Ila, it came down on her arm, she's sitting up, she's talking—\""
+    },
+    {
+      "type": "p",
+      "text": "\"It's my wrist,\" says Mags, from further off. \"It's broken. Get that lad from Standards over here.\""
+    },
+    {
+      "type": "p",
+      "text": "Then a new voice, a man's, puzzled. The caretaker. \"This isn't even ours,\" he says. \"This parcel. It's come off the van. Who's—\" Paper rustles. \"Gervase Vosper? Care of the Porters' hall?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Say that again,\" says Mags."
+    },
+    {
+      "type": "p",
+      "text": "\"Gervase Vosper,\" the caretaker reads, louder. \"That's what it says.\""
+    },
+    {
+      "type": "p",
+      "text": "\"You heard it,\" Mags tells someone. \"Write it down.\""
+    },
+    {
+      "type": "p",
+      "text": "\"I heard it,\" says the man from Standards."
+    },
+    {
+      "type": "p",
+      "text": "In the yard, Gervase Vosper has heard it too, out of my phone, in the rain. He doesn't move for a moment. Then he looks at the cobble, and at the coin standing on its edge, and smiles at me as kindly as ever."
+    },
+    {
+      "type": "p",
+      "text": "\"One strand, Ila,\" he says. \"And so cleanly done. You're going to be very good.\" He tilts his umbrella toward the gate. \"Would your friend mind?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Let him through, please,\" I say, and the clerk lets him through."
+    },
+    {
+      "type": "p",
+      "text": "I don't know what the sixth strand would have been. Nobody will ever know that now. It's a wrist, and it's broken, and it's Mags's, and I've done the only thing my hands could do."
+    },
+    {
+      "type": "p",
+      "text": "I go over to the gate."
+    },
+    {
+      "type": "p",
+      "text": "\"What's your name?\" I ask the clerk."
+    },
+    {
+      "type": "p",
+      "text": "\"Wilf.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Thank you, Wilf. You held it perfectly.\""
+    },
+    {
+      "type": "p",
+      "text": "The Porter is already walking off. \"What's yours?\" I call after him."
+    },
+    {
+      "type": "p",
+      "text": "\"Ask my steward,\" he says, without turning round, and I laugh out loud in the rain, because it's exactly what Mags would want him to say."
+    },
+    {
+      "type": "p",
+      "text": "\"Thank you anyway!\""
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "I lodge my catch docket at the Registry hatch at twelve. Gwen looks at it for a long time."
+    },
+    {
+      "type": "p",
+      "text": "\"This one you do have to take,\" I tell her. \"It isn't a complaint. It's a docket.\""
+    },
+    {
+      "type": "p",
+      "text": "She takes it."
+    },
+    {
+      "type": "p",
+      "text": "At two the Sexton sends for me."
+    },
+    {
+      "type": "p",
+      "text": "Her office is at the top of the tower stairs, small and very tidy, and my docket is lying in the middle of her desk. Sexton Tregear thanks me for coming. Then she reads my docket aloud, softly, the way you'd read out the weather. \"A catch of one strand at the old fish market, parked on a cobble of the weighbridge yard, by a suspended officer of this Bureau who holds no licence to tie anything at all.\""
+    },
+    {
+      "type": "p",
+      "text": "She takes a pen and writes something small in the margin, and initials it, and lays the docket in a tray by her elbow, where she can reach it."
+    },
+    {
+      "type": "p",
+      "text": "\"Thank you, Clerk Brandt,\" she says, and that is all she says about it."
+    },
+    {
+      "type": "p",
+      "text": "\"Senior Knotter Vosper,\" she goes on, \"will take up a post in Archive from Monday. Standards will not be bringing a charge.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Archive,\" I say. \"Not Standards?\""
+    },
+    {
+      "type": "p",
+      "text": "\"Archive.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Why, Sexton?\""
+    },
+    {
+      "type": "p",
+      "text": "She considers me. \"Because what Knotter Vosper knows should be kept where the Bureau can find it,\" she says. \"Thank you for your question. Your suspension is lifted. Standards has a Probationer's practical at three o'clock. You will sit it.\""
+    },
+    {
+      "type": "p",
+      "text": "There's another question in my mouth. It's about the Corn Exchange, and two knotters inside a knot when the order was signed, and initials in a margin in a neat hand very like the one she's just used on my docket. I keep it there. If I ask it, the next thing anybody looks at is the keeper's line, and the keeper's line is my father."
+    },
+    {
+      "type": "p",
+      "text": "\"Thank you,\" says the Sexton. \"That will be all.\""
+    },
+    {
+      "type": "p",
+      "text": "The practical is in a cold room on the second floor. A brass frame on a table with three cords knotted through it, a numbered Bureau fid, and a man from Standards with a bob and a stopwatch. I untie three strands in a little over three minutes, without stopping once. He swings the frame and it's plumb."
+    },
+    {
+      "type": "p",
+      "text": "\"Pass,\" he says, and writes it."
+    },
+    {
+      "type": "p",
+      "text": "At five past four I walk out onto Tallow Row with a new pass in my pocket. Probationer I. Brandt. Licensed to untie three and tie one."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "Orla is on the top terrace in her waxed jacket, on her knees by Abbot, when I come up the path in the last of the rain. I sit on the wall and tell her all of it. The weighbridge and the snare. Mags's wrist. The tearing. My one strand on the old cobble. And the name I should have told her weeks ago."
+    },
+    {
+      "type": "p",
+      "text": "\"Gervase Vosper,\" I say. \"It was his book. It's been him all along.\""
+    },
+    {
+      "type": "p",
+      "text": "Her trowel stops."
+    },
+    {
+      "type": "p",
+      "text": "It stays stopped a long while. Then it goes back into the earth."
+    },
+    {
+      "type": "p",
+      "text": "\"Gervase,\" she says. Only that."
+    },
+    {
+      "type": "p",
+      "text": "\"I should have told you. I'm sorry.\""
+    },
+    {
+      "type": "p",
+      "text": "\"One strand,\" says Orla. \"On whose stone?\""
+    },
+    {
+      "type": "p",
+      "text": "\"An old cobble in the weighbridge yard. Moss all the way round it.\""
+    },
+    {
+      "type": "p",
+      "text": "\"Then it's yours. Visit it.\" She pats the grey stone beside her. \"Stones like a visit. Don't you, Abbot.\" She sits back on her heels and looks at me properly. \"Go home. Your father will want his tea, Brandt.\""
+    },
+    {
+      "type": "p",
+      "text": "I'm halfway down the path before I hear it. I turn round. She's already back at the bed, talking to Mustard."
+    },
+    {
+      "type": "p",
+      "text": "Brandt."
+    },
+    {
+      "type": "break"
+    },
+    {
+      "type": "p",
+      "text": "The next morning the nine o'clock bell rings nine strokes at nine, the way it has every morning of my life, and at five past, Stan at the front desk sends me up the tower stairs again."
+    },
+    {
+      "type": "p",
+      "text": "The Sexton has a docket waiting on her desk: a fresh card tag, its string still coiled, the keeper's line empty."
+    },
+    {
+      "type": "p",
+      "text": "\"Good morning, Probationer Brandt,\" she says. \"Thank you for coming so promptly. Your first docket.\""
+    },
+    {
+      "type": "p",
+      "text": "I pick it up. The job line is in her own small upright hand."
+    },
+    {
+      "type": "p",
+      "text": "The top terrace, Nettlecombe Allotments. Clearance of an illegal stone garden. One hundred and forty stones. To be completed by the end of the month."
+    },
+    {
+      "type": "p",
+      "text": "All of them. Abbot and Mustard and the quiet cobble in its hollow. Every stone Orla has carried up that hill in thirty years, and the knotter who's to untie them, one at a time, with her own hands, is me. Mustard is two strands. Abbot is three, the most my pass allows and the most my hands can do. Nobody has told me what the other hundred and thirty-seven are."
+    },
+    {
+      "type": "p",
+      "text": "\"Sexton,\" I say. \"I—\""
+    },
+    {
+      "type": "p",
+      "text": "She folds her hands on the desk."
+    },
+    {
+      "type": "p",
+      "text": "\"Thank you. That will be all.\""
+    }
+  ]
+}

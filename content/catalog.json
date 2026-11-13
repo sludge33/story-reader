@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T21:16:09.525Z",
+  "generatedAt": "2026-11-13T17:56:41.308Z",
   "series": [
     {
       "id": "lantern-mender",
@@ -200,6 +200,108 @@
           "blurb": "Fintan crosses alone to win his name back and finds it has already travelled somewhere he cannot follow.",
           "wordCount": 3622,
           "durationSec": 1449,
+          "audio": null,
+          "publishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "knot-mender",
+      "title": "The Knot Clerk",
+      "logline": "Ila Brandt, a junior clerk at the Bureau of Causal Repair, learns that coincidences are knots in cause and effect and that fixing one means spending another. Her first solo repair goes wrong in a way the Bureau says is impossible.",
+      "hook": "Every episode untangles one knotted coincidence with a bigger trick, and each fix pays a visible cost. The payoff is who knotted the world's first cause, and why the Bureau exists to keep it hidden.",
+      "genre": "fantasy",
+      "contentRating": "teen",
+      "season": 1,
+      "stage": "pilot",
+      "episodes": [
+        {
+          "code": "S01E001",
+          "title": "Plain as You Like",
+          "blurb": "A junior clerk unties two strands of umbrella trouble on a quiet set of steps, and the man at the centre of it stops breathing.",
+          "wordCount": 2688,
+          "durationSec": 1075,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E002",
+          "title": "The Wrong Wanting",
+          "blurb": "The man she thought she killed is alive and waiting, her slack is due before noon, and a hearing is about to decide what she really wanted.",
+          "wordCount": 2438,
+          "durationSec": 975,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E003",
+          "title": "A Crime in My Hand",
+          "blurb": "A suspended clerk climbs the hill to a garden of illegal knots, and the only teacher who will take her asks her to sign her name to a crime.",
+          "wordCount": 2256,
+          "durationSec": 902,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E004",
+          "title": "The Name Rides",
+          "blurb": "Ila signs her own name to a stranger's knot, and the slack that falls lands on her father's workbench, while a dead man pours her tea.",
+          "wordCount": 2609,
+          "durationSec": 1044,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E005",
+          "title": "A Stone Gone Walking",
+          "blurb": "A yellow cobble has vanished from Orla's garden row, and Ila's hunt for the thief leads to a confession about Cuthbert and a map with one street at its heart.",
+          "wordCount": 2309,
+          "durationSec": 924,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E006",
+          "title": "A Consideration",
+          "blurb": "Ila finds out who made the luckiest courier in Brindlemouth lucky, and for the first time she breaks the rulebook rather than follow it.",
+          "wordCount": 2351,
+          "durationSec": 940,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E007",
+          "title": "The Sour Book",
+          "blurb": "A baker's lad lies hurt under a fallen shop sign, asking who Leonard Pask is, and the pad of pre-written dockets Ila uncovers has one name left to fill.",
+          "wordCount": 2696,
+          "durationSec": 1078,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E008",
+          "title": "The Good Cabinet",
+          "blurb": "Ila sneaks into Field Allocation for proof, and finds the file that was written about her before she ever picked up a fid.",
+          "wordCount": 2250,
+          "durationSec": 900,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E009",
+          "title": "What the Carbon Kept",
+          "blurb": "Mags finally opens the union's thirty-year-old box, and what the carbon copy says about the Corn Exchange keeper has Ila walking into her father's lock-up.",
+          "wordCount": 2334,
+          "durationSec": 934,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E010",
+          "title": "The Wrong Mile",
+          "blurb": "Ila has one morning to stop a snare aimed at her friend, and her perfect plan is guarding the wrong mile.",
+          "wordCount": 3169,
+          "durationSec": 1268,
           "audio": null,
           "publishedAt": null
         }
@@ -506,6 +608,108 @@
           "blurb": "Petra wins the Daylight Playoff on the Ninth Stair, opens the clock that cost her a post, and at dawn is asked to audit the Reserve.",
           "wordCount": 3272,
           "durationSec": 1309,
+          "audio": null,
+          "publishedAt": null
+        }
+      ]
+    },
+    {
+      "id": "down-is-where-i-say",
+      "title": "Down Is Where I Say",
+      "logline": "In a mining town's abandoned shafts, the sport Plumb decides which way is down. A shaft-lift operator's daughter becomes the Anchor, the only player who can hold gravity still for her team, and every hour makes her heavier.",
+      "hook": "Descend the shaft tiers from Shaft Nine to the Deepest Cup, outsmarting stronger players with vector maths and nerve, and learn what the first miners were holding down.",
+      "genre": "progression",
+      "contentRating": "teen",
+      "season": 1,
+      "stage": "pilot",
+      "episodes": [
+        {
+          "code": "S01E001",
+          "title": "Eighty Crowns on the Ninepins",
+          "blurb": "Dagny Quillon has never held a Pin in a match, but her brother has borrowed eighty crowns against a team that just lost its Anchor.",
+          "wordCount": 2758,
+          "durationSec": 1103,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E002",
+          "title": "What the Water Knew",
+          "blurb": "Dagny wakes to water that runs uphill to her feet, and the one man who can name it has never seen anyone come back.",
+          "wordCount": 2482,
+          "durationSec": 993,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E003",
+          "title": "Next One by the Spot",
+          "blurb": "Dagny has to pass a doctor's plumb-bob to play on, and then a fast Tanners Anchor and a coin in the wrong hand show her how much can be counted but not controlled.",
+          "wordCount": 3010,
+          "durationSec": 1204,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E004",
+          "title": "The Letgo Is a Place",
+          "blurb": "Dagny holds a dead-still Cob for five minutes against a team that has done this before, and the bell is about to teach her what she didn't know.",
+          "wordCount": 2483,
+          "durationSec": 993,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E005",
+          "title": "Heavier Every Monday",
+          "blurb": "Dagny gives up two zones to hold one, and the sum she does out loud shows her who has been throwing Drops, but the Weighman has been doing sums of his own.",
+          "wordCount": 2730,
+          "durationSec": 1092,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E006",
+          "title": "Where Nothing Falls",
+          "blurb": "Dagny finds a way to make a whole shaft hold still, but the cost of keeping a friend's secret is climbing faster than her weight.",
+          "wordCount": 2552,
+          "durationSec": 1021,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E007",
+          "title": "Nine Pounds Short of Heavy",
+          "blurb": "Dagny is nine pounds from Heavy with two Drops left, and the one man who could drain her has just shown her what his chair is really made of.",
+          "wordCount": 2338,
+          "durationSec": 935,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E008",
+          "title": "Hold, and Don't Look Down",
+          "blurb": "Dagny has to win on nothing but trust and a hair's turn, because one paid pound tips her Heavy, and Pru has been keeping a secret since the night it all began.",
+          "wordCount": 2696,
+          "durationSec": 1078,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E009",
+          "title": "Fifteen Counts",
+          "blurb": "A stuck cage, a worn cable and one rescue Pin give Dagny fifteen counts to spend, and the league's next notice leaves her nowhere to hide.",
+          "wordCount": 3037,
+          "durationSec": 1215,
+          "audio": null,
+          "publishedAt": null
+        },
+        {
+          "code": "S01E010",
+          "title": "Sudden Drop",
+          "blurb": "Tied at four-all with every Pin let go, Dagny has one throw left and a debt that is nearly paid.",
+          "wordCount": 3403,
+          "durationSec": 1361,
           "audio": null,
           "publishedAt": null
         }
