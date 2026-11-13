@@ -1,0 +1,115 @@
+{
+  "durationSec": 1164,
+  "voiceUsd": 0.274,
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "mode": "batched",
+  "batches": [
+    {
+      "voice": "Achernar",
+      "lines": 10,
+      "chars": 2138,
+      "score": 0.984
+    },
+    {
+      "voice": "Enceladus",
+      "lines": 19,
+      "chars": 1027,
+      "score": 0.995
+    },
+    {
+      "voice": "Alnilam",
+      "lines": 2,
+      "chars": 382,
+      "score": 0.986
+    },
+    {
+      "voice": "Achernar",
+      "lines": 10,
+      "chars": 2207,
+      "score": 0.982
+    },
+    {
+      "voice": "Achernar",
+      "lines": 13,
+      "chars": 2153,
+      "score": 0.95
+    },
+    {
+      "voice": "Laomedeia",
+      "lines": 14,
+      "chars": 406,
+      "score": 0.955
+    },
+    {
+      "voice": "Callirrhoe",
+      "lines": 6,
+      "chars": 134,
+      "score": 1
+    },
+    {
+      "voice": "Achird",
+      "lines": 11,
+      "chars": 405,
+      "score": 0.962
+    },
+    {
+      "voice": "Gacrux",
+      "lines": 7,
+      "chars": 166,
+      "score": 0.792
+    },
+    {
+      "voice": "Fenrir",
+      "lines": 1,
+      "chars": 16,
+      "score": 1
+    },
+    {
+      "voice": "Achernar",
+      "lines": 13,
+      "chars": 2371,
+      "score": 0.983
+    },
+    {
+      "voice": "Achernar",
+      "lines": 6,
+      "chars": 2246,
+      "score": 0.991
+    },
+    {
+      "voice": "Achernar",
+      "lines": 7,
+      "chars": 1101,
+      "score": 1
+    },
+    {
+      "voice": "Achernar",
+      "lines": 1,
+      "chars": 1487,
+      "score": 0.893
+    }
+  ],
+  "weakLines": [],
+  "requests": 14,
+  "apiCalls": 14,
+  "cachedCalls": 0,
+  "textTokens": 3991,
+  "audioTokens": 30277,
+  "tokensFrom": "api usage",
+  "renderWallSec": 706,
+  "apiSec": 300,
+  "renderedAt": "2026-11-13",
+  "voices": {
+    "narrator": "Achernar",
+    "c-petra-sandor": "Achernar",
+    "c-anselm-whitlow": "Enceladus",
+    "c-marguerite-lisle": "Laomedeia",
+    "c-bao-tran": "Achird",
+    "c-tamsin-drewe": "Callirrhoe",
+    "c-cassius-orme": "Alnilam",
+    "arbiter": "Gacrux",
+    "chandlers-sprinter": "Fenrir"
+  },
+  "audioPath": "audio/thirteenth-hour/S01E001.mp3"
+}

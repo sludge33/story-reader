@@ -1,0 +1,30 @@
+{
+  "_note": "Audio producer notes for S01E001. speakers: quote # (from narrate --dry-run) -> speaker. \"narrator\" = Petra Sandor. 1-2, 5-13, 15, 17-18, 20, 22-23, 25-26 and 77 are Whitlow (the old man, named at 5); 3-4 are Cassius Orme. 24 is 'Held' quoted inside narration (reading the Laws). 38-39, 41, 63, 68-70 are the Arbiter; 42 is the Chandler's Stair Sprinter. 46-50, 62 ('Spend,' as reported by Petra), 67, 73 and 76 are Lisle; 54-55 are Tran, not Lisle. 72 is Tran's 'Mm'; 74-75 are Petra.",
+  "cast": {
+    "arbiter": { "gemini": { "voice": "Gacrux", "style": "Grey-haired British woman match official; dry, level and procedural; few words, calls the rounds and the bank flatly" }, "names": [] },
+    "chandlers-sprinter": { "gemini": { "voice": "Fenrir", "style": "Quick, confident young British man, a sprinter, calling his spend" }, "names": [] }
+  },
+  "speakers": {
+    "1": "c-anselm-whitlow", "2": "c-anselm-whitlow", "3": "c-cassius-orme", "4": "c-cassius-orme",
+    "5": "c-anselm-whitlow", "6": "c-anselm-whitlow", "7": "narrator", "8": "c-anselm-whitlow",
+    "9": "c-anselm-whitlow", "10": "c-anselm-whitlow", "11": "c-anselm-whitlow", "12": "c-anselm-whitlow",
+    "13": "c-anselm-whitlow", "14": "narrator", "15": "c-anselm-whitlow", "16": "narrator",
+    "17": "c-anselm-whitlow", "18": "c-anselm-whitlow", "19": "narrator", "20": "c-anselm-whitlow",
+    "21": "narrator", "22": "c-anselm-whitlow", "23": "c-anselm-whitlow", "24": "narrator",
+    "25": "c-anselm-whitlow", "26": "c-anselm-whitlow",
+    "27": "c-marguerite-lisle", "28": "c-marguerite-lisle", "29": "c-tamsin-drewe", "30": "c-tamsin-drewe",
+    "31": "c-tamsin-drewe", "32": "c-marguerite-lisle", "33": "c-bao-tran", "34": "c-bao-tran",
+    "35": "narrator", "36": "c-bao-tran", "37": "c-bao-tran",
+    "38": "arbiter", "39": "arbiter", "40": "narrator", "41": "arbiter", "42": "chandlers-sprinter",
+    "43": "c-bao-tran", "44": "c-bao-tran", "45": "narrator",
+    "46": "c-marguerite-lisle", "47": "c-marguerite-lisle", "48": "c-marguerite-lisle",
+    "49": "c-marguerite-lisle", "50": "c-marguerite-lisle",
+    "51": "c-bao-tran", "52": "c-bao-tran", "53": "narrator", "54": "c-bao-tran", "55": "c-bao-tran",
+    "56": "narrator", "57": "c-marguerite-lisle", "58": "narrator", "59": "c-marguerite-lisle",
+    "60": "narrator", "61": "c-marguerite-lisle", "62": "c-marguerite-lisle", "63": "arbiter",
+    "64": "c-tamsin-drewe", "65": "c-tamsin-drewe", "66": "narrator", "67": "c-marguerite-lisle",
+    "68": "arbiter", "69": "arbiter", "70": "arbiter", "71": "c-tamsin-drewe", "72": "c-bao-tran",
+    "73": "c-marguerite-lisle", "74": "narrator", "75": "narrator", "76": "c-marguerite-lisle",
+    "77": "c-anselm-whitlow", "78": "narrator"
+  }
+}

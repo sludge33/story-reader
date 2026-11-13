@@ -1,0 +1,37 @@
+{
+  "_note": "Voice casting for Fifth Floor Tenant (1st person, past tense: Ravi Anand). Ravi's own lines stay on the narrator voice (gemini.voices c-ravi-anand = \"narrator\"). gemini.narrator overrides config/tts.json gemini.narrator. Main voices kept distinct from knot-mender and down-is-where-i-say. lexicon: Kokoro IPA; respell: Gemini only. Cast 2026-11-13, not yet approved by Ben.",
+  "lexicon": {
+    "Ravi": "/ɹˈɑːvi/",
+    "Anand": "/ˈɑːnənd/",
+    "Ossery": "/ˈɒsəɹi/",
+    "Wrobel": "/vɹˈəʊbəl/",
+    "Agnieszka": "/aɡnjˈɛʃka/",
+    "Dalisay": "/dəlˈiːsaɪ/",
+    "Tarrant": "/tˈaɹənt/",
+    "Thewlis": "/θjˈuːlɪs/",
+    "Mabbott": "/mˈabət/",
+    "Pellory": "/pˈɛləɹi/",
+    "Vellhaven": "/vˈɛlheɪvən/",
+    "Wickline": "/wˈɪklaɪn/"
+  },
+  "respell": {
+    "_note": "Gemini only: words replaced in the text sent to Gemini.",
+    "Wrobel": "Vrobel"
+  },
+  "gemini": {
+    "narrator": {
+      "voice": "Umbriel",
+      "style": "Warm, anxious, chatty young British man, a night caretaker and trained surveyor telling his own story; out of his depth and honest about it; talks more when frightened; practical and fond when the job is in his hands; natural pace with clear pauses between paragraphs"
+    },
+    "voices": {
+      "c-ravi-anand": "narrator",
+      "c-walter-ossery": { "voice": "Zubenelgenubi", "style": "Gravelly, unhurried old British working man at the end of a long shift; plain and steady; gives instructions" },
+      "c-nessa-wrobel": { "voice": "Autonoe", "style": "Blunt woman of seventy-one with a faint Polish cadence; short field orders; dry and gruffly caring" },
+      "c-lou-mabbott": { "voice": "Vindemiatrix", "style": "Ordinary British neighbour and bakery worker, tired at one in the morning, worried but kind; plain everyday speech" },
+      "c-kit-dalisay": { "voice": "Puck", "style": "Fast, slangy young Londoner; narrates routes like a satnav; goes quiet and formal when scared" },
+      "c-imogen-tarrant": { "voice": "Kore", "style": "Warm, quick British woman with corporate polish; speaks in options; lowers her voice, never raises it" },
+      "c-bastien-thewlis": { "voice": "Schedar", "style": "Soft, exact, old-fashioned British clerk; polite, regretful, quietly menacing" },
+      "c-the-proprietor": { "voice": "Charon", "style": "Slow and literal, like a kind grandfather reading a contract aloud" }
+    }
+  }
+}

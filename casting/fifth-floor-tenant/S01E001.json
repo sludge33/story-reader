@@ -1,0 +1,17 @@
+{
+  "_note": "Audio producer notes for S01E001. speakers: quote # (from narrate --dry-run) -> speaker. \"narrator\" = Ravi, including everything he says to the wall, the pipes and Dusty. 13, 15-16 are Mrs Wrobel (Nessa); 17 is '380 / 410' quoted inside narration; 47 is Dusty speaking as Walter Ossery (the last line).",
+  "cast": {},
+  "speakers": {
+    "1": "narrator", "2": "narrator", "3": "narrator", "4": "narrator",
+    "5": "c-lou-mabbott", "6": "c-lou-mabbott", "7": "narrator", "8": "narrator",
+    "9": "c-lou-mabbott", "10": "c-lou-mabbott", "11": "narrator", "12": "narrator",
+    "13": "c-nessa-wrobel", "14": "narrator", "15": "c-nessa-wrobel", "16": "c-nessa-wrobel", "17": "narrator",
+    "18": "narrator", "19": "narrator", "20": "narrator", "21": "narrator", "22": "narrator", "23": "narrator",
+    "24": "narrator", "25": "narrator", "26": "narrator", "27": "narrator", "28": "narrator", "29": "narrator",
+    "30": "narrator", "31": "narrator", "32": "narrator", "33": "narrator", "34": "narrator",
+    "35": "narrator", "36": "narrator", "37": "narrator",
+    "38": "c-lou-mabbott", "39": "c-lou-mabbott", "40": "narrator", "41": "narrator", "42": "c-lou-mabbott",
+    "43": "narrator", "44": "narrator", "45": "narrator", "46": "narrator",
+    "47": "c-walter-ossery"
+  }
+}

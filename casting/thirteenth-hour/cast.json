@@ -1,0 +1,45 @@
+{
+  "_note": "Voice casting for The Reckoner of the Thirteenth Hour (1st person, past tense: Petra Sandor). Petra's own lines stay on the narrator voice (gemini.voices c-petra-sandor = \"narrator\"). gemini.narrator overrides config/tts.json gemini.narrator. Main voices kept distinct from knot-mender, down-is-where-i-say and fifth-floor-tenant. lexicon: Kokoro IPA; respell: Gemini only. Cast 2026-11-13, not yet approved by Ben.",
+  "lexicon": {
+    "Petra": "/pˈɛtɹə/",
+    "Sandor": "/sˈandɔː/",
+    "Anselm": "/ˈansɛlm/",
+    "Whitlow": "/wˈɪtləʊ/",
+    "Marguerite": "/mɑːɡəɹˈiːt/",
+    "Lisle": "/lˈaɪl/",
+    "Bao": "/bˈaʊ/",
+    "Tamsin": "/tˈamzɪn/",
+    "Drewe": "/dɹˈuː/",
+    "Cassius": "/kˈasiəs/",
+    "Orme": "/ˈɔːm/",
+    "Severine": "/sˈɛvəɹiːn/",
+    "Mabry": "/mˈeɪbɹi/",
+    "Dunstan": "/dˈʌnstən/"
+  },
+  "respell": {
+    "_note": "Gemini only: words replaced in the text sent to Gemini. Roman plate numerals: narrate speakable() title-cases ALL-CAPS words (XII -> Xii, IV -> Iv), which Gemini would misread, so they are spelled out here (case-insensitive whole words). Single I (plate I) cannot be respelled safely.",
+    "Lisle": "Lyle",
+    "Drewe": "Drew",
+    "II": "two",
+    "III": "three",
+    "IV": "four",
+    "VI": "six",
+    "XII": "twelve"
+  },
+  "gemini": {
+    "narrator": {
+      "voice": "Achernar",
+      "style": "Plain, exact, watchful British woman in her thirties, a night auditor who has not slept a whole night in years, telling her own story in the past tense; low and level, never jokey or ironic; fear stated flatly and left alone; numbers said carefully and exactly; natural pace with clear pauses between paragraphs"
+    },
+    "voices": {
+      "c-petra-sandor": "narrator",
+      "c-anselm-whitlow": { "voice": "Enceladus", "style": "Slow, exact, tired old British man, a retired Reckoner; kindly evasive, answers a question with a better question; a yawn held back under the words" },
+      "c-marguerite-lisle": { "voice": "Laomedeia", "style": "Fast, loud, slangy young British woman, a sprinter; always making bets; generous with praise and insults; goes very quiet when scared" },
+      "c-bao-tran": { "voice": "Achird", "style": "Slow, warm, sleepy young British man of few words; half awake, gentle sleepy humour; says mm for yes" },
+      "c-tamsin-drewe": { "voice": "Callirrhoe", "style": "Deadpan young British woman, a clockmaker's daughter; dry delivery of terrible puns; quick and offhand" },
+      "c-cassius-orme": { "voice": "Alnilam", "style": "Polished, courteous British gentleman administrator; speaks in complete smooth paragraphs; compliments that are really weapons; never raises his voice" },
+      "c-severine-holt": { "voice": "Sulafat", "style": "Brisk British bank governor, numbers first; smooth banker's euphemisms; never threatens, only states consequences" },
+      "c-dunstan-mabry": { "voice": "Sadachbia", "style": "Genial, avuncular British fixer; everything is a little arrangement; warm, chummy and unhurried" }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "durationSec": 1263,
+  "voiceUsd": 0.288,
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "mode": "batched",
+  "batches": [
+    {
+      "voice": "Umbriel",
+      "lines": 4,
+      "chars": 1421,
+      "score": 0.956
+    },
+    {
+      "voice": "Vindemiatrix",
+      "lines": 7,
+      "chars": 292,
+      "score": 1
+    },
+    {
+      "voice": "Umbriel",
+      "lines": 4,
+      "chars": 1930,
+      "score": 0.951
+    },
+    {
+      "voice": "Autonoe",
+      "lines": 3,
+      "chars": 84,
+      "score": 0.938
+    },
+    {
+      "voice": "Umbriel",
+      "lines": 1,
+      "chars": 1979,
+      "score": 0.947
+    },
+    {
+      "voice": "Umbriel",
+      "lines": 1,
+      "chars": 1857,
+      "score": 0.979
+    },
+    {
+      "voice": "Umbriel",
+      "lines": 1,
+      "chars": 1807,
+      "score": 0.98
+    },
+    {
+      "voice": "Umbriel",
+      "lines": 1,
+      "chars": 2368,
+      "score": 0.976
+    },
+    {
+      "voice": "Umbriel",
+      "lines": 1,
+      "chars": 1860,
+      "score": 0.981
+    },
+    {
+      "voice": "Umbriel",
+      "lines": 3,
+      "chars": 1292,
+      "score": 0.977
+    },
+    {
+      "voice": "Umbriel",
+      "lines": 1,
+      "chars": 1800,
+      "score": 0.966
+    },
+    {
+      "voice": "Umbriel",
+      "lines": 1,
+      "chars": 1589,
+      "score": 0.981
+    },
+    {
+      "voice": "Zubenelgenubi",
+      "lines": 1,
+      "chars": 68,
+      "score": 1
+    }
+  ],
+  "weakLines": [],
+  "requests": 13,
+  "apiCalls": 13,
+  "cachedCalls": 0,
+  "textTokens": 4638,
+  "audioTokens": 31688,
+  "tokensFrom": "api usage",
+  "renderWallSec": 660,
+  "apiSec": 315,
+  "renderedAt": "2026-11-13",
+  "voices": {
+    "narrator": "Umbriel",
+    "c-ravi-anand": "Umbriel",
+    "c-walter-ossery": "Zubenelgenubi",
+    "c-nessa-wrobel": "Autonoe",
+    "c-lou-mabbott": "Vindemiatrix"
+  },
+  "audioPath": "audio/fifth-floor-tenant/S01E001.mp3"
+}
